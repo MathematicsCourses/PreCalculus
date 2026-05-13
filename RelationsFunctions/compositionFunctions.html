@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>       
+            
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDLZMCQQ0V"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-EDLZMCQQ0V');
+        </script>
+
+        <title>Composition of Functions</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Samuel Dominic Chukwuemeka (Samdom4Peace) gives all the credit to our LORD, GOD, and ANOINTED SAVIOR JESUS CHRIST. We are experts in the composition of functions.">
+        
+        <meta name="keywords" content="samuel, dominic, chukwuemeka, samuel dominic chukwuemeka, math, methematics,
+              relations, functions, set, ordered pairs, order, table, equation, mapping, 
+              correspondence, rule, graph, coordinates, points, x-coordinate, y-coordinate,
+              domain, range, function, one-to-one function, onto function, set notation, inverse of functions,
+              interval notation, injective function, surjective function, bijective function,
+              order relations, reflexivity, symmetry, antisymmetry, transitivity, lexicographic order,
+              partial order, total order, pseudo order, quasi order, chains, equivalence relations,
+              maximal elements, minimal elements, hasse diagrams, lower bound, upper bound, lattice,
+              topological sorting, radical, radicand, rational functions, symmetric, antisymmetric, codomain, image, 
+              slope, intercept, slope-intercept form, point-slope form, two-points form, difference quotient,
+              derivative, function composition, function decomposition, linear functions, quadratic functions, 
+              parabolas, vertical parabola, vertex, axis, line of symmetry, function transformations, even functions,
+              odd functions"> 
+
+        <link href="styles/relationsFunctions.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header class="w3-padding-24 olive">
+            <h1>Solved Examples on the Composition of Functions</h1>
+        </header>
+        <!-- End Header -->
+
+        <br><br>
+
+        <!-- Page Content -->
+        <div class="w3-row w3-container">
+            
+            <div class="w3-container">
+                <!-- Image in top left corner-->
+                <a href="https://precalculus.appspot.com/RelationsFunctions/relations-functions.html">
+                    <img src="images/samdom4peace.jpg" alt="Samuel Dominic Chukwuemeka (SamDom For Peace)" title="Chukwuemeka, Samuel" class="images">
+                </a>
+                
+                <mark>For ACT Students</mark> <br>
+                The ACT is a timed exam...60 questions for 60 minutes <br>
+                This implies that you have to solve each question in one minute. <br>
+                Some questions will typically take less than a minute a solve. <br>
+                Some questions will typically take more than a minute to solve. <br>
+                The goal is to maximize your time. You use the time saved on those questions you
+                solved in less than a minute, to solve the questions that will take more than a minute. <br>
+                So, you should try to solve each question <u>correctly</u> and <u>timely</u>. <br>
+                So, it is not just solving a question correctly, but solving it <u>correctly on time</u>. <br>
+                Please ensure you attempt <u>all ACT questions</u>. <br>
+                There is no <i>negative</i> penalty for a wrong answer. <br><br>
+                <mark>For JAMB and CMAT Students</mark> <br>
+                Calculators are not allowed. So, the questions are solved in a way that does not require a calculator. 
+                
+                <br><br>
+            
+                Solve all questions. <br>
+                Use <b>at least two methods</b> as applicable. <br>
+                Show all work. 
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (1.) $f(x) = -3x -1$ <br>
+                    $g(x) = x^2 - 1$ <br>
+                    Calculate $(f \circ g)(1)$ using <b>at least two methods.</b>
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionCF1')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF1">
+                        <br>
+                        <u>First Method (long way)</u> <br>
+                        $
+                        (f \circ g)(x) \\[3ex]
+                        = f(g(x)) \\[3ex]
+                        = f(x^2 - 1) \\[3ex]
+                        But, f(x) = -3x - 1 \\[3ex]
+                        f(x^2 - 1) = -3(x^2 -1) - 1 \\[3ex]
+                        = -3x^2 + 3 - 1 \\[3ex]
+                        = -3x^2 + 2 \\[3ex]
+                        \therefore (f \circ g)(x) = -3x^2 + 2 \\[3ex]
+                        (f \circ g)(1) = -3(1)^2 + 2 \\[3ex]
+                        = -3(1) + 2 \\[3ex]
+                        = -3 + 2 \\[3ex]
+                        = -1 \\[3ex]
+                        (f \circ g)(1) = -1 \\[3ex]
+                        $
+                    
+                        <u>Second Method (short way)</u> <br>
+                        $
+                        (f \circ g)(1) \\[3ex]
+                        = f(g(1)) \\[3ex]
+                        g(x) = x^2 - 1 \\[3ex]
+                        g(1) = 1^2 - 1 \\[3ex]
+                        g(1) = 1 - 1 \\[3ex]
+                        g(1) = 0 \\[3ex]
+                        $
+                        We now need to find $f(0)$ <br>
+                        $
+                        f(x) = -3x - 1 \\[3ex]
+                        f(0) = -3(0) - 1 \\[3ex]
+                        f(0) = 0 - 1 \\[3ex]
+                        f(0) = -1 \\[3ex]
+                        (f \circ g)(1) = -1
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (2.) Calculate: <br>
+                    (a.) $(f \circ g)(x)$ <br>
+                    (b.) $(g \circ f)(x)$ <br>
+                    (c.) the domain for each composite function <br>
+                    $f(x) = 5x$ <br>
+                    $g(x) = 7x - 3$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionCF2')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF2">
+                        <br>
+                        $
+                        (f \circ g)(x) \\[3ex]
+                        = f(g(x)) \\[3ex]
+                        = f(7x - 3) \\[3ex]
+                        But, f(x) = 5x \\[3ex]
+                        f(7x - 3) = 5(7x - 3) \\[3ex]
+                        = 35x - 15 \\[3ex]
+                        (f \circ g)(x) = 35x - 15 \\[3ex]
+                        $
+                        The domain of $(f \circ g)(x)$ is all $x$ in the domain of $g$ such that $g(x)$ is in the domain of $f$ <br>
+                        Let us look at $g(x)$ <br>
+                        $
+                        g(x) = 7x - 3 \\[3ex]
+                        D = (-\infty, \infty) \\[3ex]
+                        $
+                        
+                        Next, we look at $(f \circ g)(x)$ <br> 
+                        $
+                        (f \circ g)(x) = 35x - 15 \\[3ex]
+                        D = (-\infty, \infty) \\[3ex]
+                        $
+                        
+                        <mark>$\therefore D = (-\infty, \infty)$</mark>
+                        <br><br>
+                    
+                        $
+                        (g \circ f)(x) \\[3ex]
+                        = g(f(x)) \\[3ex]
+                        = g(5x) \\[3ex]
+                        But, g(x) = 7x - 3 \\[3ex]
+                        g(5x) = 7(5x) - 3 \\[3ex]
+                        = 35x - 3 \\[3ex]
+                        (g \circ f)(x) = 35x - 3 \\[3ex]
+                        $
+                        The domain of $(g \circ f)(x)$ is all $x$ in the domain of $f$ such that $f(x)$ is in the domain of $g$ <br>
+                        Let us look at $f(x)$ <br>
+                        $f(x) = 5x$ <br>
+                        There is no restriction in this domain. <br>
+                        Any input value will give an output. <br>
+                        $D = (-\infty, \infty)$ <br><br>
+                        
+                        Next, we look at $(g \circ f)(x)$ <br> 
+                        $(g \circ f)(x) = 35x - 3$ <br>
+                        Each input value in this domain will give an output value. <br>
+                        $D = (-\infty, \infty)$ <br><br>
+                        
+                        <mark>$\therefore D = (-\infty, \infty)$</mark> <br>
+                        $D$ = {$x | x \in \mathbb{R}$}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (3.) $g(x) = x^2 - 4x - 9$ <br>
+                    Calculate $(g \circ g)(-3)$ using <b>at least two methods.</b>
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionCF3')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF3">
+                        <br>
+                        <u>First Method (long way)</u> <br>
+                        $
+                        (g \circ g)(x) \\[3ex]
+                        = g(g(x)) \\[3ex]
+                        = g(x^2 - 4x - 9) \\[3ex]
+                        But, g(x) = x^2 - 4x - 9 \\[3ex]
+                        g(x^2 - 4x - 9) = (x^2 - 4x - 9)^2 - 4(x^2 - 4x - 9) - 9 \\[3ex]
+                        = (x^2 - 4x - 9)(x^2 - 4x - 9) - 4x^2 + 16x + 36 - 9 \\[3ex]
+                        = x^4 - 4x^3 - 9x^2 - 4x^3 + 16x^2 + 36x - 9x^2 + 36x + 81 - 4x^2 + 16x + 27 \\[3ex]
+                        = x^4 - 8x^3 - 6x^2 + 88x + 108 \\[3ex]
+                        \therefore (g \circ g)(x) = x^4 - 8x^3 - 6x^2 + 88x + 108 \\[3ex]
+                        (g \circ g)(-3) = (-3)^4 - 8 * (-3)^3 - 6 * (-3)^2 + 88 * (-3) + 108 \\[3ex]
+                        = 81 - 8(-27) - 6(9) - 264 + 108 \\[3ex]
+                        = 81 + 216 - 54 - 264 + 108 \\[3ex]
+                        = 87 \\[3ex]
+                        (g \circ g)(-3) = 87 \\[3ex]
+                        $
+                    
+                        <u>Second Method (short way)</u> <br>
+                        $
+                        (g \circ g)(-3) \\[3ex]
+                        = g(g(-3)) \\[3ex]
+                        But, g(x) = x^2 - 4x - 9 \\[3ex]
+                        g(-3) = (-3)^2 - 4(-3) - 9 \\[3ex]
+                        = 9 + 12 - 9 \\[3ex]
+                        = 12 \\[3ex]
+                        $
+                        We now need to find $g(12)$ <br>
+                        $
+                        g(x) = x^2 - 4x - 9 \\[3ex]
+                        g(12) = (12)^2 - 4(12) - 9 \\[3ex]
+                        = 144 - 48 - 9 \\[3ex]
+                        = 87 \\[3ex]
+                        (g \circ g)(-3) = 87 \\[3ex]
+                        $
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (4.) $f(x) = x^3$ <br>
+                    Calculate $(f \circ f)(-2)$ using <b>at least two methods.</b>
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionCF4')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF4">
+                        <br>
+                        <u>First Method (long way)</u> <br>
+                        $
+                        (f \circ f)(x) \\[3ex]
+                        = f(f(x)) \\[3ex]
+                        = f(x^3) \\[3ex]
+                        But, f(x) = x^3 \\[3ex]
+                        f(x^3) = (x^3)^3 \\[3ex]
+                        = x^9 \\[3ex]
+                        \therefore (f \circ f)(x) = x^9 \\[3ex]
+                        (f \circ f)(-2) = (-2)^9 \\[3ex]
+                        = -512 \\[3ex]
+                        (f \circ f)(-2) = -512 \\[3ex]
+                        $
+                    
+                        <u>Second Method (short way)</u> <br>
+                        $
+                        (f \circ f)(-2) \\[3ex]
+                        = f(f(-2)) \\[3ex]
+                        But, f(x) = x^3 \\[3ex]
+                        f(-2) = (-2)^3 \\[3ex]
+                        = -8 \\[3ex]
+                        $
+                        We now need to find $f(-8)$ <br>
+                        $
+                        f(x) = x^3 \\[3ex]
+                        f(-8) = (-8)^3 \\[3ex]
+                        = -512 \\[3ex]
+                        (f \circ f)(-2) = -512 
+                        $
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (5.) Calculate: <br>
+                    (a.) $(f \circ g)(x)$ <br>
+                    (b.) $(g \circ f)(x)$ <br>
+                    (c.) the domain for each composite function <br>
+                    $f(x) = \dfrac{3}{1 - 7x}$ <br><br>
+                    $g(x) = \dfrac{1}{x}$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionCF5')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF5">
+                        <br>
+                        $
+                        (f \circ g)(x) \\[3ex]
+                        = f(g(x)) \\[3ex]
+                        = f\left(\dfrac{1}{x}\right) \\[5ex]
+                        But, f(x) = \dfrac{3}{1 - 7x} \\[5ex]
+                        f\left(\dfrac{1}{x}\right) = \dfrac{3}{1 - 7\left(\dfrac{1}{x}\right)} \\[7ex]
+                        = \dfrac{3}{1 - \dfrac{7}{x}} \\[7ex]
+                        = \dfrac{3}{\dfrac{x}{x} - \dfrac{7}{x}} \\[7ex]
+                        = \dfrac{3}{\dfrac{x - 7}{x}} \\[7ex]
+                        = 3 \div \dfrac{x - 7}{x} \\[7ex]
+                        = 3 * \dfrac{x}{x - 7} \\[7ex]
+                        = \dfrac{3x}{x - 7} \\[5ex]
+                        (f \circ g)(x) = \dfrac{3x}{x - 7}
+                        $
+                        <br><br>
+                        The domain of $(f \circ g)(x)$ is all $x$ in the domain of $g$ such that $g(x)$ is in the domain of $f$ <br>
+                        Let us look at $g(x)$ <br>
+                        $g(x) = \dfrac{1}{x}$ <br><br>
+                        $x$ cannot be equal to $0$ <br>
+                        This is because that would make the function to be undefined. <br>
+                        You cannot divide anything by $0$ <br>
+                        This means that $0$ is excluded from the domain. <br>
+                        $0$ is not in the domain of $g(x)$ <br>
+                        Hence, $0$ cannot be in the domain of f(g(x)) <br><br>
+                        
+                        Next, we look at $(f \circ g)(x) = \dfrac{3x}{x - 7} \\[3ex]$
+                        $x - 7$ cannot be $0$ <br>
+                        This is because that would make the function to be undefined. <br>
+                        You cannot divide anything by $0$ <br>
+                        $x$ cannot be equal to $7$ <br>
+                        $7$ is not in the domain of f(g(x)) <br>
+                        
+                        <mark>$\therefore D = (-\infty, 0) \cup (0, 7) \cup (7, \infty)$</mark>
+                        
+                        <br><br><br><br>
+                    
+                        $
+                        (g \circ f)(x) \\[3ex]
+                        = g(f(x)) \\[3ex]
+                        = g\left(\dfrac{3}{1 - 7x}\right) \\[5ex]
+                        But, g(x) = \dfrac{1}{x} \\[5ex]
+                        g\left(\dfrac{3}{1 - 7x}\right) = \dfrac{1}{\dfrac{3}{1- 7x}} \\[7ex]
+                        = 1 \div \dfrac{3}{1 - 7x} \\[7ex]
+                        = 1 * \dfrac{1- 7x}{3} \\[7ex]
+                        = \dfrac{1- 7x}{3} \\[5ex]                                                       
+                        (g \circ f)(x) = \dfrac{1- 7x}{3}
+                        $
+                        <br><br>
+                        The domain of $(g \circ f)(x)$ is all $x$ in the domain of $f$ such that $f(x)$ is in the domain of $g$ <br>
+                        Let us look at $f(x)$ <br>
+                        $f(x) = \dfrac{3}{1 - 7x} \\$ <br>
+                        $1 - 7x$ cannot be equal to $0$ <br>
+                        This is because that would make the function to be undefined. <br>
+                        You cannot divide anything by $0$ <br>
+                        Just set it to be equal to zero and solve. <br>
+                        $
+                        1 - 7x = 0 \\[3ex]
+                        1 = 0 + 7x \\[3ex]
+                        1 = 7x \\[3ex]
+                        7x = 1 \\[3ex]
+                        x = \dfrac{1}{7} \\[5ex]
+                        $
+                        So, $x$ cannot be equal to $\dfrac{1}{7}$ <br><br>
+                        This means that $\dfrac{1}{7}$ is excluded from the domain. <br><br>
+                        $\dfrac{1}{7}$ is not in the domain of $f(x)$ <br><br>
+                        Hence, $\dfrac{1}{7}$ cannot be in the domain of g(f(x)) <br><br>
+                        
+                        Next, we look at $(g \circ f)(x) = \dfrac{1- 7x}{3}$ <br>
+                        There is no restriction in the domain of $(g \circ f)(x)$ <br>
+                        Any real number can be in the domain of $g(f(x))$ <br>
+                        <mark>$\therefore D = \left(-\infty, \dfrac{1}{7}\right) \cup \left(\dfrac{1}{7}, \infty\right)$</mark>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (6.) Calculate: <br>
+                    (a.) $(f \circ g)(x)$ <br>
+                    (b.) $(g \circ f)(x)$ <br>
+                    (c.) the domain for each composite function <br>
+                    $f(x) = \sqrt{x+5}$ <br>
+                    $g(x) = 3x - 4$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionCF6')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF6">
+                        <br>
+                        $
+                        (f \circ g)(x) \\[3ex]
+                        = f(g(x)) \\[3ex]
+                        = f(3x - 4) \\[3ex]
+                        But, f(x) = \sqrt{x + 5} \\[3ex]
+                        f(3x - 4) = \sqrt{(3x - 4) + 5} \\[3ex]
+                        = \sqrt{3x - 4 + 5} \\[3ex]
+                        = \sqrt{3x + 1} \\[3ex]
+                        (f \circ g)(x) = \sqrt{3x + 1} \\[3ex]
+                        $
+                        The domain of $(f \circ g)(x)$ is all $x$ in the domain of $g$ such that $g(x)$ is in the domain of $f$ <br>
+                        Let us look at $g(x)$ <br>
+                        $g(x) = 3x - 4$ <br>
+                        There is no restriction in this domain. <br>
+                        All real number input values will give output values. <br>
+                        $D = (-\infty, \infty)$ <br><br>
+                        
+                        Next, we look at $(f \circ g)(x)$ <br> 
+                        $(f \circ g)(x) = \sqrt{3x + 1}$ <br>
+                        $3x + 1$ cannot be a negative number <br>
+                        This is because the square root of any negative number is an imaginary number (not a real number). <br>
+                        We are only concerned with real numbers. <br>
+                        It has to be "at least" a nonnegative number. <br>
+                        Let us set the radicand (the term inside the radical) to be "at least" a nonnegative number <br>
+                        Nonnegative numbers includes zero and the positive numbers. <br>
+                        $
+                        3x + 1 \ge 0 \\[3ex]
+                        3x \ge 0 - 1 \\[3ex]
+                        3x \ge -1 \\[3ex]
+                        x \ge -\dfrac{1}{3} \\[5ex]
+                        D = \left[-\dfrac{1}{3}, \infty\right) \\[5ex]
+                        $ 
+                        <mark>$\therefore D = \left[-\dfrac{1}{3}, \infty\right)$</mark>
+                        <br><br>
+                    
+                        $
+                        (g \circ f)(x) \\[3ex]
+                        = g(f(x)) \\[3ex]
+                        = g(\sqrt{x + 5}) \\[3ex]
+                        But, g(x) = 3x - 4 \\[3ex]
+                        g(\sqrt{x + 5}) = 3(\sqrt{x + 5}) - 4 \\[3ex]
+                        = 3\sqrt{x + 5} - 4 \\[3ex]
+                        (g \circ f)(x) = 3\sqrt{x + 5} - 4 \\[3ex]
+                        $
+                        The domain of $(g \circ f)(x)$ is all $x$ in the domain of $f$ such that $f(x)$ is in the domain of $g$ <br>
+                        Let us look at $f(x)$ <br>
+                        $f(x) = \sqrt{x + 5}$ <br>
+                        $x + 5$ cannot be a negative number <br>
+                        This is because the square root of any negative number is an imaginary number (not a real number). <br>
+                        We are only concerned with real numbers. <br>
+                        It has to be "at least" a nonnegative number. <br>
+                        Let us set the radicand (the term inside the radical) to be "at least" a nonnegative number <br>
+                        Nonnegative numbers includes zero and the positive numbers. <br>
+                        $
+                        x + 5 \ge 0 \\[3ex]
+                        x \ge 0 - 5 \\[3ex]
+                        x \ge -5 \\[3ex]
+                        D = [-5, \infty) \\[3ex]
+                        $
+                        
+                        Next, we look at $(g \circ f)(x)$ <br> 
+                        $(g \circ f)(x) = 3\sqrt{x + 5} - 4$ <br>
+                        $x + 5$ cannot be a negative number <br>
+                        This is because the square root of any negative number is an imaginary number (not a real number). <br>
+                        We are only concerned with real numbers. <br>
+                        It has to be "at least" a nonnegative number. <br>
+                        Let us set the radicand (the term inside the radical) to be "at least" a nonnegative number <br>
+                        Nonnegative numbers includes zero and the positive numbers. <br>
+                        $
+                        x + 5 \ge 0 \\[3ex]
+                        x \ge 0 - 5 \\[3ex]
+                        x \ge -5 \\[3ex]
+                        $
+                        $D = [-5, \infty)$ <br><br>
+                                                
+                        <mark>$\therefore D = [-5, \infty)$</mark> <br>
+                        $D$ = {$x | x \ge 5$}
+                    </div>    
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (7.) Calculate: <br>
+                    (a.) $(f \circ g)(x)$ <br>
+                    (b.) $(g \circ f)(x)$ <br>
+                    (c.) the domain for each composite function <br>
+                    $f(x) = \sqrt{x + 4}$ <br>
+                    $g(x) = x^2 - 4$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionCF7')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF7">
+                        <br>
+                        $
+                        (f \circ g)(x) \\[3ex]
+                        = f(g(x)) \\[3ex]
+                        = f(x^2 - 4) \\[3ex]
+                        But, f(x) = \sqrt{x + 4} \\[3ex]
+                        f(x^2 - 4) = \sqrt{(x^2 - 4) + 4} \\[3ex]
+                        = \sqrt{x^2 - 4 + 4} \\[3ex]
+                        = \sqrt{x^2} \\[3ex]
+                        = |x| \\[3ex]
+                        (f \circ g)(x) = |x|\\[3ex]
+                        $
+                        <i>
+                            Student: Why is the answer the absolute value of $x$? Is it okay to write it as just $x$? <br>
+                            Teacher: I would accept $x$. However, we are interested in only the positive value of $x$ <br>
+                            The absolute value of $x$ gives only the positive value of $x$ (because of the $\sqrt{x^2}$). <br>
+                        </i>
+                        <br><br>
+                        The domain of $(f \circ g)(x)$ is all $x$ in the domain of $g$ such that $g(x)$ is in the domain of $f$ <br>
+                        Let us look at $g(x)$ <br>
+                        $g(x) = x^2 - 4$ <br>
+                        There is no restriction in this domain. <br>
+                        Any real number input value will give a result. <br>
+                        $D = (-\infty, \infty)$ <br><br>
+                        
+                        Next, we look at $(f \circ g)(x)$ <br> 
+                        $(f \circ g)(x) = x$ <br>
+                        There is also no restriction in this domain. <br>
+                        Any real number input value will give an output value. <br>
+                        $D = (-\infty, \infty)$ <br><br>
+                                                
+                        <mark>$\therefore D = (-\infty, \infty)$</mark>
+                        <br><br>
+                    
+                        $
+                        (g \circ f)(x) \\[3ex]
+                        = g(f(x)) \\[3ex]
+                        = g(\sqrt{x + 4}) \\[3ex]
+                        But, g(x) = x^2 - 4 \\[3ex]
+                        g(\sqrt{x + 4}) = (\sqrt{x + 4})^2 - 4 \\[3ex]
+                        = x + 4 - 4 \\[3ex]
+                        = x \\[3ex]
+                        (g \circ f)(x) = x \\[3ex]
+                        $
+                        The domain of $(g \circ f)(x)$ is all $x$ in the domain of $f$ such that $f(x)$ is in the domain of $g$ <br>
+                        Let us look at $f(x)$ <br>
+                        $f(x) = \sqrt{x + 4}$ <br>
+                        $x + 4$ cannot be a negative number <br>
+                        This is because the square root of any negative number is an imaginary number (not a real number). <br>
+                        We are only concerned with real numbers. <br>
+                        It has to be "at least" a nonnegative number. <br>
+                        Let us set the radicand (the term inside the radical) to be "at least" a nonnegative number <br>
+                        Nonnegative numbers includes zero and the positive numbers. <br>
+                        $
+                        x + 4 \ge 0 \\[3ex]
+                        x \ge 0 - 4 \\[3ex]
+                        x \ge -4 \\[3ex]
+                        $
+                        $D = [-4, \infty)$ <br><br>
+                        
+                        Next, we look at $(g \circ f)(x)$ <br> 
+                        $(g \circ f)(x) = x$ <br>
+                        Each input value in this domain will give an output value. <br>
+                        $D = (-\infty, \infty)$ <br><br>
+                        
+                        <mark>$\therefore D = [-4, \infty)$</mark> <br>
+                        $D$ = {$x | x \ge -4$}
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (8.) If $f(x) = 9x^2 + 1$ and $g(x) = 4x + a$; <br>
+                    Find $a$ such that the graph of $f \circ g$ crosses the $y-axis$ at $730$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionCF8')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF8">
+                        <br>
+                        $
+                        f(x) = 9x^2 + 1 \\[3ex]
+                        g(x) = 4x + a \\[3ex]
+                        (f \circ g)(x) = f(g(x)) \\[3ex]
+                        = f(4x + a) \\[3ex]
+                        But,\:\: f(x) = 9x^2 + 1 \\[3ex]
+                        = 9(4x + a)^2 + 1 \\[3ex]
+                        = 9[(4x + a)(4x +a)] + 1 \\[3ex]
+                        = 9(16x^2 + 4ax + 4ax + a^2) + 1 \\[3ex]
+                        = 9(16x^2 + 8ax + a^2) + 1 \\[3ex]
+                        = 144x^2 + 72ax + 9a^2 + 1 \\[3ex]
+                        $
+                        $f \circ g$ crosses the $y-axis$ at $730$ <br><br>
+                        $144x^2 + 8ax + 9a^2 + 1 = 730$ <br><br>
+                        On the $y-axis$, $x-values = 0$ <br><br>
+                        $
+                        144(0)^2 + 72a(0) + 9a^2 + 1 = 730 \\[3ex]
+                        9a^2 + 1 = 730 \\[3ex]
+                        9a^2 = 730 - 1 \\[3ex]
+                        9a^2 = 729 \\[3ex]
+                        a^2 = \dfrac{729}{9} \\[5ex]
+                        a^2 = 81 \\[3ex]
+                        a = \pm \sqrt{81} \\[3ex]
+                        a = \pm 9 \\[3ex]
+                        a = 9 \:\:OR\:\: a = -9
+                        $
+                    </div>    
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (9.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionCF9')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF9">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (10.) <b>ACT</b> The table below gives values of the functions $f$ and $g$ at different values of $x$ <br>
+                    What is $f(g(1))$? <br>
+                    <table class="w3-center">
+                        <tr>
+                            <td style="width: 40%">$x$</td>
+                            <td style="width: 20%">$1$</td>
+                            <td style="width: 20%">$2$</td>
+                            <td style="width: 20%">$3$</td>
+                        </tr>
+                        <tr>
+                            <td>$f(x)$</td>
+                            <td>$3$</td>
+                            <td>$-6$</td>
+                            <td>$2$</td>
+                        </tr>
+                        <tr>
+                            <td>$g(x)$</td>
+                            <td>$2$</td>
+                            <td>$7$</td>
+                            <td>$1$</td>
+                        </tr>
+                    </table> <br>
+                    $
+                    F.\;\; -6 \\[3ex] 
+                    G.\;\; 1 \\[3ex] 
+                    H.\;\; 2 \\[3ex] 
+                    J.\;\; 3 \\[3ex] 
+                    K.\;\; 7 \\[3ex] 
+                    $
+                    <button class="solutions" onclick="solutions('solutionCF10')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF10">
+                        <br>
+                        $
+                        g(1) = 2 \\[3ex] 
+                        f(g(1)) \\[3ex] 
+                        = f(2) \\[3ex] 
+                        = -6
+                        $
+                    </div>    
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (11.) <b>ACT</b> Tables of values for the $2$ functions $f$ and $g$ are shown below. <br>
+                    What is the value of $g(f(5))?$<br>
+                    <table class="w3-center">
+                        <tr>
+                            <th class="green" style="width: 50%;">$x$</th>
+                            <th class="green" style="width: 50%;">$f(x)$</th>
+                        </tr>
+                        <tr>
+                            <td>$-7$</td>
+                            <td>$9$</td>
+                        </tr>
+                        <tr>
+                            <td>$-3$</td>
+                            <td>$-7$</td>
+                        </tr>
+                        <tr>
+                            <td>$1$</td>
+                            <td>$5$</td>
+                        </tr>
+                        <tr>
+                            <td>$5$</td>
+                            <td>$3$</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <table class="w3-center">
+                        <tr>
+                            <th class="green" style="width: 50%;">$x$</th>
+                            <th class="green" style="width: 50%;">$g(x)$</th>
+                        </tr>
+                        <tr>
+                            <td>$-3$</td>
+                            <td>$5$</td>
+                        </tr>
+                        <tr>
+                            <td>$1$</td>
+                            <td>$-1$</td>
+                        </tr>
+                        <tr>
+                            <td>$3$</td>
+                            <td>$-5$</td>
+                        </tr>
+                        <tr>
+                            <td>$5$</td>
+                            <td>$-7$</td>
+                        </tr>
+                    </table>
+                    <br>
+                    $
+                    A.\:\: -21 \\[3ex]
+                    B.\:\: -7 \\[3ex]
+                    C.\:\: -5 \\[3ex]
+                    D.\:\: 3 \\[3ex]
+                    E.\:\: 9 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionCF11')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF11">
+                        <br>
+                        $
+                        g(f(5)) = ? \\[3ex]
+                        f(5) = 3 \\[3ex]
+                        g(3) = -5 \\[3ex]
+                        \therefore g(f(5)) = -5
+                        $
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (12.) <b>ACT</b> For the $2$ functions $f(x)$ and $g(x)$, tables of values are shown below. <br>
+                    What is the value of $g(f(3))$? <br>
+                    <table class="w3-center">
+                        <tr>
+                            <th class="green" style="width: 50%;">$x$</th>
+                            <th class="green" style="width: 50%;">$f(x)$</th>
+                        </tr>
+                        <tr>
+                            <td>$-5$</td>
+                            <td>$7$</td>
+                        </tr>
+                        <tr>
+                            <td>$-2$</td>
+                            <td>$-5$</td>
+                        </tr>
+                        <tr>
+                            <td>$1$</td>
+                            <td>$3$</td>
+                        </tr>
+                        <tr>
+                            <td>$3$</td>
+                            <td>$2$</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <table class="w3-center">
+                        <tr>
+                            <th class="green" style="width: 50%;">$x$</th>
+                            <th class="green" style="width: 50%;">$g(x)$</th>
+                        </tr>
+                        <tr>
+                            <td>$-2$</td>
+                            <td>$3$</td>
+                        </tr>
+                        <tr>
+                            <td>$1$</td>
+                            <td>$-1$</td>
+                        </tr>
+                        <tr>
+                            <td>$2$</td>
+                            <td>$-3$</td>
+                        </tr>
+                        <tr>
+                            <td>$3$</td>
+                            <td>$-5$</td>
+                        </tr>
+                    </table>
+                    <br><br>
+
+                    <button class="solutions" onclick="solutions('solutionCF12')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF12">
+                        <br>
+                        $
+                        g(f(3)) \\[3ex]
+                        f(3) = 2 \\[3ex]
+                        g(f(3)) = g(2) \\[3ex]
+                        g(2) = -3
+                        $                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (13.) 
+                    
+                    <button class="solutions" onclick="solutions('solutionCF13')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF13">
+                        <br>
+                        $
+                        g(f(5)) = ? \\[3ex]
+                        f(5) = 3 \\[3ex]
+                        g(3) = -5 \\[3ex]
+                        \therefore g(f(5)) = -5
+                        $
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (14.) <b>ACT</b> Given $f(x) = x^2 + 3x$ and $g(x) = x + 1$, what is $f(g(x))$?
+                    <br><br>
+                    $
+                    A.\:\: x^2 + 5x + 4 \\[3ex]
+                    B.\:\: x^2 + 3x + 1 \\[3ex]
+                    C.\:\: x^3 + 5x^2 + 4x \\[3ex]
+                    D.\:\: x^3 + 4x^2 + 3x \\[3ex]
+                    E.\:\: x^4 + 4x^3 + 3x^2 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionCF14')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF14">
+                        <br>
+                        $
+                        f(x) = x^2 + 3x \\[3ex]
+                        g(x) = x + 1 \\[3ex]
+                        f(g(x)) = f(x + 1) \\[3ex]
+                        f(x + 1) \implies x = x + 1 \\[3ex]
+                        f(x + 1) = (x + 1)^2 + 3(x + 1) \\[3ex]
+                        f(x + 1) = (x + 1)(x + 1) + 3x + 3 \\[3ex]
+                        f(x + 1) = x^2 + x + x + 1 + 3x + 3 \\[3ex]
+                        f(x + 1) = x^2 + 5x + 2
+                        $
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (15.) 
+                    
+                    <button class="solutions" onclick="solutions('solutionCF15')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF15">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (16.) <b>ACT</b> Two functions are defined as $f(x) = 2x - 1$ and $g(x) = x^2 + 1$ <br>
+                    Which of the following expressions represents $f(g(x))$? <br><br>
+                    $
+                    F.\;\; x^2 + 2x \\[3ex] 
+                    G.\;\; 2x^2 + 1 \\[3ex] 
+                    H.\;\; 2x^2 + 2 \\[3ex] 
+                    J.\;\; 4x^2 \\[3ex]
+                    K.\;\; 4x^2 - 4x + 2 \\[3ex] 
+                    $
+                    <button class="solutions" onclick="solutions('solutionCF16')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF16">
+                        <br>
+                        $
+                        f(x) = 2x - 1 \\[3ex] 
+                        g(x) = x^2 + 1 \\[3ex] 
+                        f(g(x)) \\[3ex] 
+                        = f(x^2 + 1) \\[3ex] 
+                        = 2(x^2 + 1) - 1 \\[3ex] 
+                        = 2x^2 + 2 - 1 \\[3ex] 
+                        = 2x^2 + 1
+                        $
+                    </div>    
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (17.) 
+                    
+                    <button class="solutions" onclick="solutions('solutionCF17')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF17">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (18.) If $f(x) = 9x^2 + 1$ and $g(x) = 4x + a$; <br>
+                    Find $a$ such that the graph of $f \circ g$ crosses the $y-axis$ at $730$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionCF18')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF18">
+                        <br>
+                        $
+                        f(x) = 9x^2 + 1 \\[3ex]
+                        g(x) = 4x + a \\[3ex]
+                        (f \circ g)(x) = f(g(x)) \\[3ex]
+                        = f(4x + a) \\[3ex]
+                        But,\:\: f(x) = 9x^2 + 1 \\[3ex]
+                        = 9(4x + a)^2 + 1 \\[3ex]
+                        = 9[(4x + a)(4x +a)] + 1 \\[3ex]
+                        = 9(16x^2 + 4ax + 4ax + a^2) + 1 \\[3ex]
+                        = 9(16x^2 + 8ax + a^2) + 1 \\[3ex]
+                        = 144x^2 + 8ax + 9a^2 + 1 \\[3ex]
+                        $
+                        $f \circ g$ crosses the $y-axis$ at $730$ <br><br>
+                        $144x^2 + 8ax + 9a^2 + 1 = 730$ <br><br>
+                        On the $y-axis$, $x-values = 0$ <br><br>
+                        $
+                        144(0)^2 + 8a(0) + 9a^2 + 1 = 730 \\[3ex]
+                        9a^2 + 1 = 730 \\[3ex]
+                        9a^2 = 730 - 1 \\[3ex]
+                        9a^2 = 729 \\[3ex]
+                        a^2 = \dfrac{729}{9} \\[5ex]
+                        a^2 = 81 \\[3ex]
+                        a = \pm \sqrt{81} \\[3ex]
+                        a = \pm 9 \\[3ex]
+                        a = 9 \:\:OR\:\: a = -9
+                        $
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (19.) 
+                    
+                    <button class="solutions" onclick="solutions('solutionCF19')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF19">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (20.) <b>ACT</b> Let $f(x) = \sqrt{x}$ and $g(x) = 10x + b$ <br>
+                    In the standard $(x, y)$ coordinate plane, $y = f(g(x))$ passes through $(4, 6)$. <br>
+                    What is the value of $b$?
+                    <br><br>
+
+                    <button class="solutions" onclick="solutions('solutionCF20')">Show/Hide Answer</button>
+                    <div class="result" id="solutionCF20">
+                        <br>
+                        $
+                        f(x) = \sqrt{x} \\[3ex]
+                        g(x) = 10x + b \\[3ex]
+                        (f \circ g)(x) \\[3ex]
+                        = f(g(x)) \\[3ex]
+                        = f(10x + b) \\[3ex]
+                        But, f(x) = \sqrt{x} \\[3ex]
+                        f(10x + b) = \sqrt{10x + b} \\[3ex]
+                        y = (f \circ g)(x) = \sqrt{10x + b} \\[3ex]
+                        Passes\:\:through\:\:(4, 6) \\[3ex]
+                        x = 4 \\[3ex]
+                        y = 6 \\[3ex]
+                        \implies 6 = \sqrt{10(4) + b} \\[3ex]
+                        \sqrt{40 + b} = 6 \\[3ex]
+                        Square\:\:both\:\:sides \\[3ex]
+                        40 + b = 6^2 \\[3ex]
+                        40 + b = 36 \\[3ex]
+                        b = 36 - 40 \\[3ex]
+                        b = -4
+                        $
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <!-- Top of the Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://precalculus.appspot.com/RelationsFunctions/compositionFunctions.html" class="w3-button w3-xlarge w3-circle w3-olive"
+               style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+        <br><br><br><br>
+
+
+        
+        <!-- END PAGE CONTENT -->
+
+        
+        <!-- Footer -->
+        <footer class="olive w3-center w3-padding-24">
+            
+            <div id="google_translate_element"></div>
+            <script>
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'G-EDLZMCQQ0V'}, 'google_translate_element');
+                }
+            </script>
+            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <p>&copy; 2018&nbsp; SamDom4Peace Designs.</p>
+        </footer>
+        <!-- End Footer -->
+
+        <script src="scripts/messages8.js"></script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+        <script async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+    </body>
+</html>

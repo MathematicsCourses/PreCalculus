@@ -1,0 +1,1557 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDLZMCQQ0V"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-EDLZMCQQ0V');
+    </script>
+
+    <title>Applications of Two By Two Linear Systems</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="msvalidate.01" content="11DD71E2EEC15DEDE0ECE1389CFFD99F">
+
+    <meta name="description"
+        content="Samuel Dominic Chukwuemeka gives all the credit to our LORD and GOD, JESUS CHRIST. We are experts in the applications of two-by-two linear systems.">
+
+    <meta name="keywords" content="samuel chukwuemeka, samuel dominic chukwuemeka, math, mathematics, algebra,
+              samdom for peace, linear systems, linear equations, consistent, inconsistent, independent, dependent, 
+              consistent-independent, consistent-dependent, rows, columns, elements, variables, matrices, 
+              determinants, substitution, graph, elimination, Cramer's rule, row reduction, Guassian elimination, 
+              Guass-Jordan method, matrix inverse, consistent, inconsistent, dependent, independent, solutions">
+
+    <link href="styles/linearSystems.css" rel="stylesheet" type="text/css" media="all">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+
+<body>
+    <!-- Header/Home -->
+    <header class="w3-padding-64 khaki">
+        <!--
+        <div class="w3-center">
+            <button class="quoteDay" onclick="solutions('solutionQuotes')">Quotes of the Day</button>
+        </div>
+        <div class="w3-content quotes" id="solutionQuotes">
+            <p>
+                <q>
+                    If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the
+                    <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our
+                        FATHER in Heaven prayer)</a> <br>
+                    It is the <b>most powerful prayer</b>.
+                    A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
+                </q> - Samuel Dominic Chukwuemeka
+            </p>
+            <p id="messages5"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
+            <p><q>The <b>Joy</b> of a <b>Teacher</b> is the <b>Success</b> of his <b>Students</b>.</q> - Samuel Dominic
+                Chukwuemeka</p>
+        </div>
+    -->
+    </header>
+
+    <!--
+        <header class="w3-padding-64 khaki">
+            <div class="w3-content" id="solutionQuotes">
+                <p>
+                    <q>
+                        If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the
+                        <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our FATHER
+                            in Heaven prayer)</a> <br>
+                        It is the <b>most powerful prayer</b>.
+                        A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
+                    </q> - Samuel Dominic Chukwuemeka
+                </p>
+                <p id="messages5"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
+                <p><q>The <b>Joy</b> of a <b>Teacher</b> is the <b>Success</b> of his <b>Students</b>.</q> - Samuel Dominic
+                    Chukwuemeka</p>
+            </div>
+        </header>
+        -->
+
+    <!-- End Header/Home -->
+
+    <!-- Page Content -->
+    <div class="w3-row w3-container">
+
+        <h1>Word Problems on 2 &times; 2 Linear Systems</h1>
+
+        <p class="w3-container">
+
+            <!-- Image in top left corner
+            <a href="https://linear-systems.appspot.com" title="Samuel Dominic Chukwuemeka">
+                <img src="images/chukwuemekasamuel.jpg" alt="Samuel Dominic Chukwuemeka (SamDom For Peace)" class="images">
+            </a> <br>
+
+            <b>Calculators:</b> <a href="https://linear-systems.appspot.com/calculators.html" target="_blank">Calculators</a> <br><br>
+
+            <b>Prerequisites:</b> <br>
+            (1.) <a href="https://numbersandnotations.appspot.com/" target="_blank">Numbers and Notations</a> <br>
+            (2.) <a href="https://fractions-decimals-percents.appspot.com/" target="_blank">Fractions, Decimals, and Percents</a> <br>
+            (3.) <a href="https://expressions-equations.appspot.com/#englishMath" target="_blank">Expressions and Equations</a> <br><br>
+            -->
+            
+            <mark>Notable Notes About Word Problems</mark> <br>
+            (1.) Word problems are written in standard British English. <br>
+            (2.) Some word problems are very lengthy and some are unnecessary. Those ones are meant to discourage you from even trying. <br>
+            (3.) Word problems in Mathematics demonstrate the real-world applications of mathematical concepts. <br>
+            (4.) Embrace word problems. See it as writing from <i>English</i> to <i>Math.</i> <br>
+            <b>Take time to:</b> <br>
+            (a.) Read to understand. Paraphrase and shorten long sentences as necessary. <br>
+            (b.) Re-read and note/underline the vocabulary <b><i>Math</i></b> terms written in English. <br>
+            (c.) Translate/Write <b><i>important</i></b> sentences one at a time. <br>
+            (d.) Review what you wrote to ensure correctness. <br>
+            (e.) Solve the math, and check your solution in the word problem. <br>
+            Does that solution makes sense? <br>
+            If it does, you may be correct. <br>
+            If it does not, please re-do it. For example, if you were asked to calculate the length of something and you get a negative number, then you will need to re-do it.
+
+            <br><br>
+
+            <mark>For ACT Students</mark> <br>
+            The ACT is a timed exam...60 questions for 60 minutes <br>
+            This implies that you have to solve each question in one minute. <br>
+            Some questions will typically take less than a minute a solve. <br>
+            Some questions will typically take more than a minute to solve. <br>
+            The goal is to maximize your time. You use the time saved on those questions you
+            solved in less than a minute, to solve the questions that will take more than a minute. <br>
+            So, you should try to solve each question <u>correctly</u> and <u>timely</u>. <br>
+            So, it is not just solving a question correctly, but solving it <u>correctly on time</u>. <br>
+            Please ensure you attempt <u>all ACT questions</u>. <br>
+            There is no <i>negative</i> penalty for a wrong answer. <br><br>
+
+            <mark>For SAT Students</mark> <br>
+            Any question labeled SAT-C is a question that allows a calculator. <br>
+            Any question labeled SAT-NC is a question that does not allow a calculator. <br><br>
+
+            <mark>For JAMB Students</mark> <br>
+            Calculators are not allowed. So, the questions are solved in a way that does not require a calculator.
+            <br><br>
+
+            <mark>For WASSCE Students</mark>: Unless specified otherwise: <br>
+            Any question labeled WASSCE-FM is a question from the WASSCE Further Mathematics/Elective Mathematics
+            <br><br>
+
+            <mark>For GCSE Students</mark> <br>
+            All work is shown to satisfy (and actually exceed) the minimum for awarding method marks. <br>
+            Calculators are allowed for some questions. Calculators are not allowed for some questions. <br><br>
+
+            <mark>For NSC Students</mark> <br>
+            <u>For the Questions:</u> <br>
+            Any space included in a number indicates a comma used to separate digits...separating multiples of three
+            digits from behind. <br>
+            Any comma included in a number indicates a decimal point. <br>
+            <u>For the Solutions:</u> <br>
+            Decimals are used appropriately rather than commas <br>
+            Commas are used to separate digits appropriately. <br><br>
+
+            Solve all questions. <br>
+            Use appropriate variables. <br>
+            Indicate the method(s) used. <br>
+            Show all work. <br>
+            Interpret your solutions.
+        </p>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (1.) <b>NYSED</b> An ice cream shop sells small and large sundaes. <br>
+                One day, 30 small sundaes and 50 large sundaes were sold for <span>$420.</span> <br>
+                Another day, 15 small sundaes and 35 large sundaes were sold for <span>$270.</span> <br>
+                Sales tax is included in all prices. <br><br>
+                If <i>x</i> is the cost of a small sundae and <i>y</i> is the cost of a large sundae, write a system of
+                equations to
+                represent this situation. <br><br>
+                Peyton thinks that small sundaes cost <span>$2.75</span> and large sundaes cost <span>$6.75.</span> <br>
+                Is Peyton correct? <br><br>
+                Using your equations, determine algebraically the cost of one small sundae and the cost of one large
+                sundae.
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo1')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo1">
+                    <br>
+                    $
+                    (a.) \\[3ex]
+                    30x + 50y = 420 ...eqn.(1) \\[3ex]
+                    15x + 35y = 270 ...eqn.(2) \\[3ex]
+                    (b.) \\[3ex]
+                    \underline{Based\;\;on\;\;Peyton's\;\;Thoughts} \\[3ex]
+                    One\;\;day: \\[3ex]
+                    30\;\;small\;\;sundaes\;\;@\;\;\$2.75\;\;each = 30(2.75) = 82.5 \\[3ex]
+                    50\;\;large\;\;sundaes\;\;@\;\;\$6.75\;\;each = 50(6.75) = 337.5 \\[3ex]
+                    Total\;\;cost = 82.5 + 337.5 = \$420.00 \\[3ex]
+                    Peyton\;\;is\;\;correct\;\;for\;\;this\;\;day \\[3ex]
+                    Another\;\;day: \\[3ex]
+                    15\;\;small\;\;sundaes\;\;@\;\;\$2.75\;\;each = 15(2.75) = 41.25 \\[3ex]
+                    35\;\;large\;\;sundaes\;\;@\;\;\$6.75\;\;each = 35(6.75) = 236.25 \\[3ex]
+                    Total\;\;cost = 41.25 + 236.25 = \$277.50 \\[3ex]
+                    Peyton\;\;is\;\;not\;\;correct\;\;for\;\;this\;\;day \\[3ex]
+                    (c.) \\[3ex]
+                    \underline{Simplify\;\;before\;\;solving} \\[3ex]
+                    30x + 50y = 420 ...eqn.(1) \\[3ex]
+                    3x + 5y = 42 ...simplified\;\;eqn.(1) \\[3ex]
+                    15x + 35y = 270 ...eqn.(2) \\[3ex]
+                    3x + 7y = 54 ...simplified\;\;eqn.(2) \\[3ex]
+                    Our\;\;new\;\;equations\;\;are: \\[3ex]
+                    3x + 5y = 42 ...eqn.(1) \\[3ex]
+                    3x + 7y = 54 ...eqn.(2) \\[3ex]
+                    \underline{Elimination-by-Subtraction\;\;Method} \\[3ex]
+                    To\;\;find\;\;y;\;\;eliminate\;\;x \\[3ex]
+                    eqn.(2) - eqn.(1) \implies \\[3ex]
+                    (3x + 7y) - (3x + 5y) = 54 - 42 \\[3ex]
+                    3x + 7y - 3x - 5y = 12 \\[3ex]
+                    2y = 12 \\[3ex]
+                    y = \dfrac{12}{2} \\[5ex]
+                    y = 6 \\[3ex]
+                    \underline{Elimination\;\;by\;\;Addition\;\;Method} \\[3ex]
+                    To\;\;find\;\;x;\;\;eliminate\;\;y \\[3ex]
+                    -7 * eqn.(1) + 5 * eqn.(2) \implies \\[3ex]
+                    -7(3x + 5y) + 5(3x + 7y) = -7(42) + 5(54) \\[3ex]
+                    -21x - 35y + 15x + 35y = -294 + 270 \\[3ex]
+                    -6x = -24 \\[3ex]
+                    x = \dfrac{-24}{-6} \\[5ex]
+                    x = 4 \\[3ex]
+                    $
+                    The cost of one small sundae is <span>$4.00</span> and the cost of one large sundae is
+                    <span>$6.00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (2.) <b>ACT</b> Tanisha, a manager at a state park, counted the money in the cash register at the end of
+                her shift, and
+                then she deposited the money in the bank. <br>
+                When she went back to her office, she accidently shredded the deposit slip. <br>
+                She remembered that there were only <span>$5</span> and <span>$10</span> bills. <br>
+                She also recalled that there were 27 bills totaling <span>$205</span>. <br>
+                How many <span>$5</span> bills were in Tanisha's cash register at the end of her shift?
+                <br><br>
+                $
+                F.\;\; 13 \\[3ex]
+                G.\;\; 14 \\[3ex]
+                H.\;\; 16 \\[3ex]
+                J.\;\; 23 \\[3ex]
+                K.\;\; 32 \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo2')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo2">
+                    <br>
+                    Let: <br>
+                    the number of <span>$5</span> bills = <i>x</i> <br>
+                    the number of <span>$10</span> bills = <i>y</i> <br><br>
+
+                    She also recalled that there were 27 bills <br><br>
+                    $
+                    x + y = 27 ...eqn.(1) \\[3ex]
+                    $
+                    totaling <span>$205</span> <br><br>
+                    $
+                    5x + 10y = 207 ...eqn.(2) \\[3ex]
+                    \underline{Elimination\;\;Method} \\[3ex]
+                    10 * eqn.(1) - eqn.(2) \implies \\[3ex]
+                    10(x + y) - (5x + 10y) = 10(27) - 205 \\[3ex]
+                    10x + 10y - 5x - 10y = 270 - 205 \\[3ex]
+                    5x = 65 \\[3ex]
+                    x = \dfrac{65}{5} \\[5ex]
+                    x = 13 \\[3ex]
+                    $
+                    There were 13 <span>$5</span> bills in Tanisha's cash register at the end of her shift.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (3.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo3')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo3">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (4.) Ming and Carlos are selling cookie dough for a school fundraiser. <br>
+                Customers can buy packages of chocolate chip cookie dough and packages of gingerbread cookie dough. <br>
+                Ming sold 8 packages of chocolate chip cookie dough and 12 packages of gingerbread cookie dough for a
+                total of <span>$</span>364. <br>
+                Carlos sold 1 package of chocolate chip cookie dough and 4 packages of gingerbread cookie dough for a
+                total of <span>$</span>93. <br>
+                Find the cost each of one package of chocolate chip cookie dough and one package of gingerbread cookie
+                dough.
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo4')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo4">
+                    <br>
+                    Let: <br>
+                    the cost of one package of chocolate chip cookie dough = <i>c</i> <br>
+                    the cost of one package of gingerbread cookie dough = <i>g</i> <br><br>
+                    $
+                    Ming:\;\; 8c + 12g = 364 ...eqn.(1) \\[3ex]
+                    Carlos:\;\; c + 4g = 93 ...eqn.(2) \\[3ex]
+                    \underline{Substitution\;\;Method} \\[3ex]
+                    From\;\;eqn.(2) \\[3ex]
+                    c = 93 - 4g ...eqn.(3) \\[3ex]
+                    Substitute\;\;(93 - 4g)\;\;for\;\;c\;\;in\;\;eqn.(1) \\[3ex]
+                    8(93 - 4g) + 12g = 364 \\[3ex]
+                    744 - 32g + 12g = 364 \\[3ex]
+                    744 - 364 = 32g - 12g \\[3ex]
+                    380 = 20g \\[3ex]
+                    20g = 380 \\[3ex]
+                    g = \dfrac{380}{20} \\[5ex]
+                    g = 19 \\[3ex]
+                    Substitute\;\;19\;\;for\;\;g\;\;in\;\;eqn.(3) \\[3ex]
+                    c = 93 - 4(19) \\[3ex]
+                    c = 93 - 76 \\[3ex]
+                    c = 17 \\[3ex]
+                    $
+                    The cost each of one package of chocolate chip cookie dough is <span>$17.00</span> <br>
+                    The cost of one package of gingerbread cookie dough is <span>$19.00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (5.) The local amusement park is a popular field trip destination. <br>
+                This year the senior class at High School A and the senior class at High School B both planned trips
+                there. <br>
+                The senior class at High School A rented and filled 16 vans and 8 buses with 752 students. <br>
+                High School B rented and filled 5 vans and 5 buses with 380 students. <br>
+                How many students can a van carry? <br>
+                How many students can a bus carry?
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo5')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo5">
+                    <br>
+                    Let: <br>
+                    the number of students that a van can carry = <i>v</i> <br>
+                    the number of students that a bus can carry = <i>b</i> <br><br>
+                    $
+                    \underline{High\;\;School\;A} \\[3ex]
+                    16v + 8b = 752 ...eqn.(1) \\[3ex]
+                    \underline{High\;\;School\;B} \\[3ex]
+                    5v + 5b = 380 ...eqn.(2) \\[3ex]
+                    \underline{Elimination-by-Addition\;\;Method} \\[3ex]
+                    To\;\;find\;\;v,\;\;eliminate\;\;b \\[3ex]
+                    -5 * eqn.(1) + 8 * eqn.(2) \implies \\[3ex]
+                    -5(16v + 8b) + 8(5v + 5b) = -5(752) + 8(380) \\[3ex]
+                    -80v - 40b + 40v + 40b = -3760 + 3040 \\[3ex]
+                    -40v = -720 \\[3ex]
+                    v = \dfrac{-720}{-40} \\[5ex]
+                    v = 18 \\[3ex]
+                    To\;\;find\;\;b,\;\;eliminate\;\;v \\[3ex]
+                    -5 * eqn.(1) + 16 * eqn.(2) \implies \\[3ex]
+                    -5(16v + 8b) + 16(5v + 5b) = -5(752) + 16(380) \\[3ex]
+                    -80v - 40b + 80v + 80b = -3760 + 6080 \\[3ex]
+                    40b = 2320 \\[3ex]
+                    b = \dfrac{2320}{40} \\[5ex]
+                    b = 58 \\[3ex]
+                    $
+                    A van can carry 18 students. <br>
+                    A bus can carry 58 students.
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (6.) <b>ACT</b> At Gussie's Pizzeria, Odetta spends <span>$8.75</span> (before tax) on the purchase of 2
+                appetizers
+                and 3 slices of pizza. <br>
+                The price of each slice of pizza is <i>p</i> dollars. <br>
+                The price of each appetizer is twice the price of a slice of pizza. <br>
+                Which of the following systems of equations, when solved, gives the price, <i>a</i> dollars, of an
+                appetizer and
+                the price, <i>p</i> dollars, of a slice of pizza at Gussie's? <br><br>
+                $
+                F.\;\; 2a + 3p = 8.75 \\[1ex]
+                \hspace{4.5em}a = 2p \\[3ex]
+                G.\;\; 2a + p = 8.75 \\[1ex]
+                \hspace{4em}3a = 2p \\[3ex]
+                H.\;\; 2p + a = 8.75 \\[1ex]
+                \hspace{4em}3p = 2a \\[3ex]
+                J.\;\; 3a + 2p = 8.75 \\[1ex]
+                \hspace{4.5em}p = 2a \\[3ex]
+                K.\;\; 3p + a = 8.75 \\[1ex]
+                \hspace{4.5em}a = 2p \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo6')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo6">
+                    <br>
+                    Odetta spends <span>$8.75</span> (before tax) on the purchase of 2 appetizers
+                    and 3 slices of pizza. <br>
+                    2<i>a</i> &plus; 3<i>p</i> &equals; 8.75
+                    <br><br>
+                    The price of each appetizer is twice the price of a slice of pizza. <br>
+                    <i>a</i> &equals; 2<i>p</i> <br><br>
+                    Correct option is <b>F.</b>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (7.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo7')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo7">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (8.) The school that Lisa goes to, is selling tickets to the annual talent show. <br>
+                On the first day of ticket sales the school sold 4 senior citizen tickets and 5 student tickets for a
+                total of <span>$</span>102. <br>
+                The school took in <span>$</span>126 on the second day by selling 7 senior citizen tickets and 5 student
+                tickets. <br>
+                What is the price of one senior citizen ticket and one student ticket?
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo8')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo8">
+                    <br>
+                    Let: <br>
+                    the price of one senior citizen ticket = <i>c</i> <br>
+                    the price of one student ticket = <i>d</i> <br><br>
+                    $
+                    \underline{First\;\;Day} \\[3ex]
+                    4c + 5d = 102...eqn.(1) \\[3ex]
+                    \underline{Second\;\;Day} \\[3ex]
+                    7c + 5d = 126...eqn.(2) \\[3ex]
+                    \underline{Elimination-by-Subtraction\;\;Method} \\[3ex]
+                    To\;\;find\;\;d,\;\;eliminate\;\;c \\[3ex]
+                    eqn.(2) - eqn.(1) \implies \\[3ex]
+                    (7c + 5d) - (4c + 5d) = 126 - 102 \\[3ex]
+                    7c + 5d - 4c - 5d = 24 \\[3ex]
+                    3c = 24 \\[3ex]
+                    c = \dfrac{24}{3} \\[5ex]
+                    c = 8 \\[3ex]
+                    To\;\;find\;\;c,\;\;eliminate\;\;d \\[3ex]
+                    7 * eqn.(1) - 4 * eqn.(2) \implies \\[3ex]
+                    7(4c + 5d) - 4(7c + 5d) = 7(102) - 4(126) \\[3ex]
+                    28c + 35d - 28c - 20d = 714 - 504 \\[3ex]
+                    15d = 210 \\[3ex]
+                    d = \dfrac{210}{15} \\[5ex]
+                    d = 14 \\[3ex]
+                    $
+                    The price of one senior citizen ticket is <span>$8.00</span> <br>
+                    The price of one student ticket is <span>$14.00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (9.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo9')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo9">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (10.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo10')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo10">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (11.) <b>ACT</b> Ms. Johnson purchased 1000 prizes for the school carnival for <span>$90</span>. <br>
+                Each prize costs either <span>$0.05</span> or <span>$0.25</span>. <br>
+                How many of the less expensive prizes did she buy?
+                <br><br>
+                $
+                F.\:\: 200 \\[3ex]
+                G.\:\: 360 \\[3ex]
+                H.\:\: 500 \\[3ex]
+                J.\:\: 640 \\[3ex]
+                K.\:\: 800 \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo11')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo11">
+                    <br>
+                    Let the: <br>
+                    Less expensive prize be <i>x</i> <br>
+                    More expensive prize be <i>y</i> <br>
+                    Ms. Johnson purchased 1,000 prizes <br><br>
+                    $x + y = 1000 ...eqn.(1)$ <br><br>
+                    Less expensive prize goes with $\$0.05$ and the More expensive prize goes with $\$0.25$ <br>
+                    This is because $0.25 \gt 0.05$ <br>
+                    Ms. Johnson purchased these prizes for $\$90$ <br><br>
+                    $0.05x + 0.25y = 90 ...eqn.(2)$ <br><br>
+                    The two equations are: <br><br>
+                    $
+                    x + y = 1000 ...eqn.(1) \\[3ex]
+                    0.05x + 0.25y = 90 ...eqn.(2) \\[3ex]
+                    \underline{Substitution\:\:Method} \\[3ex]
+                    From\:\:eqn.(1) \\[3ex]
+                    y = 1000 - x...eqn.(3) \\[3ex]
+                    Substitute\:\:eqn.(3)\:\:into\:\:eqn.(2) \\[3ex]
+                    0.05x + 0.25(1000 - x) = 90 \\[3ex]
+                    0.05x + 250 - 0.25x = 90 \\[3ex]
+                    -0.2x = 90 - 250 \\[3ex]
+                    -0.2x = -160 \\[3ex]
+                    x = \dfrac{-160}{-0.2} \\[5ex]
+                    x = 800 \\[3ex]
+                    $
+                    Ms. Johnson purchased $800$ prizes of the $\$0.05$ prize
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (12.) <b>GCSE</b> A theme park sells entrance tickets. <br>
+                2 adult tickets and 3 child tickets would cost a total of £72. <br>
+                3 adult tickets and 1 child ticket would cost a total of £66. <br>
+                A family ticket costs £45 and allows entry for 2 adults and 2 children. <br>
+                How much cheaper is it to buy a family ticket than it would be to buy 2 adult and 2 child tickets?
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo12')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo12">
+                    <br>
+                    $
+                    Let\;\;the: \\[3ex]
+                    cost\;\;of\;\;an\;\;adult\;\;ticket = x \\[3ex]
+                    cost\;\;of\;\;a\;\;child\;\;ticket = y \\[3ex]
+                    \implies \\[3ex]
+                    2x + 3y = 72 ...eqn.(1) \\[3ex]
+                    3x + y = 66 ...eqn.(2) \\[3ex]
+                    \underline{Elimination-by-Subtraction\;\;Method} \\[3ex]
+                    Finding\;\;x \\[3ex]
+                    eqn.(1) - 3 * eqn.(2) \implies \\[3ex]
+                    (2x + 3y) - 3(3x + y) = 72 - 3(66) \\[3ex]
+                    2x + 3y - 9x - 3y = 72 - 198 \\[3ex]
+                    -7x = -126 \\[3ex]
+                    x = \dfrac{-126}{-7} \\[5ex]
+                    x = 18 \\[3ex]
+                    \underline{Substitution\;\;Method} \\[3ex]
+                    From\;\;eqn.(2) \\[3ex]
+                    y = 66 - 3x ...eqn.(3) \\[3ex]
+                    Substitute\;\;18\;\;for\;\;y\;\;in\;\;eqn.(3) \\[3ex]
+                    y = 66 - 3(18) \\[3ex]
+                    y = 66 - 54 \\[3ex]
+                    y = 12 \\[3ex]
+                    Cost\;\;for\;\;2\;\;adult\;\;and\;\;2\;\;child\;\;tickets \\[3ex]
+                    = 2x + 2y \\[3ex]
+                    = 2(18) + 2(12) \\[3ex]
+                    = 36 + 24 \\[3ex]
+                    = £60 \\[3ex]
+                    Cost\;\;of;\;family\;\;ticket = £45 \\[3ex]
+                    Difference = 60 - 45 = 15 \\[3ex]
+                    $
+                    It is £15 (15 pounds) cheaper to purchase a family ticket (2 adults and 2 children tickets) than to
+                    purchase the
+                    individual tickets for 2 adults and 2 children.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (13.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo13')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo13">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (14.)
+                <i>
+                    Do you drink? Please do not get drunk! <br>
+                    For those who care to know, I do not drink.
+                </i> <br><br>
+                Timothy likes to drink. However, he does not like strong drinks. <br>
+                During his birthday party, he received several alcoholic drinks as gifts. <br>
+                One of the gifts was a vodka containing 40% alcohol by volume (40% ABV). <br>
+                Another gift was a wine containing 10% ABV. <br>
+                He wants a 5-liter solution containing 16% alcohol. So he mixes the wine with the vodka. <br>
+                How many liters of each drink (wine and vodka) should he mix?
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo14')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo14">
+                    <br>
+                    Here is my video on <a
+                        href="https://www.youtube.com/watch?v=7HUiV6Xc66M&t=0s&index=8&list=PLjyyswMG9g9AjkFxnykJiQ0D8u2zSfoLx"
+                        target="_blank" class="links">Mixture Problems</a> <br>
+                    Two factors are important here: Volume and Concentration. <br>
+                    In this case, the two drinks (10% alcohol wine and 40% alcohol vodka) and the mixture are alcohol
+                    solutions. <br><br>
+                    Let the volume of the 10% alcohol wine be <i>x</i> <br>
+                    and the volume of the 40% alcohol vodka be <i>y</i> <br>
+                    This means that the volume of the mixture is <i>x</i> &plus; <i>y</i> <br><br>
+                    <b>Volume</b> <br>
+                    $x + y = 5 ...eqn.(1)$ <br><br>
+                    <b>Concentration</b> <br>
+                    10% of <i>x</i> + 40% of <i>y</i> = 16% of the mixture <br><br>
+                    $
+                    0.1 * x + 0.4 * y = 0.16 * 5 \\[3ex]
+                    0.1x + 0.4y = 0.8 ...eqn.(2) \\[3ex]
+                    $
+                    The two equations are: <br><br>
+                    $
+                    x + y = 5 ...eqn.(1) \\[3ex]
+                    0.1x + 0.4y = 0.8 ...eqn.(2) \\[3ex]
+                    x + 4y = 8 ...modified\;\;eqn.(2) \\[3ex]
+                    \underline{Elimination\;\;Method} \\[3ex]
+                    To\;\;find\;\;y,\;\;eliminate\;\;x \\[3ex]
+                    eqn.(2) - eqn.(1) \implies \\[3ex]
+                    (x + 4y) - (x + y) = 8 - 5 \\[3ex]
+                    x + 4y - x - y = 3 \\[3ex]
+                    3y = 3 \\[3ex]
+                    y = \dfrac{3}{3} \\[5ex]
+                    y = 1 \\[3ex]
+                    \underline{Substitution\;\;Method} \\[3ex]
+                    From\;\;eqn.(1) \\[3ex]
+                    x = 5 - y ...eqn.(3) \\[3ex]
+                    Substitute\;\;y = 1 \;\;into\;\;eqn.(3) \\[3ex]
+                    x = 5 - 1 \\[3ex]
+                    x = 4 \\[3ex]
+                    $
+                    Timothy should mix 4 liters of the 10% alcohol wine with 1 liter of the 40% alcohol vodka in order
+                    to
+                    obtain 5 liters of the 16% alcohol solution.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (15.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo15')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo15">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (16.) <b><i>Continuation from Question (14.)</i></b> <br><br>
+                Timothy wants to dilute the remaining liters of vodka. <br>
+                Rather than mixing it with wine, he intends to mix it with pure water. <br>
+                <i>Please <u>NOTE:</u> that pure water is 0% alcohol. It has no alcohol.</i> <br>
+                He still wants a 5-liter solution containing 16% alcohol. <br>
+                How many liters of water and vodka should he mix?
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo16')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo16">
+                    <br>
+                    Here is my video on <a
+                        href="https://www.youtube.com/watch?v=7HUiV6Xc66M&t=0s&index=8&list=PLjyyswMG9g9AjkFxnykJiQ0D8u2zSfoLx"
+                        target="_blank" class="links">Mixture Problems</a> <br>
+                    Two factors are important here: Volume and Concentration. <br>
+                    In this case, the two drinks are different. <br>
+                    But the second drink (40% alcohol vodka) and the mixture are alcohol solutions. <br>
+                    The first drink is pure water. It is 100% water. It is 0% alcohol. <br>
+                    The second drink is vodka, 40% alcohol. <br>
+                    The mixture is also an alcohol solution. <br>
+                    So, alcohol is the main factor. <br>
+                    In that sense, we shall use pure water as 0% alcohol. <br><br>
+                    Let the volume of the pure water be <i>x</i> <br>
+                    and the volume of the 40% alcohol vodka be <i>y</i> <br>
+                    This means that the volume of the mixture is <i>x</i> &plus; <i>y</i> <br><br>
+                    <b>Volume</b> <br>
+                    $x + y = 5 ...eqn.(1)$ <br><br>
+                    <b>Concentration</b> <br>
+                    0% of <i>x</i> + 40% of <i>y</i> = 16% of the mixture <br><br>
+                    $
+                    0 * x + 0.4 * y = 0.16 * 5 \\[3ex]
+                    0.4y = 0.8 ...eqn.(2) \\[3ex]
+                    y = \dfrac{0.8}{0.4} \\[5ex]
+                    y = 2 \\[3ex]
+                    \underline{Substitution\;\;Method} \\[3ex]
+                    From\;\;eqn.(1) \\[3ex]
+                    x = 5 - y ...eqn.(3) \\[3ex]
+                    Substitute\;\;y = 2 \;\;into\;\;eqn.(3) \\[3ex]
+                    x = 5 - 2 \\[3ex]
+                    x = 3 \\[3ex]
+                    $
+                    Timothy should mix 3 liters of the pure water with 2 liters of the 40% alcohol vodka in order to
+                    obtain 5 liters of the 16% alcohol solution.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (17.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo17')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo17">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (18.) Two planes travel toward each other from cities that are about 1725km apart. <br>
+                They travel at rates of 360km/hr and 330km/hr. <br>
+                They started at the same time. <br>
+                In how many hours will they meet?
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo18')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo18">
+                    <br>
+                    The two planes started at the same time. <br>
+                    Hence, their times are equal. <br>
+                    Let the two planes be Plane A and Plane B <br>
+                    Let the speed of Plane A = 360 km/hr <br>
+                    and the speed of Plane B = 330 km/hr <br>
+                    Let the time be $t$ <br><br>
+                    $
+                    Speed = \dfrac{distance}{time} \\[5ex]
+                    \therefore distance = speed * time \\[3ex]
+                    $
+                    Distance traveled by Plane A = $360 * t = 360t$ <br>
+                    Distance traveled by Plane B = $330 * t = 330t$ <br>
+                    The sum of the distance should be the total distance <br><br>
+                    $
+                    360t + 330t = 1725 \\[3ex]
+                    690t = 1725 \\[3ex]
+                    t = \dfrac{1725}{690} \\[5ex]
+                    t = \dfrac{5}{2}\: hours
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (19.) <b>ACT</b> Kojo has an internet site where his classmates can sell items in online auctions. <br>
+                For each item, a student pays Kojo a listing fee, based on the item's starting price, and a selling fee
+                calculated as
+                a percent of the selling price, as shown in the tables below. <br><br>
+
+                <table style="width: 60%;" class="w3-center">
+                    <tr>
+                        <td>Starting price</td>
+                        <td>Listing fee</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>$0.01</span> — <span>$4.99</span> <br>
+                            <span>$5.00</span> — <span>$19.99</span> <br>
+                            <span>$20.00</span> — <span>$49.99</span> <br>
+                            <span>$50.00</span> and up
+                        </td>
+                        <td class="w3-center">
+                            <span>$0.25</span> <br>
+                            <span>$0.50</span> <br>
+                            <span>$1.00</span> <br>
+                            <span>$2.00</span>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <table style="width: 80%;" class="w3-center">
+                    <tr>
+                        <td>Selling price</td>
+                        <td>Selling fee</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>$0.01</span> — <span>$49.99</span> <br>
+                            <span>$50.00</span> and up
+                        </td>
+                        <td>
+                            5% of selling price <br>
+                            3% of selling price
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                Erick sold 2 items on Kojo's site. <br>
+                The sum of selling prices for the 2 items was <span>$116.00</span>. <br>
+                The sum of the selling fees for the 2 items was <span>4.34</span>. <br>
+                The system of equations below can be used to obtain the selling price for each item. <br>
+                What was the total listing fee for the 2 items given that the starting price was equal to the selling
+                price for each
+                of the 2 items?
+                $$
+                x + y = 116.00 \\[3ex]
+                0.03x + 0.05y = 4.34
+                $$
+                $
+                A.\;\; \$2.00 \\[3ex]
+                B.\;\; \$2.25 \\[3ex]
+                C.\;\; \$2.50 \\[3ex]
+                D.\;\; \$3.00 \\[3ex]
+                E.\;\; \$4.00 \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo19')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo19">
+                    <br>
+                    $
+                    x + y = 116.00 ...eqn.(1) \\[3ex]
+                    0.03x + 0.05y = 4.34 ...eqn.(2) \\[3ex]
+                    3x + 5y = 434 ...modified\;\;eqn.(2) \\[3ex]
+                    \underline{Elimination-by-Addition\;\;Method} \\[3ex]
+                    Finding\;\;y \\[3ex]
+                    -3 * eqn.(1) + eqn.(2) \implies
+                    -3(x + y) + (3x + 5y) = -3(116) + 434 \\[3ex]
+                    -3x - 3y + 3x + 5y = -348 + 434 \\[3ex]
+                    2y = 86 \\[3ex]
+                    y = \dfrac{86}{2} \\[5ex]
+                    y = 43 \\[3ex]
+                    \underline{Substitution\;\;Method} \\[3ex]
+                    Finding\;\;x \\[3ex]
+                    From\;\;eqn.(1) \\[3ex]
+                    x = 116 - y ...eqn.(3) \\[3ex]
+                    Substitute\;\;43\;\;for\;\;y\;\;in\;\;eqn.(3) \\[3ex]
+                    x = 116 - 43 \\[3ex]
+                    x = 73 \\[3ex]
+                    Selling\;\;price\;\;for\;\;item:\;x = \$73.00 \\[3ex]
+                    Selling\;\;price\;\;for\;\;item:\;y = \$43.00 \\[3ex]
+                    Because: \\[3ex]
+                    $
+                    the starting price was equal to the selling price for each of the 2 items <br><br>
+                    $
+                    Starting\;\;price\;\;for\;\;item:\;x = \$73.00 \\[3ex]
+                    Listing\;\;fee\;\;for\;\;item:\;x = \$2.00...on\;\;the\;\;table \\[3ex]
+                    Starting\;\;price\;\;for\;\;item:\;y = \$43.00 \\[3ex]
+                    Listing\;\;fee\;\;for\;\;item:\;y = \$1.00...on\;\;the\;\;table \\[3ex]
+                    \therefore\;the\;\;total\;\;listing\;fee = \$2.00 + \$1.000 = \$3.00
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (20.) <b>GCSE</b> The diagram below shows triangle <i>ABC</i> <br><br>
+                <div class="w3-center">
+                    <img src="images/WordProblems2by2/Questions/Number20.png" alt="Number 20">
+                </div> <br>
+                <i>(a)</i> Use the angles in the triangle to complete the following equation.
+                $$
+                3x + 11y = .....................
+                $$
+                <i>(b)</i> Use the angles on the straight line at <i>C</i> to obtain a further equation. <br><br>
+                Use the two equations to show that <i>ABC</i> is an isosceles triangle. <br>
+                You must use an algebraic method.
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo20')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo20">
+                    <br>
+                    $
+                    3x + 11y = 180^\circ ...sum\;\;of\;\;\angle s\;\;in\;\;a\;\;\triangle \\[3ex]
+                    At\;\;Point\;C:\;\;6x + 7y = 180^\circ ...\angle s\;\;on\;\;a\;\;straight\;\;line \\[3ex]
+                    \implies \\[3ex]
+                    3x + 11y = 180 ...eqn.(1) \\[3ex]
+                    6x + 7y = 180 ...eqn.(2) \\[3ex]
+                    \underline{Elimination-by-Addition\;\;Method} \\[3ex]
+                    Finding\;\;y \\[3ex]
+                    -2 * eqn.(1) + eqn.(2) \implies \\[3ex]
+                    -2(3x + 11y) + (6x + 7y) = -2(180) + 180 \\[3ex]
+                    -6x - 22y + 6x + 7y = -360 + 180 \\[3ex]
+                    -15y = -180 \\[3ex]
+                    y = \dfrac{-180}{-15} \\[5ex]
+                    y = 12 \\[3ex]
+                    \underline{Substitution\;\;Method} \\[3ex]
+                    From\;\;eqn.(2) \\[3ex]
+                    6x = 180 - 7y \\[3ex]
+                    x = \dfrac{180 - 7y}{6} ...eqn.(3) \\[5ex]
+                    Substitute\;\;12\;\;for\;\;y\;\;in\;\;eqn.(3) \\[3ex]
+                    x = \dfrac{180 - 7(12)}{6} \\[5ex]
+                    x = \dfrac{180 - 84}{6} \\[5ex]
+                    x = \dfrac{96}{6} \\[5ex]
+                    x = 16 \\[3ex]
+                    \angle A = 4y^\circ = 4(12) = 48^\circ \\[3ex]
+                    \angle B = 3x^\circ = 3(16) = 48^\circ \\[3ex]
+                    \angle C = 7y^\circ = 7(12) = 84^\circ \\[3ex]
+                    $
+                    Because &angle;<i>A</i> = &angle;<i>B</i> = 48&deg;, &triangle;<i>ABC</i> is an isosceles triangle.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+    <!-- Top of the Page -->
+    <div class="w3-container" style="position:relative">
+        <a href="https://linear-systems.appspot.com/wordProblems2by2.html"
+            class="w3-button w3-xlarge w3-circle w3-khaki" style="position:absolute;top:-70px;right:24px">Top</a>
+    </div>
+    <br><br><br><br>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (21.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo21')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo21">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (22.) <b>ACT</b> Susan completed 20 courses in college and her grade point average was 3.15 (A = 4.0 and
+                B = 3.0). <br>
+                If all of her grades were A's or B's, and each course grade carried equal weight, what is the number of
+                A's
+                that Susan received? <br><br>
+                $
+                F.\;\; 1 \\[3ex]
+                G.\;\; 3 \\[3ex]
+                H.\;\; 4 \\[3ex]
+                J.\;\; 9 \\[3ex]
+                K.\;\; 15 \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo22')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo22">
+                    <br>
+                    <i>
+                        This sentence should have been <u>worded correctly</u> as: <br>
+                        ...and each course <del>grade</del> carried equal weight <br>
+                        So, we shall assume such for this question. <br>
+                        In other words, we shall assume that each course is a 1-credit unit course. <br>
+                        So we have 20 credit units for the 20 courses.
+                    </i> <br><br>
+                    Let: <br>
+                    the number of A's courses = <i>x</i> <br>
+                    the number of B's courses = <i>y</i> <br><br>
+                    $
+                    \underline{Number\;\;of\;\;courses} \\[3ex]
+                    x + y = 20 ...eqn.(1) \\[3ex]
+                    \underline{GPA} \\[3ex]
+                    \dfrac{4x + 3y}{20} = 3.15 \\[5ex]
+                    4x + 3y = 20(3.15) \\[3ex]
+                    4x + 3y = 63 ...eqn.(2) \\[3ex]
+                    We\;\;want\;\;to\;\;find\;\;x \\[3ex]
+                    \underline{Elimination\;\;Method} \\[3ex]
+                    eqn.(2) - 3 * eqn.(1) \implies \\[3ex]
+                    (4x + 3y) - 3(x + y) = 63 - 3(20) \\[3ex]
+                    4x + 3y - 3x - 3y = 63 - 60 \\[3ex]
+                    x = 3 \\[3ex]
+                    $
+                    Susan made A's in 3 courses.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (23.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo23')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo23">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (24.) A boat traveled 210 miles each way going downstream and back. <br>
+                The trip downstream took 10 hours. <br>
+                The trip back took 70 hours. <br>
+                (a.) What is the speed of the boat in still water? <br>
+                (b.) What is the speed of the current?
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo24')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo24">
+                    <br>
+                    Let: <br>
+                    the speed of the boat in still water = <i>x</i> <br>
+                    the speed of the current = <i>y</i> <br><br>
+                    $
+                    Speed = \dfrac{distance}{time} \\[5ex]
+                    \underline{Downstream} \\[3ex]
+                    speed = \dfrac{210}{10} = 21\;mph \\[5ex]
+
+                    Working\;\;with\;\;the\;\;current \\[3ex]
+                    \implies \\[3ex]
+                    x + y = 21 ...eqn.(1) \\[3ex]
+
+                    \underline{Trip\;\;back:\;\;Upstream} \\[3ex]
+                    speed = \dfrac{210}{70} = 3\;mph \\[5ex]
+
+                    Working\;\;against\;\;the\;\;current \\[3ex]
+                    \implies \\[3ex]
+                    x - y = 3 ...eqn.(2) \\[3ex]
+                    \underline{Elimination-by-Addition\;\;Method} \\[3ex]
+                    eqn.(1) + eqn.(2) \implies \\[3ex]
+                    (x + y) + (x - y) = 21 + 3 \\[3ex]
+                    x + y + x - y = 24 \\[3ex]
+                    2x = 24 \\[3ex]
+                    x = \dfrac{24}{2} \\[5ex]
+                    x = 12\;mph \\[3ex]
+                    -1 * eqn.(1) + eqn.(2) \implies \\[3ex]
+                    -1(x + y) + (x - y) = -1(21) + 3 \\[3ex]
+                    -x - y + x - y = -21 + 3 \\[3ex]
+                    -2y = -18 \\[3ex]
+                    y = \dfrac{-18}{-2} \\[5ex]
+                    y = 9\;mph \\[3ex]
+                    $
+                    The speed of the boat in still water is 12 miles per hour. <br>
+                    The speed of the current is 9 miles per hour.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (25.) <b>ACT</b> A community theater group performed at 5 local schools. <br>
+                For each school, the table below shows the total number of tickets sold and the total dollar amount
+                collected from
+                ticket sales.
+                <br><br>
+                <table style="width: 70%; margin-left: 15%;" class="w3-center">
+                    <tr>
+                        <td style="width: 20%;">School</td>
+                        <td style="width: 40%;">Number of tickets sold</td>
+                        <td style="width: 40%;">Ticket sales</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            A <br>
+                            B <br>
+                            C <br>
+                            D <br>
+                            E
+                        </td>
+                        <td>
+                            200 <br>
+                            250 <br>
+                            300 <br>
+                            150 <br>
+                            275
+                        </td>
+                        <td>
+                            <span>$1,400</span> <br>
+                            <span>$1,650</span> <br>
+                            <span>$1,800</span> <br>
+                            <span>$1,350</span> <br>
+                            <span>$1,625</span>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                At School A, only 2 types of tickets were sold: premium tickets for <span>$10</span> each and value
+                tickets for
+                <span>$6</span> each. <br>
+                How many value tickets were sold at School A? <br><br>
+                $
+                F.\;\; 22 \\[3ex]
+                G.\;\; 50 \\[3ex]
+                H.\;\; 100 \\[3ex]
+                J.\;\; 150 \\[3ex]
+                K.\;\; 178 \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo25')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo25">
+                    <br>
+                    Let: <br>
+                    the number of premium tickets sold at School A &equals; <i>x</i> <br>
+                    the number of value tickets sold at School A &equals; <i>y</i> <br><br>
+                    $
+                    200\;\;tickets\;\;sold\;\;at\;\;School\;A \\[3ex]
+                    x + y = 200 ...eqn.(1) \\[3ex]
+                    \$1400\;\;ticket\;\;sales\;\;at\;\;School\;A\;\;@\;\;\$10\;premium\;\;tickets\;\;and\;\;\$6\;\;value\;\;tickets
+                    \\[3ex]
+                    10x + 6y = 1400 \\[3ex]
+                    5x + 3y = 700 ...eqn.(2) \\[3ex]
+                    \underline{Elimination-by-Addition\;\;Method} \\[3ex]
+                    To\;\;find\;\;y;\;\;eliminate\;\;x \\[3ex]
+                    -5 * eqn.(1) + eqn.(2) \implies \\[3ex]
+                    -5(x + y) + (5x + 3y) = -5(200) + 700 \\[3ex]
+                    -5x - 5y + 5x + 3y = -1000 + 700 \\[3ex]
+                    -2y = -300 \\[3ex]
+                    y = \dfrac{-300}{-2} \\[5ex]
+                    y = 150 \\[3ex]
+                    $
+                    150 value tickets were sold at School A
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (26.) The state fair is a popular field trip destination. <br>
+                This year the senior class at High School A and the senior class at High School B both planned trips
+                there. <br>
+                The senior class at High School A rented and filled 8 vans and 8 buses with 240 students. <br>
+                High School B rented and filled 4 vans and 1 bus with 54 students. <br>
+                Find the number of students in each van and in each bus.
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo26')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo26">
+                    <br>
+                    Let: <br>
+                    the number of students in each van = <i>v</i> <br>
+                    the number of students in each bus = <i>b</i> <br><br>
+                    $
+                    \underline{High\;\;School\;A} \\[3ex]
+                    8v + 8b = 240 ...eqn.(1) \\[3ex]
+                    \underline{High\;\;School\;B} \\[3ex]
+                    4v + b = 54 ...eqn.(2) \\[3ex]
+                    \underline{Substitution\;\;Method} \\[3ex]
+                    From\;\;eqn.(2) \\[3ex]
+                    b = 54 - 4v...eqn.(3) \\[3ex]
+                    Substitute\;\;(54 - 4v)\;\;for\;\;b\;\;in\;\;eqn.(1) \\[3ex]
+                    8v + 8(54 - 4v) = 240 \\[3ex]
+                    8v + 432 - 32v = 240 \\[3ex]
+                    -24v = 240 - 432 \\[3ex]
+                    -24v = -192 \\[3ex]
+                    v = \dfrac{-192}{-24} \\[5ex]
+                    v = 8 \\[3ex]
+                    Substitute\;\;8\;\;for\;\;v\;\;in\;\;eqn.(3) \\[3ex]
+                    b = 54 - 4(8) \\[3ex]
+                    b = 54 - 32 \\[3ex]
+                    b = 22 \\[3ex]
+                    $
+                    There were 8 students in each van. <br>
+                    There were 22 students in each bus.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (27.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo27')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo27">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (28.) A boat traveled 336 miles each way going downstream and back. <br>
+                The trip downstream took 12 hours. <br>
+                The trip back took 14 hours. <br>
+                (a.) What is the speed of the boat in still water? <br>
+                (b.) What is the speed of the current?
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo28')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo28">
+                    <br>
+                    Let: <br>
+                    the speed of the boat in still water = <i>x</i> <br>
+                    the speed of the current = <i>y</i> <br><br>
+                    $
+                    Speed = \dfrac{distance}{time} \\[5ex]
+                    \underline{Downstream} \\[3ex]
+                    speed = \dfrac{336}{12} = 28\;mph \\[5ex]
+
+                    Working\;\;with\;\;the\;\;current \\[3ex]
+                    \implies \\[3ex]
+                    x + y = 28 ...eqn.(1) \\[3ex]
+
+                    \underline{Trip\;\;back:\;\;Upstream} \\[3ex]
+                    speed = \dfrac{336}{14} = 24\;mph \\[5ex]
+
+                    Working\;\;against\;\;the\;\;current \\[3ex]
+                    \implies \\[3ex]
+                    x - y = 24 ...eqn.(2) \\[3ex]
+                    \underline{Elimination-by-Addition\;\;Method} \\[3ex]
+                    eqn.(1) + eqn.(2) \implies \\[3ex]
+                    (x + y) + (x - y) = 28 + 24 \\[3ex]
+                    x + y + x - y = 52 \\[3ex]
+                    2x = 52 \\[3ex]
+                    x = \dfrac{52}{2} \\[5ex]
+                    x = 26\;mph \\[3ex]
+                    -1 * eqn.(1) + eqn.(2) \implies \\[3ex]
+                    -1(x + y) + (x - y) = -1(28) + 24 \\[3ex]
+                    -x - y + x - y = -28 + 24 \\[3ex]
+                    -2y = -4 \\[3ex]
+                    y = \dfrac{-4}{-2} \\[5ex]
+                    y = 2\;mph \\[3ex]
+                    $
+                    The speed of the boat in still water is 26 miles per hour. <br>
+                    The speed of the current is 2 miles per hour.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (29.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo29')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo29">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (30.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo30')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo30">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (31.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo31')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo31">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (32.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo32')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo32">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (33.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo33')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo33">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (34.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo34')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo34">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (35.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo35')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo35">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (36.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo36')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo36">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (37.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo37')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo37">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (38.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo38')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo38">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (39.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo39')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo39">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (40.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo40')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo40">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+    <!-- Top of the Page -->
+    <div class="w3-container" style="position:relative">
+        <a href="https://linear-systems.appspot.com/wordProblems2by2.html"
+            class="w3-button w3-xlarge w3-circle w3-khaki" style="position:absolute;top:-70px;right:24px">Top</a>
+    </div>
+    <br><br><br><br>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (41.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo41')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo41">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (42.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo42')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo42">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (43.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo43')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo43">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (44.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo44')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo44">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (45.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo45')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo45">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (46.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo46')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo46">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (47.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo47')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo47">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (48.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo48')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo48">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (49.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo49')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo49">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (50.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo50')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo50">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (51.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo51')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo51">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (52.)
+                <button class="solutions" onclick="solutions('solutionWPTwoByTwo52')">Show/Hide Answer</button>
+                <div class="result" id="solutionWPTwoByTwo52">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END PAGE CONTENT -->
+
+
+
+    <!-- Footer -->
+    <footer class="khaki w3-center w3-padding-24">
+        <div id="google_translate_element"></div>
+        <script>
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-117507755-1' }, 'google_translate_element');
+            }
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <!--<p>&copy; 2018&nbsp;<a href="https://www.chukwuemekasamuel.com/" target="_blank">Samdom4Peace</a>&nbsp;Designs.</p>-->
+        <p>&copy; 2018&nbsp; Samdom4Peace Designs.</p>
+    </footer>
+
+    <script src="scripts/messages1.js"></script>
+    <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+</body>
+</html>

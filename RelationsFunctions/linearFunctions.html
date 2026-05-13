@@ -1,0 +1,3126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>       
+            
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDLZMCQQ0V"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-EDLZMCQQ0V');
+        </script>
+
+        <title>Linear Functions</title>
+        <meta charset="UTF-8">
+        
+        <meta name="description" content="Samuel Dominic Chukwuemeka (SamDom For Peace) gives all the credit to our LORD, GOD, and ANOINTED SAVIOR JESUS CHRIST. We are experts in linear functions.">
+        
+        <meta name="keywords" content="samuel, dominic, chukwuemeka, samuel dominic chukwuemeka, math, mathematics,
+              relation, function, one-to-one function, injective function,
+              onto function, surjective function, bijective function, set, table, mapping, rule,
+              correspondence, equation, graph, domain, codomain, image, range, set notation, input, output,
+              x-coordinate, y-coordinate, independent variable, dependent variable, predictor variable,
+              explanatory variable, response variable, cause, effect, action, consequence, vertical line test,
+              interval notation, evaluate, symmetry, arithmetic operations, difference quotient, slope,
+              intercept, x-intercept, y-intercept, slope-intercept form, point-slope form, two-points form, 
+              difference quotient, derivative, function composition, function decomposition, linear functions, 
+              quadratic functions, parabolas, vertical parabola, vertex, axis, line of symmetry, function transformations,
+              even functions, odd functions, order relations, total order, partial order, pseudo order, quasi order, 
+              reflexivity, symmetric, antisymmetric, transitivity, poset, maximal element, minimal element, Hasse diagrams,
+              upper bound, lower bound, least upper bound, greatest lower bound, lattices, lexicographic order, 
+              topological sorting">
+
+        <link href="styles/relationsFunctions.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+       <!-- Header -->
+        <header class="w3-padding-24 olive">
+            <h1>Solved Examples on Linear Functions</h1>
+        </header>
+        <!-- End Header -->
+
+        <br><br>
+
+        <!-- Page Content -->
+        <div class="w3-row w3-container">
+            
+            <div class="w3-container">
+                <!-- Image in top left corner -->
+                <a href="https://precalculus.appspot.com/RelationsFunctions/relations-functions.html">
+                    <img src="images/samueldominic.jpg" alt="Samuel Dominic Chukwuemeka (SamDom For Peace)" title="Samuel Chukwuemeka" class="images">
+                </a>
+                
+                <mark>For ACT Students</mark> <br>
+                The ACT is a timed exam...60 questions for 60 minutes <br>
+                This implies that you have to solve each question in one minute. <br>
+                Some questions will typically take less than a minute a solve. <br>
+                Some questions will typically take more than a minute to solve. <br>
+                The goal is to maximize your time. You use the time saved on those questions you
+                solved in less than a minute, to solve the questions that will take more than a minute. <br>
+                So, you should try to solve each question <u>correctly</u> and <u>timely</u>. <br>
+                So, it is not just solving a question correctly, but solving it <u>correctly on time</u>. <br>
+                Please ensure you attempt <u>all ACT questions</u>. <br>
+                There is no <i>negative</i> penalty for a wrong answer. <br><br>
+                <mark>For JAMB, CMAT, and NZQA Students</mark> <br>
+                Calculators are not allowed. So, the questions are solved in a way that does not require a calculator. <br><br>
+                <mark>For NSC Students</mark> <br>
+                <u>For the Questions:</u> <br>
+                Any space included in a number indicates a comma used to separate digits...separating multiples of three digits from
+                behind. <br>
+                Any comma included in a number indicates a decimal point. <br>
+                <u>For the Solutions:</u> <br>
+                Decimals are used appropriately rather than commas <br>
+                Commas are used to separate digits appropriately.
+            
+                <br><br>
+
+                Solve all questions. <br>
+                Use <i>at least two methods</i> whenever applicable. <br>
+                Show all work.
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (1.) Determine the slope of the line through the points: <br>
+                    $(-1, -10)$ and $(1, 8)$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF1')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF1">
+                        <br>
+                        Point $1$ is $(-1, -10)$ <br>
+                        $x_1 = -1$ <br>
+                        $y_1 = -10$ <br><br>
+                        Point $2$ is $(1, 8)$ <br>
+                        $x_2 = 1$ <br>
+                        $y_2 = 8$ <br><br>
+                        $
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{8 - (-10)}{1 - (-1)} \\[5ex]
+                        m = \dfrac{8 + 10}{1 + 1} \\[5ex]
+                        m = \dfrac{18}{2} \\[5ex]
+                        m = 9
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (2.) Determine the slope of the line through the points: <br>
+                    $(-12, -18)$ and $(-19, -20)$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF2')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF2">
+                        <br>
+                        Point $1$ is $(-12, -18)$ <br>
+                        $x_1 = -12$ <br>
+                        $y_1 = -18$ <br><br>
+                        Point $2$ is $(-19, -20)$ <br>
+                        $x_2 = -19$ <br>
+                        $y_2 = -20$ <br><br>
+                        $
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{-20 - (-18)}{-19 - (-12)} \\[5ex]
+                        m = \dfrac{-20 + 18}{-19 + 12} \\[5ex]
+                        m = \dfrac{-2}{-7} \\[5ex]
+                        m = \dfrac{2}{7}
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (3.) Determine the slope of the line through the points: <br>
+                    $(3, -6)$ and $(-7, -6)$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF3')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF3">
+                        <br>
+                        Point $1$ is $(3, -6)$ <br>
+                        $x_1 = 3$ <br>
+                        $y_1 = -6$ <br><br>
+                        Point $2$ is $(-7, -6)$ <br>
+                        $x_2 = -7$ <br>
+                        $y_2 = -6$ <br><br>
+                        $
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{-6 - (-6)}{-7 - 3} \\[5ex]
+                        m = \dfrac{-6 + 6}{-10} \\[5ex]
+                        m = \dfrac{0}{-10} \\[5ex]
+                        m = 0
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (4.) Determine the slope of the line through the points: <br>
+                    $(3, -6)$ and $(3, -9)$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF4')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF4">
+                        <br>
+                        Point $1$ is $(3, -6)$ <br>
+                        $x_1 = 3$ <br>
+                        $y_1 = -6$ <br><br>
+                        Point $2$ is $(3, -9)$ <br>
+                        $x_2 = 3$ <br>
+                        $y_2 = -9$ <br><br>
+                        $
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{-9 - (-6)}{3 - 3} \\[5ex]
+                        m = \dfrac{-9 + 6}{0} \\[5ex]
+                        m = \dfrac{-3}{0} \\[5ex]
+                        m\:\:\:is\:\:\: undefined
+                        $
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (5.) Determine the slope of the line through the points: <br>
+                    $\left(\dfrac{7}{8}, -\dfrac{1}{2}\right)$ and $\left(\dfrac{1}{4}, \dfrac{1}{4}\right)$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF5')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF5">
+                        <br>
+                        Point $1$ is $\left(\dfrac{7}{8}, -\dfrac{1}{2}\right)$ <br><br>
+                        $x_1 = \dfrac{7}{8}$ <br><br>
+                        $y_1 = -\dfrac{1}{2}$ <br><br>
+                        Point $2$ is $\left(\dfrac{1}{4}, \dfrac{1}{4}\right)$ <br><br>
+                        $x_2 = \dfrac{1}{4}$ <br><br>
+                        $y_2 = \dfrac{1}{4}$ <br><br>
+                        $
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[7ex]
+                        m = \dfrac{\dfrac{1}{4} - \left(-\dfrac{1}{2}\right)}{\dfrac{1}{4} - \dfrac{7}{8}} \\[7ex]
+                        m = \dfrac{\dfrac{1}{4} + \dfrac{1}{2}}{\dfrac{2}{8} - \dfrac{7}{8}} \\[7ex]
+                        m = \dfrac{\dfrac{1}{4} + \dfrac{2}{4}}{\dfrac{2 - 7}{8}} \\[7ex]
+                        m = \dfrac{\dfrac{1 + 2}{4}}{\dfrac{-5}{8}} \\[7ex]
+                        m = \dfrac{\dfrac{3}{4}}{-\dfrac{5}{8}} \\[7ex]
+                        m = \dfrac{3}{4} \div -\dfrac{5}{8} \\[7ex]
+                        m = \dfrac{3}{4} * -\dfrac{8}{5} \\[7ex]
+                        m = \dfrac{3 * -2}{5} \\[7ex]
+                        m = -\dfrac{6}{5}
+                        $
+                    </div>                 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (6.) Determine the slope of the line through the points: <br>
+                    $(2, 6)$ and $(10, 1)$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF6')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF6">
+                        <br>
+                        Point $1$ is $(2, 6)$ <br>
+                        $x_1 = 2$ <br>
+                        $y_1 = 6$ <br><br>
+                        Point $2$ is $(10, 1)$ <br>
+                        $x_2 = 10$ <br>
+                        $y_2 = 1$ <br><br>
+                        $
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{1 - 6}{10 - 2} \\[5ex]
+                        m = \dfrac{-5}{8} \\[5ex]
+                        m = -\dfrac{5}{8}
+                        $
+                    </div>      
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (7.) Determine the slope and intercepts of the line: <br>
+                    $7x + 8y = 28$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF7')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF7">
+                        <br>
+                        <u>First:</u> Determine the slope and y-intercept. <br>
+                        Write it in the slope-intercept form <br><br>
+                        $
+                        7x + 8y = 28 \\[2ex]
+                        8y = 28 - 7x \\[2ex]
+                        8y = -7x + 28 \\[2ex]
+                        y = -\dfrac{7}{8}x + \dfrac{28}{8} \\[5ex]
+                        y = -\dfrac{7}{8}x + \dfrac{7}{2} \\[5ex]
+                        $
+                        Compare to $y = mx + b$ <br><br>
+                        Slope, $m = -\dfrac{7}{8}$ <br><br>
+                        $b = \dfrac{7}{2}$ <br><br>
+                        y-intercept = $\left(0, \dfrac{7}{2}\right)$ <br><br>
+
+                        <u>Second:</u> Determine the x-intercept. <br>
+                        Set $y = 0$ and solve for $x$ <br><br>
+                        $
+                        7x + 8y = 28 \\[2ex]
+                        7x + 8(0) = 28 \\[2ex]
+                        7x + 0 = 28 \\[2ex]
+                        7x = 28 \\[2ex]
+                        x = \dfrac{28}{7} \\[5ex]
+                        x = 4 \\[3ex]
+                        $
+                        x-intercept = $(4, 0)$
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (8.) Determine the zero(s) of the function: <br>
+                    $f(x) = -\dfrac{1}{5}x - \dfrac{7}{10}$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF8')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF8">
+                        <br>
+                        The zeros of the function means what values of $x$ would make the function, $y$ to be zero. <br>
+                        Recall: $y = f(x)$ <br>
+                        What value(s) of the input would make the output to be zero? <br>
+                        This implies that we should set $f(x)$ to be $0$ <br><br>
+                        $
+                        f(x) = -\dfrac{1}{5}x - \dfrac{7}{10} \\[5ex]
+                        0 = -\dfrac{1}{5}x - \dfrac{7}{10} \\[5ex]
+                        -\dfrac{1}{5}x - \dfrac{7}{10} = 0 \\[5ex]
+                        -\dfrac{1}{5}x = \dfrac{7}{10} \\[5ex]
+                        $
+                        To isolate $x$, multiply both sides by $-5$ <br><br>
+                        $
+                        (-5) * -\dfrac{1}{5}x = (-5) * \dfrac{7}{10} \\[5ex]
+                        x = -\dfrac{7}{2} \\[5ex]
+                        $
+                        This is a linear function. <br>
+                        It has only one zero. <br>
+                        The zero of the function is: $x = -\dfrac{7}{2}$
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (9.) Determine the slope and intercepts of the line: <br>
+                    $3x - 2y = 19$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF9')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF9">
+                        <br>
+                        <u>First:</u> Determine the slope and y-intercept. <br>
+                        Write it in the slope-intercept form <br><br>
+                        $
+                        3x - 2y = 19 \\[2ex]
+                        3x - 19 = 2y \\[2ex]
+                        2y = 3x - 19 \\[2ex]
+                        y = \dfrac{3}{2}x - \dfrac{19}{2}
+                        $
+                        Compare to $y = mx + b$ <br><br>
+                        Slope, $m = \dfrac{3}{2}$ <br><br>
+                        $b = -\dfrac{19}{2}$ <br><br>
+                        y-intercept = $\left(0, -\dfrac{19}{2}\right)$ <br><br>
+
+                        <u>Second:</u> Determine the x-intercept. <br>
+                        Set $y = 0$ and solve for $x$ <br><br>
+                        $
+                        3x - 2y = 19 \\[2ex]
+                        3x - 2(0) = 19 \\[2ex]
+                        3x - 0 = 19 \\[2ex]
+                        3x = 19 \\[2ex]
+                        x = \dfrac{19}{3} \\[5ex]
+                        $
+                        x-intercept = $\left(\dfrac{19}{3}, 0\right)$
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (10.) Determine the slope of the line through the points: <br>
+                    $(3a, 9a^2)$ and $(3a + 3h, (3a + 3h)^2)$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF10')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF10">
+                        <br>
+                        Point $1$ is $(3a, 9a^2)$ <br>
+                        $x_1 = 3a$ <br>
+                        $y_1 = 9a^2$ <br><br>
+                        Point $2$ is $(3a + 3h, (3a + 3h)^2)$ <br>
+                        $x_2 = 3a + 3h$ <br>
+                        $y_2 = (3a + 3h)^2$ <br><br>
+                        $
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[7ex]
+                        m = \dfrac{(3a + 3h)^2 - 9a^2}{(3a + 3h) - 3a} \\[7ex]
+                        m = \dfrac{(3a + 3h)(3a + 3h) - 9a^2}{3a + 3h - 3a} \\[7ex]
+                        m = \dfrac{9a^2 + 9ah + 9ah + 9h^2 - 9a^2}{3h} \\[7ex]
+                        m = \dfrac{18ah + 9h^2}{3h} \\[7ex]
+                        m = \dfrac{9h(2a + h)}{3h} \\[5ex]
+                        m = 3(2a + h)
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (11.) Determine the slope of the line through the points: <br>
+                    $f\left(\dfrac{1}{8}\right) = -1$ and $f\left(-\dfrac{1}{4}\right) = -\dfrac{1}{4}$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF11')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF11">
+                        <br>
+                        $f(x) = y$ <br>
+                        This means that: <br>
+                        Point $1$ is $\left(\dfrac{1}{8}\right), -1$ <br><br>
+                        $x_1 = \dfrac{1}{8}$ <br><br>
+                        $y_1 = -1$ <br><br>
+                        Point $2$ is $\left(-\dfrac{1}{4}, -\dfrac{1}{4}\right)$ <br><br>
+                        $x_2 = -\dfrac{1}{4}$ <br><br>
+                        $y_2 = -\dfrac{1}{4}$ <br><br>
+                        $
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[7ex]
+                        m = \dfrac{-\dfrac{1}{4} - (-1)}{-\dfrac{1}{4} - \dfrac{1}{8}} \\[7ex]
+                        m = \dfrac{-\dfrac{1}{4} + 1}{-\dfrac{2}{8} - \dfrac{1}{8}} \\[7ex]
+                        m = \dfrac{-\dfrac{1}{4} + \dfrac{4}{4}}{\dfrac{-2 - 1}{8}} \\[7ex]
+                        m = \dfrac{\dfrac{-1 + 4}{4}}{\dfrac{-3}{8}} \\[7ex]
+                        m = \dfrac{\dfrac{3}{4}}{-\dfrac{3}{8}} \\[7ex]
+                        m = \dfrac{3}{4} \div -\dfrac{3}{8} \\[7ex]
+                        m = \dfrac{3}{4} * \dfrac{8}{-3} \\[7ex]
+                        m = \dfrac{8}{-4} \\[7ex]
+                        m = -2
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (12.) Write the slope-intercept form of an equation whose: <br>
+                    $slope = -\dfrac{15}{11}$ and $y-intercept = (0, -8)$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF12')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF12">
+                        <br>
+                        Slope-Intercept Form: $y = mx + b$ <br><br>
+                        where: $m = slope$ and $b = y-intercept$ <br><br>
+                        $
+                        y = -\dfrac{15}{11}x + (-8) \\[5ex]
+                        y = -\dfrac{15}{11}x - 8
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (13.) <b>ACT</b> In the standard $(x, y)$ coordinate plane, <br>
+                    what is the slope of the line $4x + 7y = 9$?
+                    <br><br>
+                    $
+                    A.\:\: -\dfrac{4}{7} \\[5ex]
+                    B.\:\: \dfrac{4}{9} \\[5ex]
+                    C.\:\: -4 \\[3ex]
+                    D.\:\: 4 \\[3ex]
+                    E.\:\: 9 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF13')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF13">
+                        <br>
+                        Let us write it in the slope-intercept form: $y = mx + b$ <br><br>
+                        $
+                        4x + 7y = 9 \\[3ex]
+                        7y = 9 - 4x \\[3ex]
+                        7y = -4x + 9 \\[3ex]
+                        y = \dfrac{-4x + 9}{7} \\[5ex]
+                        y = -\dfrac{4x}{7} + \dfrac{9}{7} \\[5ex]
+                        $
+                        The slope is $-\dfrac{4}{7}$
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (14.) <b>ACT</b> When graphed in the (<i>x</i>, <i>y</i>) coordinate plane, what is the slope of the line $\dfrac{y}{2} = x$?
+                    <br><br>
+                    $
+                    A.\:\: -2 \\[3ex]
+                    B.\:\: -\dfrac{1}{2} \\[5ex]
+                    C.\:\: \dfrac{1}{2} \\[5ex]
+                    D.\:\: 1 \\[3ex]
+                    E.\:\: 2 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF14')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF14">
+                        <br>
+                        $
+                        \dfrac{y}{2} = x \\[5ex]
+                        y = 2 * x \\[3ex]
+                        y = 2x \\[3ex]
+                        Compare:\:\: y = mx + b \\[3ex]
+                        m = 2 
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (15.) <b>ACT</b> In the $(x, y)$ coordinate plane, what is the $y-intercept$ of the line
+                    $6x - 2y = 6$?
+                    <br><br>
+                    $
+                    F.\:\: -3 \\[3ex]
+                    G.\:\: -2 \\[3ex]
+                    H.\:\: 0 \\[3ex]
+                    J.\:\: 3 \\[3ex]
+                    K.\:\: 6 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF15')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF15">
+                        <br>
+                        We can solve this question in two ways. <br>
+                        Use whichever method is convenient and fast for you. <br><br>
+                        $
+                        \underline{First\:\:Method:\:\:Definition} \\[3ex]
+                        6x - 2y = 6 \\[3ex]
+                        Set\:\:x = 0 \\[3ex]
+                        AND \\[3ex]
+                        Solve\:\:for\:\:y \\[3ex]
+                        6(0) - 2y = 6 \\[3ex]
+                        0 - 2y = 6 \\[3ex]
+                        -2y = 6 \\[3ex]
+                        y = \dfrac{6}{-2} \\[5ex]
+                        y = -3 \\[3ex]
+                        y-intercept = (0, -3) \\[3ex]
+                        \underline{Second\:\:Method:\:\:Slope-Intercept\:\:Form} \\[3ex]
+                        y = mx + b \\[3ex]
+                        6x - 2y = 6 \\[3ex]
+                        6x - 6 = 2y \\[3ex]
+                        2y = 6x - 6 \\[3ex]
+                        y = \dfrac{6x - 6}{2} \\[5ex]
+                        y = \dfrac{6x}{2} - \dfrac{6}{2} \\[5ex]
+                        y = 3x - 3 \\[3ex]
+                        b = -3 \\[3ex]
+                        y-intercept = (0, -3)
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (16.) <b>ACT</b> In the standard $(x, y)$ coordinate plane, if the $x-coordinate$ of each point on a 
+                    line is $4$ less than twice its $y-coordinate$, the slope of the line is:
+                    <br><br>
+                    $
+                    F.\:\: -4 \\[3ex]
+                    G.\:\: -2 \\[3ex]
+                    H.\:\: \dfrac{1}{2} \\[5ex]
+                    J.\:\: 2 \\[3ex]
+                    K.\:\: 4 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF16')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF16">
+                        <br>
+                        $
+                        x = 2y - 4 \\[3ex]
+                        Put\:\:in\:\:Slope-Intercept\:\:Form \\[3ex]
+                        y = mx + b \\[3ex]
+                        2y - 4 = x \\[3ex]
+                        2y = x + 4 \\[3ex]
+                        y = \dfrac{x + 4}{2} \\[5ex]
+                        y = \dfrac{x}{2} + \dfrac{4}{2} \\[5ex]
+                        y = \dfrac{1}{2}x + 2 \\[5ex]
+                        m = \dfrac{1}{2}
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (17.) Determine the equation of a line that is parallel to $y = \dfrac{3}{4}x + 1$ <br>
+                    and passes through $(4, 3)$. <br>
+                    Write your answer in slope-intercept form and standard form.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF17')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF17">
+                        <br>
+                        Two lines are parallel to each other if their slopes are the same <br><br>
+                        $\underline{Line\:\: 1}$ <br>
+                        $y = \dfrac{3}{4}x + 1$ <br>
+                        Slope of Line $1$ = $m_1$ <br>
+                        $m_1 = \dfrac{3}{4}$ <br><br>
+
+                        $\underline{Line\:\: 2}$ <br>
+                        $Line\:\: 2 \parallel Line\:\: 1$ <br>
+                        Slope of Line $2$ = $m_2$ <br><br>
+                        $
+                        m_2 = \dfrac{3}{4} \\[5ex]
+                        $
+                        ${Line\:\: 2}$ should pass through the point $(4, 3)$ <br>
+                        To find ${Line\:\: 2}$, we shall use the Point-Slope form because
+                        we have a slope and a point <br>
+                        Point-Slope Form: $y - y_1 = m(x - x_1)$ <br><br>
+                        $
+                        m_2 = \dfrac{3}{4} \\[5ex]
+                        x_1 = 4, y_1 = 3 \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        y - 3 = \dfrac{3}{4}(x - 4) \\[5ex]
+                        y = \dfrac{3}{4}(x - 4) + 3 \\[5ex]
+                        y = \dfrac{3}{4}x - 3 + 3 \\[5ex]
+                        y = \dfrac{3}{4}x \\[5ex]
+                        $
+                        The equation of ${Line\:\: 2}$ in Slope-Intercept form is: $y = \dfrac{3}{4}x$
+                        <br><br>
+                        To write ${Line\:\: 2}$ in Standard form; <br>
+                        Multiply each term by the $LCD$ <br>
+                        $LCD = 4$ <br><br>
+                        $
+                        4 * y = 4 * \dfrac{3}{4}x \\[5ex]
+                        4y = 3x \\[3ex]
+                        3x = 4y \\[3ex]
+                        3x - 4y = 0 \\[3ex]
+                        $
+                        The equation of ${Line\:\: 2}$ in Standard form is: $3x - 4y = 0$ <br><br>
+                        <img src="images/Answers/LinearFunctions/Question17.png" alt="Answer to Question 17" style="width: 750px; height: 550px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (18.) Determine the value of $p$ so that the line containing the points $(-3, p)$ and
+                    $(4, 8)$ <br> is parallel to the line containing the points $(7, 3)$ and $(3, -6)$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF18')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF18">
+                        <br>
+                        Two lines are parallel to each other if their slopes are the same <br><br>
+                        $\underline{Line\:\: 1}$ <br>
+                        Slope of Line $1$ = $m_1$ <br>
+                        Point $1$ is $(-3, p)$ <br>
+                        $x_1 = -3$ <br>
+                        $y_1 = p$ <br><br>
+                        Point $2$ is $(4, 8)$ <br>
+                        $x_2 = 4$ <br>
+                        $y_2 = 8$ <br><br>
+                        $
+                        m_1 = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m_1 = \dfrac{8 - p}{4 - (-3)} \\[5ex]
+                        m_1 = \dfrac{8 - p}{4 + 3} \\[5ex]
+                        m_1 = \dfrac{8 - p}{7} \\[5ex]
+                        $
+
+                        $\underline{Line\:\: 2}$ <br>
+                        Slope of Line $1$ = $m_2$ <br>
+                        Point $1$ is $(7, 3)$ <br>
+                        $x_1 = 7$ <br>
+                        $y_1 = 3$ <br><br>
+                        Point $2$ is $(3, -6)$ <br>
+                        $x_2 = 3$ <br>
+                        $y_2 = -6$ <br><br>
+                        $
+                        m_2 = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m_2 = \dfrac{-6 - 3}{3 - 7} \\[5ex]
+                        m_2 = \dfrac{-9}{-4} \\[5ex]
+                        m_2 = \dfrac{9}{4} \\[5ex]
+                        $
+
+                        $Line\:\: 1 \parallel Line\:\: 2$ <br>
+                        $
+                        m_1 = m_2 \\[3ex]
+                        \dfrac{8 - p}{7} = \dfrac{9}{4} \\[5ex]
+                        $
+                        Multiply each term by the $LCD$ <br>
+                        $LCD = 28$ <br><br>
+                        $
+                        28 * \dfrac{8 - p}{7} = 28 * \dfrac{9}{4} \\[5ex]
+                        4(8 - p) = 7(9) \\[3ex]
+                        4(8) - 4(p) = 63 \\[3ex]
+                        32 - 4p = 63 \\[3ex]
+                        32 - 63 = 4p \\[3ex]
+                        -31 = 4p \\[3ex]
+                        4p = -31 \\[3ex]
+                        p = -\dfrac{31}{4}
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (19.) <b>CSEC</b> (a) The equation of a straight line, $l$, is given as $3x - 4y = 5$. <br><br>
+                    (i) Write the equation of the line, $l$, in the form $y = mx + c$ <br><br>
+                    (ii) Hence, determine the gradient of the line, $l$ <br><br>
+                    (iii) The point, $P$ with coordinates $(r, 2)$ lies on the line $l$. <br>
+                    Determine the value of $r$ <br><br>
+                    (iv) Find the equation of the straight line passing through the point $(6, 0)$ which is 
+                    perpendicular to $l$.                    
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF19')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF19">
+                        <br>
+                        $
+                        (i) \\[3ex]
+                        3x - 4y = 5 \\[3ex]
+                        3x - 5 = 4y \\[3ex]
+                        4y = 3x - 5 \\[3ex]
+                        y = \dfrac{3x - 5}{4} \\[5ex]
+                        y = \dfrac{3}{4}x - \dfrac{5}{4} \\[5ex]
+                        (ii) \\[3ex]
+                        Gradient, m = \dfrac{3}{4} \\[5ex]
+                        (iii) \\[3ex]
+                        y = \dfrac{3}{4}x - \dfrac{5}{4} \\[5ex]
+                        For\:\:(r, 2) \\[3ex]
+                        x = r \\[3ex]
+                        y = 2 \\[3ex]
+                        \rightarrow 2 = \dfrac{3}{4}r - \dfrac{5}{4} \\[5ex]
+                        LCD = 4 \\[3ex]
+                        4(2) = 4\left(\dfrac{3}{4}r\right) - 4\left(\dfrac{5}{4}\right) \\[5ex]
+                        8 = 3r - 5 \\[3ex]
+                        3r - 5 = 8 \\[3ex]
+                        3r = 8 + 5 \\[3ex]
+                        3r = 13 \\[3ex]
+                        r = \dfrac{13}{3} \\[5ex]                        
+                        $
+                        Two lines are perpendicular to each other if the product of their slopes is $-1$ <br><br>
+                        $
+                        \underline{Line\:\:1} \\[3ex]
+                        m_1 = \dfrac{3}{4} \\[5ex]
+                        \underline{Line\:\: 2} \\[3ex]
+                        Line\:\: 2 \perp Line\:\: 1 \\[3ex]
+                        Slope\:\:of\:\:Line\:\:2 = m_2 \\[3ex]
+                        m_2 * m_1 = -1 \\[3ex]
+                        m_2 = -1 \div m_1 \\[3ex]
+                        m_2 = -1 \div \dfrac{3}{4} \\[5ex]
+                        m_2 = -1 * \dfrac{4}{3} \\[5ex]
+                        m_2 = -\dfrac{4}{3} \\[5ex]
+                        $
+                        ${Line\:\: 2}$ should pass through the point $(6, 0)$ <br>
+                        To find ${Line\:\: 2}$, we shall use the Point-Slope form because
+                        we have a slope and a point <br>
+                        Point-Slope Form: $y - y_1 = m(x - x_1)$ <br><br>
+                        $
+                        m_2 = -\dfrac{4}{3} \\[5ex]
+                        x_1 = 6, y_1 = 0 \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        y - 0 = -\dfrac{4}{3}(x - 6) \\[5ex]
+                        y = -\dfrac{4}{3}x + \dfrac{4}{3}(6) \\[5ex]
+                        y = -\dfrac{4}{3}x + 4(2) \\[5ex]
+                        y = -\dfrac{4}{3}x + 8 \\[5ex]
+                        $
+                        The equation of ${Line\:\: 2}$ in Slope-Intercept form is: $y = -\dfrac{4}{3}x + 8$
+                        <br><br>
+                        To write ${Line\:\: 2}$ in Standard form; <br>
+                        Multiply each term by the $LCD$ <br>
+                        $LCD = 3$ <br><br>
+                        $
+                        3 * y = 3 * -\dfrac{4}{3}x + 3 * 8 \\[5ex]
+                        3y = -4x + 24 \\[3ex]
+                        3y + 4x = 24 \\[3ex]
+                        4x + 3y = 24 \\[3ex]
+                        $
+                        The equation of ${Line\:\: 2}$ in Standard form is: $4x + 3y = 24$ <br><br>
+                        <img src="images/Answers/LinearFunctions/Question19.png" alt="Answer to Question 19" style="width: 750px; height: 550px;">
+                    </div>               
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (20.) <b>ACT</b> In the standard $(x, y)$ coordinate plane, what is the slope of the line that 
+                    passes through the origin and the point $\left(\dfrac{1}{2}, \dfrac{2}{3}\right)$?
+                    <br><br>
+                    $
+                    F.\:\: \dfrac{1}{2} \\[5ex]
+                    G.\:\: \dfrac{1}{3} \\[5ex]
+                    H.\:\: \dfrac{2}{3} \\[5ex]
+                    J.\:\: \dfrac{3}{4} \\[5ex]
+                    K.\:\: \dfrac{4}{3} \\[5ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF20')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF20">
+                        <br>
+                        Origin means $(0, 0)$ <br><br>
+                        $
+                        Point\:1:(0, 0) \\[3ex]
+                        x_1 = 0 \\[3ex]
+                        y_1 = 0 \\[3ex]
+                        Point\:2:\left(\dfrac{1}{2}, \dfrac{2}{3}\right) \\[5ex]
+                        x_2 = \dfrac{1}{2} \\[5ex]
+                        y_2 = \dfrac{2}{3} \\[5ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        y_2 - y_1 = \dfrac{2}{3} - 0 = \dfrac{2}{3} \\[5ex]
+                        x_2 - x_1 = \dfrac{1}{2} - 0 = \dfrac{1}{2} \\[5ex]
+                        m = \dfrac{2}{3} \div \dfrac{1}{2} \\[5ex]
+                        m = \dfrac{2}{3} * \dfrac{2}{1} \\[5ex]
+                        m = \dfrac{4}{3}
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br><br><br><br>
+        <!-- Top of the Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://precalculus.appspot.com/RelationsFunctions/linearFunctions.html" class="w3-button w3-xlarge w3-circle w3-olive"
+               style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+        <br><br><br><br>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (21.) <b>ACT</b> What is the slope-intercept form of $4x - y - 3 = 0$? <br><br>
+                    $
+                    A.\:\: y = -4x - 3 \\[3ex]
+                    B.\:\: y = -4x + 3 \\[3ex]
+                    C.\:\: y = 3x - 4 \\[3ex]
+                    D.\:\: y = 4x - 3 \\[3ex]
+                    E.\:\: y = 4x + 3 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF21')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF21">
+                        <br>
+                        <!--
+                        This question should take you less than ten seconds. <br>
+                        Just move it around...see what I explained in 
+                        <a href="https://expressions-equations.appspot.com/#linearEquations" target="_blank">Expressions and Equations</a> <br><br>
+                        -->
+                        $
+                        4x - y - 3 = 0 \\[3ex]
+                        4x - 3 = y \\[3ex]
+                        y = 4x - 3
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (22.) <b>ACT</b> What is the slope-intercept form of the equation $6x - 3y = 7$?
+                    <br><br>
+                    $
+                    A.\:\: y = 2x - 7 \\[3ex]
+                    B.\:\: y = 2x - \dfrac{7}{3} \\[5ex]
+                    C.\:\: y = 2x - \dfrac{3}{7} \\[5ex]
+                    D.\:\: y = 2x + \dfrac{7}{3} \\[5ex]
+                    E.\:\: y = 2x + 7 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF22')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF22">
+                        <br>
+                        $
+                        6x - 3y = 7 \\[3ex]
+                        6x - 7 = 3y \\[3ex]
+                        3y = 6x - 7 \\[3ex]
+                        y = \dfrac{6x - 7}{3} \\[5ex]
+                        y = \dfrac{6}{3}x - \dfrac{7}{3} \\[5ex]
+                        y = 2x - \dfrac{7}{3}
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (23.) <b>ACT</b> One of the following equations represents the line graphed in the standard
+                    $(x, y)$ coordinate plane below. 
+                    <div class="w3-center">
+                        <img src="images/Questions/LinearFunctions/Question23.png" alt="Question 23">
+                    </div>
+                    Which one? <br><br>
+                    $
+                    A.\:\: y = -2x + 2 \\[3ex]
+                    B.\:\: y = -2x + 4 \\[3ex]
+                    C.\:\: y = 2x + 4 \\[3ex]
+                    D.\:\: y = 4x - 2 \\[3ex]
+                    E.\:\: y = 4x + 2 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF23')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF23">
+                        <br>
+                        $
+                        \underline{First\:\:Method - Faster} \\[3ex]
+                        Recommended\:\:for\:\:ACT\:\:purposes \\[3ex]
+                        Slope, m = \dfrac{fall}{run}...Left\:\:to\:\:Right \\[5ex]
+                        fall = -4\:\:units \\[3ex]
+                        run = 2\:\:units \\[3ex]
+                        m = \dfrac{-4}{2} \\[5ex]
+                        m = -2 \\[3ex]
+                        y-intercept, b = 4 \\[3ex]
+                        y = mx + b \\[3ex]
+                        y = -2x + 4 \\[3ex]                        
+                        \underline{Second\:\:Method} \\[3ex]
+                        Point\:1 = (0, 4) \\[3ex]
+                        x_1 = 0 \\[3ex]
+                        y_1 = 4 \\[3ex]
+                        y-intercept, b = 4 \\[3ex]
+                        Point\:2 = (2, 0) \\[3ex]
+                        x_2 = 2 \\[3ex]
+                        y_2 = 0 \\[3ex]
+                        Slope, m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{0 - 4}{2 - 0} \\[5ex]
+                        m = \dfrac{-4}{2} \\[5ex]
+                        m = -2 \\[3ex]
+                        y = mx + b \\[3ex]
+                        y = -2x + 4
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (24.) <b>ACT</b> In the standard $(x, y)$ coordinate plane, what is the slope of the line given by the
+                    equation $5x = 9y + 18?$
+                    <br><br>
+                    $
+                    F.\:\: -\dfrac{5}{9} \\[5ex]
+                    G.\:\: \dfrac{5}{9} \\[5ex]
+                    H.\:\: \dfrac{9}{5} \\[5ex]
+                    J.\:\: 5 \\[3ex]
+                    K.\:\: 9 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF24')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF24">
+                        <br>
+                        We need to write the equation in the Slope-Intercept form <br><br>
+                        $
+                        5x = 9y + 18 \\[3ex]
+                        9y + 18 = 5x \\[3ex]
+                        9y = 5x - 18 \\[3ex]
+                        y = \dfrac{5x - 18}{9} \\[5ex]
+                        y = \dfrac{5x}{9} - \dfrac{18}{9} \\[5ex]
+                        y = \dfrac{5}{9}x - 2 \\[5ex]
+                        Slope = \dfrac{5}{9}
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (25.) Determine the equation of a line that is perpendicular to $y = \dfrac{3}{4}x$ <br><br>
+                    and passes through $(4, 3)$. <br><br>
+                    Write your answer in slope-intercept form and standard form.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF25')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF25">
+                        <br>
+                        Two lines are perpendicular to each other if the product of their slopes is $-1$ <br><br>
+                        $\underline{Line\:\: 1}$ <br>
+                        $y = \dfrac{3}{4}x$ <br>
+                        Slope of Line $1$ = $m_1$ <br>
+                        $m_1 = \dfrac{3}{4}$ <br><br>
+
+                        $\underline{Line\:\: 2}$ <br>
+                        $Line\:\: 2 \perp Line\:\: 1$ <br>
+                        Slope of Line $2$ = $m_2$ <br><br>
+                        $
+                        m_2 * m_1 = -1 \\[3ex]
+                        m_2 = -1 \div m_1 \\[3ex]
+                        m_2 = -1 \div \dfrac{3}{4} \\[5ex]
+                        m_2 = -1 * \dfrac{4}{3} \\[5ex]
+                        m_2 = -\dfrac{4}{3} \\[5ex]
+                        $
+                        ${Line\:\: 2}$ should pass through the point $(4, 3)$ <br>
+                        To find ${Line\:\: 2}$, we shall use the Point-Slope form because
+                        we have a slope and a point <br>
+                        Point-Slope Form: $y - y_1 = m(x - x_1)$ <br><br>
+                        $
+                        m_2 = -\dfrac{4}{3} \\[5ex]
+                        x_1 = 4, y_1 = 3 \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        y - 3 = -\dfrac{4}{3}(x - 4) \\[5ex]
+                        y = -\dfrac{4}{3}(x - 4) + 3 \\[5ex]
+                        y = -\dfrac{4}{3}x + \dfrac{16}{3} + 3 \\[5ex]
+                        y = -\dfrac{4}{3}x + \dfrac{16}{3} + \dfrac{9}{3} \\[5ex]
+                        y = -\dfrac{4}{3}x + \dfrac{16 + 9}{3} \\[5ex]
+                        y = -\dfrac{4}{3}x + \dfrac{25}{3} \\[5ex]
+                        $
+                        The equation of ${Line\:\: 2}$ in Slope-Intercept form is: $y = -\dfrac{4}{3}x + \dfrac{25}{3}$
+                        <br><br>
+                        To write ${Line\:\: 2}$ in Standard form; <br>
+                        Multiply each term by the $LCD$ <br>
+                        $LCD = 3$ <br><br>
+                        $
+                        3 * y = 3 * -\dfrac{4}{3}x + 3 * \dfrac{25}{3} \\[5ex]
+                        3y = -4x + 25 \\[3ex]
+                        3y + 4x = 25 \\[3ex]
+                        4x + 3y = 25 \\[3ex]
+                        $
+                        The equation of ${Line\:\: 2}$ in Standard form is: $4x + 3y = 25$ <br>
+                        <img src="images/Answers/LinearFunctions/Question25.png" alt="Answer to Question 25" style="width: 750px; height: 550px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (26.) <b>ACT</b> For all $a \ne 0$, what is the slope of the line segment connecting $(a, b)$ and $(-a, b)$
+                    in the usual $(x, y)$ co-ordinate plane?
+                    <br><br>
+                    $
+                    F.\:\: 0 \\[3ex]
+                    G.\:\: \dfrac{a}{b} \\[5ex]
+                    H.\:\: -\dfrac{b}{a} \\[5ex]
+                    J.\:\: \dfrac{b}{a} \\[5ex]
+                    K.\:\: 2a \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF26')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF26">
+                        <br>
+                        $
+                        Point\:1: (a, b) \\[3ex]
+                        x_1 = a \\[3ex]
+                        y_1 = b \\[3ex]
+                        Point\:2: (-a, b) \\[3ex]
+                        x_2 = -a \\[3ex]
+                        y_2 = b \\[3ex]
+                        Slope, m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{b - b}{-a - a} \\[5ex]
+                        m = \dfrac{0}{-2a} \\[5ex]
+                        m = 0
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (27.) <b>JAMB</b> Find the equation of the line through $(5, 7)$ parallel to the line 
+                    $7x + 5y = 12$ <br><br>
+                    $
+                    A.\:\: 5x + 7y = 20 \\[3ex]
+                    B.\:\: 7x + 5y = 70 \\[3ex]
+                    C.\:\: xy = 7 \\[3ex]
+                    D.\:\: 15x + 17y = 90 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF27')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF27">
+                        <br>
+                        Two lines are parallel to each other if their slopes are the same <br><br>
+                        $
+                        \underline{Line\:\: 1} \\[3ex]
+                        7x + 5y = 12 \\[3ex]
+                        5y = 12 - 7x \\[3ex]
+                        5y = -7x + 12 \\[3ex]
+                        y = \dfrac{-7x + 12}{5} \\[5ex]
+                        y = -\dfrac{7}{5}x + \dfrac{12}{5} \\[5ex]
+                        Slope\:\:of\:\:Line\:\:1 = m_1 \\[3ex]
+                        m_1 = -\dfrac{7}{5} \\[5ex]
+                        \underline{Line\:\: 2} \\[3ex]
+                        Line\:\: 2 \parallel Line\:\: 1 \\[3ex]
+                        Slope\:\:of\:\:Line\:\:2 = m_2 \\[3ex]
+                        m_2 = -\dfrac{7}{5} \\[5ex]
+                        $
+                        ${Line\:\: 2}$ should pass through the point $(5, 7)$ <br><br>
+                        To find ${Line\:\: 2}$, we shall use the Point-Slope form because
+                        we have a slope and a point <br><br>
+                        $
+                        \underline{Point-Slope\:\:Form} \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        m_2 = -\dfrac{7}{5} \\[5ex]
+                        x_1 = 5, y_1 = 7 \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        y - 7 = -\dfrac{7}{5}(x - 5) \\[5ex]
+                        y = -\dfrac{7}{5}(x - 5) + 7 \\[5ex]
+                        y = -\dfrac{7}{5}x + 7 + 7 \\[5ex]
+                        y = -\dfrac{7}{5}x + 14 \\[5ex]
+                        $
+                        The equation of ${Line\:\: 2}$ in Slope-Intercept form is: $y = -\dfrac{7}{5}x + 14$
+                        <br><br>
+                        To write ${Line\:\: 2}$ in Standard form; <br><br>
+                        Multiply each term by the $LCD$ <br><br>
+                        $
+                        LCD = 5 \\[3ex]
+                        5 * y = 5\left(-\dfrac{7}{5}x + 14\right) \\[5ex]
+                        5y = -7x + 70 \\[3ex]
+                        5y + 7x = 70 \\[3ex]
+                        7x + 5y = 70 \\[3ex]
+                        $
+                        The equation of ${Line\:\: 2}$ in Standard form is: $7x + 5y = 70$
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (28.) <b>ACT</b> In the standard $(x, y)$ coordinate plane below, $\triangle AOB$ is formed by 
+                    $\overleftrightarrow{AB}$, the $x-axis$, and the $y-axis$ <br>
+                    Which of the following is an equation of $\overleftrightarrow{AB}$ <br>
+                    <div class="w3-center">
+                        <img src="images/Questions/LinearFunctions/Question28.png" alt="Question 28">
+                    </div>
+                    $
+                    A.\:\: y = -x + 6 \\[3ex]
+                    B.\:\: y = x - 6 \\[3ex]
+                    C.\:\: y = x + 6 \\[3ex]
+                    D.\:\: y = -6x - 6 \\[3ex]
+                    E.\:\: y = 6x + 6 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF28')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF28">
+                        <br>
+                        $
+                        Point\:A = Point\:\:1 = (0, 6) \\[3ex]
+                        x_1 = 0 \\[3ex]
+                        y_1 = 6 \\[3ex]
+                        y-intercept, b = 6 \\[3ex]
+                        Point\:B = Point\:2 = (6, 0) \\[3ex]
+                        x_2 = 6 \\[3ex]
+                        y_2 = 0 \\[3ex]
+                        Slope, m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{0 - 6}{6 - 0} \\[5ex]
+                        m = \dfrac{-6}{6} \\[5ex]
+                        m = -1 \\[3ex]
+                        y = mx + b \\[3ex]
+                        y = -x + 6
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (29.) <b>ACT</b> In the standard (<i>x</i>, <i>y</i>) coordinate plane, a line intersects the <i>y</i>-axis at 
+                    (0, 2) and contains the point (8, 3). <br>
+                    What is the slope of the line? <br><br>
+                    $
+                    A.\:\: \dfrac{1}{8} \\[5ex]
+                    B.\:\: \dfrac{2}{5} \\[5ex]
+                    C.\:\: \dfrac{1}{2} \\[5ex]
+                    D.\:\: 2 \\[3ex]
+                    E.\:\: 8 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF29')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF29">
+                        <br>
+                        $
+                        Point\:\:1 = (0, 2) \\[3ex]
+                        x_1 = 0 \\[3ex]
+                        y_1 = 2 \\[3ex]
+                        y-intercept, b = 2 \\[3ex]
+                        Point\:2 = (8, 3) \\[3ex]
+                        x_2 = 8 \\[3ex]
+                        y_2 = 3 \\[3ex]
+                        Slope, m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{3 - 2}{8 - 0} \\[5ex]
+                        m = \dfrac{1}{8} 
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (30.) <b>JAMB</b> A variable point $P(x, y)$ traces a graph in a two-dimensional plane. <br>
+                    $(0, -3)$ is one position of $P$ <br>
+                    If $x$ increases by $1$ unit, $y$ increases by $4$ units. <br>
+                    The equation of the graph is <br><br>
+                    $
+                    A.\:\: -3 = \dfrac{y + 4}{x + 1} \\[5ex]
+                    B.\:\: 4y = -3 + x \\[3ex]
+                    C.\:\: \dfrac{y}{x} = -\dfrac{3}{4} \\[5ex]
+                    D.\:\: y + 3 = 4x \\[3ex]
+                    E.\:\: 4y = x + 3 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF30')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF30">
+                        <br>
+                        If $x$ increases by $1$ unit, $y$ increases by $4$ units <br>
+                        This means that the slope is $4$ <br><br>
+                        $
+                        Point\:\:1 = (0, -3) \\[3ex]
+                        x_1 = 0 \\[3ex]
+                        y_1 = -3 \\[3ex]
+                        y-intercept, b = -3 \\[3ex]
+                        Slope, m = 4 \\[3ex]
+                        Slope-Intercept\:\:Form \\[3ex]
+                        y = mx + b \\[3ex]
+                        y = 4x + (-3) \\[3ex]
+                        y = 4x - 3 \\[3ex]
+                        Similar\:\:to\:\:Option\:\:D:\:\: y + 3 = 4x
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (31.) <b>WASSCE</b> Find the equation of the line which passes through the points
+                    $(2, -3)$ and $(1, -3)$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF31')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF31">
+                        <br>
+                        The Slope-Intercept form is the most popular form of the equation of a straight line. <br>
+                        If the question did not specify the form it wants, then express it in the Slope-Intercept form. <br><br>
+                        Slope-Intercept form: $y = mx + b$ <br>
+                        Point $1$ is $(2, -3)$ <br>
+                        $x_1 = 2$ <br>
+                        $y_1 = -3$ <br><br>
+                        Point $2$ is $(1, -3)$ <br>
+                        $x_2 = 1$ <br>
+                        $y_2 = -3$ <br><br>
+                        $
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{-3 - (-3)}{1 - 2} \\[5ex]
+                        m = \dfrac{-3 + 3}{-1} \\[5ex]
+                        m = \dfrac{0}{-1} \\[5ex]
+                        m = 0 \\[3ex]
+                        $
+                        When the slope is $0$, this means that $y_1 = y_2$ <br>
+                        When the slope is $0$, $y$ is a constant <br>
+                        $y$ is the same as $y_1$ or $y_2$ <br>
+                        $y = -3$ is the equation. <br><br>
+                        <i>
+                            Student: Why is $y = y_1$ when $m = 0$ <br>
+                            Teacher: If $m \ne 0$, what should we have done next? <br>
+                            Student: We would use the Point-Slope form to find the $y-intercept$ <br>
+                            Teacher: That is correct. <br>
+                            So, let's use the Point-Slope form
+                        </i> <br><br>
+                        $
+                        m = 0 \\[3ex]
+                        Point = (2, -3) \\[3ex]
+                        x_1 = 2, y_1 = -3 \\[3ex]
+                        Point-Slope\:\: form: y - y_1 = m(x - x_1) \\[3ex]
+                        y - (-3) = 0(x - 2) \\[3ex]
+                        y + 3 = 0 \\[3ex]
+                        y = - 3 \\[3ex]
+                        y = y_1
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (32.) <b>WASSCE</b> Find the equation of a straight line which passes through the point $(2, -3)$
+                    and is parallel to the line $2x + y = 6$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF32')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF32">
+                        <br>
+                        Two lines are parallel to each other if their slopes are the same <br><br>
+                        $\underline{Line\:\: 1} \\[3ex]
+                        2x + y = 6 \\[3ex]
+                        y = 6 - 2x \\[3ex]
+                        y = -2x + 6 \\[3ex]
+                        $
+                        Slope of Line $1$ = $m_1$ <br>
+                        $m_1 = -2$ <br><br>
+
+                        $\underline{Line\:\: 2}$ <br>
+                        $Line\:\: 2 \parallel Line\:\: 1$ <br>
+                        Slope of Line $2$ = $m_2$ <br><br>
+                        $
+                        m_2 = -2 \\[3ex]
+                        $
+                        ${Line\:\: 2}$ should pass through the point $(2, -3)$ <br>
+                        To find ${Line\:\: 2}$, we shall use the Point-Slope form because
+                        we have a slope and a point <br>
+                        Point-Slope Form: $y - y_1 = m(x - x_1)$ <br><br>
+                        $
+                        m_2 = -2 \\[3ex]
+                        x_1 = 2, y_1 = -3 \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        y - (-3) = -2(x - 2) \\[3ex]
+                        y + 3 = -2x + 4 \\[3ex]
+                        y = -2x + 4 - 3 \\[3ex]
+                        y = -2x + 1 \\[3ex]
+                        $
+                        The equation of ${Line\:\: 2}$ in Slope-Intercept form is: $y = -2x + 1$
+                        <br><br>
+                        To write ${Line\:\: 2}$ in Standard form; <br>
+                        $
+                        y = -2x + 1 \\[3ex]
+                        y + 2x = 1 \\[3ex]
+                        2x + y = 1 \\[3ex]
+                        $
+                        The equation of ${Line\:\: 2}$ in Standard form is: $2x + y = 1$ <br><br>
+                        <img src="images/Answers/LinearFunctions/Question32.png" alt="Answer to Question 32" style="width: 750px; height: 550px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (33.) <b>ACT</b> The equation of line $s$ below is $y = mx + b$. <br>
+                    Which of the following could be an equation for line $t$? <br>
+                    <div class="w3-center">
+                        <img src="images/Questions/LinearFunctions/Question33.png" alt="Question 33">
+                    </div>
+                    <br>
+                    $
+                    F.\:\: y = 2mx \\[3ex]
+                    G.\:\: y = 2mx + b \\[3ex]
+                    H.\:\: y = 2mx - b \\[3ex]
+                    J.\:\: y = -2mx + b \\[3ex]
+                    K.\:\: y = -2mx - b \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF33')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF33">
+                        <br>
+                        We do not have enough information to find the equation for line $t$ <br>
+                        But we do know that: <br>
+                        (1.) Line $t$ has a negative slope <br>
+                        So, Options $F, G, H$ are eliminated <br>
+                        We are now left with Options $J$ and $K$ <br><br>
+                        (2.) The $y-intercept$ for Line $t$ is $b$ <br>
+                        Option $K$ is eliminated. <br><br>
+                        Therefore, the answer is Option $J$
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (34.) <b>ACT</b> What is the $y-intercept$ of the line in the standard $(x, y)$ coordinate plane that
+                    goes through the points $(-3, 6)$ and $(3, 2)$?
+                    <br><br>
+                    $
+                    F.\:\: 0 \\[3ex]
+                    G.\:\: 2 \\[3ex]
+                    H.\:\: 4 \\[3ex]
+                    J.\:\: 6 \\[3ex]
+                    K.\:\: 8 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF34')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF34">
+                        <br>
+                        First: We need to find the slope <br>
+                        Second: We find the equation <br>
+                        Third: We find the $y-intercept$ <br><br>
+                        $
+                        \underline{Slope} \\[3ex]
+                        Point\:\:1 = (-3, 6) \\[3ex]
+                        x_1 = -3 \\[3ex]
+                        y_1 = 6 \\[3ex]
+                        Point\:\:2 = (3, 2) \\[3ex]
+                        x_2 = 3 \\[3ex]
+                        y_2 = 2 \\[3ex]
+                        Slope, m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{2 - 6}{3 - (-3)} \\[5ex]
+                        m = \dfrac{-4}{3 + 3} \\[5ex]
+                        m = \dfrac{-4}{6} \\[5ex]
+                        m = -\dfrac{2}{3} \\[5ex]
+                        \underline{Equation} \\[3ex]
+                        Point-Slope\:\:Form \\[3ex]
+                        You\:\:can\:\:use\:\:any\:\:point \\[3ex]
+                        Use\:\:same\:\:slope \\[3ex]
+                        Point\:\:1 = (-3, 6) \\[3ex]
+                        Slope, m = -\dfrac{2}{3} \\[5ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        x_1 = -3 \\[3ex]
+                        y_1 = 6 \\[3ex]
+                        y - 6 = -\dfrac{2}{3}(x - (-3)) \\[5ex]
+                        y - 6 = -\dfrac{2}{3}(x + 3) \\[5ex]
+                        y - 6 = -\dfrac{2}{3}x - \dfrac{2}{3} * 3 \\[5ex]
+                        y - 6 = -\dfrac{2}{3}x - 2 \\[5ex]
+                        y = -\dfrac{2}{3}x -2 + 6 \\[5ex]
+                        y = -\dfrac{2}{3}x + 4 \\[5ex]             
+                        Slope-Intercept\:\:Form \\[3ex]
+                        y = mx + b \\[3ex]
+                        y = -\dfrac{2}{3}x + 4 \\[5ex]    
+                        y-intercept = 4 \\[3ex]
+                        OR \\[3ex]
+                        \underline{Equation} \\[3ex]
+                        Point-Slope\:\:Form \\[3ex]
+                        You\:\:can\:\:use\:\:any\:\:point \\[3ex]
+                        Use\:\:same\:\:slope \\[3ex]
+                        Point\:\:2 = (3, 2) \\[3ex]
+                        Slope, m = -\dfrac{2}{3} \\[5ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        x_1 = 3 \\[3ex]
+                        y_1 = 2 \\[3ex]
+                        y - 2 = -\dfrac{2}{3}(x - 3) \\[5ex]
+                        y - 2 = -\dfrac{2}{3}(x - 3) \\[5ex]
+                        y - 2 = -\dfrac{2}{3}x - \dfrac{2}{3} * -3 \\[5ex]
+                        y - 2 = -\dfrac{2}{3}x + 2 \\[5ex]
+                        y = -\dfrac{2}{3}x + 2 + 2 \\[5ex]
+                        y = -\dfrac{2}{3}x + 4 \\[5ex]             
+                        Slope-Intercept\:\:Form \\[3ex]
+                        y = mx + b \\[3ex]
+                        y = -\dfrac{2}{3}x + 4 \\[5ex]    
+                        y-intercept = 4
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (35.) <b>WASSCE</b> Find the equation of the line which is perpendicular to the line $y = 2x - 1$ and 
+                    passes through the point $(2, 5)$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF35')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF35">
+                        <br>
+                        Two lines are perpendicular to each other if the product of their slopes is $-1$ <br><br>
+                        $
+                        \underline{Line\:\: 1} \\[3ex]
+                        y = 2x - 1 \\[3ex]
+                        Slope\:\:of\:\:Line\:1 = m_1 \\[3ex]
+                        m_1 = 2 \\[3ex]
+                        \underline{Line\:\: 2} \\[3ex]
+                        Line\:\: 2 \perp Line\:\: 1 \\[3ex]
+                        Slope\:\:of\:\:Line\:2 = m_2 \\[3ex]
+                        m_1 * m_2 = -1 \\[3ex]
+                        m_2 = \dfrac{-1}{m_1} \\[5ex]
+                        m_2 = -\dfrac{1}{2} \\[5ex]
+                        $
+                        ${Line\:\: 2}$ should pass through the point $(2, 5)$ <br>
+                        To find ${Line\:\: 2}$, we shall use the Point-Slope form because
+                        we have a slope and a point <br>
+                        Point-Slope Form: $y - y_1 = m(x - x_1)$ <br><br>
+                        $
+                        m_2 = -\dfrac{1}{2} \\[5ex]
+                        Point(2, 5) \\[3ex]
+                        x_1 = 2, y_1 = 5 \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        y - 5 = -\dfrac{1}{2}(x - 2) \\[5ex]
+                        y - 5 = -\dfrac{1}{2}x + \dfrac{1}{2} * 2 \\[5ex]
+                        y - 5 = -\dfrac{1}{2}x + 1 \\[5ex]
+                        y = -\dfrac{1}{2}x + 1 + 5 \\[5ex]
+                        y = -\dfrac{1}{2}x + 6 \\[5ex]
+                        $
+                        The equation of ${Line\:\: 2}$ in Slope-Intercept form is: $y = -\dfrac{1}{2}x + 6$
+                        <br><br>
+                        To write ${Line\:\: 2}$ in Standard form; <br>
+                        $
+                        y = -\dfrac{1}{2}x + 6 \\[5ex]
+                        LCD = 2 \\[3ex]
+                        2y = 2\left(-\dfrac{1}{2}x\right) + 2(6) \\[5ex]
+                        2y = -x + 12 \\[3ex]
+                        2y + x = 12 \\[3ex]
+                        x + 2y = 12 \\[3ex]
+                        $
+                        The equation of ${Line\:\: 2}$ in Standard form is: $x + 2y = 12$ <br><br>
+                        <img src="images/Answers/LinearFunctions/Question35.png" alt="Answer to Question 35" style="width: 750px; height: 550px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (36.) Determine the slope-intercept form for a line whose $x-intercept = 2$, and $y-intercept = \dfrac{2}{3}$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF36')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF36">
+                        <br>
+                        $
+                        x-intercept = (2, 0) \\[3ex]
+                        y-intercept = \left(0, \dfrac{2}{3}\right) \\[5ex]
+                        Point\:1\:(2, 0) \\[3ex]
+                        x_1 = 2 \\[3ex]
+                        y_1 = 0 \\[3ex]
+                        Point\:2\:\left(0, \dfrac{2}{3}\right) \\[5ex]
+                        x_2 = 0 \\[3ex]
+                        y_2 = \dfrac{2}{3} \\[5ex]
+                        Slope, m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{\dfrac{2}{3} - 0}{0 - 2} \\[7ex]
+                        m = \dfrac{\dfrac{2}{3}}{-2} \\[7ex]
+                        m = \dfrac{2}{3} \div \dfrac{-2}{1} \\[5ex]
+                        m = \dfrac{2}{3} * \dfrac{-1}{2} \\[5ex]
+                        m = -\dfrac{1}{3} \\[5ex]
+                        y-intercept, b = \dfrac{2}{3} \\[5ex]
+                        y = mx + b ...Slope-Intercept\:\:Form \\[3ex]
+                        y = -\dfrac{1}{3}x + \dfrac{2}{3}
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (37.) <b>ACT</b> What is the $x-coordinate$ of the point in the standard $(x, y)$ coordinate plane
+                    at which the $2$ lines $y = 2x + 6$ and $y = 3x + 4$ intersect? <br><br>
+                    $
+                    A.\:\: 1 \\[3ex]
+                    B.\:\: 2 \\[3ex]
+                    C.\:\: 4 \\[3ex]
+                    D.\:\: 6 \\[3ex]
+                    E.\:\: 10 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF37')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF37">
+                        <br>
+                        Intersection of the lines implies that we should equate both lines <br><br>
+                        $
+                        y = 2x + 6 \\[3ex]
+                        y = 3x + 4 \\[3ex]
+                        y = y \\[3ex]
+                        \therefore 2x + 6 = 3x + 4 \\[3ex]
+                        3x + 4 = 2x + 6 \\[3ex]
+                        3x - 2x = 6 - 4 \\[3ex]
+                        x = 2
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (38.) <b>ACT</b> What is the slope of any line parallel to the line $7x + 9y = 6$? 
+                    <br><br>
+                    $
+                    A.\:\: -7 \\[3ex]
+                    B.\:\: -\dfrac{7}{9} \\[5ex]
+                    C.\:\: \dfrac{7}{6} \\[5ex]
+                    D.\:\: 6 \\[3ex]
+                    E.\:\: 7 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF38')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF38">
+                        <br>
+                        <b>Parallel lines</b> have the <u>same slope</u> <br><br>
+                        $
+                        7x + 9y = 6 \\[3ex]
+                        9y = 6 - 7x \\[3ex]
+                        9y = -7x + 6 \\[3ex]
+                        y = \dfrac{-7x + 6}{9} \\[5ex]
+                        y = \dfrac{-7x}{9} + \dfrac{6}{9} \\[5ex]
+                        y = -\dfrac{7}{9}x + \dfrac{2}{3} \\[5ex]
+                        Compare:\:\: y = mx + b \\[3ex]
+                        m = -\dfrac{7}{9} \\[5ex]
+                        $
+                        The slope of any line parallel to $7x + 9y = 6$ would also be $-\dfrac{7}{9}$
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (39.) <b>ACT</b> The ordered pairs $(x, y)$ in one of the following tables belong to a linear function. <br>
+                    Which one? <br>
+                    <div class="w3-center">
+                        <img src="images/Questions/LinearFunctions/Question39.png" alt="Question 39">
+                    </div> 
+                    <button class="solutions" onclick="solutions('solutionLF39')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF39">
+                        <br>
+                        There are several ways to solve this question. <br>
+                        Because it has an ACT question and you have to solve it in a minute, it is important to use a method that is 
+                        fast, while accurate. <br><br>
+                        <u>1st Method: By Definition</u> <br>
+                        For a linear function: <br>
+                        For this question: the input, $x$ is increasing <br>
+                        these are the cases between the output, $y$ and the input, $x$: <br>
+                        $y$ increases as $x$ increases ...increasing function <br>
+                        $y$ decreases as $x$ increases ... decreasing function <br>
+                        $y$ is constant as $x$ increases ... constant function <br><br>
+                        Option $F$: <br>
+                        $y$ fluctuates.. Does not apply ... Not a linear function <br><br>
+                        Option $J$: <br>
+                        $y$ fluctuates.. Does not apply ... Not a linear function <br><br>
+                        Option $G$: <br>
+                        $y$ is not a linear function. It is a ramp function <br>
+                        It decreases, remains constant, and decreases again.. Does not apply ... Not a linear function <br><br>
+                        So, we are left with Options $H$ and $K$ <br>
+                        This method alone was not sufficient to do this question. <br>
+                        However, it helps in eliminating the incorrect options so we save some time. <br>
+                        On a careful observation of Option $K$, we notice that $y = x^2$ because: <br><br>
+                        $
+                        0 = 0^2 \\[3ex] 
+                        1 = 1^2 \\[3ex] 
+                        4 = 2^2 \\[3ex]
+                        9 = 3^2 \\[3ex]
+                        $
+                        Option $K$ is a quadratic function. <br>
+                        It is not a linear function. <br><br>
+                        So, our remaining option is Option $H$ <br>
+                        Observing Option $H$, we notice that the output decreases by $1$ unit (a unit) for each unit increase in the 
+                        output. <br>
+                        This implies that the slope is one. <br>
+                        Option $H$ is the linear function. <br><br>
+
+                        If you have time and if you want to, you can calculate the slope. <br>
+                        That is the second method: determining the slope. <br>
+                        A linear function has the same slope between two consecutive points.
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (40.) <b>ACT</b> The graph in the standard $(x, y)$ coordinate plane below is represented by one of 
+                    the following equations. <br>
+                    Which equation? <br>
+                    <div class="w3-center">
+                        <img src="images/Questions/LinearFunctions/Question40.png" alt="Question 40">
+                    </div>
+                    $
+                    F.\:\: y = -\dfrac{3}{2}x + 2 \\[5ex]
+                    G.\:\: y = -\dfrac{3}{2}x + 3 \\[5ex]
+                    H.\:\: y = -\dfrac{2}{3}x + 2 \\[5ex]
+                    J.\:\: y = -\dfrac{2}{3}x + 3 \\[5ex]
+                    K.\:\: y = \dfrac{2}{3}x + 2 \\[5ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF40')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF40">
+                        <br>
+                        $
+                        Point\:\:1 = (0, 2) \\[3ex]
+                        x_1 = 0 \\[3ex]
+                        y_1 = 2 \\[3ex]
+                        y-intercept, b = 2 \\[3ex]
+                        Point\:2 = (3, 0) \\[3ex]
+                        x_2 = 3 \\[3ex]
+                        y_2 = 0 \\[3ex]
+                        Slope, m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{0 - 2}{3 - 0} \\[5ex]
+                        m = -\dfrac{2}{3} \\[5ex]
+                        y = mx + b \\[3ex]
+                        y = -\dfrac{2}{3}x + 2
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br><br><br><br>
+        <!-- Top of the Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://precalculus.appspot.com/RelationsFunctions/linearFunctions.html" class="w3-button w3-xlarge w3-circle w3-olive"
+               style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+        <br><br><br><br>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (41.) <b>JAMB</b> Find the value of $p$ if the line joining $(p, 4)$ and $(6, -2)$ is perpendicular
+                    to the line joining $(2, p)$ and $(-1, 3)$ <br><br>
+                    $
+                    A.\:\: 0 \\[3ex]
+                    B.\:\: 3 \\[3ex]
+                    C.\:\: 4 \\[3ex]
+                    D.\:\: 6 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF41')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF41">
+                        <br>
+                        $
+                        \underline{Line\:\:1} \\[3ex]
+                        m_1 = slope\:\:of\:\:Line\:\:1 \\[3ex]
+                        Point\:1\:(p, 4) \\[3ex]
+                        x_1 = p \\[3ex]
+                        y_1 = 4 \\[3ex]
+                        Point\:2\:(6, -2) \\[3ex]
+                        x_2 = 6 \\[3ex]
+                        y_2 = -2 \\[3ex]
+                        Slope, m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m_1 = \dfrac{-2 - 4}{6 - p} \\[5ex]
+                        m_1 = \dfrac{-6}{6 - p} \\[5ex]
+                        \underline{Line\:\:2} \\[3ex]
+                        m_2 = slope\:\:of\:\:Line\:\:2 \\[3ex]
+                        Point\:1\:(2, p) \\[3ex]
+                        x_1 = 2 \\[3ex]
+                        y_1 = p \\[3ex]
+                        Point\:2\:(-1, 3) \\[3ex]
+                        x_2 = -1 \\[3ex]
+                        y_2 = 3 \\[3ex]
+                        Slope, m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m_2 = \dfrac{3 - p}{-1 - 2} \\[5ex]
+                        m_2 = \dfrac{3 - p}{-3} \\[5ex]
+                        For\:\:Line\:\:1\:\:to\:\:be\:\:\perp \:\:to\:\:Line\:\:2 \\[3ex]
+                        m_1 * m_2 = -1 \\[3ex]
+                        m_1 = \dfrac{-1}{m_2} \\[5ex]
+                        m_1 = -1 \div m_2 \\[3ex]
+                        \rightarrow \dfrac{-6}{6 - p} = -1 \div \dfrac{3 - p}{-3} \\[5ex] 
+                        \dfrac{-6}{6 - p} = -1 * \dfrac{-3}{3 - p} \\[5ex]
+                        \dfrac{-6}{6 - p} = \dfrac{3}{3 - p} \\[5ex]
+                        Cross\:\:Multiply \\[3ex]
+                        -6(3 - p) = 3(6 - p) \\[3ex]
+                        -18 + 6p = 18 - 3p \\[3ex]
+                        6p + 3p = 18 + 18 \\[3ex]
+                        9p = 36 \\[3ex]
+                        p = \dfrac{36}{9} \\[5ex]
+                        p = 4
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (42.) <b>ACT</b> What is the slope-intercept form of $8x - y - 6 = 0$? 
+                    <br><br>
+                    $
+                    F.\:\: y = -8x - 6 \\[3ex]
+                    G.\:\: y = -8x + 6 \\[3ex]
+                    H.\:\: y = 8x - 6 \\[5ex]
+                    J.\:\: y = 8x + 6 \\[3ex]
+                    K.\:\: y = 6x - 8 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF42')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF42">
+                        <br>
+                        $
+                        8x - y - 6 = 0 \\[3ex]
+                        8x - 6 = 0 + y \\[3ex]
+                        8x - 6 = y \\[3ex]
+                        y = 8x - 6
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (43.) <b>JAMB</b> $3y = 4x -1$ and $Ky = x + 3$ are equations of two straight lines. <br>
+                    If the two lines are perpendicular to each other, find $K$ <br><br>
+                    $
+                    A.\:\: -\dfrac{4}{3} \\[5ex]
+                    B.\:\: -\dfrac{3}{4} \\[5ex]
+                    C.\:\: \dfrac{3}{4} \\[5ex]
+                    D.\:\: \dfrac{4}{3} \\[5ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF43')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF43">
+                        <br>
+                        $
+                        y = mx + b ...Slope-Intercept\:\:Form \\[3ex]
+                        \underline{Line\:\:1} \\[3ex]
+                        m_1 = slope\:\:of\:\:Line\:\:1 \\[3ex]
+                        3y = 4x - 1 \\[3ex]
+                        y = \dfrac{4x - 1}{3} \\[5ex]
+                        y = \dfrac{4}{3}x - \dfrac{1}{3} \\[5ex]
+                        m_1 = \dfrac{4}{3} \\[5ex]
+                        \underline{Line\:\:2} \\[3ex]
+                        m_2 = slope\:\:of\:\:Line\:\:2 \\[3ex]
+                        Ky = x + 3 \\[3ex]
+                        y = \dfrac{x + 3}{K} \\[5ex]
+                        y = \dfrac{x}{K} + \dfrac{3}{K} \\[5ex]
+                        y = \dfrac{1}{K}x + \dfrac{3}{K} \\[5ex]
+                        m_2 = \dfrac{1}{K} \\[5ex]
+                        For\:\:Line\:\:1\:\:to\:\:be\:\:\perp \:\:to\:\:Line\:\:2 \\[3ex]
+                        m_1 * m_2 = -1 \\[3ex]
+                        m_1 = \dfrac{-1}{m_2} \\[5ex]
+                        m_1 = -1 \div m_2 \\[3ex]
+                        \rightarrow \dfrac{4}{3} = -1 \div \dfrac{1}{K} \\[5ex] 
+                        \dfrac{4}{3} = \dfrac{-1}{K} \\[5ex]
+                        Cross\:\:Multiply \\[3ex]
+                        4(K) = 3(-1) \\[3ex]
+                        4K = -3 \\[3ex]
+                        K = \dfrac{-3}{4} \\[5ex]
+                        K = -\dfrac{3}{4}
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (44.) <b>ACT</b> What is the slope of the line given by the equation $14x - 11y + 16 = 0$
+                    <br><br>
+                    $
+                    F.\:\: -11 \\[3ex]
+                    G.\:\: -\dfrac{14}{11} \\[5ex]
+                    H.\:\: -\dfrac{11}{14} \\[5ex]
+                    J.\:\: \dfrac{14}{11} \\[5ex]
+                    K.\:\: 14 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF44')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF44">
+                        <br>
+                        $
+                        14x - 11y + 16 = 0 \\[3ex]
+                        14x + 16 = 0 + 11y \\[3ex]
+                        14x + 16 = 11y \\[3ex]
+                        11y = 14x + 16 \\[3ex]
+                        y = \dfrac{14x + 16}{11} \\[5ex]
+                        y = \dfrac{14}{11}x + \dfrac{16}{11} \\[5ex]
+                        Compare:\:\: y = mx + b \\[3ex]
+                        Slope, m = \dfrac{14}{11}
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (45.) <b>CSEC</b> The equation of line $l$ is $y = 4x + 5$ <br><br>
+                    (i) State the gradient of any line that is parallel to $l$ <br><br>
+                    (ii) Determine the equation of the line parallel to $l$ that passes through the point $(2, -6)$ 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF45')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF45">
+                        <br>
+                        Gradient of a line is the slope of the line <br>
+                        Parallel lines have the same slope <br><br>
+                        $
+                        (i) \\[3ex]
+                        m = 4 \\[3ex]
+                        (ii) \\[3ex]
+                        \underline{Line\:\: 1} \\[3ex]
+                        y = 4x + 5 \\[3ex]
+                        Slope\:\:of\:\:Line\:\:1 = m_1 \\[3ex]
+                        m_1 = 4 \\[3ex]
+                        \underline{Line\:\: 2} \\[3ex]
+                        Line\:\: 2 \parallel Line\:\: 1 \\[3ex]
+                        Slope\:\:of\:\:Line\:\:2 = m_2 \\[3ex]
+                        m_2 = 4 \\[3ex]
+                        $
+                        ${Line\:\: 2}$ should pass through the point $(2, -6)$ <br><br>
+                        To find ${Line\:\: 2}$, we shall use the Point-Slope form because
+                        we have a slope and a point <br><br>
+                        $
+                        Point-Slope\:\:Form:\:\: y - y_1 = m(x - x_1) \\[3ex]
+                        m_2 = 4 \\[3ex]
+                        x_1 = 2, y_1 = -6 \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        y - -6 = 4(x - 2) \\[3ex]
+                        y + 6 = 4x - 8 \\[3ex]
+                        y = 4x - 8 - 6 \\[3ex]
+                        y = 4x - 14 \\[3ex]
+                        \underline{Slope-Intercept\:\:Form} \\[3ex]
+                        y = 4x - 14 \\[3ex]
+                        \underline{Standard\:\:Form} \\[3ex]
+                        4x - 14 = y \\[3ex]
+                        4x - y = 14 \\[3ex]
+                        $
+                        The equation of ${Line\:\: 2}$ in Slope-Intercept form is: $y = 4x - 14$ <br><br>
+                        The equation of ${Line\:\: 2}$ in Standard form is: $4x - y = 14$ <br><br>
+                        <img src="images/Answers/LinearFunctions/Question45.png" alt="Answer to Question 45" style="width: 750px; height: 550px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (46.) <b>JAMB</b> Find the equation of a line parallel to $y = -4x + 2$ passing through $(2, 3)$  <br><br>
+                    $
+                    A.\:\: y + 4x + 11 = 0 \\[3ex]
+                    B.\:\: y - 4x - 11 = 0 \\[3ex]
+                    C.\:\: y + 4x - 11 = 0 \\[3ex]
+                    D.\:\: y - 4x + 11 = 0 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF46')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF46">
+                        <br>
+                        Two lines are parallel to each other if their slopes are the same <br><br>
+                        $
+                        \underline{Line\:\: 1} \\[3ex]
+                        y = -4x + 2 \\[3ex]
+                        Slope\:\:of\:\:Line\:\:1 = m_1 \\[3ex]
+                        m_1 = -4 \\[3ex]
+                        \underline{Line\:\: 2} \\[3ex]
+                        Line\:\: 2 \parallel Line\:\: 1 \\[3ex]
+                        Slope\:\:of\:\:Line\:\:2 = m_2 \\[3ex]
+                        m_2 = -4 \\[3ex]
+                        $
+                        ${Line\:\: 2}$ should pass through the point $(2, 3)$ <br><br>
+                        To find ${Line\:\: 2}$, we shall use the Point-Slope form because
+                        we have a slope and a point <br><br>
+                        $
+                        \underline{Point-Slope\:\:Form} \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        m_2 = -4 \\[3ex]
+                        x_1 = 2, y_1 = 3 \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        y - 3 = -4(x - 2) \\[3ex]
+                        y - 3 = -4x + 8 \\[3ex]
+                        y = -4x + 8 + 3 \\[3ex]
+                        y = -4x + 11 \\[3ex]
+                        $
+                        The equation of ${Line\:\: 2}$ in Slope-Intercept form is: $y = -4x + 11$
+                        <br><br>
+                        To write ${Line\:\: 2}$ in Standard form; <br><br>
+                        $
+                        y = -4x + 11 \\[3ex]
+                        y + 4x = 11 \\[3ex]
+                        4x + y = 11 \\[3ex]
+                        $
+                        The equation of ${Line\:\: 2}$ in Standard form is: $4x + y = 11$ <br><br>
+                        $
+                        \underline{Format\:\:of\:\:the\:\:Answer\:\:Options} \\[3ex]
+                        y = -4x + 11 \\[3ex]
+                        y + 4x - 11 = 0
+                        $
+                    </div>    
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (47.) <b>JAMB</b> Find the value of $p$, if the line which passes through $(-1, -p)$ and $(-2p, 2)$
+                    is parallel to the line $2y + 8x - 17 = 0$ <br><br>
+                    $
+                    A.\:\: -\dfrac{6}{7} \\[5ex]
+                    B.\:\: -\dfrac{2}{7} \\[5ex]
+                    C.\:\: -\dfrac{6}{7} \\[5ex]
+                    D.\:\: \dfrac{7}{6} \\[5ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF47')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF47">
+                        <br>
+                        $
+                        \underline{Line\:\:1} \\[3ex]
+                        m_1 = slope\:\:of\:\:Line\:\:1 \\[3ex]
+                        Point\:1\:(-1, -p) \\[3ex]
+                        x_1 = -1 \\[3ex]
+                        y_1 = -p \\[3ex]
+                        Point\:2\:(-2p, 2) \\[3ex]
+                        x_2 = -2p \\[3ex]
+                        y_2 = 2 \\[3ex]
+                        Slope, m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m_1 = \dfrac{2 - -p}{-2p - -1} \\[5ex]
+                        m_1 = \dfrac{2 + p}{-2p + 1} \\[5ex]
+                        \underline{Line\:\:2} \\[3ex]
+                        2y + 8x - 17 = 0 \\[3ex]
+                        2y = 0 - 8x + 17 \\[3ex]
+                        2y = -8x + 17 \\[3ex]
+                        y = \dfrac{-8x + 17}{2} \\[5ex]
+                        y = -\dfrac{8}{2}x + \dfrac{17}{2} \\[5ex]
+                        y = -4x + \dfrac{17}{2} \\[5ex]
+                        m_2 = slope\:\:of\:\:Line\:\:2 \\[3ex]
+                        m_2 = -4 \\[3ex]
+                        For\:\:Line\:\:1\:\:to\:\:be\:\: || \:\:to\:\:Line\:\:2 \\[3ex]
+                        m_1 = m_2 \\[3ex]
+                        \rightarrow \dfrac{2 + p}{-2p + 1} = -4 \\[5ex]
+                        2 + p = -4(-2p+ 1) \\[3ex]
+                        2 + p = 8p - 4 \\[3ex]
+                        2 + 4 = 8p - p \\[3ex]
+                        6 = 7p \\[3ex]
+                        7p = 6 \\[3ex]
+                        p = \dfrac{6}{7} 
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (48.) <b>ACT</b> What is the slope of the line through (&minus;2, 1) and (2, &minus;5) in the standard (<i>x</i>, <i>y</i>) coordinate plane? 
+                    <br><br>
+                    $
+                    A.\:\: \dfrac{3}{2} \\[5ex]
+                    B.\:\: 1 \\[3ex]
+                    C.\:\: -1 \\[3ex]
+                    D.\:\: -\dfrac{3}{2} \\[5ex]
+                    E.\:\: -4 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF48')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF48">
+                        <br>
+                        $
+                        Point\:1 = (-2, 1) \\[3ex]
+                        x_1 = -2 \\[3ex]
+                        y_1 = 1 \\[3ex]
+                        Point\:2 = (2, -5) \\[3ex]
+                        x_2 = 2 \\[3ex]
+                        y_2 = -5 \\[3ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{-5 - 1}{2 - (-2)} \\[5ex]
+                        = \dfrac{-6}{2 + 2} \\[5ex]
+                        = -\dfrac{6}{4} \\[5ex]
+                        = -\dfrac{3}{2}
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (49.) <b>ACT</b> In the standard $(x, y)$ coordinate plane, what is the slope of the line given by
+                    the equation $4x = 7y + 5?$
+                    <br><br>
+                    $
+                    A.\:\: -\dfrac{4}{7} \\[5ex]
+                    B.\:\: \dfrac{4}{7} \\[5ex]
+                    C.\:\: \dfrac{7}{4} \\[5ex]
+                    D.\:\: 4 \\[3ex]
+                    E.\:\: 7 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF49')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF49">
+                        <br>
+                        $
+                        4x = 7y + 5 \\[3ex]
+                        7y + 5 = 4x \\[3ex]
+                        7y = 4x - 5 \\[3ex]
+                        y = \dfrac{4x - 5}{7} \\[5ex]
+                        y = \dfrac{4}{7}x - \dfrac{5}{7} \\[5ex]
+                        Compare\:\:to \\[3ex]
+                        y = mx + b \\[3ex]
+                        m = \dfrac{4}{7}
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (50.) <b>JAMB</b> Find the gradient of the line passing through the points $P(1, 1)$ and $Q(2, 5)$.  <br><br>
+                    $
+                    A.\:\: 3 \\[3ex]
+                    B.\:\: 2 \\[3ex]
+                    C.\:\: 5 \\[3ex]
+                    D.\:\: 4 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF50')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF50">
+                        <br>
+                        $
+                        Point\:1 = (1, 1) \\[3ex]
+                        x_1 = 1 \\[3ex]
+                        y_1 = 1 \\[3ex]
+                        Point\:2 = (2, 5) \\[3ex]
+                        x_2 = 2 \\[3ex]
+                        y_2 = 5 \\[3ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{5 - 1}{2 - 1} \\[5ex]
+                        = \dfrac{4}{1} \\[5ex]
+                        = 4
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (51.) (a.) Determine the slope of the line joining pair of points. <br><br>
+                    $
+                    (i.)\;\; (9, 3) \;\;\;and\;\;\; (19, -17) \\[3ex]
+                    (ii.)\;\; (2, 3) \;\;\;and\;\;\; (7, 5) \\[3ex]
+                    (iii.)\;\; (-4, 7) \;\;\;and\;\;\; (-6, -4) \\[3ex]
+                    $
+                    (b.) Write the slope &ndash; intercept form of the equation of the line. <br>
+                    Then, determine the slope of the line. <br><br>
+                    $
+                    (i.)\;\; 6x + 5y = -15 \\[3ex]
+                    (ii.)\;\; 11x - 8y = -48 \\[3ex] 
+                    (iii.)\;\; 2x + 3y = 9 \\[3ex]
+                    (iv.)\;\; 3x - 2y = -16 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF51')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF51">
+                        <br>
+                        $
+                        (a.) \\[3ex]
+                        slope = m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        (i.) \\[3ex]
+                        Point\;1 = (9, 3) \\[3ex]
+                        x_1 = 9 \\[3ex]
+                        y_1 = 3 \\[3ex]
+                        Point\;2 = (19, -17) \\[3ex]
+                        x_2 = 19 \\[3ex]
+                        y_2 = -17 \\[3ex]
+                        m = \dfrac{-17 - 3}{19 - 9} \\[5ex]
+                        = \dfrac{-20}{10} \\[5ex]
+                        = -2 \\[3ex]
+                        (ii.) \\[3ex] 
+                        Point\;1 = (2, 3) \\[3ex]
+                        x_1 = 2 \\[3ex]
+                        y_1 = 3 \\[3ex]
+                        Point\;2 = (7, 5) \\[3ex]
+                        x_2 = 7 \\[3ex]
+                        y_2 = 5 \\[3ex]
+                        m = \dfrac{5 - 3}{7 - 2} \\[5ex]
+                        = \dfrac{2}{5} \\[5ex]
+                        (iii.) \\[3ex]
+                        Point\;1 = (-4, 7) \\[3ex]
+                        x_1 = -4 \\[3ex]
+                        y_1 = 7 \\[3ex]
+                        Point\;2 = (-6, -4) \\[3ex]
+                        x_2 = -6 \\[3ex]
+                        y_2 = -4 \\[3ex]
+                        m = \dfrac{-4 - 7}{-6 - -4} \\[5ex]
+                        = \dfrac{-11}{-6 + 4} \\[5ex]
+                        = \dfrac{-11}{-2} \\[5ex]
+                        = \dfrac{11}{2} \\[5ex]
+                        (b.) \\[3ex]
+                        Slope-Intercept\;\;Form:\;\; y = mx + b \\[3ex]
+                        slope = m \\[3ex]
+                        (i.) \\[3ex]
+                        6x + 5y = -15 \\[3ex]
+                        5y = -6x - 15 \\[3ex]
+                        y = \dfrac{-6x - 15}{5} \\[5ex]
+                        y = \dfrac{-6x}{5} - \dfrac{15}{5} \\[5ex]
+                        y = -\dfrac{6}{5}x - 3 \\[5ex]
+                        m = -\dfrac{6}{5} \\[5ex]
+                        (ii.) \\[3ex]
+                        11x - 8y = -48 \\[3ex] 
+                        11x + 48 = 8y \\[3ex]
+                        8y = 11x + 48 \\[3ex]
+                        y = \dfrac{11x + 48}{8} \\[5ex]
+                        y = \dfrac{11x}{8} + \dfrac{48}{8} \\[5ex]
+                        y = \dfrac{11}{8}x + 6 \\[5ex]
+                        m = \dfrac{11}{8} \\[5ex]
+                        (iii.) \\[3ex]
+                        2x + 3y = 9 \\[3ex] 
+                        3y = -2x + 9 \\[3ex]
+                        y = \dfrac{-2x + 9}{3} \\[5ex]
+                        y = \dfrac{-2x}{3} + \dfrac{9}{3} \\[5ex]
+                        y = -\dfrac{2}{3}x + 3 \\[5ex]
+                        m = -\dfrac{2}{3} \\[5ex]
+                        (iv.) \\[3ex]
+                        3x - 2y = -16 \\[3ex]
+                        3x + 16 = 2y \\[3ex]
+                        2y = 3x + 16 \\[3ex]
+                        y = \dfrac{3x + 16}{2} \\[5ex]
+                        y = \dfrac{3x}{2} + \dfrac{16}{2} \\[5ex]
+                        y = \dfrac{3}{2}x + 8 \\[5ex]
+                        m = \dfrac{3}{2}
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (52.) <b>ACT</b> One of the following equations, in slope-intercept form, is the equation of the line
+                    shown below in the standard $(x, y)$ coordinate plane. Which one? <br>
+                    <div class="w3-center">
+                        <img src="images/Questions/LinearFunctions/Question52.png" alt="Question 52">
+                    </div> <br>
+                    $
+                    A.\:\: y = -\dfrac{3}{5}x + 2 \\[5ex]
+                    B.\:\: y = -\dfrac{3}{5}x - 2 \\[5ex]
+                    C.\:\: y = -\dfrac{5}{3}x - 2 \\[5ex]
+                    D.\:\: y = \dfrac{3}{5}x + 2 \\[5ex]
+                    E.\:\: y = \dfrac{5}{3}x + 2 \\[5ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF52')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF52">
+                        <br>
+                        The graph has a negative slope: rises on the left and falls on the right <br>
+                        In that regard, Options $D$ and $E$ are eliminated <br><br>
+                        The graph has a $y-intercept$ of $2$...assume each line represents one unit <br>
+                        In that regard, Options $B$ and $C$ are eliminated. <br><br>
+                        Remaining Option $A$ <br>
+                        Option $A$ is the answer
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (53.) <b>CSEC</b> The diagram below represents the graph of a straight line which passes through the points 
+                    $p$ and $Q$. <br><br>
+                    <div class="w3-center">
+                        <img src="images/Questions/LinearFunctions/Question53.png" alt="Question 53" style="width: 500px; height: 300px;">
+                    </div> 
+                    <br>
+                    (a) State the coordinates of $P$ and $Q$ <br><br>
+                    (b) Determine <br>
+                    (i) the gradient of the line segment $PQ$ <br>
+                    (ii) the equation of the line segment $PQ$ <br><br>
+                    (c) The point $(-8, t)$ lies on the line segment $PQ$. 
+                    Determine the value of $t$. <br><br>
+                    The line segment, $AB$ is perpendicular to $PQ$, and passes through $(6, 2)$. <br><br>
+                    (d) Determine the equation of $AB$ in the form $y = mx + c$ 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF53')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF53">
+                        <br>
+                        $
+                        (a.) \\[3ex]
+                        Coordinates\:\:of\:\:Point\:\:P = (0, 3) \\[3ex]
+                        Coordinates\:\:of\:\:Point\:\:Q = (-2, 0) \\[3ex]
+                        (b.)\:\:(i) \\[3ex]
+                        \underline{Gradient\:\:of\:\:\overleftrightarrow{PQ}} \\[3ex]
+                        Two\:\:Methods...use\:\:any\:\:one\:\:you\:\:prefer \\[3ex]
+                        \underline{First\:\:Method} \\[3ex]
+                        Point\:\:P(0, 3) \rightarrow x_1 = 0, y_1 = 3 \\[3ex]
+                        Point\:\:Q(-2, 0) \rightarrow x_2 = -2, y_2 = 0 \\[3ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        = \dfrac{0 - 3}{-2 - 0} \\[3ex]
+                        = \dfrac{-3}{-2} \\[5ex]
+                        = \dfrac{3}{2} \\[5ex]
+                        \underline{Second\:\:Method} \\[3ex]
+                        m = \dfrac{rise}{run} \\[3ex]
+                        rise = 3\:units...going\:\:up \\[3ex]
+                        run = -(-2) units ...going\:\:left \\[3ex]
+                        run = 2\:\:units \\[3ex]
+                        m = \dfrac{3}{2}\:units \\[5ex]
+                        (b)\:\:(ii) \\[3ex]
+                        \underline{Equation\:\:of\:\:\overleftrightarrow{PQ}} \\[3ex]
+                        y-intercept = b = 3 \\[3ex]
+                        slope = m = \dfrac{3}{2} \\[5ex]
+                        y = mx + b \\[3ex]
+                        y = \dfrac{3}{2}x + 3 \\[5ex]
+                        (c) \\[3ex]
+                        Two\:\:Methods...use\:\:any\:\:one\:\:you\:\:prefer \\[3ex]
+                        \underline{First\:\:Method} \\[3ex]
+                        (-8,t)\rightarrow x = -8, y = t \\[3ex]
+                        y = \dfrac{3}{2}x + 3...equation\:\:of\:\:\overleftrightarrow{PQ} \\[5ex]
+                        t = \dfrac{3}{2} * -8 + 3 \\[5ex]
+                        t = 3(-4) + 3 \\[3ex]
+                        t = -12 + 3 \\[3ex]
+                        t = -9 \\[3ex]
+                        \underline{Second\:\:Method} \\[3ex]
+                        Point\:\:(-8,t)\:\:lies\:\:on \overleftrightarrow{PQ} \\[3ex]
+                        Use\:\:Point\:\:(-8,t)\:\:and\:\:Point\:\:Q \\[3ex]
+                        You\:\:can\:\:also\:\:use\:\:Point\:\:(-8,t)\:\:and\:\:Point\:\:P \\[3ex]
+                        Point\:\:(-8,t)\rightarrow x_1 = -8, y_1 = t \\[3ex]
+                        Point\:\:Q(-2, 0) \rightarrow x_2 = -2, y_2 = 0 \\[3ex]
+                        m = \dfrac{3}{2}...applies\:\:to\:\:all\:\:points\:\:on\:\:\overleftrightarrow{PQ} \\[3ex]
+                        Also: \\[3ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        = \dfrac{0 - t}{-2 - -8} \\[3ex]
+                        = \dfrac{-t}{-2 + 8} \\[5ex]
+                        = \dfrac{-t}{6} \\[5ex]
+                        \rightarrow \dfrac{-t}{6} = \dfrac{3}{2} \\[5ex]
+                        Multiply\:\:both\:\:sides\:\:by\:\:-6 \\[3ex]
+                        -6 * \dfrac{-t}{6} = -6 * \dfrac{3}{2} \\[5ex]
+                        t = -3(3) \\[3ex]
+                        t = -9 \\[3ex]
+                        (d) \\[3ex]
+                        \overleftrightarrow{AB} \perp \overleftrightarrow{PQ}\:\:and\:\:passes\:\:through\:\:Point(6, 2) \\[3ex]
+                        $
+                        Two lines are perpendicular to each other if the product of their slopes is $-1$ <br><br>
+                        $
+                        \overleftrightarrow{PQ} \\[3ex]
+                        m_1 = \dfrac{3}{2} \\[5ex]
+                        \overleftrightarrow{AB} \\[3ex]
+                        Slope\:\:of\:\:\overleftrightarrow{AB} \perp \overleftrightarrow{PQ} = m_2 \\[3ex]
+                        m_2 * m_1 = -1 \\[3ex]
+                        m_2 = -1 \div m_1 \\[3ex]
+                        m_2 = -1 \div \dfrac{3}{2} \\[5ex]
+                        m_2 = -1 * \dfrac{2}{3} \\[5ex]
+                        m_2 = -\dfrac{2}{3} \\[5ex]
+                        $
+                        $\overleftrightarrow{AB}$ should pass through the point $(6, 2)$ <br>
+                        To find $\overleftrightarrow{AB}$, we shall use the Point-Slope form because
+                        we have a slope and a point <br><br>
+                        $
+                        \underline{Point-Slope\:\:Form} \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex] 
+                        m_2 = -\dfrac{2}{3} \\[5ex]
+                        x_1 = 6, y_1 = 2 \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        y - 2 = -\dfrac{2}{3}(x - 6) \\[5ex]
+                        y - 2 = -\dfrac{2}{3}x + 4 \\[5ex]
+                        y = -\dfrac{2}{3}x + 4 + 2 \\[5ex]
+                        y = -\dfrac{2}{3}x + 6 \\[5ex]
+                        $
+                        The equation of $\overleftrightarrow{AB}$ in Slope-Intercept form is: $y = -\dfrac{2}{3}x + 6$
+                        <br><br>
+                        To write $\overleftrightarrow{AB}$ in Standard form; <br>
+                        Multiply each term by the $LCD$ <br>
+                        $LCD = 3$ <br><br>
+                        $
+                        3 * y = 3 * -\dfrac{2}{3}x + 3 * 6 \\[5ex]
+                        3y = -2x + 18 \\[3ex]
+                        3y + 2x = 18 \\[3ex]
+                        2x + 3y = 18 \\[3ex]
+                        $
+                        The equation of $\overleftrightarrow{AB}$ in Standard form is: $2x + 3y = 18$ <br><br>
+                        <img src="images/Answers/LinearFunctions/Question53.png" alt="Answer to Question 53" style="width: 750px; height: 550px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (54.) <b>ACT</b> Jayla plotted the data from her science project as a scatterplot in the standard
+                    $(x, y)$ coordinate plane. <br>
+                    She found the line containing $2$ of the points to be $y = 0.28x + 6$. <br>
+                    The scatterplot and the line are shown below. <br><br>
+                    <div class="w3-center">
+                        <img src="images/Questions/LinearFunctions/Question54.png" alt="Question 54">
+                    </div> <br>
+                    Jayla decided that this line was not a good fit for her data. <br>
+                    To transform her line into the regression line for her data, Jayla <i>must:</i> <br><br>
+                    A.&nbsp;&nbsp; increase both the slope and the y-intercept. <br>
+                    B.&nbsp;&nbsp; increase the slope and decrease the y-intercept. <br>
+                    C.&nbsp;&nbsp; decrease both the slope and the y-intercept. <br>
+                    D.&nbsp;&nbsp; decrease the slope and the increase the y-intercept. <br>
+                    E.&nbsp;&nbsp; use either a horizontal or vertical line.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF54')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF54">
+                        <br>
+                        <u>Line in Slope-Intercept Form</u> <br>
+                        The slope of the line is $0.28$ <br><br>
+                        The y-intercept of the line is $6$ <br><br>
+                        <u>Regression Line</u> <br>
+                        *The y-intercept of the regression line seems to be $2$.* <br>
+                        In that regard, it is important to note that the y-intercept of the line in slope-intercept form
+                        must be decreased. <br><br>
+                        This eliminates Options $A$ and $D$. <br><br>
+                        Option $E$ is also incorrect because the regression line is not a horizontal line or a vertical line. <br>
+                        Using a horizontal or vertical line is not a good fit for the regression line. <br><br>
+                        Let us analyze the remaining options: <br><br>
+                        Option $B:$ increase the slope and decrease the y-intercept. <br>
+                        The regression is steeper than the slope-intercept line <br>
+                        This implies that it has a greater slope than the slope-intercept line <br><br>
+                        <i>
+                            <u>Student:</u> How? May you explain? <br>
+                            <u>Teacher:</u> Remember we discussed steepness <a href="https://precalculus.appspot.com/RelationsFunctions/relations-functions.html#linearFunctions" target="_blank">here</a> <br>
+                            We can also look at an example to prove what I said. <br>
+                            Let us find the slope of the regression line ...not by formula...but by picking any two points in that
+                            regression line <br>
+                            <u>Student:</u> Point $1$ = $(1, 3)$ and Point $2$ = $(7, 10)$ <br>
+                            <u>Teacher</u> Okay. Find the slope <br>
+                            <u>Student:</u> <br><br>
+                            $
+                            x_1 = 1 \\[3ex]
+                            y_1 = 3 \\[3ex]
+                            x_2 = 7 \\[3ex]
+                            y_2 = 10 \\[3ex]
+                            m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                            = \dfrac{10 - 3}{7 - 1} \\[5ex]
+                            = \dfrac{7}{6} \\[5ex]
+                            = 1.16666667 \\[3ex]
+                            $
+                            <u>Teacher:</u> $1.16666667 \gt 0.28$ 
+                        </i> <br><br>
+                        Because the regression line is steeper than the slope-intercept line, it has a higher slope. <br>
+                        Therefore, Jayla needs to increase the slope of her slope-intercept line in order for the line to
+                        fit her regression line. <br>
+                        Option $B$ is correct. <br>
+                        Option $C$ is incorrect because decreasing the slope of the slope-intercept line would cause it to
+                        be less steep. It would not fit the regression line.
+                    </div>
+                </div>
+            </div>
+        </div>        
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (55.) The graph of $y = mx$ is given below. 
+                    <br><br>
+                    <img src="images/Questions/LinearFunctions/Number55-initial-graph.png" alt="Number 55: Initial Graph">
+                    <br><br>
+                    (a.) $y = mx + 2$; Explain this line in comparison to the original line. <br>
+                    (b.) $y = mx - 2$; Explain this line in comparison to the original line. <br>
+                    (c.) $y = 6mx$; Explain this line in comparison to the original line. <br>
+                    (d.) $y = -6mx$; Explain this line in comparison to the original line.
+                    <br><br>
+                    (e.) Sketch the graphs for (a.), (b.), (c.), and (d.) on the same figure and label each line using the letter of its part. <br>
+                    Use the graphing tool to graph the equations.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF55')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF55">
+                        <br>
+                        First: Let us get two points on the initial graph. <br>
+                        Second: Let us write the equation for the initial graph.
+                        <br><br>
+                        <img src="images/Questions/LinearFunctions/Number55-initial-graph.png" alt="Number 55: Initial Graph">
+                        <br><br>
+                        $
+                        \underline{Initial\;\;Graph} \\[3ex]
+                        Point\;1\;(-3, -1) \\[3ex]
+                        x_1 = -3 \\[3ex]
+                        y_1 = -1 \\[3ex]
+                        Point\;2\;(3, 1) \\[3ex]
+                        x_2 = 3 \\[3ex]
+                        y_2 = 1 \\[3ex]
+                        slope,\;m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{1 - -1}{3 - -3} \\[5ex]
+                        m = \dfrac{1 + 1}{3 + 3} \\[5ex]
+                        m = \dfrac{2}{6} \\[5ex]
+                        m = \dfrac{1}{3} \\[5ex]
+                        $
+                        To graph a linear function using the graphing tools on MLM, two points are required.
+                        <br><br>
+                        $
+                        (a.) \\[3ex]
+                        y = mx + 2 \\[3ex]
+                        y = \dfrac{1}{3}x + 2...same\;\;slope \\[5ex]
+                        y-intercept:\;\;When\;\;x = 0 \\[3ex]
+                        y = \dfrac{1}{3} * 0 + 2 \\[5ex]
+                        y = 0 + 2 \\[3ex]
+                        y = 2 \\[3ex]
+                        y-intercept = Point\;1 = (0, 2) \\[3ex]
+                        When\;\;x = 3 \\[3ex]
+                        y = \dfrac{1}{3} * 3 + 2 \\[5ex]
+                        y = 1 + 2 \\[3ex]
+                        y = 3 \\[3ex]
+                        Point\;2 = (3, 3)
+                        $
+                        The line is parallel to $y = mx$ and passes through the points: (0, 2) and (3, 3)
+                        <br><br>
+                        <img src="images/Answers/LinearFunctions/Number55-graph-a.png" alt="Number 55: Graph a">
+                        <br><br>
+                        $
+                        (b.) \\[3ex]
+                        y = mx - 2 \\[3ex]
+                        y = \dfrac{1}{3}x - 2...same\;\;slope \\[5ex]
+                        y-intercept:\;\;When\;\;x = 0 \\[3ex]
+                        y = \dfrac{1}{3} * 0 - 2 \\[5ex]
+                        y = 0 - 2 \\[3ex]
+                        y = -2 \\[3ex]
+                        y-intercept = Point\;1 = (0, -2) \\[3ex]
+                        When\;\;x = 3 \\[3ex]
+                        y = \dfrac{1}{3} * 3 - 2 \\[5ex]
+                        y = 1 - 2 \\[3ex]
+                        y = -1 \\[3ex]
+                        Point\;2 = (3, -1)
+                        $
+                        The line is parallel to $y = mx$ and passes through the points: (0, -2) and (3, -1)
+                        <br><br>
+                        <img src="images/Answers/LinearFunctions/Number55-graph-b.png" alt="Number 55: Graph b">
+                        <br><br>
+                        $
+                        (c.) \\[3ex]
+                        y = 6mx \\[3ex]
+                        y = 6 * \dfrac{1}{3}x \\[5ex]
+                        y = 2x \\[3ex]
+                        y-intercept:\;\;When\;\;x = 0 \\[3ex]
+                        y = 2(0) \\[3ex]
+                        y = 0 \\[3ex]
+                        y-intercept = Point\;1 = (0, 0) \\[3ex]
+                        When\;\;x = 1 \\[3ex]
+                        y = 2(1) \\[3ex]
+                        y = 2 \\[3ex]
+                        Point\;2 = (1, 2)
+                        $
+                        The slope is 6 times the original​ slope, and the line passes through the points: (0, 0) and (1, 2)
+                        <br><br>
+                        <img src="images/Answers/LinearFunctions/Number55-graph-c.png" alt="Number 55: Graph c">
+                        <br><br>
+                        $
+                        (d.) \\[3ex]
+                        y = -6mx \\[3ex]
+                        y = -6 * \dfrac{1}{3}x \\[5ex]
+                        y = -2x \\[3ex]
+                        y-intercept:\;\;When\;\;x = 0 \\[3ex]
+                        y = -2(0) \\[3ex]
+                        y = 0 \\[3ex]
+                        y-intercept = Point\;1 = (0, 0) \\[3ex]
+                        When\;\;x = 1 \\[3ex]
+                        y = -2(1) \\[3ex]
+                        y = -2 \\[3ex]
+                        Point\;2 = (1, -2)
+                        $
+                        The slope is &minus;6 times the original​ slope, and the line passes through the points: (0, 0) and (1, &minus;2)
+                        <br><br>
+                        <img src="images/Answers/LinearFunctions/Number55-graph-d.png" alt="Number 55: Graph d">
+                        <br><br>
+                        (e.) The graphs for (a.), (b.), (c.), and (d.) on the same figure and their respective labels is:
+                        <br><br>
+                        <img src="images/Answers/LinearFunctions/Number55-final-graph.png" alt="Number 55: Final Graph">
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (56.) <b>ACT</b> In the standard $(x, y)$ coordinate plane, what is the slope of the line through (&minus;6, 4) and (1, 3)? <br><br>
+                    $
+                    F.\:\: -\dfrac{7}{5} \\[5ex]
+                    G.\:\: -\dfrac{1}{5} \\[5ex]
+                    H.\:\: -\dfrac{1}{7} \\[5ex]
+                    J.\:\: \dfrac{1}{7} \\[5ex]
+                    K.\:\: \dfrac{1}{5} \\[5ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF56')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF56">
+                        <br>
+                        $
+                        Point\:1 = (-6, 4) \\[3ex]
+                        x_1 = -6 \\[3ex]
+                        y_1 = 4 \\[3ex]
+                        Point\:2 = (1, 3) \\[3ex]
+                        x_2 = 1 \\[3ex]
+                        y_2 = 3 \\[3ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{3 - 4}{1 - (-6)} \\[5ex]
+                        = \dfrac{-1}{1 + 6} \\[5ex]
+                        = -\dfrac{1}{7} 
+                        $
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (57.) Determine the distance between these pairs of points. <br><br>
+                    $
+                    (a.)\;\; (-8, 10)\;\;\;and\;\;\;(-6, 7) \\[3ex]
+                    (b.)\;\; (6, 4)\;\;\;and\;\;\;(-5, -1) \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF57')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF57">
+                        <br>
+                        $
+                        distance = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \\[3ex]
+                        (a.) \\[3ex]
+                        Point\;1 = (-8, 10) \\[3ex]
+                        x_1 = -8 \\[3ex]
+                        y_1 = 10 \\[3ex]
+                        Point\;2 = (-6, 7) \\[3ex]
+                        x_2 = -6 \\[3ex]
+                        y_2 = 7 \\[3ex]
+                        distance = \sqrt{(-6 - -8)^2 + (7 - 10)^2} \\[3ex]
+                        = \sqrt{(-6 + 8)^2 + (-3)^2} \\[3ex]
+                        = \sqrt{2^2 + 9} \\[3ex]
+                        = \sqrt{4 + 9} \\[3ex]
+                        = \sqrt{13}\;units \\[3ex]
+                        (b.) \\[3ex]
+                        Point\;1 = (6, 4) \\[3ex]
+                        x_1 = 6 \\[3ex]
+                        y_1 = 4 \\[3ex]
+                        Point\;2 = (-5, -1) \\[3ex]
+                        x_2 = -5 \\[3ex]
+                        y_2 = -1 \\[3ex]
+                        distance = \sqrt{(-5 - 6)^2 + (-1 - 4)^2} \\[3ex]
+                        = \sqrt{(-11)^2 + (-5)^2} \\[3ex]
+                        = \sqrt{121 + 25} \\[3ex]
+                        = \sqrt{146}\;units
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (58.) <b>WASSCE</b> Find the equation of the line joining the points $\left(-2, \dfrac{1}{2}\right)$ and 
+                    $\left(1, -\dfrac{2}{3}\right)$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF58')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF58">
+                        <br>
+                        $
+                        Point\:1 = \left(-2, \dfrac{1}{2}\right) \\[5ex] 
+                        x_1 = -2 \\[3ex]
+                        y_1 = \dfrac{1}{2} \\[5ex]
+                        Point\:2 = \left(1, -\dfrac{2}{3}\right) \\[5ex] 
+                        x_2 = 1 \\[3ex]
+                        y_2 = -\dfrac{2}{3} \\[5ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{-\dfrac{2}{3} - \dfrac{1}{2}}{1 - (-2)} \\[7ex]
+                        m = \dfrac{\dfrac{-4 - 3}{6}}{1 + 2} \\[7ex]
+                        m = \dfrac{\dfrac{-7}{6}}{3} \\[7ex]
+                        m = -\dfrac{7}{6} \div 3 \\[5ex] 
+                        m = -\dfrac{7}{6} * \dfrac{1}{3} \\[5ex] 
+                        m = -\dfrac{7}{18} \\[5ex] 
+                        \underline{Point-Slope\;\;Form} \\[3ex] 
+                        Use\;\;any\;\;of\;\;the\;\;two\;\;points \\[3ex] 
+                        Let\;\;us\;\;use\;\;Point\;\;1 \\[3ex] 
+                        Point\:1 = \left(-2, \dfrac{1}{2}\right) \\[5ex] 
+                        x_1 = -2 \\[3ex]
+                        y_1 = \dfrac{1}{2} \\[5ex]
+                        y - y_1 = m(x - x_1) \\[3ex] 
+                        y - \dfrac{1}{2} = -\dfrac{7}{18}(x - -2) \\[5ex] 
+                        y - \dfrac{1}{2} = -\dfrac{7}{18}(x + 2) \\[5ex] 
+                        y - \dfrac{1}{2} = -\dfrac{7x}{18} - \dfrac{7}{9} \\[5ex] 
+                        y = -\dfrac{7x}{18} - \dfrac{7}{9} + \dfrac{1}{2} \\[5ex] 
+                        y = -\dfrac{7}{18}x + \dfrac{-14 + 9}{18} \\[5ex] 
+                        y = -\dfrac{7}{18}x + \dfrac{-5}{18} \\[5ex] 
+                        y = -\dfrac{7}{18}x - \dfrac{5}{18}...Slope-Intercept\;\;Form \\[5ex] 
+                        OR \\[3ex] 
+                        y = \dfrac{-7x - 5}{18} \\[5ex] 
+                        18y = -7x - 5 \\[3ex] 
+                        18y + 7x = -5 \\[3ex] 
+                        7x + 18y = -5...Standard\;\;Form 
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (59.) <b>ACT</b> A certain fraternity had its freshmen members keep a log 
+                    of their hours speD! playing video gimes. <br>
+                    When midterm grades were known. the fraternity president 
+                    plotted the data in the standard (x,y) coordinate plane 
+                    with average hours per week spent playing video games 
+                    on the <i>x</i>-axis and the midterm grade point average 
+                    (GPA) on the <i>y</i>-axis as shown in the figure below. <br>
+                    He then performed a linear regression on the data. <br>
+                    Which of the following statements is true of the regression equation?
+                    <br><br>
+                    <img src="images/Questions/LinearFunctions/Number59.png" alt="Number 59">
+                    <br><br>                    
+                    <b>A.</b> The slope and the <i>y</i>-intercept are both negative. <br>
+                    <b>B.</b> The slope and the <i>y</i>-intercept are both positive. <br>
+                    <b>C.</b> The slope is negative, and the <i>y</i>-intercept is positive. <br>
+                    <b>D.</b> The slope is positive, and the <i>y</i>-intercept is negative. <br>
+                    <b>E.</b> The slope is 0, and the <i>y</i>-intercept is positive. 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF59')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF59">
+                        <br>
+                        The <i>y</i>-intercept is the point where the graph cuts the <i>y</i>-axis. <br>
+                        Based on the graph: <br>
+                        The slope is negative and the <i>y</i>-intercept is positive.
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (60.) <b>ACT</b> When graphed in the standard $(x, y)$ coordinate plane, which of the following 
+                    equations does NOT represent a line? 
+                    <br><br>
+                    $
+                    A.\:\: x = 4 \\[3ex]
+                    B.\:\: 3y = 6 \\[3ex]
+                    C.\:\: x - y = 1 \\[3ex]
+                    D.\:\: y = \dfrac{3}{4}x - 2 \\[5ex]
+                    E.\:\: x^2 + y = 5 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF60')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF60">
+                        <br>
+                        The graph of a Linear Function is a straight line <br><br>
+                        The graph of a Quadratic Function is a parabola (a curve) <br><br>
+                        $
+                        A.\:\: x = 4 \\[3ex]
+                        Not\:\:a\:\:Linear\:\:Function \\[3ex]
+                        However,\:\:the\:\:graph\:\:is\:\:a\:\:straight\:\:line \\[3ex]
+                        It\:\:is\:\:a\:\:Vertical\:\:line...so\:\:Yes \\[3ex]
+                        B.\:\: 3y = 6 \\[3ex]
+                        Linear\:\:Function...Yes \\[3ex]
+                        The\:\:graph\:\:is\:\:a\:\:horizontal\:\:line \\[3ex]
+                        C.\:\: x - y = 1 \\[3ex]
+                        Linear\:\:Function...Yes \\[3ex]
+                        D.\:\: y = \dfrac{3}{4}x - 2 \\[5ex]
+                        Linear\:\:Function...Yes \\[3ex]
+                        E.\:\: x^2 + y = 5 \\[3ex]
+                        It\:\:is\:\:a\:\:Quadratic\:\:Function \\[3ex]
+                        The\:\:graph\:\:is\:\:NOT\:\:a\:\:straight\:\:line \\[3ex]
+                        It\:\:is\:\:a\:\:curve
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <!-- Top of the Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://precalculus.appspot.com/RelationsFunctions/linearFunctions.html" class="w3-button w3-xlarge w3-circle w3-olive"
+               style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+        <br><br><br><br>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (61.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF61')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF61">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (62.) <b>ACT</b> An on-demand movie service charges $\$5$ per month, plus $\$2$ for each movie rented. <br>
+                    Which of the following equations models the relationship between $M$, the number of movies rented per month, and $T$, 
+                    the total monthly cost, in dollars, for the service? <br><br>
+                    $
+                    F.\;\; M = 5 + 2t \\[3ex] 
+                    G.\;\; M = 2 + 5T \\[3ex]
+                    H.\;\; T = 5 + 2M \\[3ex] 
+                    J.\;\; T = 2 + 5M \\[3ex]
+                    K.\;\; T = (5 + 2)M \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF62')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF62">
+                        <br>
+                        If you are confused about how to exactly solve this question, a good way to begin is to find the monthly cost to 
+                        rent: <br>
+                        (1.) a movie <br>
+                        (2.) two movies <br>
+                        (3.) three movies <br><br>
+                        $
+                        \underline{Monthly\;\;Cost\;\;to\;\;rent\;\;1\;\;movie} \\[3ex] 
+                        T = 5 + 2(1) \\[3ex] 
+                        T = 5 + 2 \\[3ex] 
+                        T = \$7.00 \\[3ex] 
+                        \underline{Monthly\;\;Cost\;\;to\;\;rent\;\;2\;\;movies} \\[3ex] 
+                        T = 5 + 2(2) \\[3ex] 
+                        T = 5 + 4 \\[3ex] 
+                        T = \$9.00 \\[3ex] 
+                        \underline{Monthly\;\;Cost\;\;to\;\;rent\;\;3\;\;movies} \\[3ex] 
+                        T = 5 + 2(3) \\[3ex] 
+                        T = 5 + 6 \\[3ex] 
+                        T = \$11.00 \\[3ex] 
+                        \underline{Monthly\;\;Cost\;\;to\;\;rent\;\;M\;\;movies} \\[3ex] 
+                        T = 5 + 2(M) \\[3ex] 
+                        T = 5 + 2M \\[3ex] 
+                        T = 2M + 5 \\[3ex] 
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (63.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF63')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF63">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (64.) <b>ACT</b> What is the slope of the line that passes through 
+                    (1, 5) and (17, 7) in the standard (<i>x</i>, <i>y</i>) coordinate plane? <br><br>
+                    $
+                    F.\;\; \dfrac{1}{8} \\[5ex] 
+                    G.\;\; \dfrac{2}{3} \\[5ex] 
+                    H.\;\; \dfrac{3}{2} \\[5ex] 
+                    J.\;\; \dfrac{5}{2} \\[5ex] 
+                    K.\;\; 8 \\[3ex] 
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF64')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF64">
+                        <br>
+                        $
+                        Point\;1:\;(1, 5) \implies x_1 = 1, \;\; y_1 = 5 \\[3ex] 
+                        Point\;2:\;(17, 7) \implies x_2 = 17, \;\; y_2 = 7 \\[3ex] 
+                        Slope, \; m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex] 
+                        = \dfrac{7 - 5}{17 - 1} \\[5ex] 
+                        = \dfrac{2}{16} \\[5ex] 
+                        = \dfrac{1}{8}
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (65.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF65')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF65">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (66.) <b>ACT</b> The line with equation $2x + 5y = 9$ is graphed in the standard $(x, y)$ coordinate plane. <br>
+                    What is the slope of the line? <br><br>
+                    $
+                    A.\;\; -\dfrac{5}{2} \\[5ex] 
+                    B.\;\; -\dfrac{2}{5} \\[5ex] 
+                    C.\;\; \dfrac{2}{5} \\[5ex] 
+                    D.\;\; \dfrac{5}{2} \\[5ex] 
+                    E.\;\; 2 \\[3ex] 
+                    $
+                    <button class="solutions" onclick="solutions('solutionLF66')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF66">
+                        <br>
+                        $
+                        2x + 5y = 9 \\[3ex] 
+                        5y = 9 - 2x \\[3ex] 
+                        5y = -2x + 9 \\[3ex] 
+                        y = \dfrac{-2x + 9}{5} \\[5ex] 
+                        y = -\dfrac{2}{5}x + \dfrac{9}{5} \\[5ex] 
+                        Compare\;\;to\;\; y = mx + b \\[3ex] 
+                        m = -\dfrac{2}{5}
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (67.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF67')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF67">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (68.) Write an equation in​ point-slope form of the line that passes through (&minus;3, 1) and with the given slope <i>m</i> = 7 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF68')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF68">
+                        <br>
+                        $
+                        (x_1, y_1) = (-3, 1) \\[3ex]
+                        x_1 = -3 \\[3ex] 
+                        y_1 = 1 \\[3ex] 
+                        m = 7 \\[3ex]
+                        y - y_1 = m(x - x_1) ...Point-Slope\;\;Form \\[3ex]
+                        y - 1 = 7(x - -3) \\[3ex]
+                        y - 1 = 7(x + 3) 
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (69.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF69')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF69">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (70.) 
+                    
+                    <button class="solutions" onclick="solutions('solutionLF70')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF70">
+                        <br>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (71.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF71')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF71">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (72.) Find an equation for the line with the given properties. <br>
+                    Express the equation in slope-intercept form. <br>
+                    Containing the points P = (&minus;3, 1) and Q = (&minus;2, &minus;1) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF72')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF72">
+                        <br>
+                        $
+                        P = (-3, 1) \\[3ex]
+                        x_1 = -3 \\[3ex]
+                        y_1 = 1 \\[3ex]
+                        Q = (-2, -1) \\[3ex]
+                        x_2 = -2 \\[3ex]
+                        y_2 = -1 \\[3ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{-1 - 1}{-2 - (-3)} \\[5ex]
+                        m = \dfrac{-2}{-2 + 3} \\[5ex]
+                        m = \dfrac{-2}{1} \\[5ex]
+                        m = -2 \\[3ex]
+                        To\;\;find\;\;b \\[3ex]
+                        Let\;\;us\;\;focus\;\;on\;\;point\;\;P(-3, 1) \\[3ex]
+                        x = -3 \\[3ex]
+                        y = 1 \\[3ex]
+                        y = mx + b \\[3ex]
+                        1 = -2(-3) + b \\[3ex]
+                        1 = 6 + b \\[3ex]
+                        6 + b = 1 \\[3ex]
+                        b = 1 - 6 \\[3ex]
+                        b = -5 \\[3ex]
+                        \implies \\[3ex]
+                        y = mx + b \\[3ex] 
+                        y = -2x - 5
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (73.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF73')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF73">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (74.) 
+                    
+                    <button class="solutions" onclick="solutions('solutionLF74')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF74">
+                        <br>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (75.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF75')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF75">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (76.) 
+                    
+                    <button class="solutions" onclick="solutions('solutionLF76')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF76">
+                        <br>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (77.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF77')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF77">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (78.) 
+                    
+                    <button class="solutions" onclick="solutions('solutionLF78')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF78">
+                        <br>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (79.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF79')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF79">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (80.) 
+                    
+                    <button class="solutions" onclick="solutions('solutionLF80')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF80">
+                        <br>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (81.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF81')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF81">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (82.) 
+                    
+                    <button class="solutions" onclick="solutions('solutionLF82')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF82">
+                        <br>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (83.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF83')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF83">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (84.) 
+                    
+                    <button class="solutions" onclick="solutions('solutionLF84')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF84">
+                        <br>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (85.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLF85')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF85">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (86.) 
+                    
+                    <button class="solutions" onclick="solutions('solutionLF86')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLF86">
+                        <br>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- END PAGE CONTENT -->
+
+        
+        <!-- Footer -->
+        <footer class="olive w3-center w3-padding-24">
+            
+            <div id="google_translate_element"></div>
+            <script>
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-123914705-1'}, 'google_translate_element');
+                }
+            </script>
+            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            
+            <p>&copy; 2018&nbsp; SamDom4Peace Designs.</p>
+        </footer>
+        <!-- End Footer -->
+
+        <script src="scripts/messages8.js"></script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+        <script async
+                src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+    </body>
+</html>

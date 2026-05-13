@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>       
+            
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDLZMCQQ0V"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-EDLZMCQQ0V');
+        </script>
+
+        <title>Linear Models</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Samuel Dominic Chukwuemeka (SamDom For Peace) gives all the credit to our LORD and GOD JESUS CHRIST. We are experts in linear models.">
+
+        <meta name="keywords" content="samuel, dominic, chukwuemeka, samuel dominic chukwuemeka, math, methematics,
+              relations, functions, set, ordered pairs, order, table, equation, mapping, 
+              correspondence, rule, graph, coordinates, points, x-coordinate, y-coordinate,
+              domain, range, function, one-to-one function, onto function, set notation, inverse of functions,
+              interval notation, injective function, surjective function, bijective function,
+              order relations, reflexivity, symmetry, antisymmetry, transitivity, lexicographic order,
+              partial order, total order, pseudo order, quasi order, chains, equivalence relations,
+              maximal elements, minimal elements, hasse diagrams, lower bound, upper bound, lattice,
+              topological sorting, radical, radicand, rational functions, symmetric, antisymmetric, codomain, image, 
+              slope, intercept, slope-intercept form, point-slope form, two-points form, difference quotient,
+              derivative, function composition, function decomposition, linear functions, quadratic functions, 
+              parabolas, vertical parabola, vertex, axis, line of symmetry, function transformations, even functions,
+              odd functions">
+
+        <link href="styles/relationsFunctions.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header class="w3-padding-24 olive">
+            <h1>Solved Examples on Linear Models</h1>
+        </header>
+        <!-- End Header -->
+        <br><br>
+
+        <!-- Page Content -->
+        <div class="w3-row w3-container">
+            
+            <div class="w3-container">
+                <!-- Image in top left corner -->
+                <a href="https://precalculus.appspot.com/RelationsFunctions">
+                    <img src="images/chukwuemeka-samuel.jpg" alt="Samuel Dominic Chukwuemeka (SamDom For Peace)" title="Samuel Chukwuemeka (SamDom For Peace)" class="images">
+                </a>         
+                Attempt all questions. <br>
+                Show all work.
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (1.) Examine these scatter plots and determine whether each relation is linear or nonlinear. <br><br>
+                    (a.) <img src="images/Questions/LinearModels/Number1a.jpg" alt="Number 1a">
+                    <br><br>
+                    (b.) <img src="images/Questions/LinearModels/Number1b.jpg" alt="Number 1b">
+                    <br><br>
+                    (c.) <img src="images/Questions/LinearModels/Number1c.jpg" alt="Number 1c">
+                    <br><br>
+                    (d.) <img src="images/Questions/LinearModels/Number1d.jpg" alt="Number 1d">
+                    <br><br>
+                    (e.) <img src="images/Questions/LinearModels/Number1e.jpg" alt="Number 1e">
+                    <br><br>
+                    (f.) <img src="images/Questions/LinearModels/Number1f.jpg" alt="Number 1f">
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLM1')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM1">
+                        <br>
+                        (a.) The relation is nonlinear because the data points in the scatter plot does not follow the pattern of a straight line. <br>
+                        It follows the pattern of the curve of a quadratic model: concave down. <br><br>
+                        (b.) The relation is linear because the data points in the scatter plot follow the pattern of a straight line. <br>
+                        The straight line pattern is that of a negative slope. <br><br>
+                        (c.) The relation is linear because the data points in the scatter plot follow the pattern of a straight line. <br>
+                        The straight line pattern is that of a positive slope. <br><br>
+                        (d.) The relation is linear because the data points in the scatter plot follow the pattern of a straight line. <br>
+                        The straight line pattern is that of a negative slope. <br><br>
+                        (e.) The relation is nonlinear because the data points in the scatter plot does not follow the pattern of a straight line. <br>
+                        It follows the pattern of the curve of a quadratic model: concave down. <br><br>
+                        (f.) The relation is nonlinear because the data points in the scatter plot does not follow the pattern of a straight line. <br>
+                        It follows the pattern of the curve of a quadratic model: concave up. 
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (2.) For the data given below: 
+                    <br><br>
+                    <table class="w3-center">
+                        <tr>
+                            <td style="width: 12.5%;"><i>x</i></td>
+                            <td style="width: 12.5%;">3</td>
+                            <td style="width: 12.5%;">4</td>
+                            <td style="width: 12.5%;">5</td>
+                            <td style="width: 12.5%;">6</td>
+                            <td style="width: 12.5%;">7</td>
+                            <td style="width: 12.5%;">8</td>
+                            <td style="width: 12.5%;">9</td>
+                        </tr>
+                        <tr>
+                            <td><i>y</i></td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>9</td>
+                            <td>11</td>
+                            <td>13</td>
+                            <td>15</td>
+                        </tr>
+                    </table>
+                    <br>
+                    (a.) Draw a scatter plot. <br>
+                    [Please see the use of Texas Instruments calculators to draw the scatter plot. <a href="https://precalculus.appspot.com/RelationsFunctions/TIcalculatorsLinearModels.html#number1" target="_blank">Answer: (2.)(a.)</a>] 
+                    <br><br>
+                    (b.) Find the equation of the line containing the first and last data points. 
+                    <br><br>
+                    (c.) Graph the line found in part​ (b.) on the scatter plot. <br>
+                    [Please see the use of Texas Instruments calculators to graph the line on the scatter plot. <a href="https://precalculus.appspot.com/RelationsFunctions/TIcalculatorsLinearModels.html#number1" target="_blank">Answer: (2.)(c.)</a>] 
+                    <br><br>
+                    (d.) Use a graphing utility to find the line of best fit. <br>
+                    Type integers or decimals rounded to four decimal places as needed. <br>
+                    [Please see the use of Texas Instruments calculators to determine the regression equation (also known as the line of best fit). 
+                    <a href="https://precalculus.appspot.com/RelationsFunctions/TIcalculatorsLinearModels.html#number1" target="_blank">Answer: (2.)(d.)</a>] 
+                    <br><br>
+                    (e.) What is the correlation coefficient, <i>r</i>? <br>
+                    Type an integer or decimal rounded to three decimal places as needed. <br>
+                    [Please see the use of Texas Instruments calculators to determine the correlation coefficient. 
+                    <a href="https://precalculus.appspot.com/RelationsFunctions/TIcalculatorsLinearModels.html#number1" target="_blank">Answer: (2.)(e.)</a>] 
+                    <br><br>
+                    (f.) Use a graphing utility to draw the scatter plot and graph the line of best fit on it using these values: <br>
+                    Xmin = ​0, Xmax = ​20, Xscl = ​2, Ymin= ​0, Ymax = ​20, Yscl = 2
+                    <br><br>
+                    [Please see the use of Texas Instruments calculators to draw the scatter plot and the line of best fit. 
+                    <a href="https://precalculus.appspot.com/RelationsFunctions/TIcalculatorsLinearModels.html#number1" target="_blank">Answer: (2.)(f.)</a>] 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLM2')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM2">
+                        <br>
+                        (a.) Please see the use of Texas Instruments calculators to draw the scatter plot. <a href="https://precalculus.appspot.com/RelationsFunctions/TIcalculatorsLinearModels.html#number1" target="_blank">Answer: (2.)(a.)</a>
+                        <br><br>
+                        $
+                        (b.) \\[3ex]
+                        First\;\;Point = (3, 3) \\[3ex]
+                        x_1 = 3 \\[3ex]
+                        y_1 = 3 \\[3ex]
+                        Last\;\;Point = (9, 15) \\[3ex]
+                        x_2 = 9 \\[3ex]
+                        y_2 = 15 \\[3ex]
+                        slope = m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        = \dfrac{15 - 3}{9 - 3} \\[5ex]
+                        = \dfrac{12}{6} \\[5ex]
+                        = 2 \\[3ex]
+                        To\;\;find\;\;the\;\;y-intercept: \\[3ex]
+                        Use\;\;any\;\;point \\[3ex]
+                        Let\;\;us\;\;use\;\;Last\;\;Point = (9, 15) \\[3ex]
+                        x = 9 \\[3ex] 
+                        y = 15 \\[3ex]
+                        y = mx + b \\[3ex]
+                        15 = 2(9) + b \\[3ex]
+                        15 = 18 + b \\[3ex]
+                        18 + b = 15 \\[3ex]
+                        b = 15 - 18 \\[3ex]
+                        b = -3 \\[3ex]
+                        \implies \\[3ex]
+                        y = mx + b \\[3ex]
+                        y = 2x - 3 \\[3ex]
+                        $
+                        (c.) Please see the use of Texas Instruments calculators to graph the line on the scatter plot: <a href="https://precalculus.appspot.com/RelationsFunctions/TIcalculatorsLinearModels.html#number1" target="_blank">Answer: (2.)(c.)</a> <br><br>
+                        (d.) Please see the use of Texas Instruments calculators to determine the line of best fit (also known as the least-squares regression line): <a href="https://precalculus.appspot.com/RelationsFunctions/TIcalculatorsLinearModels.html#number1" target="_blank">Answer: (2.)(d.)</a> <br><br>
+                        (e.) Please see the use of Texas Instruments calculators to determine the correlation coefficient: <a href="https://precalculus.appspot.com/RelationsFunctions/TIcalculatorsLinearModels.html#number1" target="_blank">Answer: (2.)(e.)</a> <br><br>
+                        (f.) Please see the use of Texas Instruments calculators to draw the scatter plot and graph the line of best fit using those settings: <a href="https://precalculus.appspot.com/RelationsFunctions/TIcalculatorsLinearModels.html#number1" target="_blank">Answer: (2.)(f.)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (3.) Use a graphing utility to find the line of best fit for the following data. <br>
+                    Type integers or decimals rounded to four decimal places as​ needed.
+                    <br><br>
+                    <table class="w3-center">
+                        <tr>
+                            <td style="width: 16%;"><b><i>x</i></b></td>
+                            <td style="width: 14%;">2</td>
+                            <td style="width: 14%;">4</td>
+                            <td style="width: 14%;">4</td>
+                            <td style="width: 14%;">6</td>
+                            <td style="width: 14%;">8</td>
+                            <td style="width: 14%;">10</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 16%;"><b><i>y</i></b></td>
+                            <td style="width: 14%;">9</td>
+                            <td style="width: 14%;">12</td>
+                            <td style="width: 14%;">13</td>
+                            <td style="width: 14%;">15</td>
+                            <td style="width: 14%;">17</td>
+                            <td style="width: 14%;">20</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <button class="solutions" onclick="solutions('solutionLM3')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM3">
+                        <br>
+                        Please review the basic steps here: <a href="https://precalculus.appspot.com/RelationsFunctions/TIcalculatorsLinearModels.html" target="_blank">Texas Instruments (TI) Calculators for Linear Models</a> <br><br>
+                        <img src="images/Answers/LinearModels/Number3a.jpg" alt="Number 3a"> <br><br>
+                        <img src="images/Answers/LinearModels/Number3b.jpg" alt="Number 3b"> <br><br>
+                        <img src="images/Answers/LinearModels/Number3c.jpg" alt="Number 3c"> <br><br>
+                        $
+                        y = ax + b \\[3ex]
+                        y = 1.307692308x + 6.923076923 \\[3ex]
+                        y \approx 1.3077x + 6.9231...rounded\;\;to\;\;4\;\;decimal\;\;places
+                        $
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (4.) 
+                    <button class="solutions" onclick="solutions('solutionLM4')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM4">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (5.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLM5')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM5">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (6.) 
+                    <button class="solutions" onclick="solutions('solutionLM6')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM6">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (7.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLM7')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM7">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (8.) 
+                    <button class="solutions" onclick="solutions('solutionLM8')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM8">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (9.) A professor wanted to find a linear model that relates the number of hours a student plays video games each​ week, <i>h</i>, to the cumulative​ grade-point average,​ <i>G</i>, of the student. <br>
+                    He obtained a random sample of 10​ full-time students at his college and asked each student to disclose the number of hours spent playing video games and the​ student's cumulative​ grade-point average.
+                    <br>
+
+
+                    (a.) Explain why the number of hours spent playing video games is the independent variable and cumulative​ grade-point average is the dependent variable.
+                    <br><br>
+
+
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLM9')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM9">
+                        <br>
+                        (a.) 
+                        <i>
+                            Between these two variables: <br>
+                            the number of hours spent playing video games <br>
+                            and <br>
+                            cumulative​ grade-point average <br>
+                            does the number of hours spent playing video games depend on the cumulative​ grade-point average <br>
+                            or <br>
+                            does the cumulative​ grade-point average depend on the number of hours spent playing video games?
+                        </i>
+                        <br><br>
+                        The number of hours spent playing video games is being used to predict cumulative​ grade-point average. 
+                        <br><br>
+                        (b.) 
+
+
+
+
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (10.) 
+                    <button class="solutions" onclick="solutions('solutionLM10')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM10">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (11.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLM11')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM11">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (12.) 
+                    <button class="solutions" onclick="solutions('solutionLM12')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM12">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (13.) 
+                    <button class="solutions" onclick="solutions('solutionLM13')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM13">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (14.) 
+                    <button class="solutions" onclick="solutions('solutionLM14')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM14">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (15.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLM15')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM15">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (16.) 
+                    <button class="solutions" onclick="solutions('solutionLM16')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM16">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (17.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLM17')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM17">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (18.) 
+                    <button class="solutions" onclick="solutions('solutionLM18')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM18">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (19.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLM19')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM19">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (20.) 
+                    <button class="solutions" onclick="solutions('solutionLM20')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM20">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <!-- Top of the Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://precalculus.appspot.com/RelationsFunctions/linearModels.html" class="w3-button w3-xlarge w3-circle w3-olive"
+               style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+        <br><br><br><br>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (21.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLM21')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM21">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (22.) 
+                    <button class="solutions" onclick="solutions('solutionLM22')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM22">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (23.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLM23')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM23">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (24.) 
+                    <button class="solutions" onclick="solutions('solutionLM24')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM24">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (25.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLM25')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM25">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (26.) 
+                    <button class="solutions" onclick="solutions('solutionLM26')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM26">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (27.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionLM27')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM27">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (28.) 
+                    <button class="solutions" onclick="solutions('solutionLM28')">Show/Hide Answer</button>
+                    <div class="result" id="solutionLM28">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <!-- END PAGE CONTENT -->
+
+        
+        <!-- Footer -->
+        <footer class="olive w3-center w3-padding-24">
+            
+            <div id="google_translate_element"></div>
+            <script>
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-123914705-1'}, 'google_translate_element');
+                }
+            </script>
+            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            
+            <p>&copy; 2018&nbsp; SamDom4Peace Designs.</p>
+        </footer>
+        <!-- End Footer -->
+
+        <script src="scripts/messages8.js"></script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+        <script async
+                src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+    </body>
+</html>

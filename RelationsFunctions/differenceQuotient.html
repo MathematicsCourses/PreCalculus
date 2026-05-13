@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDLZMCQQ0V"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-EDLZMCQQ0V');
+    </script>
+
+    <title>Difference Quotient of Functions</title>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Samuel Dominic Chukwuemeka (Samdom4Peace) gives all the credit to our LORD and GOD JESUS CHRIST. We are experts in computing difference quotients of functions.">
+
+    <meta name="keywords" content="samuel, dominic, chukwuemeka, samuel dominic chukwuemeka, math, methematics,
+              relations, functions, set, ordered pairs, order, table, equation, mapping, 
+              correspondence, rule, graph, coordinates, points, x-coordinate, y-coordinate,
+              domain, range, function, one-to-one function, onto function, set notation, inverse of functions,
+              interval notation, injective function, surjective function, bijective function,
+              order relations, reflexivity, symmetry, antisymmetry, transitivity, lexicographic order,
+              partial order, total order, pseudo order, quasi order, chains, equivalence relations,
+              maximal elements, minimal elements, hasse diagrams, lower bound, upper bound, lattice,
+              topological sorting, radical, radicand, rational functions, symmetric, antisymmetric, codomain, image, 
+              slope, intercept, slope-intercept form, point-slope form, two-points form, difference quotient,
+              derivative, function composition, function decomposition, linear functions, quadratic functions, 
+              parabolas, vertical parabola, vertex, axis, line of symmetry, function transformations, even functions,
+              odd functions">
+
+    <link href="styles/relationsFunctions.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+    <!-- Header -->
+    <header class="w3-padding-24 olive">
+        <h1>Solved Examples on Difference Quotient</h1>
+    </header>
+    <!-- End Header -->
+
+    <br><br>
+
+    <!-- Page Content -->
+    <div class="w3-row w3-container">
+
+        <div class="w3-container">
+            <!-- Image in top left corner -->
+            <a href="https://precalculus.appspot.com/RelationsFunctions/relations-functions.html">
+                <img src="images/chukwuemeka-samuel-dominic.jpg" alt="Samuel Dominic Chukwuemeka (SamDom For Peace)"
+                    title="Samuel Dominic Chukwuemeka" class="images">
+            </a>
+            <br>
+            $DQ = \dfrac{f(x + h) - f(x)}{h}$
+            <br><br>
+            Calculate the difference quotient of the functions <br>
+            Show all work
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (1.) $f(x) = x$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ1')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ1">
+                    <br>
+                    $
+                    f(x) = x \\[3ex]
+                    f(x + h) = x + h \\[3ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    DQ = \dfrac{x + h - x}{h} \\[5ex]
+                    DQ = \dfrac{h}{h} \\[5ex]
+                    DQ = 1
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (2.) $f(x) = -x$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ2')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ2">
+                    <br>
+                    $
+                    f(x) = -x \\[3ex]
+                    f(x + h) = -(x + h) \\[3ex]
+                    f(x + h) = -x - h \\[3ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    DQ = \dfrac{-x - h - (-x)}{h} \\[5ex]
+                    DQ = \dfrac{-x - h + x}{h} \\[5ex]
+                    DQ = \dfrac{-h}{h} \\[5ex]
+                    DQ = -1
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (3.) $f(x) = -x^2$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ3')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ3">
+                    <br>
+                    $
+                    f(x) = -x^2 \\[3ex]
+                    f(x + h) = -(x + h)^2 \\[3ex]
+                    f(x + h) = -(x + h)(x + h) \\[3ex]
+                    f(x + h) = -(x^2 + hx + hx + h^2) \\[3ex]
+                    f(x + h) = -(x^2 + 2hx + h^2) \\[3ex]
+                    f(x + h) = -x^2 - 2hx - h^2 \\[3ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    DQ = \dfrac{-x^2 - 2hx - h^2 - (-x^2)}{h} \\[5ex]
+                    DQ = \dfrac{-x^2 - 2hx - h^2 + x^2)}{h} \\[5ex]
+                    DQ = \dfrac{-2hx - h^2}{h} \\[5ex]
+                    DQ = \dfrac{h(-2x - h)}{h} \\[5ex]
+                    DQ = -2x - h
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (4.) $f(x) = x^2$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ4')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ4">
+                    <br>
+                    $
+                    f(x) = x^2 \\[3ex]
+                    f(x + h) = (x + h)^2 \\[3ex]
+                    f(x + h) = (x + h)(x + h) \\[3ex]
+                    f(x + h) = x^2 + hx + hx + h^2 \\[3ex]
+                    f(x + h) = x^2 + 2hx + h^2 \\[3ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    DQ = \dfrac{x^2 + 2hx + h^2 - x^2}{h} \\[5ex]
+                    DQ = \dfrac{2hx + h^2}{h} \\[5ex]
+                    DQ = \dfrac{h(2x + h)}{h} \\[5ex]
+                    DQ = 2x + h
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (5.) $f(x) = x^3$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ5')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ5">
+                    <br>
+                    $
+                    f(x) = x^3 \\[3ex]
+                    f(x + h) = (x + h)^3 \\[3ex]
+                    f(x + h) = x^3 + 3x^2h + 3xh^2 + h^3 \\[3ex]
+                    $
+                    <br>
+                    <i>
+                        Student: That was fast. <br>
+                        How did you get it? <br>
+                        Teacher: I used the Pascal's Triangle. <br>
+                        Student: What is it? <br>
+                        Teacher: Here is the video: <a href="https://www.youtube.com/watch?v=J4Aoa8X5cxM"
+                            target="_blank">Pascal's Triangle and the Binomial Theorem</a> <br>
+                        You can expand binomials raised to any positive exponent quickly using that method. <br>
+                        Would you like for me to do it another way? <br>
+                        Student: Yes, please.
+                    </i>
+                    <br><br>
+                    $
+                    (x + h)^3 = (x + h)(x + h)(x + h) \\[3ex]
+                    (x + h)(x + h) = x^2 + hx + hx + h^2 \\[3ex]
+                    (x + h)(x + h) = x^2 + 2hx + h^2 \\[3ex]
+                    (x^2 + 2hx + h^2)(x + h) = x^3 + hx^2 + 2hx^2 + 2h^2x + h^2x + h^3 \\[3ex]
+                    (x + h)^3 = x^3 + 3x^2h + 3hx^2 + 3h^2x + h^3 \\[3ex]
+                    (x + h)^3 = x^3 + 3x^2h + 3xh^2 + h^3 \\[3ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    DQ = \dfrac{x^3 + 3x^2h + 3xh^2 + h^3 - x^3}{h} \\[5ex]
+                    DQ = \dfrac{3x^2h + 3xh^2 + h^3}{h} \\[5ex]
+                    DQ = \dfrac{h(3x^2 + 3xh + h^2)}{h} \\[5ex]
+                    DQ = 3x^2 + 3xh + h^2
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (6.) $f(x) = 3x - 7$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ6')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ6">
+                    <br>
+                    $
+                    f(x) = 3x - 7 \\[3ex]
+                    f(x + h) = 3(x + h) - 7 \\[3ex]
+                    f(x + h) = 3x + 3h - 7 \\[3ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    DQ = \dfrac{3x + 3h - 7 - (3x - 7)}{h} \\[5ex]
+                    DQ = \dfrac{3x + 3h - 7 - 3x + 7}{h} \\[5ex]
+                    DQ = \dfrac{3h}{h} \\[5ex]
+                    DQ = 3
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (7.) $f(x) = -x^3$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ7')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ7">
+                    <br>
+                    $
+                    f(x) = -x^3 \\[3ex]
+                    f(x + h) = -(x + h)^3 \\[3ex]
+                    f(x + h) = -1(x^3 + 3x^2h + 3xh^2 + h^3) \\[3ex]
+                    f(x + h) = -x^3 - 3x^2h - 3xh^2 - h^3 \\[3ex]
+                    $
+                    <br>
+                    We can also do multiply the two binomials first; then multiply the resulting trinomial by the
+                    binomial. <br>
+                    Then, we multiply the product by $-1$
+                    <br>
+                    $
+                    -(x + h)^3 = -1 * (x + h)(x + h)(x + h) \\[3ex]
+                    (x + h)(x + h) = x^2 + hx + hx + h^2 \\[3ex]
+                    (x + h)(x + h) = x^2 + 2hx + h^2 \\[3ex]
+                    (x^2 + 2hx + h^2)(x + h) = x^3 + hx^2 + 2hx^2 + 2h^2x + h^2x + h^3 \\[3ex]
+                    (x + h)^3 = x^3 + 3x^2h + 3hx^2 + 3h^2x + h^3 \\[3ex]
+                    (x + h)^3 = x^3 + 3x^2h + 3xh^2 + h^3 \\[3ex]
+                    -(x + h)^3 = -1 * (x^3 + 3x^2h + 3xh^2 + h^3) \\[3ex]
+                    -(x + h)^3 = -x^3 - 3x^2h - 3xh^2 - h^3 \\[3ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    DQ = \dfrac{-x^3 - 3x^2h - 3xh^2 - h^3 - (-x^3)}{h} \\[5ex]
+                    DQ = \dfrac{-x^3 - 3x^2h - 3xh^2 - h^3 + x^3)}{h} \\[5ex]
+                    DQ = \dfrac{-3x^2h - 3xh^2 - h^3}{h} \\[5ex]
+                    DQ = \dfrac{h(-3x^2 - 3xh - h^2)}{h} \\[5ex]
+                    DQ = -3x^2 - 3xh - h^2
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (8.) $f(x) = -3x + 12$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ8')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ8">
+                    <br>
+                    $
+                    f(x) = -3x + 12 \\[3ex]
+                    f(x + h) = -3(x + h) + 12 \\[3ex]
+                    f(x + h) = -3x - 3h + 12 \\[3ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    DQ = \dfrac{-3x - 3h + 12 - (-3x + 12)}{h} \\[5ex]
+                    DQ = \dfrac{-3x - 3h + 12 + 3x - 12}{h} \\[5ex]
+                    DQ = \dfrac{-3h}{h} \\[5ex]
+                    DQ = -3
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (9.) $f(x) = -10x^2 + 7x + 5$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ9')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ9">
+                    <br>
+                    $
+                    f(x) = -10x^2 + 7x + 5 \\[3ex]
+                    f(x + h) = -10(x + h)^2 + 7(x + h) + 5 \\[3ex]
+                    f(x + h) = -10[(x + h)(x + h)] + 7x + 7h + 5 \\[3ex]
+                    f(x + h) = -10(x^2 + hx + hx + h^2) + 7x + 7h + 5 \\[3ex]
+                    f(x + h) = -10(x^2 + 2hx + h^2) + 7x + 7h + 5 \\[3ex]
+                    f(x + h) = -10x^2 - 20hx - 10h^2 + 7x + 7h + 5 \\[3ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    DQ = \dfrac{-10x^2 - 20hx - 10h^2 + 7x + 7h + 5 - (-10x^2 + 7x + 5)}{h} \\[5ex]
+                    DQ = \dfrac{-10x^2 - 20hx - 10h^2 + 7x + 7h + 5 + 10x^2 - 7x - 5}{h} \\[5ex]
+                    DQ = \dfrac{-20hx - 10h^2 + 7h}{h} \\[5ex]
+                    DQ = \dfrac{h(-20x - 10h + 7)}{h} \\[5ex]
+                    DQ = -20x - 10h + 7
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (10.) $f(x) = -\dfrac{1}{16x}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ10')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ10">
+                    <br>
+                    $
+                    f(x) = -\dfrac{1}{16x} \\[5ex]
+                    f(x + h) = -\dfrac{1}{16(x + h)} \\[5ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    $
+                    Let us do this one at a time - piecemeal approach <br>
+                    Let us deal with the numerator first. <br><br>
+                    $
+                    Numerator = f(x + h) - f(x) \\[3ex]
+                    f(x + h) - f(x) = -\dfrac{1}{16(x + h)} - -\dfrac{1}{16x} \\[5ex]
+                    = -\dfrac{1}{16(x + h)} + \dfrac{1}{16x} \\[5ex]
+                    = -\dfrac{x}{16x(x + h)} + \dfrac{1(x + h)}{16x(x + h)} \\[5ex]
+                    = -\dfrac{x}{16x(x + h)} + \dfrac{x + h}{16x(x + h)} \\[5ex]
+                    = \dfrac{-x + x + h}{16x(x + h)} \\[5ex]
+                    = \dfrac{h}{16x(x + h)} \\[5ex]
+                    Denominator = h \\[3ex]
+                    DQ = \dfrac{Numerator}{Denominator} \\[5ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    DQ = [f(x + h) - f(x)] \div h \\[5ex]
+                    DQ = \dfrac{h}{16x(x + h)} \div \dfrac{h}{1} \\[5ex]
+                    DQ = \dfrac{h}{16x(x + h)} * \dfrac{1}{h} \\[5ex]
+                    DQ = \dfrac{1}{16x(x + h)}
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (11.) $f(x) = \dfrac{x}{x + 1}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ11')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ11">
+                    <br>
+                    $
+                    f(x) = \dfrac{x}{x + 1} \\[5ex]
+                    f(x + h) = \dfrac{x + h}{x + h + 1} \\[5ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    $
+                    Let us do this one at a time - piecemeal approach <br>
+                    Let us deal with the numerator first. <br><br>
+                    $
+                    Numerator = f(x + h) - f(x) \\[3ex]
+                    f(x + h) - f(x) = \dfrac{x + h}{x + h + 1} - \dfrac{x}{x + 1} \\[5ex]
+                    = \dfrac{(x + h)(x + 1)}{(x + h + 1)(x + 1)} - \dfrac{x(x + h + 1)}{(x + h + 1)(x + 1)} \\[5ex]
+                    (x + h)(x + 1) = x^2 + x + hx + h \\[3ex]
+                    x(x + h + 1) = x^2 + hx + x \\[3ex]
+                    = \dfrac{x^2 + x + hx + h}{(x + h + 1)(x + 1)} - \dfrac{x^2 + hx + x}{(x + h + 1)(x + 1)} \\[5ex]
+                    = \dfrac{(x^2 + x + hx + h) - (x^2 + hx + x)}{(x + h + 1)(x + 1)} \\[5ex]
+                    = \dfrac{(x^2 + x + hx + h - x^2 - hx - x)}{(x + h + 1)(x + 1)} \\[5ex]
+                    = \dfrac{(x^2 + x + hx + h - x^2 - hx - x)}{(x + h + 1)(x + 1)} \\[5ex]
+                    = \dfrac{h}{(x + h + 1)(x + 1)} \\[5ex]
+                    Denominator = h \\[3ex]
+                    DQ = \dfrac{Numerator}{Denominator} \\[5ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    DQ = [f(x + h) - f(x)] \div h \\[5ex]
+                    DQ = \dfrac{h}{(x + h + 1)(x + 1)} \div \dfrac{h}{1} \\[5ex]
+                    DQ = \dfrac{h}{(x + h + 1)(x + 1)} * \dfrac{1}{h} \\[5ex]
+                    DQ = \dfrac{1}{(x + h + 1)(x + 1)}
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (12.) $f(x) = 3 + 7|x|$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ12')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ12">
+                    <br>
+                    $
+                    f(x) = 3 + 7|x| \\[3ex]
+                    f(x + h) = 3 + 7|x + h| \\[3ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    DQ = \dfrac{3 + 7|x + h| - (3 + 7|x|)}{h} \\[5ex]
+                    DQ = \dfrac{3 + 7|x + h| - 3 - 7|x|}{h} \\[5ex]
+                    DQ = \dfrac{7|x + h| - 7|x|}{h}
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (13.) $f(x) = \dfrac{x - 3}{x + 9}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ13')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ13">
+                    <br>
+                    $
+                    f(x) = \dfrac{x - 3}{x + 9} \\[5ex]
+                    f(x + h) = \dfrac{(x + h) - 3}{(x + h) + 9} \\[5ex]
+                    f(x + h) = \dfrac{x + h - 3}{x + h + 9} \\[5ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    $
+                    Let us do this one at a time - piecemeal approach <br>
+                    Let us deal with the numerator first. <br><br>
+                    $
+                    Numerator = f(x + h) - f(x) \\[3ex]
+                    f(x + h) - f(x) = \dfrac{x + h - 3}{x + h + 9} - \dfrac{x - 3}{x + 9} \\[5ex]
+                    = \dfrac{(x + h - 3)(x + 9)}{(x + h + 9)(x + 9)} - \dfrac{(x - 3)(x + h + 9)}{(x + h + 9)(x + 9)}
+                    \\[5ex]
+                    (x + h - 3)(x + 9) = x^2 + 9x + hx + 9h - 3x - 27 = x^2 + 6x + hx + 9h - 27 \\[3ex]
+                    (x - 3)(x + h + 9) = x^2 + hx + 9x - 3x - 3h - 27 = x^2 + hx + 6x - 3h - 27 \\[3ex]
+                    = \dfrac{x^2 + 6x + hx + 9h - 27}{(x + h + 9)(x + 9)} - \dfrac{x^2 + hx + 6x - 3h - 27}{(x + h +
+                    9)(x + 9)} \\[5ex]
+                    = \dfrac{(x^2 + 6x + hx + 9h - 27) - (x^2 + hx + 6x - 3h - 27)}{(x + h + 9)(x + 9)} \\[5ex]
+                    = \dfrac{(x^2 + 6x + hx + 9h - 27 - x^2 - hx - 6x + 3h + 27)}{(x + h + 9)(x + 9)} \\[5ex]
+                    = \dfrac{12h}{(x + h + 9)(x + 9)} \\[5ex]
+                    Denominator = h \\[3ex]
+                    DQ = \dfrac{Numerator}{Denominator} \\[5ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    DQ = [f(x + h) - f(x)] \div h \\[5ex]
+                    DQ = \dfrac{12h}{(x + h + 9)(x + 9)} \div \dfrac{h}{1} \\[5ex]
+                    DQ = \dfrac{12h}{(x + h + 9)(x + 9)} * \dfrac{1}{h} \\[5ex]
+                    DQ = \dfrac{12}{(x + h + 9)(x + 9)}
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (14.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ14')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ14">
+                    <br>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (15.) $f(x) = \sqrt{x - 16}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ15')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ15">
+                    <br>
+                    $
+                    f(x) = \sqrt{x - 16} \\[3ex]
+                    f(x + h) = \sqrt{x + h - 16} \\[3ex]
+                    f(x + h) - f(x) \\[3ex]
+                    = \sqrt{x + h - 16} - \sqrt{x - 16} \\[3ex]
+                    \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    = \dfrac{\sqrt{x + h - 16} - \sqrt{x - 16}}{h} \\[5ex]
+                    Rationalize\;\;the\;\;numerator \\[3ex]
+                    = \dfrac{\sqrt{x + h - 16} - \sqrt{x - 16}}{h} * \dfrac{\sqrt{x + h - 16} + \sqrt{x - 16}}{\sqrt{x +
+                    h - 16} + \sqrt{x - 16}} \\[5ex]
+                    = \dfrac{(\sqrt{x + h - 16})^2 + \sqrt{x - 16}\sqrt{x + h - 16} - \sqrt{x - 16}\sqrt{x + h - 16} -
+                    (\sqrt{x - 16})^2}{h(\sqrt{x + h - 16} + \sqrt{x - 16})} \\[5ex]
+                    = \dfrac{(x + h - 16) - (x - 16)}{h(\sqrt{x + h - 16} + \sqrt{x - 16})} \\[5ex]
+                    = \dfrac{x + h - 16 - x + 16}{h(\sqrt{x + h - 16} + \sqrt{x - 16})} \\[5ex]
+                    = \dfrac{h}{h(\sqrt{x + h - 16} + \sqrt{x - 16})} \\[5ex]
+                    = \dfrac{1}{\sqrt{x + h - 16} + \sqrt{x - 16}}
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (16.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ16')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ16">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (17.)
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ17')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ17">
+                    <br>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (18.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ18')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ18">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (19.) $f(x) = \sqrt[3]{x}$ <br>
+                Hint: Factor using:
+                <br><br>
+                $
+                c^3 - d^3 = (c - d)(c^2 + cd + d^2) \\[3ex]
+                where \\[3ex]
+                c = \sqrt[3]{x + h} \\[3ex]
+                d = \sqrt[3]{x} \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionDQ19')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ19">
+                    <br>
+                    $
+                    c^3 - d^3 = (c - d)(c^2 + cd + d^2) \\[3ex]
+                    c - d = \dfrac{c^3 - d^3}{c^2 + cd + d^2} \\[5ex]
+                    \underline{Substitutions} \\[3ex]
+                    c = \sqrt[3]{x + h} \\[3ex]
+                    \rightarrow c = (x + h)^{\dfrac{1}{3}} \\[5ex]
+                    c^2 = \left(\sqrt[3]{x + h}\right)^2 \\[4ex]
+                    c^2 = \left[(x + h)^{\dfrac{1}{3}}\right]^2 \\[5ex]
+                    \rightarrow c^2 = (x + h)^{\dfrac{2}{3}} \\[6ex]
+                    c^3 = \left[(x + h)^{\dfrac{1}{3}}\right]^3 \\[5ex]
+                    \rightarrow c^3 = x + h \\[5ex]
+                    d = \sqrt[3]{x} \\[3ex]
+                    d^2 = \left(\sqrt[3]{x}\right)^2 \\[3ex]
+                    d^2 = \left(x^{\dfrac{1}{3}}\right)^2 \\[5ex]
+                    \rightarrow d^2 = x^{\dfrac{2}{3}} \\[5ex]
+                    d^3 = \left(\sqrt[3]{x}\right)^3 \\[5ex]
+                    \rightarrow d^3 = x \\[5ex]
+                    So: \\[3ex]
+                    c^3 - d^3 = x + h - x \\[3ex]
+                    \rightarrow c^3 - d^3 = h \\[3ex]
+                    Also: \\[3ex]
+                    c^2 + cd + d^2 = (x + h)^{\dfrac{2}{3}} + \left(\sqrt[3]{x + h} * \sqrt[3]{x}\right) +
+                    x^{\dfrac{2}{3}} \\[5ex]
+                    c^2 + cd + d^2 = (x + h)^{\dfrac{2}{3}} + \left[(x + h)^\dfrac{1}{3} * x^{\dfrac{1}{3}}\right] +
+                    x^{\dfrac{2}{3}} \\[7ex]
+                    c^2 + cd + d^2 = (x + h)^{\dfrac{2}{3}} + x^{\dfrac{1}{3}}(x + h)^\dfrac{1}{3} +
+                    x^{\dfrac{2}{3}} \\[5ex]
+
+                    \underline{Difference\;\;Quotient} \\[3ex]
+                    f(x) = \sqrt[3]{x} \\[3ex]
+                    f(x + h) = \sqrt[3]{x + h} \\[3ex]
+                    DQ = \dfrac{f(x + h) - f(x)}{h} \\[5ex]
+                    DQ = \dfrac{\sqrt[3]{x + h} - \sqrt[3]{x}}{h} \\[5ex]
+                    Substitute \\[3ex]
+                    DQ = \dfrac{c - d}{h} \\[5ex]
+                    DQ = (c - d) \div h \\[3ex]
+                    DQ = \dfrac{c^3 - d^3}{c^2 + cd + d^2} \div h \\[5ex]
+                    DQ = \dfrac{c^3 - d^3}{c^2 + cd + d^2} * \dfrac{1}{h} \\[5ex]
+                    DQ = \dfrac{h}{(x + h)^{\dfrac{2}{3}} + x^{\dfrac{1}{3}}(x + h)^\dfrac{1}{3} +
+                    x^{\dfrac{2}{3}}} * \dfrac{1}{h} \\[10ex]
+                    DQ = \dfrac{1}{(x + h)^{\dfrac{2}{3}} + x^{\dfrac{1}{3}}(x + h)^\dfrac{1}{3} +
+                    x^{\dfrac{2}{3}}}
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (20.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ20')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ20">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+    <!-- Top of the Page -->
+    <div class="w3-container" style="position:relative">
+        <a href="https://precalculus.appspot.com/RelationsFunctions/differenceQuotient.html"
+            class="w3-button w3-xlarge w3-circle w3-olive" style="position:absolute;top:-70px;right:24px">Top</a>
+    </div>
+    <br><br><br><br>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (21.)
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ21')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ21">
+                    <br>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (22.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ22')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ22">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (23.)
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ23')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ23">
+                    <br>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (24.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ24')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ24">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (25.)
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ25')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ25">
+                    <br>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (26.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionDQ26')">Show/Hide Answer</button>
+                <div class="result" id="solutionDQ26">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- END PAGE CONTENT -->
+
+
+    <!-- Footer -->
+    <footer class="olive w3-center w3-padding-24">
+
+        <div id="google_translate_element"></div>
+        <script>
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-123914705-1' }, 'google_translate_element');
+            }
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        <p>&copy; 2018&nbsp; SamDom4Peace Designs.</p>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="scripts/messages8.js"></script>
+    <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+</body>
+
+</html>

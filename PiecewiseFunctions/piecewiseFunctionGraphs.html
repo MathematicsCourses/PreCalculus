@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDLZMCQQ0V"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+    
+            gtag('config', 'G-EDLZMCQQ0V');
+        </script>
+    
+        <meta name="msvalidate.01" content="11DD71E2EEC15DEDE0ECE1389CFFD99F">
+        
+        <title>Piecewise Function Graphs</title>
+    
+        <meta charset="UTF-8">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+        <meta name="description" content="Samuel Dominic Chukwuemeka (SamDom For Peace) gives all the credit to our LORD, JESUS CHRIST. We are experts in the graphs of piecewise functions.">
+
+        <meta name="keywords" content="samuel, dominic, chukwuemeka, samuel dominic chukwuemeka, 
+              math, mathematics, functions, piecewise functions, piecewise-defined functions, step functions,
+              stepwise-defined functions, domain, range, intercepts, x-intercept, y-intercept, graphs, slope,
+              greatest integer function, floor function, least integer function, ceiling function, pieces, piecewise function graphs">
+
+        <link href="styles/piecewiseFunctions.css" rel="stylesheet" type="text/css" media="all">
+
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">       
+    </head>
+
+    <body>
+        <!-- Header/Home -->
+        <header class="w3-padding-32 green">
+            <h1>Solved Examples on the Graphs of Piecewise Functions</h1>
+        </header>       
+
+        <!-- Page Content -->
+        <div class="w3-row w3-container">
+            
+            <p class="w3-container">
+                <!-- Image in top left corner -->
+                <a href="https://precalculus.appspot.com/PiecewiseFunctions/piecewise-functions.html" title="SamDom For Peace">
+                    <img class="image" src="images/chukwuemekasamuel.jpg" alt="Samuel Dominic Chukwuemeka (SamDom For Peace)">
+                </a>
+            
+                <mark>For ACT Students</mark> <br>
+                The ACT is a timed exam...60 questions for 60 minutes <br>
+                This implies that you have to solve each question in one minute. <br>
+                Some questions will typically take less than a minute a solve. <br>
+                Some questions will typically take more than a minute to solve. <br>
+                The goal is to maximize your time. You use the time saved on the questions you
+                solve in less than a minute, to solve the questions that will take more than a minute. <br>
+                So, you should try to solve each question <u>correctly</u> and <u>timely</u>. <br>
+                So, it is not just solving a question correctly, but solving it <u>correctly on time</u>. <br>
+                Please ensure you attempt <u>all ACT questions</u> <br>
+                There is no <i>negative</i> penalty for a wrong answer. 
+            
+                <br><br>
+
+                Solve all questions <br>
+                Show all work
+            </p>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (1.) <b>ACT</b> The rental fee for the use of a reception hall is <span>$</span>500 <br>
+                    To encoorage use of the hall's catering service, the hall's rental fee is reduced by <span>$100</span> for each group of 
+                    20 meals ordered through the hall's catering service. <br>
+                    All 20 meals in a group must be ordered for each reduction in the rental fee. <br>
+                    One of the following graphs shows the hall's rental fee when 0 to 100 meals are ordered. <br>
+                    Which graph is it? 
+                    <br><br>
+                    <img src="images/GraphsPiecewiseFunctions/Questions/Number1.png" alt="Number 1"> 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionGPF1')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF1">
+                        <br>
+                        Let us represent the information using a Table of Values ... for 0 to 100 meals <br>
+                        Two variables: rental cost and number of meals <br>
+                        The rental cost depends on the number of meals <br>
+                        This implies that: <br>
+                        the rental cost is the dependent variable = <i>y</i> variable <br>
+                        the number of meals is the independent variable = <i>x</i> variable <br><br>
+                        The Table of Values is: <br>
+                        <table class="w3-center">
+                            <tr>
+                                <th style="width: 50%;">Number of meals</th>
+                                <th style="width: 50%;">Rental cost ($\$$)</th>
+                            </tr>
+                            <tr>
+                                <td>$x$</td>
+                                <td>$y$</td>
+                            </tr>
+                            <tr>
+                                <td>$0$</td>
+                                <td>$500$</td>
+                            </tr>
+                            <tr>
+                                <td>$20$</td>
+                                <td>$400$</td>
+                            </tr>
+                            <tr>
+                                <td>$40$</td>
+                                <td>$300$</td>
+                            </tr>
+                            <tr>
+                                <td>$60$</td>
+                                <td>$200$</td>
+                            </tr>
+                            <tr>
+                                <td>$80$</td>
+                                <td>$100$</td>
+                            </tr>
+                            <tr>
+                                <td>$100$</td>
+                                <td>$0$</td>
+                            </tr>
+                        </table> 
+                        <br>
+                        Based on the graphs, Options: <i>F, G, and H</i> satify the Table of Values <br>
+                        However, based on the wording in the question: <i><b><u>All 20</u> meals in a group must be ordered for each reduction in the rental fee:</b></i> <br>
+                        the correct answer is Option <b>F</b> because the increments must be in 20's only (no in-between values)
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (2.) <b>ACT</b> ABC Cabs and Tary Taxicabs both have an initial fare of a while number of dollars for 1 passenger. <br>
+                    The fare increases a whole number of dollars at each whole number of miles traveled. <br>
+                    The graphs below show the 1-passenger fares, in dollars, for both cab companies for trips up to 6 miles. <br>
+                    When the fares of the 2 cab companies are compared, what is the cheaper fare for a 5-mile trip? 
+                    <br><br>
+                    <img src="images/GraphsPiecewiseFunctions/Questions/Number2.png" alt="Number 2">
+                    <br><br>
+                    $
+                    F.\;\; \$ 8 \\[3ex]
+                    G.\;\; \$ 9 \\[3ex]
+                    H.\;\; \$ 10 \\[3ex]
+                    J.\;\; \$ 11 \\[3ex]
+                    K.\;\; \$ 12 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionGPF2')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF2">
+                        <br>
+                        The value in the y-axis (the fare) for the closed circle value in the x-axis (the miles) <br><br>
+                        $
+                        For\;\;a\;\;5-mile\;\;trip: \\[3ex]
+                        ABC\;\;Cabs:\;\;fare = \$12 \\[3ex]
+                        Tary\;\;Taxicabs:\;\;\; fare = \$9 \\[3ex]
+                        Cheaper\;\;fare = \$9
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (3.) <b>ACT</b> The table below gives the price to mail a single package through the United States Postal Service on 
+                    August 30, 2007. <br>
+                    The price depended on the weight of the package. <br>
+                    <table class="w3-center">
+                        <tr>
+                            <td style="width: 70%;">Weight in pounds</td>
+                            <td style="width: 30%;">Price</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                0 &lt; x &lt; 2 <br>
+                                2 &le; x &lt; 3 <br>
+                                3 &le; x &lt; 4 <br>
+                                4 &le; x &lt; 5
+                            </td>
+                            <td>
+                                <span>$4.60</span> <br>
+                                <span>$5.05</span> <br>
+                                <span>$5.70</span> <br>
+                                <span>$6.30</span> 
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    Which of the following graphs best represents this information? 
+                    <br><br>
+                    <img src="images/GraphsPiecewiseFunctions/Questions/Number3.png" alt="Number 3">
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionGPF3')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF3">
+                        <br>
+                        This is a Piecewise Function where the values of the output for each domain are contants <br>
+                        It is very evident that Option <b>E</b> is the correct option because it is a Piecewise Function graph that 
+                        denotes the fact that each output is a constant. <br>
+                        But if you do want me to explain further: <br>
+                        Remember that the closed circle value is the value that actually corresponds to each output <br>
+                        So, $x = 2$ corresponds to $y = \$5.05$ <br>
+                        Looking at the graphs in Options A, B, C, and D; when $x = 2$, $y \lt 5.05$ <br>
+                        So, those options are eliminated. <br>
+                        When you review the graph in Option E; that graph corresponds to the Table of Values <br>
+                        When $x = 2$, $y = 5.05$ <br>
+                        When $x = 3$, $y = 5.70$ <br>
+                        When $x = 4$, $y = 6.30$
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (4.) <b>ACT</b> Which of the following is the graph of the function <i>f(x)</i> defined below? <br><br>
+                    $
+                    f(x) = 
+                    \begin{cases}
+                    x^2 - 2 \enspace \text{for} \enspace x \le 1  \\[3ex]
+                    x - 7 \enspace \text{for} \enspace 1 \lt x \lt 5 \\[3ex]
+                    4 - x \enspace \text{for} \enspace x \ge 5 \\[5ex]
+                    \end{cases}
+                    $ 
+                    <br><br>
+                    <img src="images/GraphsPiecewiseFunctions/Questions/Number4.png" alt="Number 4">
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionGPF4')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF4">
+                        <br>
+                        Let us draw the Table of Values for each function/piece <br>
+                        Then, we shall answer the question by going through each option and eliminating the incorrect options until we find 
+                        the correct one <br><br>
+                        <table class="w3-center">
+                            <caption>First Piece: $x^2 - 2;  \enspace x \le 1$</caption>
+                            <tr>
+                                <td style="width: 18%;">$x$</td>
+                                <td style="width: 28%;">$-2$</td>
+                                <td style="width: 18%;">$-1$</td>
+                                <td style="width: 18%;">$0$</td>
+                                <td style="width: 18%;">$1$</td>
+                            </tr>
+                            <tr>
+                                <td>$y$</td>
+                                <td>$2$</td>
+                                <td>$-1$</td>
+                                <td>$-2$</td>
+                                <td>$-1$</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>defined</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <table class="w3-center">
+                            <caption>Second Piece: $x - 7;  \enspace 1 \lt x \lt 5$</caption>
+                            <tr>
+                                <td style="width: 15%;">$x$</td>
+                                <td style="width: 20%;">$1$</td>
+                                <td style="width: 15%;">$2$</td>
+                                <td style="width: 15%;">$3$</td>
+                                <td style="width: 15%;">$4$</td>
+                                <td style="width: 20%;">$5$</td>
+                            </tr>
+                            <tr>
+                                <td>$y$</td>
+                                <td>$-6$</td>
+                                <td>$-5$</td>
+                                <td>$-4$</td>
+                                <td>$-3$</td>
+                                <td>$-2$</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>undefined</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>undefined</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <table class="w3-center">
+                            <caption>Third Piece: $4 - x;  \enspace x \ge 5$</caption>
+                            <tr>
+                                <td style="width: 18%;">$x$</td>
+                                <td style="width: 28%;">$5$</td>
+                                <td style="width: 18%;">$6$</td>
+                                <td style="width: 18%;">$7$</td>
+                                <td style="width: 18%;">$8$</td>
+                            </tr>
+                            <tr>
+                                <td>$y$</td>
+                                <td>$-1$</td>
+                                <td>$1$</td>
+                                <td>$2$</td>
+                                <td>$3$</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>defined</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                        <br>
+                        Option <b>F.</b> <br>
+                        First Piece: when $x = 1$, $y = -3$ <br>
+                        This is incorrect...as seen from the Table. <br><br>
+                        
+                        Option <b>J.</b> <br>
+                        First Piece: when $x = 1$, $y = 0$ <br>
+                        This is incorrect...as seen from the Table. <br><br>
+
+                        Option <b>G.</b> <br>
+                        First Piece: when $x = -2$, $y = 0$ <br>
+                        This is incorrect...as seen from the Table. <br><br>
+
+                        Option <b>K.</b> <br>
+                        This is the correct option because all the Tables of Values corresponds to the graph <br>
+                        This includes where the values are defined (closed circles) and undefined (open circles) <br>
+                        You may STOP here (or if you have time, check the last option) <br><br>
+
+                        Option <b>H.</b> <br>
+                        First Piece: when $x = 0$, $y = 0$ <br>
+                        This is incorrect...as seen from the Table.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (5.) (a.) Graph the function: <br><br>
+                    $
+                    f(x) = 
+                    \begin{cases}
+                    (x - 2)^2 \hspace{3em} \text{if} \enspace 1 \le x \lt 3  \\[3ex]
+                    -3x + 13 \hspace{2.4em} \text{if} \enspace 3 \le x \le 7 
+                    \end{cases} \\[7ex] 
+                    $
+                    (b.) What is the domain of <i>f</i> ? <br>
+                    (c.) Determine the absolute minimum of <i>f</i> if it exists and the value at which it occurs. <br>
+                    (d.) Determine the absolute maximum of <i>f</i> if it exists and the value at which it occurs.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionGPF5')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF5">
+                        <br>
+                        (a.) The Table of Values is: <br><br>
+                        <table class="w3-center">
+                            <tr><td colspan="2">$y = (x - 2)^2$; $1 \le x \lt 3$</td></tr>
+                            <tr>
+                                <td style="width: 50%;"><i>x</i></td>
+                                <td style="width: 50%;"><i>y</i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    1 <br>
+                                    2 <br>
+                                    3 (undefined)
+                                </td>
+                                <td>
+                                    1 <br>
+                                    0 <br>
+                                    1 
+                                </td>
+                            </tr>
+                            <tr><td colspan="2">$y = -3x + 13$; $3 \le x \le 7$</td></tr>
+                            <tr>
+                                <td style="width: 50%;"><i>x</i></td>
+                                <td style="width: 50%;"><i>y</i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    3 (defined) <br>
+                                    4 <br>
+                                    5 <br>
+                                    6 <br>
+                                    7 (defined)
+                                </td>
+                                <td>
+                                    4 <br>
+                                    1 <br>
+                                    &minus;2 <br>
+                                    &minus;5 <br>
+                                    &minus;8 
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        The graph of the Piecewise Function is: <br>
+                        <img src="images/GraphsPiecewiseFunctions/Answers/Number5.png" alt="Number 5">
+                        <br>
+                        (b.) The domain of the first piece is: D = [1, 3) <br>
+                        The domain of the second piece is: D = [3, 7] <br>
+                        The domain of the function is: D = [1, 7] <br><br>
+                        Based on the graph: <br>
+                        (c.) The function has an absolute minimum, f(7) = &minus;8 <br>
+                        (d.) The function has an absolute maximum, f(3) = 4
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (6.) The function f is defined as follows <br><br>
+                    $
+                    f(x) = 
+                    \begin{cases}
+                    2x \hspace{1.4em} \text{if} \enspace x \ne 0  \\[3ex]
+                    3 \hspace{2em} \text{if} \enspace x = 0 
+                    \end{cases} \\[7ex] 
+                    $
+                    (a.) Find the domain of the function. <br>
+                    (b.) Locate any intercepts. <br>
+                    (c.) Graph the function. <br>
+                    (d.) Based on the graph, find the range. 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionGPF6')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF6">
+                        <br>
+                        (a.) The domain for the first piece is all real numbers besides zero. <br>
+                        The domain for the second piece is zero. <br>
+                        This implies that the domain for the piecewise function is all real numbers. <br>
+                        D = (&minus;&infin;, &infin;) 
+                        <br><br>
+                        (b.) <b>y-intercept</b> <br>
+                        set <i>x</i> &equals; 0 and solve for <i>y</i> <br>
+                        use the domain that includes <i>x</i> &equals; 0 <br>
+                        2nd piece: <i>x</i> &equals; 0; <i>y</i> &equals; 3 <br>
+                        <i>y</i>-intercept = (0, 3) <br><br>
+                        <b>x-intercept</b> <br>
+                        set <i>y</i> &equals; 0 and solve for <i>x</i> for each piece <br>
+                        If the value of <i>x</i> is in the domain for that piece, it is the <i>x-</i>intercept; otherwise it is not. <br><br>
+                        $
+                        \underline{1st\;\;piece} \\[3ex]
+                        y = 2x \\[3ex]
+                        2x = y \\[3ex]
+                        y = 0 \\[3ex]
+                        2x = 0 \\[3ex]
+                        x = \dfrac{0}{2} \\[5ex]
+                        x = 0 \\[3ex]
+                        $
+                        But 0 is not in that domain <br><br>
+                        $
+                        \underline{2nd\;\;piece} \\[3ex]
+                        y = 3\;\;when\;\;x = 0...this\;\;is\;\;y-intercept \\[3ex]
+                        $
+                        There are no <i>x-</i>intercepts.
+                        
+                        <br><br>
+                        <table class="w3-center">
+                            <tr><td colspan="2">$y = 2x$; $x \ne 0$</td></tr>
+                            <tr>
+                                <td style="width: 50%;"><i>x</i></td>
+                                <td style="width: 50%;"><i>y</i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &minus;2 <br>
+                                    &minus;1 <br>
+                                    0 (undefined) <br>
+                                    1 <br>
+                                    2
+                                </td>
+                                <td>
+                                    &minus;4 <br>
+                                    &minus;2 <br>
+                                    0 <br>
+                                    2 <br>
+                                    4
+                                </td>
+                            </tr>
+                            <tr><td colspan="2">$y = 3$; $x = 0$</td></tr>
+                            <tr>
+                                <td style="width: 50%;"><i>x</i></td>
+                                <td style="width: 50%;"><i>y</i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    0 (defined) 
+                                </td>
+                                <td>
+                                    3
+                                </td>
+                            </tr>
+                        </table>
+                        <br><br>
+
+                        (c.) The graph of the piecewise function is: <br><br>
+                        <img src="images/GraphsPiecewiseFunctions/Answers/Number6.png" alt="Number 6">
+                        <br><br>
+                        (d.) Based on the graph: <br>
+                        The straight line graph covers both the positive and negative values of <i>y</i> but notice that there is a 
+                        jump discontinuity (open circle) at the origin (0, 0) <br>
+                        So, 0 is not included in the range <br>
+                        Hence, the range is all real numbers besides 0. <br>
+                        R = (&minus;&infin; 0) &Union; (0, &infin;)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (7.) 
+                    <button class="solutions" onclick="solutions('solutionGPF7')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF7">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (8.) Given the graph of a piecewise function: <br>
+                    <img src="images/GraphsPiecewiseFunctions/Questions/Number8.png" alt="Number 8"> <br>
+                    Write the definition of the function.
+                    <br><br> 
+                    <button class="solutions" onclick="solutions('solutionGPF8')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF8">
+                        <br>
+                        Beginning from the Left: <b>1st Piece</b> <br>
+                        <u>Domain</u> <br>
+                        D = [&minus;3, 0] <br>
+                        D = {<i>x</i> | &minus;3 &le; <i>x</i> &le; 0} <br><br>
+                        $
+                        \underline{Function} \\[3ex]
+                        Points = (0,0) \;\;and\;\; (-3, 2) \\[3ex]
+                        x_1 = 0 \hspace{5em} x_2 = -3 \\[3ex]
+                        y_1 = 0 \hspace{5em} y_2 = 2 \\[3ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        = \dfrac{2 - 0}{-3 - 0} \\[5ex]
+                        = \dfrac{2}{-3} \\[5ex]
+                        = -\dfrac{2}{3} \\[5ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        y - 0 = -\dfrac{2}{3}(x - 0) \\[5ex]
+                        y = -\dfrac{2}{3}x \\[5ex]
+                        $
+                        Right: <b>2nd Piece</b> <br> 
+                        <u>Domain</u> <br>
+                        D = (0, 2] <br>
+                        D = {<i>x</i> | 0 &lt; <i>x</i> &le; 2} <br><br>
+                        $
+                        \underline{Function} \\[3ex]
+                        Points = (0,0) \;\;and\;\; (2, 3) \\[3ex]
+                        x_1 = 0 \hspace{5em} x_2 = 2 \\[3ex]
+                        y_1 = 0 \hspace{5em} y_2 = 3 \\[3ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        = \dfrac{3 - 0}{2 - 0} \\[5ex]
+                        = \dfrac{3}{2} \\[5ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        y - 0 = \dfrac{3}{2}(x - 0) \\[5ex]
+                        y = \dfrac{3}{2}x \\[5ex]
+                        $
+                        The piecewise function is: <br><br>
+                        $
+                        f(x) =
+                        \begin{cases}
+                        -\dfrac{2}{3}x; \hspace{4em} -3 \le x \le 0 \\[5ex]
+                        \dfrac{3}{2}x; \hspace{5em} 0 \lt x \le 2
+                        \end{cases}                                             
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (9.) 
+                    <button class="solutions" onclick="solutions('solutionGPF9')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF9">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (10.) The function <i>f</i> is defined as follows. <br><br>
+                    $
+                    f(x) = 
+                    \begin{cases}
+                    -2x + 3 \hspace{1.4em} \text{if} \enspace x \lt 1  \\[3ex]
+                    2x - 1 \hspace{2.2em} \text{if} \enspace x \ge 1 
+                    \end{cases} \\[7ex] 
+                    $
+                    (a.) Find the domain of the function. <br>
+                    (b.) Locate any intercepts. <br>
+                    (c.) Graph the function. <br>
+                    (d.) Based on the graph, find the range. 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionGPF10')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF10">
+                        <br>
+                        (a.) The domain for the first piece is all real numbers less than 1. <br>
+                        The domain for the second piece is all real numbers greater than or equal to 1. <br>
+                        This implies that the domain for the piecewise function is all real numbers. <br>
+                        D = (&minus;&infin;, &infin;) 
+                        <br><br>
+                        (b.) <b>y-intercept</b> <br>
+                        set <i>x</i> &equals; 0 and solve for <i>y</i> <br>
+                        0 lies in the domain for the first piece, so we shall use the function in the first piece. <br><br>
+                        $
+                        f(x) = -2x + 3 \\[3ex]
+                        x = 0 \\[3ex]
+                        f(x) = -2(0) + 3 \\[3ex]
+                        f(x) = 0 + 3 \\[3ex] 
+                        f(x) = 3 \\[3ex]
+                        $
+                        <i>y</i>-intercept = (0, 3) <br><br>
+                        <b>x-intercept</b> <br>
+                        set <i>y</i> &equals; 0 and solve for <i>x</i> for each piece <br>
+                        If the value of <i>x</i> is in the domain for that piece, it is the <i>x-</i>intercept; otherwise it is not. <br><br>
+                        $
+                        \underline{1st\;\;piece} \\[3ex]
+                        y = -2x + 3 \\[3ex]
+                        2x = 3 - y \\[3ex]
+                        x = \dfrac{3 - y}{2} \\[5ex]
+                        y = 0 \\[3ex]
+                        x = \dfrac{3 - 0}{2} \\[5ex] 
+                        x = \dfrac{3}{2} \\[5ex]
+                        But:\;\;\dfrac{3}{2} \nless 1 \\[5ex]
+                        $
+                        $\dfrac{3}{2}$ is not in that domain. <br><br>
+                        $
+                        \underline{2nd\;\;piece} \\[3ex]
+                        y = 2x - 1 \\[3ex]
+                        y + 1 = 2x \\[3ex] 
+                        2x = y + 1 \\[3ex]
+                        x = \dfrac{y + 1}{2} \\[5ex]
+                        y = 0 \\[3ex]
+                        x = \dfrac{0 + 1}{2} \\[5ex]
+                        x = \dfrac{1}{2} \\[5ex]
+                        But:\;\;\dfrac{1}{2} \ngeq 1 \\[5ex]
+                        $
+                        $\dfrac{1}{2}$ is not in that domain. <br>
+                        There are no <i>x-</i>intercepts.
+
+                        <br><br>
+                        <table class="w3-center">
+                            <tr><td colspan="2">$y = -2x + 3$; $x \lt 1$</td></tr>
+                            <tr>
+                                <td style="width: 50%;"><i>x</i></td>
+                                <td style="width: 50%;"><i>y</i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &minus;2 <br>
+                                    &minus;1 <br>
+                                    0 <br>
+                                    1 (undefined)
+                                </td>
+                                <td>
+                                    7 <br>
+                                    5 <br>
+                                    3 <br>
+                                    1
+                                </td>
+                            </tr>
+                            <tr><td colspan="2">$y = 2x - 1$; $x \ge 1$</td></tr>
+                            <tr>
+                                <td style="width: 50%;"><i>x</i></td>
+                                <td style="width: 50%;"><i>y</i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    1 (defined) <br>
+                                    2 <br>
+                                    3
+                                </td>
+                                <td>
+                                    1 <br>
+                                    3 <br>
+                                    5 
+                                </td>
+                            </tr>
+                        </table>
+                        <br><br>
+
+                        (c.) The graph of the piecewise function is: <br><br>
+                        <img src="images/GraphsPiecewiseFunctions/Answers/Number10.png" alt="Number 10">
+                        <br><br>
+                        (d.) Based on the graph: <br>
+                        1 is the minimum <i>y-</i>value <br>
+                        (<i>x, y</i>) &equals; (1, 1) <br>
+                        It is closed in the domain for the second piece. <br>
+                        The range are the positive numbers greater than or equal to 1. <br>
+                        R = [1, &infin;)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (11.) 
+                    <button class="solutions" onclick="solutions('solutionGPF11')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF11">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (12.) Given the graph of a piecewise function: <br>
+                    <img src="images/GraphsPiecewiseFunctions/Questions/Number12.png" alt="Number 12"> <br>
+                    Write the definition of the function.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionGPF12')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF12">
+                        <br>
+                        Beginning from the Half Left: <b>1st Piece</b> <br>
+                        <u>Domain</u> <br>
+                        It is open at 0 <br>
+                        It is closed at &minus;5 <br>
+                        The domain includes the real numbers from &minus;5 (included) to 0 (excluded) <br>
+                        D = [&minus;5, 0) <br>
+                        D = {<i>x</i> | &minus;5 &le; <i>x</i> &lt; 0} <br><br>
+                        $
+                        \underline{Function} \\[3ex]
+                        Points = (-5,0) \;\;and\;\; (-2, 3) \\[3ex]
+                        x_1 = -5 \hspace{5em} x_2 = -2 \\[3ex]
+                        y_1 = 0 \hspace{5em} y_2 = 3 \\[3ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        = \dfrac{3 - 0}{-2 - (-5)} \\[5ex]
+                        = \dfrac{3}{-2 + 5} \\[5ex]
+                        = \dfrac{3}{3} \\[5ex]
+                        = 1 \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        y - 0 = 1(x - (-5)) \\[3ex]
+                        y = x + 5 \\[3ex]
+                        $
+                        Other Half on the Right: <b>2nd Piece</b> <br> 
+                        <u>Domain</u> <br>
+                        0 is included in the domain. <br>
+                        It then extends till positive infinity as seen from the arrow <br>
+                        So, all real numbers from zero to positive infinity are included in the domain. <br>
+                        D = [0, &infin;] <br>
+                        D = {<i>x</i> | <i>x</i> &ge; 0} <br><br>
+                        $
+                        \underline{Function} \\[3ex]
+                        Points = (0,0) \;\;and\;\; (3, 3) \\[3ex]
+                        x_1 = 0 \hspace{5em} x_2 = 3 \\[3ex]
+                        y_1 = 0 \hspace{5em} y_2 = 3 \\[3ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        = \dfrac{3 - 0}{3 - 0} \\[5ex]
+                        = \dfrac{3}{3} \\[5ex]
+                        = 1 \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        y - 0 = 1(x - 0) \\[3ex]
+                        y = 1(x) \\[3ex]
+                        y = x \\[3ex]
+                        $
+                        The piecewise function is: <br><br>
+                        $
+                        f(x) =
+                        \begin{cases}
+                        x + 5; \hspace{3em} -5 \le x \lt 0 \\[3ex]
+                        x; \hspace{5em} x \ge 0
+                        \end{cases}                                             
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (13.) 
+                    <button class="solutions" onclick="solutions('solutionGPF13')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF13">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (14.) The function <i>f</i> is defined as follows. <br><br>
+                    $
+                    f(x) = 
+                    \begin{cases}
+                    x + 3 \hspace{2.8em} \text{if} \enspace -2 \le x \lt 1  \\[3ex]
+                    5 \hspace{4.55em} \text{if} \enspace x = 1  \\[3ex]
+                    -x + 2 \hspace{2em} \text{if} \enspace x \gt 1 
+                    \end{cases} \\[7ex] 
+                    $
+                    (a.) Find the domain of the function. <br>
+                    (b.) Locate any intercepts. <br>
+                    (c.) Graph the function. <br>
+                    (d.) Based on the graph, find the range. 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionGPF14')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF14">
+                        <br>
+                        (a.) The domain for the first piece are the real numbers from &minus;2 (included) to 1 (excluded) <br>
+                        The domain for the second piece is 1. <br>
+                        The domain for the third piece are the real numbers greater than 1 <br>
+                        This implies that the domain for the piecewise function are the real numbers from &minus;2 (included) to infinity. <br>
+                        D = [&minus;2, &infin;) 
+                        <br><br>
+                        (b.) <b>y-intercept</b> <br>
+                        set <i>x</i> &equals; 0 and solve for <i>y</i> <br>
+                        0 lies in the domain for the first piece, so we shall use the function in the first piece. <br><br>
+                        $
+                        f(x) = x + 3 \\[3ex]
+                        x = 0 \\[3ex]
+                        f(x) = 0 + 3 \\[3ex] 
+                        f(x) = 3 \\[3ex]
+                        $
+                        <i>y</i>-intercept = (0, 3) <br><br>
+                        <b>x-intercept</b> <br>
+                        set <i>y</i> &equals; 0 and solve for <i>x</i> for each piece <br>
+                        If the value of <i>x</i> is in the domain for that piece, it is the <i>x-</i>intercept; otherwise it is not. <br><br>
+                        $
+                        \underline{1st\;\;piece} \\[3ex]
+                        y = x + 3 \\[3ex]
+                        x + 3 = y \\[3ex]
+                        x = y - 3 \\[3ex]
+                        y = 0 \\[3ex]
+                        x = 0 - 3 \\[3ex] 
+                        x = -3 \\[3ex]
+                        But:\;\;-3 \lt -2 \\[3ex]
+                        -2 \gt -3 \\[3ex]
+                        $
+                        &minus;3 is not in that domain <br><br>
+                        $
+                        \underline{2nd\;\;piece} \\[3ex]
+                        y = 5 \\[3ex] 
+                        x = 1 \\[3ex] 
+                        y \ne 0 \\[3ex] 
+                        $
+                        This piece is not applicable. <br><br>
+                        $
+                        \underline{3rd\;\;piece} \\[3ex]
+                        y = -x + 2 \\[3ex]
+                        x = 2 - y \\[3ex] 
+                        y = 0 \\[3ex]
+                        x = 2 - 0 \\[3ex] 
+                        x = 2 \\[3ex]
+                        2 \gt 1 \\[3ex] 
+                        $
+                        2 is in the domain. <br>
+                        <i>x</i>-intercept = (2, 0) <br><br>
+                        
+                        <table class="w3-center">
+                            <tr><td colspan="2">$y = x + 3$; $-2 \le x \lt 1$</td></tr>
+                            <tr>
+                                <td style="width: 50%;"><i>x</i></td>
+                                <td style="width: 50%;"><i>y</i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &minus;2 (defined) <br>
+                                    &minus;1 <br>
+                                    0 <br>
+                                    1 (undefined)
+                                </td>
+                                <td>
+                                    1 <br>
+                                    2 <br>
+                                    3 <br>
+                                    4
+                                </td>
+                            </tr>
+                            <tr><td colspan="2">$y = 5$; $x = 1$</td></tr>
+                            <tr>
+                                <td style="width: 50%;"><i>x</i></td>
+                                <td style="width: 50%;"><i>y</i></td>
+                            </tr>
+                            <tr>
+                                <td>1 (defined)</td>
+                                <td>5</td>
+                            </tr>
+                            <tr><td colspan="2">$y = -x + 2$; $x \gt 1$</td></tr>
+                            <tr>
+                                <td style="width: 50%;"><i>x</i></td>
+                                <td style="width: 50%;"><i>y</i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    1 (undefined) <br>
+                                    2 <br>
+                                    3
+                                </td>
+                                <td>
+                                    1 <br>
+                                    0 <br>
+                                    &minus;1 
+                                </td>
+                            </tr>
+                        </table>
+                        <br><br>
+
+                        (c.) The graph of the piecewise function is: <br><br>
+                        <img src="images/GraphsPiecewiseFunctions/Answers/Number14.png" alt="Number 14">
+                        <br><br>
+
+                        (d.) Based on the graph: <br>
+                        Based on the 2nd table: <br>
+                        5 is the maximum <i>y-</i>value and it is defined. <br><br>
+                        Based on the 1st table: <br>
+                        1 is defined <br>
+                        4 is undefined <br>
+                        Values between 1 (included) and 4 (excluded) are included. <br>
+                        Also, there is no continuity from 4 to 5 <br><br>
+                        Based on the 3rd table: <br>
+                        1 is not defined (not included) <br>
+                        All other values less than 1 are included. <br>
+                        This implies that the range  real numbers from negative infinity up to 4 and the set, 5 <br>
+                        R = [&minus;&infin;, 4) &Union; {5}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (15.) 
+                    <button class="solutions" onclick="solutions('solutionGPF15')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF15">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (16.) 
+                    <button class="solutions" onclick="solutions('solutionGPF16')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF16">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (17.) 
+                    <button class="solutions" onclick="solutions('solutionGPF17')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF17">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (18.) The function <i>f</i> is defined as follows. <br><br>
+                    $
+                    f(x) = 
+                    \begin{cases}
+                    2 + 2x \hspace{1.4em} \text{if} \enspace x \lt 0  \\[3ex]
+                    x^2 \hspace{3.3em} \text{if} \enspace x \ge 0 
+                    \end{cases} \\[7ex] 
+                    $
+                    (a.) Find the domain of the function. <br>
+                    (b.) Locate any intercepts. <br>
+                    (c.) Graph the function. <br>
+                    (d.) Based on the graph, find the range. 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionGPF18')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF18">
+                        <br>
+                        (a.) The domain for the first piece is all real numbers less than 0. <br>
+                        The domain for the second piece is all real numbers greater than or equal to 0. <br>
+                        This implies that the domain for the piecewise function is all real numbers. <br>
+                        D = (&minus;&infin;, &infin;) 
+                        <br><br>
+                        (b.) <b>y-intercept</b> <br>
+                        set <i>x</i> &equals; 0 and solve for <i>y</i> <br>
+                        0 lies in the domain for the second piece, so we shall use the function in the first piece. <br><br>
+                        $
+                        y = x^2 \\[3ex]
+                        x = 0 \\[3ex]
+                        y = 0^2 \\[3ex]
+                        y = 0 \\[3ex]
+                        $
+                        <i>y</i>-intercept = (0, 0) <br>
+                        This is also the <i>x</i>-intercept <br><br>
+
+                        <b>x-intercept</b> <br>
+                        set <i>y</i> &equals; 0 and solve for <i>x</i> for each piece <br>
+                        If the value of <i>x</i> is in the domain for that piece, it is the <i>x-</i>intercept; otherwise it is not. <br><br>
+                        $
+                        \underline{1st\;\;piece} \\[3ex]
+                        y = 2 + 2x \\[3ex]
+                        y - 2 = 2x \\[3ex]
+                        2x = y - 2 \\[3ex]
+                        x = \dfrac{y - 2}{2} \\[5ex]
+                        y = 0 \\[3ex]
+                        x = \dfrac{0 - 2}{2} \\[5ex] 
+                        x = -\dfrac{2}{2} \\[5ex]
+                        x = -1 \\[3ex]
+                        $
+                        &minus;1 is in the domain. <br>
+                        <i>x</i>-intercept = (-1, 0) <br><br>
+
+                        $
+                        \underline{2nd\;\;piece} \\[3ex]
+                        y = x^2 \\[3ex]
+                        x^2 = y \\[3ex]
+                        x = \sqrt{y} \\[3ex]
+                        y = 0 \\[3ex]
+                        x = \sqrt{0} \\[3ex]
+                        x = 0 \\[3ex]
+                        $
+                        0 is in the domain. <br>
+                        <i>x</i>-intercept = (0, 0) <br>
+                        This is also the <i>y</i>-intercept <br><br>
+                        
+                        <table class="w3-center">
+                            <tr><td colspan="2">$y = 2 + 2x$; $x \lt 0$</td></tr>
+                            <tr>
+                                <td style="width: 50%;"><i>x</i></td>
+                                <td style="width: 50%;"><i>y</i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &minus;2 <br>
+                                    &minus;1 <br>
+                                    0 (undefined)
+                                </td>
+                                <td>
+                                    &minus;2 <br>
+                                    0 <br>
+                                    2
+                                </td>
+                            </tr>
+                            <tr><td colspan="2">$y = x^2$; $x \ge 0$</td></tr>
+                            <tr>
+                                <td style="width: 50%;"><i>x</i></td>
+                                <td style="width: 50%;"><i>y</i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    0 (defined) <br>
+                                    1 <br>
+                                    2
+                                </td>
+                                <td>
+                                    0 <br>
+                                    1 <br>
+                                    4 
+                                </td>
+                            </tr>
+                        </table>
+                        <br><br>
+
+                        (c.) The graph of the piecewise function is: <br><br>
+                        <img src="images/GraphsPiecewiseFunctions/Answers/Number18.png" alt="Number 18">
+                        <br><br>
+                        (d.) Based on the graph: <br>
+                        On the left: <br>
+                        Real numbers from negative infinity up to 2 are included. <br>
+                        But 2 is excluded. <br><br>
+                        On the right: <br>
+                        Real numbers from 0 to infinity are included. <br> 
+                        0 is included. <br>
+                        2 is also included. <br><br>
+                        Therefore, the range are all the real numbers. <br>
+                        R = (&minus;&infin;, &infin;)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (19.) 
+                    <button class="solutions" onclick="solutions('solutionGPF19')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF19">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (20.) Given the graph of a piecewise function: <br>
+                    <img src="images/GraphsPiecewiseFunctions/Questions/Number20.png" alt="Number 20"> <br>
+                    Write the definition of the function.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionGPF20')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF20">
+                        <br>
+                        Beginning from the Half Left: <b>1st Piece</b> <br>
+                        <u>Domain</u> <br>
+                        0 is included in the domain. <br>
+                        It then extends till negative infinity as seen from the arrow <br>
+                        So, all real numbers from negative infinity to zero are included in the domain. <br>
+                        D = (&minus;&infin;, 0] <br>
+                        D = {<i>x</i> | <i>x</i> &le; 0} <br><br>
+                        $
+                        \underline{Function} \\[3ex]
+                        Points = (0,0) \;\;and\;\; (-2, 2) \\[3ex]
+                        x_1 = 0 \hspace{5em} x_2 = -2 \\[3ex]
+                        y_1 = 0 \hspace{5em} y_2 = 2 \\[3ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        = \dfrac{2 - 0}{-2 - 0} \\[5ex]
+                        = \dfrac{2}{-2} \\[5ex]
+                        = -1 \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        y - 0 = -1(x - 0) \\[3ex]
+                        y = -x \\[3ex]
+                        $
+                        Other Half on the Right: <b>2nd Piece</b> <br> 
+                        <u>Domain</u> <br>
+                        It is open at 0 <br>
+                        It is closed at 3 <br>
+                        The domain includes the real numbers from 0 (excluded) to 3 (included) <br>
+                        D = (0, 3] <br>
+                        D = {<i>x</i> | 0 &lt; <i>x</i> &le; 3} <br><br>
+                        $
+                        \underline{Function} \\[3ex]
+                        Points = (3,0) \;\;and\;\; (2, 1) \\[3ex]
+                        x_1 = 3 \hspace{5em} x_2 = 2 \\[3ex]
+                        y_1 = 0 \hspace{5em} y_2 = 1 \\[3ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        = \dfrac{1 - 0}{2 - 3} \\[5ex]
+                        = \dfrac{1}{-1} \\[5ex]
+                        = -1 \\[3ex]
+                        y - y_1 = m(x - x_1) \\[3ex]
+                        y - 0 = -1(x - 3) \\[3ex]
+                        y = -x + 3 \\[3ex]
+                        y = 3 - x \\[3ex]
+                        $
+                        The piecewise function is: <br><br>
+                        $
+                        f(x) =
+                        \begin{cases}
+                        -x; \hspace{4em} x \le 0 \\[3ex]
+                        3 - x; \hspace{3em} 0 \lt x \le 3
+                        \end{cases}                                             
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <!-- Top of the Main Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://precalculus.appspot.com/PiecewiseFunctions/piecewiseFunctionGraphs.html" class="w3-button w3-xlarge w3-circle w3-green"
+                style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+        <br><br><br><br>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (21.) A trucking company transports goods between two cities that are 960 miles apart. <br>
+                    The company​ charges, for each​ pound, <span>$</span>0.60 per mile for the first 100​ miles, <span>$</span>0.45 per mile for the next 300​ miles, <span>$</span>0.25 per mile for the next 400​ miles, and no charge for the remaining 160 miles. <br>
+                    ​(a.) Graph the relationship between the cost of transportation in dollars​ C(<i>x</i>) and mileage <i>x</i> over the entire​ 960-mile route. <br>
+                    ​(b.) Find the cost as a function of mileage for hauls between 100 and 400 miles from the first city. <br>
+                    ​(c.) Find the cost as a function of mileage for hauls between 400 and 800 miles from the first city.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionGPF21')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF21">
+                        <br>
+                        $
+                        \underline{First\;\;100\;\;miles} \\[3ex]
+                        slope = \$0.60 \;\;per\;\;mile = \dfrac{60}{100} \\[5ex]
+                        \implies \\[3ex]
+                        1st\;\;Point = (0, 0) \\[3ex]
+                        x_1 = 0 \\[3ex] 
+                        y_1 = 0 \\[3ex]
+                        2nd\;\;Point = (100, 60) \\[3ex]
+                        x_2 = 100 \\[3ex]
+                        y_2 = 60 \\[3ex]
+                        \underline{Confirm} \\[3ex]
+                        slope = \dfrac{y_2 - y_1}{x_2 - x_1} = \dfrac{60 - 0}{100 - 0} = \dfrac{60}{100} = 0.6 \\[5ex]
+                        \underline{Next\;\;300\;\;miles} \\[3ex]
+                        slope = \$0.45 \;\;per\;\;mile \\[3ex]
+                        \implies \\[3ex]
+                        x_3 = 100 + 300 = 400 \\[3ex]
+                        slope = \dfrac{y_3 - y_2}{x_3 - x_2} = 0.45 \\[5ex]
+                        \dfrac{y_3 - 60}{400 - 100} = 0.45 \\[5ex] 
+                        \dfrac{y_3 - 60}{300} = 0.45 \\[5ex] 
+                        y_3 - 60 = 0.45(300) \\[3ex] 
+                        y_3 = 135 + 60 \\[3ex]
+                        y_3 = 195 \\[3ex]
+                        3rd\;\;Point = (400, 195) \\[3ex]
+                        \underline{Next\;\;400\;\;miles} \\[3ex]
+                        slope = \$0.25 \;\;per\;\;mile \\[3ex]
+                        \implies \\[3ex]
+                        x_4 = 400 + 400 = 800 \\[3ex]
+                        slope = \dfrac{y_4 - y_3}{x_4 - x_3} = 0.25 \\[5ex]
+                        \dfrac{y_4 - 195}{800 - 400} = 0.25 \\[5ex] 
+                        \dfrac{y_4 - 195}{400} = 0.25 \\[5ex] 
+                        y_4 - 195 = 0.25(400) \\[3ex] 
+                        y_4 = 100 + 195 \\[3ex]
+                        y_4 = 295 \\[3ex]
+                        4th\;\;Point = (800, 295) \\[3ex]
+                        \underline{Remaining\;\;160\;\;miles} \\[3ex]
+                        slope = no\;\;charge \;\;per\;\;mile = \$0 \\[3ex]
+                        \implies \\[3ex]
+                        x_5 = 800 + 160 = 960 \\[3ex]
+                        slope = \dfrac{y_5 - y_4}{x_5 - x_4} = 0 \\[5ex]
+                        \dfrac{y_5 - 295}{960 - 800} = 0 \\[5ex] 
+                        \dfrac{y_5 - 295}{160} = 0 \\[5ex] 
+                        y_5 - 295 = 0(160) \\[3ex] 
+                        y_5 = 0 + 295 \\[3ex]
+                        y_5 = 295 \\[3ex]
+                        5th\;\;Point = (960, 295) \\[3ex]
+                        $
+                        The graph that shows the relationship between the cost of transportation in dollars​ C(<i>x</i>) and mileage <i>x</i> over the entire​ 960-mile route is: 
+                        <br><br>
+                        <img src="images/GraphsPiecewiseFunctions/Answers/Number21.jpg" alt="Number 21">
+                        <br><br>
+                        $
+                        (b.) \\[3ex]
+                        Between\;\;100\;\;and\;\;400\;\;miles \\[3ex]
+                        \implies \\[3ex]
+                        2nd\;\;Point = (100, 60) \\[3ex]
+                        3rd\;\;Point = (400, 195) \\[3ex]
+                        slope = \$0.45 \;\;per\;\;mile \\[3ex]
+                        y - y_2 = m(x - x_2)...Point-Slope\;\;Form \\[3ex]
+                        y - 60 = 0.45(x - 100) \\[3ex]
+                        y = 0.45x - 0.45(100) + 60 \\[3ex]
+                        y = 0.45x - 45 + 60 \\[3ex]
+                        y = 0.45x + 15 \\[3ex]
+                        C(x) = 0.45x + 15 \\[3ex]
+                        (c.) \\[3ex]
+                        Between\;\;400\;\;and\;\;800\;\;miles \\[3ex]
+                        \implies \\[3ex]
+                        3rd\;\;Point = (400, 195) \\[3ex]
+                        4th\;\;Point = (800, 295) \\[3ex]
+                        slope = \$0.25 \;\;per\;\;mile \\[3ex]
+                        y - y_3 = m(x - x_3)...Point-Slope\;\;Form \\[3ex]
+                        y - 195 = 0.25(x - 400) \\[3ex]
+                        y = 0.25x - 0.25(400) + 195 \\[3ex]
+                        y = 0.25x - 100 + 195 \\[3ex]
+                        y = 0.25x + 95 \\[3ex]
+                        C(x) = 0.25x + 95
+
+
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (22.) The function <i>f</i> is defined as follows. <br><br>
+                    $
+                    f(x) = 
+                    \begin{cases}
+                    |x| \hspace{3.84em} \text{if} \enspace -2 \le x \lt 0  \\[3ex]
+                    x^3 \hspace{4em} \text{if} \enspace x \ge 0 
+                    \end{cases} \\[7ex] 
+                    $
+                    (a.) Find the domain of the function. <br>
+                    (b.) Locate any intercepts. <br>
+                    (c.) Graph the function. <br>
+                    (d.) Based on the graph, find the range. 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionGPF22')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF22">
+                        <br>
+                        (a.) The domain for the first piece are the real numbers from &minus;2 (included) to 1 (excluded) <br>
+                        The domain for the second piece is all real numbers greater than or equal to 0. <br>
+                        This implies that the domain for the piecewise function are the real numbers from &minus;2 (included) to infinity. <br>
+                        D = [&minus;2, &infin;) 
+                        <br><br>
+                        (b.) <b>y-intercept</b> <br>
+                        set <i>x</i> &equals; 0 and solve for <i>y</i> <br>
+                        0 lies in the domain for the second piece, so we shall use the function in the first piece. <br><br>
+                        $
+                        y = x^3 \\[3ex]
+                        x = 0 \\[3ex]
+                        y = 0^3 \\[3ex]
+                        y = 0 \\[3ex]
+                        $
+                        <i>y</i>-intercept = (0, 0) <br>
+                        This is also the <i>x</i>-intercept <br><br>
+
+                        <b>x-intercept</b> <br>
+                        set <i>y</i> &equals; 0 and solve for <i>x</i> for each piece <br>
+                        If the value of <i>x</i> is in the domain for that piece, it is the <i>x-</i>intercept; otherwise it is not. <br><br>
+                        $
+                        \underline{1st\;\;piece} \\[3ex]
+                        y = |x| \\[3ex]
+                        |x| = y \\[3ex]
+                        |x| = 0 \\[3ex] 
+                        x = 0 \;\;OR\;\; -x = 0 \\[3ex]
+                        x = 0 \\[3ex]
+                        $
+                        But: 0 is not in the domain. <br><br>
+                        $
+                        \underline{2nd\;\;piece} \\[3ex]
+                        y = x^3 \\[3ex]
+                        x^3 = y \\[3ex]
+                        x = \sqrt[3]{y} \\[3ex]
+                        y = 0 \\[3ex]
+                        x = \sqrt[3]{0} \\[3ex]
+                        x = 0 \\[3ex]
+                        $
+                        0 is in the domain. <br>
+                        <i>x</i>-intercept = (0, 0) <br>
+                        This is also the <i>y</i>-intercept <br><br>
+                        
+                        <table class="w3-center">
+                            <tr><td colspan="2">$y = |x|$; $-2 \le x \lt 0$</td></tr>
+                            <tr>
+                                <td style="width: 50%;"><i>x</i></td>
+                                <td style="width: 50%;"><i>y</i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &minus;2 <br>
+                                    &minus;1 <br>
+                                    0 (undefined)
+                                </td>
+                                <td>
+                                    2 <br>
+                                    1 <br>
+                                    0
+                                </td>
+                            </tr>
+                            <tr><td colspan="2">$y = x^3$; $x \ge 0$</td></tr>
+                            <tr>
+                                <td style="width: 50%;"><i>x</i></td>
+                                <td style="width: 50%;"><i>y</i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    0 (defined) <br>
+                                    1 <br>
+                                    2
+                                </td>
+                                <td>
+                                    0 <br>
+                                    1 <br>
+                                    8 
+                                </td>
+                            </tr>
+                        </table>
+                        <br><br>
+
+                        (c.) The graph of the piecewise function is: <br><br>
+                        <img src="images/GraphsPiecewiseFunctions/Answers/Number22.png" alt="Number 22">
+                        <br><br>
+                        (d.) Based on the graph: <br>
+                        The range does not have any negative number. <br>
+                        0 is defined for the second piece. So, 0 is included.
+                        All positive numbers are included. <br>
+                        Therefore, the range are all non-negative numbers. <br>
+                        R = [0, &infin;)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (23.) 
+                    <button class="solutions" onclick="solutions('solutionGPF23')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF23">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (24.) The postal service of a country charges <span>$</span>0.34 postage for a letter weighing up to 1​ ounce, plus <span>$</span>0.21 for each additional ounce up to 5 ounces. <br>
+                    Letters weighing more than 5 ounces do not qualify for these rates. <br>
+                    (a.) Write a​ piecewise-defined function C for the postage charged for a letter weighing <i>x</i> ounces. <br>
+                    (b.) Graph the function.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionGPF24')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF24">
+                        <br>
+                        <i>x</i> = weight of letter in ounces <br>
+                        C(<i>x</i>) = cost of postage based on the weight <br><br>
+                        $
+                        \underline{Up\;\;to\;\;and\;\;including\;\;1\;ounce} \\[3ex]
+                        C(x) = \$0.34 \\[5ex]
+                        \underline{Between\;\;1\;ounce\;\;to\;\;Up\;\;to\;\;5\;ounces} \\[3ex]
+                        C(x) = 0.34 + 0.21x \\[3ex]
+                        C(1) = 0.34 + 0.21(1) 
+                        = 0.34 + 0.21 \\[3ex]
+                        = 0.55 \\[3ex]
+                        C(2) = 0.34 + 0.21(2) 
+                        = 0.34 + 0.42 \\[3ex]
+                        = 0.76 \\[3ex]
+                        C(3) = 0.34 + 0.21(3) 
+                        = 0.34 + 0.63 \\[3ex]
+                        = 0.97 \\[3ex]
+                        C(4) = 0.34 + 0.21(4) 
+                        = 0.34 + 0.84 \\[3ex]
+                        = 1.18 \\[3ex]
+                        (a.) \\[3ex]
+                        C(x) = 
+                        \begin{cases}
+                        \$0.34   \hspace{21mm} \text{if} \hspace{5mm} 0 \lt x \le 1 \\[3ex]
+                        \$0.55   \hspace{21mm} \text{if} \hspace{5mm} 1 \lt x \le 2 \\[3ex]
+                        \$0.76   \hspace{21mm} \text{if} \hspace{5mm} 2 \lt x \le 3 \\[3ex]
+                        \$0.97   \hspace{21mm} \text{if} \hspace{5mm} 3 \lt x \le 4 \\[3ex]
+                        \$1.18   \hspace{21mm} \text{if} \hspace{5mm} 4 \lt x \le 5 
+                        \end{cases}
+                        $
+                        <br><br>
+                        (b.) The graph of the function is: <br><br>
+                        <img src="images/GraphsPiecewiseFunctions/Answers/Number24.jpg" alt="Number 24">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (25.) 
+                    <button class="solutions" onclick="solutions('solutionGPF25')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF25">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (26.) 
+                    <button class="solutions" onclick="solutions('solutionGPF26')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF26">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (27.) 
+                    <button class="solutions" onclick="solutions('solutionGPF27')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF27">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (28.) 
+                    <button class="solutions" onclick="solutions('solutionGPF28')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF28">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (29.) 
+                    <button class="solutions" onclick="solutions('solutionGPF29')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF29">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (30.) 
+                    <button class="solutions" onclick="solutions('solutionGPF30')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF30">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (31.) 
+                    <button class="solutions" onclick="solutions('solutionGPF31')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF31">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (32.) 
+                    <button class="solutions" onclick="solutions('solutionGPF32')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF32">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (33.) 
+                    <button class="solutions" onclick="solutions('solutionGPF33')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF33">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (34.) 
+                    <button class="solutions" onclick="solutions('solutionGPF34')">Show/Hide Answer</button>
+                    <div class="result" id="solutionGPF34">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- END PAGE CONTENT -->
+
+        
+        <!-- Footer -->
+        <footer class="w3-center green w3-padding-24">
+            <div id="google_translate_element"></div>
+            <script>
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'G-EDLZMCQQ0V'}, 'google_translate_element');
+                }
+            </script>
+            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <p>&copy; 2018&nbsp;Samdom4Peace Designs.</p>
+        </footer>
+        <!-- End Footer -->
+
+        <script src="scripts/messages1.js"></script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+        <script async
+                src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+    </body>
+</html>

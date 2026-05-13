@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDLZMCQQ0V"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-EDLZMCQQ0V');
+        </script>
+
+        <title>Polynomial Graphs</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="description" content="Samuel Dominic Chukwuemeka (SamDom For Peace) gives all the credit to our LORD and GOD, JESUS CHRIST. We are experts in polynomial graphs.">
+        
+        <meta name="keywords" content="samuel chukwuemeka, samuel dominic chukwuemeka, samdom for peace, 
+                    math, mathematics, algebra, polynomial functions, polynomials, arithmetic, arithmetic operators, 
+                    monomial, binomial, trinomial, quadrinomial, tetranomial, pentanomial, quintinomial, hexanomial, heptanomial, 
+                    octanomial, nonanomial, decanomial, sum, difference, product, quotient, type of polynomial, degree of polynomial,
+                    Rational root theorem, root, solution, zeros, Descartes' Rule of signs, functions, linear functions, 
+                    quadratic functions, cubic functions, slope, intercepts, y-intercept, x-intercept, factoring techniques, 
+                    arithmetic operations, slope-intercept form, standard form, constant form, point-slope form, general form,
+                    vertex, axis, line of symmetry, symmetry, long division, synthetic division, Remainder theorem,
+                    Factor theorem, add, subtract, multiply, divide, augend, addend, minuend, subtrahend, multiplicand, multiplier,
+                    dividend, divisor, sum, difference, product, quotient, division algorithm, cubic, quartic, exponent, index, 
+                    power, degree, order, quintic, pentic, hexic, sextic, heptic, septic, octic, nonic, decic, extrema, maxima, minima,
+                    multiplicity of zeros, relative extrema, absolute extrema, relative maximum, relative minimum, absolute maximum, 
+                    absolute minimum, global extrema, local extrema, global minimum, global maximum, local minimum, local maximum, 
+                    domain, range, FOIL (First Outer Inner Last), box method">
+
+        <link href="styles/polynomialFunctions.css" rel="stylesheet" type="text/css" media="all">
+        
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    </head>
+
+    <body>
+        <!-- Header/Home -->
+        <header class="w3-padding-64 khaki">
+            <!--
+            <div class="w3-center">
+                <button class="quoteDay" onclick="solutions('solutionQuotes')">Quotes of the Day</button>
+            </div>
+            <div class="w3-content quotes" id="solutionQuotes">
+                <p>
+                    <q>
+                        If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the 
+                        <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our FATHER in Heaven prayer)</a> <br>
+                        It is the <b>most powerful prayer</b>.
+                        A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
+                    </q> - Samuel Dominic Chukwuemeka 
+                </p>
+                <p id="messages7"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
+                <p><q>The <b>Joy</b> of a <b>Teacher</b> is the <b>Success</b> of his <b>Students</b>.</q> - Samuel Dominic Chukwuemeka</p>
+            </div>
+        -->
+        </header>
+        
+        <!--
+        <header class="w3-padding-64 khaki">
+            <div class="w3-content" id="solutionQuotes">
+                <p>
+                    <q>
+                        If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the 
+                        <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our FATHER in Heaven prayer)</a> <br>
+                        It is the <b>most powerful prayer</b>.
+                        A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
+                    </q> - Samuel Dominic Chukwuemeka 
+                </p>
+                <p id="messages7"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
+                <p><q>The <b>Joy</b> of a <b>Teacher</b> is the <b>Success</b> of his <b>Students</b>.</q> - Samuel Dominic Chukwuemeka</p>
+            </div>
+        </header>
+        -->
+        <!-- End Header/Home -->
+        
+        <!-- Page Content -->
+        <div class="w3-row w3-container">
+
+            <h1>Solved Examples on Polynomial Graphs</h1>
+            
+            <p class="w3-container">
+                
+                <!-- Image in top left corner --
+                <a href="https://polynomials.appspot.com" title="Samuel Dominic Chukwuemeka (SamDom For Peace)">
+                    <img src="images/samuelchukwuemeka4peace.jpg" alt="Samuel Dominic Chukwuemeka (SamDom For Peace)" class="images">
+                </a>
+
+                <b>Calculators:</b> 
+                <a href="http://www.polynomials.appspot.com/Calculators.html" target="_blank">
+                    Calculators for Polynomials
+                </a> <br><br>
+            -->
+                <mark>For ACT Students</mark> <br>
+                The ACT is a timed exam...60 questions for 60 minutes <br>
+                This implies that you have to solve each question in one minute. <br>
+                Some questions will typically take less than a minute a solve. <br>
+                Some questions will typically take more than a minute to solve. <br>
+                The goal is to maximize your time. You use the time saved on those questions you
+                solved in less than a minute, to solve the questions that will take more than a minute. <br>
+                So, you should try to solve each question <u>correctly</u> and <u>timely</u>. <br>
+                So, it is not just solving a question correctly, but solving it <u>correctly on time</u>. <br>
+                Please ensure you attempt <u>all ACT questions</u>. <br>
+                There is no <i>negative</i> penalty for a wrong answer. <br><br>
+
+                <mark>For SAT Students</mark> <br>
+                Any question labeled SAT-C is a question that allows a calculator. <br>
+                Any question labeled SAT-NC is a question that does not allow a calculator. <br><br>
+
+                <mark>For JAMB Students</mark> <br>
+                Calculators are not allowed. So, the questions are solved in a way that does not require a calculator. <br>
+                Unless specified otherwise, any question labeled JAMB is a question from JAMB Physics <br><br>
+                
+                <mark>For WASSCE Students</mark>: Unless specified otherwise: <br>
+                Any question labeled WASCCE is a question from WASCCE Physics <br>
+                Any question labeled WASSCE-FM is a question from the WASSCE Further Mathematics/Elective Mathematics <br><br>
+
+                <mark>For NSC Students</mark> <br>
+                <u>For the Questions:</u> <br>
+                Any space included in a number indicates a comma used to separate digits...separating multiples of three digits from behind. <br>
+                Any comma included in a number indicates a decimal point. <br>
+                <u>For the Solutions:</u> <br>
+                Decimals are used appropriately rather than commas <br>
+                Commas are used to separate digits appropriately. <br><br>
+
+                Solve all questions. <br>
+                Show all work.  
+            </p>
+            
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (1.) (a.) Determine whether the function is a polynomial. <br>
+                    (b.) If it is a polynomial, write it in standard form. <br>
+                    (c.) State the degree. <br>
+                    (d.) Identify the leading term <br>
+                    (e.) Identify the constant term.
+                    $$
+                    G(x) = 2(x - 1)^2(x^2 + 5)
+                    $$
+                    <button class="solutions" onclick="solutions('solutionPG1')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG1">
+                        <br>
+                        (a.) The function is a polynomial 
+                        <br><br>
+                        We can find the leading term and the constant term quickly
+                        <br><br>
+                        $
+                        G(x) = 2(x - 1)^2(x^2 + 5) \\[3ex]
+                        G(x) = 2(x - 1)(x - 1)(x^2 + 5) \\[3ex]
+                        Leading\;\;Term = 2(x)(x)(x^2) = 2x^4 \\[3ex]
+                        Constant\;\;Term = 2(-1)(-1)(5) = 10 \\[3ex]
+                        $
+                        We can also go ahead and multiply through 
+                        <br><br>
+                        $
+                        (b.) \\[3ex]
+                        G(x) = 2(x - 1)^2(x^2 + 5) \\[3ex]
+                        (x - 1)^2 \\[3ex]
+                        = (x - 1)(x - 1) \\[3ex]
+                        = x^2 - x - x + 1 \\[3ex]
+                        = x^2 - 2x + 1 \\[3ex]
+                        2(x - 1)^2 \\[3ex]
+                        = 2(x^2 - 2x + 1) \\[3ex]
+                        = 2x^2 - 4x + 2 \\[3ex]
+                        2(x - 1)^2(x^2 + 5) \\[3ex]
+                        = (2x^2 - 4x + 2)(x^2 + 5) \\[3ex]
+                        = 2x^4 + 10x^2 - 4x^3 - 20x + 2x^2 + 10 \\[3ex]
+                        = 2x^4 - 4x^3 + 12x^2 - 20x + 10 \\[3ex]
+                        \implies \\[3ex]
+                        G(x) = 2x^4 - 4x^3 + 12x^2 - 20x + 10 \\[3ex]
+                        $
+                        (c.) The degree is: 4 <br><br>
+                        (d.) The leading term is: 2<i>x</i>$^4$ <br><br>
+                        (e.) The constant term is: 10
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (2.) Determine the polynomial whose: <br>
+                    (a.) zeros are: &minus;4, 4, 8 and degree is: 3 <br>
+                    (b.) zeros are: &minus;2, 0, 3 and degree is: 3 <br>
+                    (c.) zeros are: &minus;9, multiplicity 1; &minus;4, multiplicity 2 and degree is: 3
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPG2')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG2">
+                        <br>
+                        $
+                        (a.) \\[3ex]
+                        degree = 3 \\[3ex]
+                        zeros = -4, 4, 8 \\[3ex] 
+                        factors = (x + 4)(x - 4)(x - 8) \\[3ex]
+                        \implies \\[3ex]
+                        f(x) = (x + 4)(x - 4)(x - 8) \\[3ex]
+                        (x + 4)(x - 4) = x^2 - 4^2 ...Difference\;\;of\;\;Two\;\;Squares \\[3ex] 
+                        \implies \\[3ex]
+                        f(x) = (x^2 - 4^2)(x - 8) \\[3ex]
+                        = (x^2 - 16)(x - 8) \\[3ex]
+                        = x^3 - 8x^2 - 16x + 128 \\[5ex]
+                        (b.) \\[3ex]
+                        degree = 3 \\[3ex]
+                        zeros = -2, 0, 3 \\[3ex] 
+                        factors = (x + 2)(x - 0)(x - 3) \\[3ex]
+                        factors = x(x + 2)(x - 3) \\[3ex]
+                        \implies \\[3ex]
+                        f(x) = x(x + 2)(x - 3) \\[3ex]
+                        = (x^2 + 2x)(x - 3) \\[3ex]
+                        = x^3 - 3x^2 + 2x^2 - 6x \\[3ex]
+                        = x^3 - x^2 - 6x \\[5ex]
+                        (c.) \\[3ex]
+                        degree = 3 \\[3ex]
+                        zeros = -9, -4, -4 \\[3ex]
+                        factors = (x + 9)(x + 4)(x + 4) \\[3ex]
+                        \implies \\[3ex]
+                        f(x) = (x + 9)(x + 4)(x + 4) \\[3ex]
+                        = (x + 9)(x^2 + 4x + 4x + 16) \\[3ex]
+                        = (x + 9)(x^2 + 8x + 16) \\[3ex]
+                        = x^3 + 8x^2 + 16x + 9x^2 + 72x + 144 \\[3ex]
+                        = x^3 + 17x^2 + 88x + 144
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (3.) Determine the polynomial whose: <br>
+                    (a.) zeros are: &minus;5, &minus;1, 1, 2 and degree is: 4                     
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPG3')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG3">
+                        <br>
+                        $
+                        (a.) \\[3ex]
+                        degree = 4 \\[3ex]
+                        zeros = -5, -1, 1, 2 \\[3ex] 
+                        factors = (x + 5)(x + 1)(x - 1)(x - 2) \\[3ex]
+                        factors = (x + 1)(x - 1)(x + 5)(x - 2) \\[3ex]
+                        \implies \\[3ex]
+                        f(x) = (x + 1)(x - 1)(x + 5)(x - 2) \\[3ex]
+                        (x + 1)(x - 1) = x^2 - 1^2 ...Difference\;\;of\;\;Two\;\;Squares \\[3ex] 
+                        \implies \\[3ex]
+                        f(x) = (x^2 - 1^2)(x^2 - 2x + 5x - 10) \\[3ex]
+                        = (x^2 - 1)(x^2 + 3x - 10) \\[3ex]
+                        = x^4 + 3x^3 - 10x^2 - x^2 - 3x + 10 \\[3ex]
+                        = x^4 + 3x^3 - 11x^2 - 3x + 10 
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (4.) For the polynomial: G(<i>x</i>) = (<i>x</i> &minus; 1)³(<i>x</i> + 1) <br>
+                    (a.) Determine the <i>x</i>-intercepts of the graph of G. <br>
+                    (b.) Determine the <i>x</i>-intercepts of the graph of G(<i>x</i> + 4)
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPG4')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG4">
+                        <br>
+                        To find x-intercept; set G(<i>x</i>) = 0 <u>and</u> solve for <i>x</i> 
+                        <br><br>
+                        $
+                        G(x) = (x - 1)^3(x + 1) \\[3ex]
+                        (a.) \\[3ex]
+                        (x - 1)^3(x + 1) = 0 \\[3ex]
+                        (x - 1)^3 = 0 \;\;\;OR\;\;\; x + 1 = 0...Zero\;\;Product\;\;Property \\[3ex]
+                        x - 1 = \sqrt[3]{0} \;\;\;OR\;\;\; x = -1 \\[3ex]
+                        x - 1 = 0 \;\;\;OR\;\;\; x = -1 \\[3ex]
+                        x = 1 \;\;\;OR\;\;\; x = -1 \\[3ex]
+                        x-intercepts = (-1, 0)\;\;and\;\;(1, 0) \\[3ex]
+                        (b.) \\[3ex]
+                        G(x + 4) = (x + 4 - 1)^3(x + 4 + 1) \\[3ex]
+                        = (x + 3)^3(x + 5) \\[3ex]
+                        \implies \\[3ex]
+                        (x + 3)^3 = 0 \;\;\;OR\;\;\; x + 5 = 0...Zero\;\;Product\;\;Property \\[3ex]
+                        x + 3 = \sqrt[3]{0} \;\;\;OR\;\;\; x = -5 \\[3ex]
+                        x + 3 = 0 \;\;\;OR\;\;\; x = -5 \\[3ex]
+                        x = -3 \;\;\;OR\;\;\; x = -5
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (5.) Determine the polynomial function whose <br>
+                    (a.) zeros are: &minus;3, 2, 5 and whose graph passes through the point (6, 72) <br><br>
+                    (b.) zeros are: &minus;2, multiplicity 2; 2, multiplicity 2; and degree is: 4 and whose graph passes 
+                    through the point (&minus;3, 125)
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPG5')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG5">
+                        <br>
+                        $
+                        (a.) \\[3ex]
+                        zeros = -3, 2, 5 \\[3ex]
+                        factors = (x + 3)(x - 2)(x - 5) \\[3ex]
+                        \implies \\[3ex]
+                        f(x) = a(x + 3)(x - 2)(x - 5) \\[3ex]
+                        passes\;\;through\;\;(6, 72) \\[3ex]
+                        To\;\;find\;\;leading\;\;coefficient:a \\[3ex]
+                        x = 6,\;\;\;f(x) = 72 \\[3ex]
+                        \implies \\[3ex]
+                        72 = a(6 + 3)(6 - 2)(6 - 5) \\[3ex]
+                        72 = a(9)(4)(1) \\[3ex]
+                        36a = 72 \\[3ex]
+                        a = \dfrac{72}{36} \\[5ex]
+                        a = 2 \\[3ex]
+                        \implies \\[3ex] 
+                        f(x) = a(x + 3)(x - 2)(x - 5) \\[3ex] 
+                        = 2(x + 3)(x - 2)(x - 5) \\[3ex]
+                        = (2x + 6)(x^2 - 5x - 2x + 10) \\[3ex] 
+                        = (2x + 6)(x^2 - 7x + 10) \\[3ex] 
+                        = 2x^3 - 14x^2 + 20x + 6x^2 - 42x + 60 \\[3ex] 
+                        = 2x^3 - 8x^2 - 22x + 60 \\[3ex] 
+                        (b.) \\[3ex]
+                        degree = 4 \\[3ex]
+                        zeros = -2, -2, 2, 2 \\[3ex]
+                        factors = (x + 2)(x + 2)(x - 2)(x - 2) \\[3ex]
+                        factors = (x + 2)(x - 2)(x + 2)(x - 2) \\[3ex]
+                        (x + 2)(x - 2) = x^2 - 2^2 ...Difference\;\;of\;\;Two\;\;Squares \\[3ex] 
+                        \implies \\[3ex]
+                        factors = (x^2 - 2^2)(x^2 - 2^2) \\[3ex]
+                        factors = (x^2 - 4)(x^2 - 4) \\[3ex]
+                        \implies \\[3ex]
+                        f(x) = a(x^2 - 4)(x^2 - 4) \\[3ex]
+                        passes\;\;through\;\;(-3, 125) \\[3ex]
+                        To\;\;find\;\;leading\;\;coefficient:a \\[3ex]
+                        x = -3,\;\;\;f(x) = 125 \\[3ex]
+                        \implies \\[3ex]
+                        125 = a[(-3)^2 - 4][(-3)^2 - 4] \\[3ex]
+                        125 = a(9 - 4)(9 - 4) \\[3ex]
+                        125 = a(5)(5) \\[3ex]
+                        25a = 125 \\[3ex] 
+                        a = \dfrac{125}{25} = 5 \\[5ex]
+                        \implies \\[3ex] 
+                        f(x) = a(x^2 - 4)(x^2 - 4) \\[3ex] 
+                        = 5(x^2 - 4)(x^2 - 4) \\[3ex]
+                        = (5x^2 - 20)(x^2 - 4) \\[3ex]
+                        = 5x^4 - 20x^2 - 20x^2 + 80 \\[3ex]
+                        = 5x^4 - 40x^2 + 80
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (6.) Analyze the polynomial function: $f(x) = x^2(x - 6)$ <br>
+                    (a.) Determine the end behavior of the graph of the function. <br>
+                    (b.) Find the <i>x</i>- and <i>y</i>-intercepts of the graph of the function. <br>
+                    (c.) Determine the zeros of the function and their multiplicity. <br>
+                        Does the graph touch/cross the <i>x</i>-axis at each zero? <br>
+                    (d.) Determine the maximum number of turning points on the graph of the function. <br>
+                    (e.) Use the above information to draw a complete graph of the function. 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPG6')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG6">
+                        <br>
+                        (a.) <br>
+                        $f(x) = x^2(x - 6)$ <br>
+                        Leading term = $x^2(x) = x^3$ <br>
+                        This implies that the graph of $f(x)$ behaves like $y = x^3$ for large values of |<i>x</i>| <br>
+                        Leading coefficient = 1 (positive) <br>
+                        Degree = n = 3 (odd) <br>
+                        End behavior is: down-up 
+                        <br><br>
+                        $
+                        (b.) \\[3ex]
+                        f(x) = x^2(x - 6) \\[3ex]
+                        \underline{x-intercept} \\[3ex]
+                        x^2(x - 6) = 0 \\[3ex]
+                        x^2 = 0 \;\;\;OR\;\;\; x - 6 = 0 \\[3ex]
+                        x = \sqrt{0} \;\;\;OR\;\;\; x = 6 \\[3ex]
+                        x = 0 \;\;\;OR\;\;\; x = 6 \\[3ex]
+                        x-intercept = (0, 0),\; (0, 0),\; (6, 0) \\[3ex]
+                        \underline{y-intercept} \\[3ex]
+                        f(0) = 0^2(0 - 6) \\[3ex]
+                        f(0) = 0(-6) \\[3ex]
+                        f(0) = 0 \\[3ex]
+                        y-intercept = (0, 0) \\[3ex]
+                        (c.) \\[3ex] 
+                        \underline{1st\;\;zero} \\[3ex]
+                        x = 0 \\[3ex]
+                        Multiplicity = 2\;(even) \\[3ex]
+                        Graph\;\;touches\;\;the\;\;x-axis\;\;at\;\;x = 0 \\[3ex]
+                        \underline{2nd\;\;zero} \\[3ex] 
+                        x = 6 \\[3ex] 
+                        Multiplicity = 1\;(odd) \\[3ex] 
+                        Graph\;\;crosses\;\;the\;\;x-axis\;\;at\;\;x = 6 \\[3ex]
+                        $
+                        (d.) The maximum number of turning points on the graph is: <br>
+                        = <i>n</i> &minus; 1 <br>
+                        = 3 &minus; 1 <br>
+                        = 2 <br><br>
+                        (e.) The graph of the function is: <br><br>
+                        <img src="images/PolynomialGraphs/Answers/Number6.png" alt="Number 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (7.) Determine the polynomial function whose <br>
+                    (a.) zeros are: &minus;6, 0, 3, 1 and whose graph passes through the point 
+                    $\left(-\dfrac{1}{2}, -462\right)$ <br><br>
+                    (b.) zeros are: &minus;1, 1, 3 and degree is: 3 and <i>y</i>-intercept is: &minus;9 <br><br>
+                    (c.) zeros are: &minus;3, multiplicity 1; 2, multiplicity 1; 4, multiplicity 2;
+                    and degree is: 4 and contains the point (1, 72) <br><br>
+                    Type your answers in factored form. 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPG7')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG7">
+                        <br>
+                        $
+                        (a.) \\[3ex]
+                        zeros = -6, 0, 3, 1 \\[3ex]
+                        factors = (x + 6)(x - 0)(x - 3)(x - 1) \\[3ex]
+                        \implies \\[3ex]
+                        f(x) = ax(x + 6)(x - 3)(x - 1) \\[3ex]
+                        passes\;\;through\;\;\left(-\dfrac{1}{2}, -462\right) \\[5ex]
+                        To\;\;find\;\;leading\;\;coefficient:a \\[3ex]
+                        x = -\dfrac{1}{2},\;\;\;f(x) = -462 \\[5ex]
+                        \implies \\[3ex]
+                        -462 = a * -\dfrac{1}{2} * \left(-\dfrac{1}{2} + 6\right) * \left(-\dfrac{1}{2} - 3\right) * \left(-\dfrac{1}{2} - 1\right) \\[5ex]
+                        -462 = a * -\dfrac{1}{2} * \left(-\dfrac{1}{2} + \dfrac{12}{2}\right) * \left(-\dfrac{1}{2} - \dfrac{6}{2}\right) * \left(-\dfrac{1}{2} - \dfrac{2}{2}\right) \\[5ex]
+                        -462 = a * -\dfrac{1}{2} * \dfrac{11}{2} * -\dfrac{7}{2} * -\dfrac{3}{2} \\[5ex]
+                        -462 = a * -\dfrac{231}{16} \\[5ex]
+                        a * -\dfrac{231}{16} = -462 \\[5ex] 
+                        -\dfrac{16}{231} * a * -\dfrac{231}{16} = -\dfrac{16}{231} * -462 \\[5ex]
+                        a = 32 \\[3ex]
+                        \implies \\[3ex] 
+                        f(x) = ax(x + 6)(x - 3)(x - 1) \\[3ex]
+                        f(x) = 32x(x + 6)(x - 3)(x - 1) \\[3ex] 
+                        (b.) \\[3ex]
+                        zeros = -1, 1, 3 \\[3ex]
+                        factors = (x + 1)(x - 1)(x - 3) \\[3ex]
+                        \implies \\[3ex]
+                        f(x) = a(x + 1)(x - 1)(x - 3) \\[3ex]
+                        y-intercept = (0, -9) \\[3ex]
+                        passes\;\;through\;\;(0, -9) \\[3ex]
+                        To\;\;find\;\;leading\;\;coefficient:a \\[3ex]
+                        x = 0,\;\;\;f(x) = -9 \\[3ex]
+                        \implies \\[3ex]
+                        -9 = a(0 + 1)(0 - 1)(0 - 3) \\[3ex]
+                        -9 = a(1)(-1)(-3) \\[3ex]
+                        3a = -9 \\[3ex]
+                        a = -\dfrac{9}{3} \\[5ex]
+                        a = -3 \\[3ex]
+                        \implies \\[3ex] 
+                        f(x) = a(x + 1)(x - 1)(x - 3) \\[3ex]
+                        f(x) = -3(x + 1)(x - 1)(x - 3) \\[3ex]
+                        (c.) \\[3ex]
+                        zeros = -3, 2, 4, 4 \\[3ex]
+                        factors = (x + 3)(x - 2)(x - 4)(x - 4) \\[3ex]
+                        \implies \\[3ex]
+                        f(x) = a(x + 3)(x - 2)(x - 4)(x - 4) \\[3ex]
+                        contains\;\;the\;\;point:\;\;(1, 72) \\[3ex]
+                        To\;\;find\;\;leading\;\;coefficient:\;a \\[3ex]
+                        x = 1,\;\;\;f(x) = 72 \\[3ex]
+                        \implies \\[3ex]
+                        72 = a(1 + 3)(1 - 2)(1 - 4)(1 - 4) \\[3ex]
+                        72 = a(4)(-1)(-3)(-3) \\[3ex]
+                        -36a = 72 \\[3ex]
+                        a = -\dfrac{72}{36} \\[5ex]
+                        a = -2 \\[3ex]
+                        \implies \\[3ex] 
+                        f(x) = a(x + 3)(x - 2)(x - 4)(x - 4) \\[3ex]
+                        f(x) -2(x + 3)(x - 2)(x - 4)^2
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (8.) Which of the polynomial functions may have the given graph? <br><br>
+                    <img src="images/PolynomialGraphs/Questions/Number8.png" alt="Number 8">
+                    <br><br>
+                    $
+                    A.\;\; f(x) = \dfrac{1}{2}(x + 2)(x + 1)(x - 1) \\[5ex]
+                    B.\;\; f(x) = \dfrac{1}{2}(x + 2)(x + 1)^2(x - 1) \\[5ex]
+                    C.\;\; f(x) = -\dfrac{1}{2}(x + 2)(x + 1)(x - 1) \\[5ex]
+                    D.\;\; f(x) = \dfrac{1}{2}(x + 2)(x + 1)(x - 1)^2 \\[5ex]
+                    E.\;\; f(x) = \dfrac{1}{2}(x + 2)^2(x + 1)(x - 1)^2 \\[5ex]
+                    F.\;\; f(x) = -\dfrac{1}{2}(x + 2)(x + 1)^2(x - 1) \\[5ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionPG8')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG8">
+                        <br>
+                        <b>Turning Points</b> <br>
+                        If: Turning points: <i>n</i> &minus; 1; <br>
+                        then Degree: at least <i>n</i> <br>
+                        Turning points = 3 <br>
+                        <i>n</i> &minus; 1 = 3 <br>
+                        <i>n</i> = 3 + 1 <br>
+                        <i>n</i> = 4 <br>
+                        Degree: &ge;4 <br>
+                        Assume: degree = 4 <br><br>
+                        <b>Zeros</b> <br>
+                        zeros = &minus;2, &minus;1, 1 <br><br>
+                        <b>Multiplicity of Zeros</b> <br>
+                        The graph crosses &minus; 2 <br>
+                        Multiplicity of &minus;2 = 1 <br>
+                        The graph touches &minus;1 <br>
+                        Multiplicity of &minus;1 = 2 <br>
+                        The graph crosses 1 <br>
+                        Multiplicity of 1 = 1 <br><br>                       
+                        <b>Factors</b> <br> 
+                        factors = (<i>x</i> + 2)(<i>x</i> + 1)²(<i>x</i> &minus; 1) <br><br>
+                        <br><br>
+                        $
+                        f(x) = a(x + 2)(x + 1)^2(x - 1) \\[3ex]
+                        passes\;\;through\;\;y-intercept:\;(0, -1) \\[3ex]
+                        x = 0 \\[3ex]
+                        y = f(x) = f(0) = -1 \\[3ex] 
+                        \implies \\[3ex]
+                        f(0) = a(0 + 2)(0 + 1)^2(0 - 1) \\[3ex]
+                        -1 = a(2)(1)^2(-1) \\[3ex]
+                        -1 = a(2)(1)(-1) \\[3ex]
+                        -2a = -1 \\[3ex]
+                        a = \dfrac{-1}{-2} \\[5ex] 
+                        a = \dfrac{1}{2} \\[5ex]
+                        \implies \\[3ex]
+                        f(x) = \dfrac{1}{2}(x + 2)(x + 1)^2(x - 1)
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (9.) For these polynomial functions: <br><br>
+                    $
+                    (I.)\;\; f(x) = -3(x - 5)(x + 3)^2 \\[3ex] 
+                    (II.)\;\; f(x) = 2(x^2 + 1)^2(x - 4)^3 \\[3ex] 
+                    (III.)\;\; f(x) = -8\left(x + \dfrac{1}{2}\right)^2(x + 2)^3 \\[5ex]
+                    $
+                    (a.) List each zero and the multiplicity of each zero <br>
+                    (b.) Determine whether the graph crosses or touches the <i>x</i>-axis at each <i>x</i>-intercept <br>
+                    (c.) Determine the maximum number of turning points on the graph. <br>
+                    (d.) Determine the power function that the graph of <i>f</i> resembles for large values of |<i>x</i>|. <br>
+                    (e.) State the end behavior. 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPG9')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG9">
+                        <br>
+                        $
+                        (I.) \\[3ex]
+                        f(x) = -3(x - 5)(x + 3)^2 \\[3ex]
+                        (a.) \\[3ex]
+                        \underline{First} \\[3ex]
+                        factor:\;\; x - 5 \\[3ex]
+                        zero:\;\; x = 5 \\[3ex]
+                        multiplicity:\;\; 1 \\[3ex]
+                        \underline{Second} \\[3ex]
+                        factor:\;\; x + 3 \\[3ex]
+                        zero:\;\; x = -3 \\[3ex]
+                        multiplicity:\;\; 2 \\[3ex]
+                        (b.) \\[3ex]
+                        \underline{First} \\[3ex]
+                        x-intercept:\;\; (5, 0) \\[3ex]
+                        multiplicity:\;\;1 = odd \\[3ex]
+                        Graph\;\;crosses\;\;the\;\;x-axis\;\;at\;\;(5, 0) \\[3ex]
+                        \underline{Second} \\[3ex]
+                        x-intercept:\;\; (-3, 0) \\[3ex]
+                        multiplicity:\;\;2 = even \\[3ex]
+                        Graph\;\;touches\;\;the\;\;x-axis\;\;at\;\;(-3, 0) \\[3ex]
+                        $
+                        <img src="images/PolynomialGraphs/Answers/Number9I.png" alt="Number 9I" style="width: 150%;">
+                        <br><br>
+                        $
+                        (c.) \\[3ex]
+                        f(x) = -3(x - 5)(x + 3)^2 \\[3ex]
+                        f(x) = -3(x - 5)(x + 3)(x + 3) \\[3ex]
+                        Leading\;\;term = -3 \cdot x \cdot x \cdot x = -3x^3 \\[3ex]
+                        Degree:\;\;n = 3 \\[3ex]
+                        $
+                        The maximum number of turning points on the graph is: <br>
+                        = <i>n</i> &minus; 1 <br>
+                        = 3 &minus; 1 <br>
+                        = 2 <br><br>
+                        (d.) Leading term = &minus;3<i>x</i>³ <br>
+                        Leading coefficient = &minus;3 = negative <br>
+                        Degree, <i>n</i> = 3 = odd <br><br>
+                        (e.) Therefore, the end behavior is: up/down  
+                        <br><br>
+                        $
+                        (II.) \\[3ex]
+                        f(x) = 2(x^2 + 1)^2(x - 4)^3 \\[3ex]
+                        (a.) \\[3ex]
+                        \underline{First} \\[3ex]
+                        x^2 + 1 = 0 \\[3ex]
+                        x^2 = -1 \\[3ex]
+                        x = \sqrt{-1} = i ...imaginary\;\;number \\[3ex]
+                        No\;\;real\;\;zero \\[3ex]
+                        \underline{First} \\[3ex]
+                        factor:\;\; x - 4 \\[3ex]
+                        zero:\;\; x = 4 \\[3ex]
+                        multiplicity:\;\; 3 \\[3ex]
+                        (b.) \\[3ex]
+                        \underline{First} \\[3ex]
+                        x-intercept:\;\; (4, 0) \\[3ex]
+                        multiplicity:\;\;3 = odd \\[3ex]
+                        Graph\;\;crosses\;\;the\;\;x-axis\;\;at\;\;(4, 0) \\[3ex]
+                        $
+                        <img src="images/PolynomialGraphs/Answers/Number9II.png" alt="Number 9II" style="width: 150%;">
+                        <br><br>
+                        $
+                        (c.) \\[3ex]
+                        f(x) = 2(x^2 + 1)^2(x - 4)^3 \\[3ex]
+                        f(x) = 2(x^2 + 1)(x^2 + 1)(x - 4)(x - 4)(x - 4) \\[3ex]
+                        Leading\;\;term = 2 \cdot x^2 \cdot x^2 \cdot x \cdot x \cdot x = 2x^7 \\[3ex]
+                        Degree:\;\;n = 7 \\[3ex]
+                        $
+                        The maximum number of turning points on the graph is: <br>
+                        = <i>n</i> &minus; 1 <br>
+                        = 7 &minus; 1 <br>
+                        = 6 <br><br>
+                        (d.) Leading term = 2<i>x</i>$^7$ <br>
+                        Leading coefficient = 2 = positive <br>
+                        Degree, <i>n</i> = 7 = odd <br><br>
+                        (e.) Therefore, the end behavior is: down/up
+                        <br><br>
+                        $
+                        (III.) \\[3ex]
+                        f(x) = -8\left(x + \dfrac{1}{2}\right)^2(x + 2)^3 \\[5ex]
+                        (a.) \\[3ex]
+                        \underline{First} \\[3ex]
+                        factor:\;\; x + \dfrac{1}{2} \\[5ex]
+                        zero:\;\; x = -\dfrac{1}{2} \\[5ex]
+                        multiplicity:\;\; 2 \\[3ex]
+                        \underline{Second} \\[3ex]
+                        factor:\;\; x + 2 \\[3ex]
+                        zero:\;\; x = -2 \\[3ex]
+                        multiplicity:\;\; 3 \\[3ex]
+                        (b.) \\[3ex]
+                        \underline{First} \\[3ex]
+                        x-intercept:\;\; \left(-\dfrac{1}{2}, 0\right) \\[5ex]
+                        multiplicity:\;\;2 = even \\[3ex]
+                        Graph\;\;touches\;\;the\;\;x-axis\;\;at\;\;\left(-\dfrac{1}{2}, 0\right) \\[5ex]
+                        \underline{Second} \\[3ex]
+                        x-intercept:\;\; (-2, 0) \\[3ex]
+                        multiplicity:\;\;3 = odd \\[3ex]
+                        Graph\;\;crosses\;\;the\;\;x-axis\;\;at\;\;(-2, 0) \\[3ex]
+                        $
+                        <img src="images/PolynomialGraphs/Answers/Number9III.png" alt="Number 9III" style="width: 150%;">
+                        <br><br>
+                        $
+                        (c.) \\[3ex]
+                        f(x) = -8\left(x + \dfrac{1}{2}\right)^2(x + 2)^3 \\[5ex]
+                        f(x) = -8 * \left(x + \dfrac{1}{2}\right) * \left(x + \dfrac{1}{2}\right) * (x + 2) * (x + 2) * (x + 2) \\[5ex]
+                        Leading\;\;term = -8 \cdot x \cdot x \cdot x \cdot x \cdot x = -8x^5 \\[3ex]
+                        Degree:\;\;n = 5 \\[3ex]
+                        $
+                        The maximum number of turning points on the graph is: <br>
+                        = <i>n</i> &minus; 1 <br>
+                        = 5 &minus; 1 <br>
+                        = 4 <br><br>
+                        (d.) Leading term = &minus;8<i>x</i>$^5$ <br>
+                        Leading coefficient = &minus;8 = negative <br>
+                        Degree, <i>n</i> = 5 = odd <br><br>
+                        (e.) Therefore, the end behavior is: up/down  
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (10.) 
+                    <button class="solutions" onclick="solutions('solutionPG10')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG10">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (11.) Which of the polynomial functions may have the given graph? <br><br>
+                    <img src="images/PolynomialGraphs/Questions/Number11.png" alt="Number 11">
+                    <br><br>
+                    $
+                    A.\;\; f(x) = x(x - 2)(x - 5) \\[3ex]
+                    B.\;\; f(x) = x(x + 2)(x + 5) \\[3ex]
+                    C.\;\; f(x) = x^2(x + 2)(x + 5) \\[3ex]
+                    D.\;\; f(x) = x^2(x - 2)(x - 5) \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionPG11')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG11">
+                        <br>
+                        <b>Turning Points</b> <br>
+                        If: Turning points: <i>n</i> &minus; 1; <br>
+                        then Degree: at least <i>n</i> <br>
+                        Turning points = 2 <br>
+                        <i>n</i> &minus; 1 = 2 <br>
+                        <i>n</i> = 2 + 1 <br>
+                        <i>n</i> = 3 <br>
+                        Degree: &ge;3 <br>
+                        Assume: degree = 3 <br><br>
+                        <b>Zeros</b> <br>
+                        zeros = 0, 2, 5 <br><br>
+                        <b>Multiplicity of Zeros</b> <br>
+                        The graph of each zero crosses the <i>x</i>-axis at that zero <br>
+                        Hence the multiplicity of each zero = 1 <br><br>
+                        <b>Factors</b> <br> 
+                        factors = (<i>x</i> &minus; 0)(<i>x</i> &minus; 2)(<i>x</i> &minus; 5) <br>
+                        factors = <i>x</i>(<i>x</i> &minus; 2)(<i>x</i> &minus; 5) 
+                        <br><br>
+                        <i>y</i>-intercept = (0, 0)...already a zero <br>
+                        <i>a</i> = 1 <br><br>
+                        Therefore, $f(x) = x(x - 2)(x - 5)$
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (12.) 
+                    <button class="solutions" onclick="solutions('solutionPG12')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG12">
+                        <br>                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (13.) For the polynomial: f(<i>x</i>) = 6(<i>x</i>² &minus; 9)(<i>x</i>² + 7<i>x</i> + 12)²: <br>
+                    (a.) Find the real zero(s). <br>
+                    (b.) Find the multiplicity of each zero.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPG13')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG13">
+                        <br>
+                        To find the zeros of f(<i>x</i>); set f(<i>x</i>) = 0 <u>and</u> solve for <i>x</i>
+                        <br><br>
+                        $
+                        f(x) = 6(x^2 - 9)(x^2 + 7x + 12)^2 \\[3ex]
+                        6(x^2 - 9)(x^2 + 7x + 12)^2 = 0 \\[3ex]
+                        \implies \\[3ex]
+                        x^2 - 9 = 0 \;\;\;OR\;\;\; (x^2 + 7x + 12)^2 = 0 ...Zero\;\;Product\;\;Property \\[3ex]
+                        x^2 - 9 = 0 \\[3ex]
+                        x^2 - 3^2 = 0 \\[3ex]
+                        (x + 3)(x - 3) = 0...Difference\;\;of\;\;Two\;\;Squares \\[3ex]
+                        x + 3 = 0 \;\;\;OR\;\;\; x - 3 = 0 ...Zero\;\;Product\;\;Property \\[3ex]
+                        x = -3 \;\;\;OR\;\;\; x = 3 \\[3ex]
+                        Also: \\[3ex]
+                        (x^2 + 7x + 12)^2 = 0  \\[3ex]
+                        x^2 + 7x + 12 = \sqrt{0} \\[3ex]
+                        x^2 + 7x + 12 = 0 \\[3ex]
+                        (x + 4)(x + 3) = 0 ...Factoring\;\;Quadratic\;\;Trinomial \\[3ex]
+                        x + 4 = 0 \;\;\;OR\;\;\; x + 3 = 0 ...Zero\;\;Product\;\;Property \\[3ex]
+                        x = -4 \;\;\;OR\;\;\; x = -3...twice\;\;because\;\;of\;\;the\;\;square \\[3ex]
+                        x = -4, -3, -4, -3 \\[3ex]
+                        \implies \\[3ex]
+                        (a.) \\[3ex] 
+                        real\;\;zeros: -3, 3, -4 \\[3ex]
+                        (b.) \\[3ex]
+                        multiplicity\;\;of\;\;-3 = 3 \\[3ex]
+                        multiplicity\;\;of\;\;3 = 1 \\[3ex]
+                        multiplicity\;\;of\;\;-4 = 2
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (14.) 
+                    <button class="solutions" onclick="solutions('solutionPG14')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG14">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (15.) Which of the polynomial functions may have the given graph? <br><br>
+                    <img src="images/PolynomialGraphs/Questions/Number15.png" alt="Number 15">
+                    <br><br>
+                    $
+                    A.\;\; f(x) = -\dfrac{1}{8}(x + 2)^2(x - 2)(x - 4)^2 \\[5ex]
+                    B.\;\; f(x) = -\dfrac{1}{8}(x + 2)(x - 2)^2(x - 4) \\[5ex]
+                    C.\;\; f(x) = -\dfrac{1}{8}(x + 2)(x - 2)(x - 4)^2 \\[5ex]
+                    D.\;\; f(x) = -\dfrac{1}{8}(x + 2)^2(x - 2)(x - 4) \\[5ex]
+                    E.\;\; f(x) = \dfrac{1}{8}(x + 2)(x - 2)^2(x - 4) \\[5ex]
+                    F.\;\; f(x) = \dfrac{1}{8}(x + 2)(x - 2)(x - 4) \\[5ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionPG15')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG15">
+                        <br>
+                        <b>Turning Points</b> <br>
+                        If: Turning points: <i>n</i> &minus; 1; <br>
+                        then Degree: at least <i>n</i> <br>
+                        Turning points = 3 <br>
+                        <i>n</i> &minus; 1 = 3 <br>
+                        <i>n</i> = 3 + 1 <br>
+                        <i>n</i> = 4 <br>
+                        Degree: &ge;4 <br>
+                        Assume: degree = 4 <br><br>
+                        <b>Zeros</b> <br>
+                        zeros = &minus;2, 2, 4 <br><br>
+                        <b>Multiplicity of Zeros</b> <br>
+                        The graph crosses &minus; 2 <br>
+                        Multiplicity of &minus;2 = 1 <br>
+                        The graph touches 2 <br>
+                        Multiplicity of 2 = 2 <br>
+                        The graph crosses 4 <br>
+                        Multiplicity of 4 = 1 <br><br>                       
+                        <b>Factors</b> <br> 
+                        factors = (<i>x</i> + 2)(<i>x</i> &minus; 2)²(<i>x</i> &minus; 4) 
+                        <br><br>
+                        $
+                        f(x) = a(x + 2)(x - 2)^2(x - 4) \\[3ex]
+                        passes\;\;through\;\;y-intercept:\;(0, 4) \\[3ex]
+                        x = 0 \\[3ex]
+                        y = f(x) = f(0) = 4 \\[3ex] 
+                        \implies \\[3ex]
+                        f(0) = a(0 + 2)(0 - 2)^2(0 - 4) \\[3ex]
+                        4 = a(2)(-2)^2(-4) \\[3ex]
+                        4 = a(2)(4)(-4) \\[3ex]
+                        -32a = 4 \\[3ex]
+                        a = \dfrac{4}{-32} \\[5ex] 
+                        a = -\dfrac{1}{8} \\[5ex]
+                        \implies \\[3ex]
+                        f(x) = -\dfrac{1}{8}(x + 2)(x - 2)^2(x - 4)
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (16.) 
+                    <button class="solutions" onclick="solutions('solutionPG16')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG16">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (17.) 
+                    <button class="solutions" onclick="solutions('solutionPG17')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG17">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (18.) 
+                    <button class="solutions" onclick="solutions('solutionPG18')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG18">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (19.) For each polynomial graph: <br>
+                    (a.) Determine whether the graph could be graph of a polynomial function. <br>
+                    If it is the graph of a polynomial function: <br>
+                    (b.) List the real zeros. <br>
+                    (c.) State the least degree the polynomial function can have. 
+                    <br><br>
+                    (A.) <img src="images/PolynomialGraphs/Questions/Number19A.png" alt="Number 19A"> <br><br>
+                    (B.) <img src="images/PolynomialGraphs/Questions/Number19B.png" alt="Number 19B">
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPG19')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG19">
+                        <br>
+                        (A.) <br>
+                        (a.) The graph is smooth and continuous. It is the graph of a polynomial function. <br>
+                        (b.) The real zeros are: &minus;2, 1, and 3 <br>
+                        (c.) If: Turning points: <i>n</i> &minus; 1; <br>
+                        then Degree: at least <i>n</i> <br>
+                        Turning points = 2 <br>
+                        <i>n</i> &minus; 1 = 2 <br>
+                        <i>n</i> = 2 + 1 <br>
+                        <i>n</i> = 3 <br>
+                        Degree: &ge;3
+                        <br><br>
+                        (B.) <br>
+                        The graph has a gap. It is not continuous. It is not the graph of a polynomial function. 
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (20.) 
+                    <button class="solutions" onclick="solutions('solutionPG20')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG20">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <!-- Top of the Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://precalculus.appspot.com/Polynomials/PolynomialGraphs.html" class="w3-button w3-xlarge w3-circle w3-khaki"
+               style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+        <br><br><br><br> 
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (21.) 
+                    <button class="solutions" onclick="solutions('solutionPG21')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG21">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (22.) 
+                    <button class="solutions" onclick="solutions('solutionPG22')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG22">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (23.) The coordinates of the indicated point in the graph is $\left(-1, -\dfrac{45}{16}\right)$ <br> 
+                    Using the smallest possible degree, which of the polynomial functions may have the given graph? <br><br>
+                    <img src="images/PolynomialGraphs/Questions/Number23.png" alt="Number 23">
+                    <br><br>
+                    $
+                    A.\;\; f(x) = \dfrac{1}{16}(x + 2)(x - 2)(x - 4) \\[5ex]
+                    B.\;\; f(x) = \dfrac{1}{16}(x + 2)^2(x - 2)(x - 4) \\[5ex]
+                    C.\;\; f(x) = -\dfrac{1}{16}(x + 2)(x - 2)^2(x - 4) \\[5ex]
+                    D.\;\; f(x) = \dfrac{1}{16}(x + 2)(x - 2)(x - 4)^2 \\[5ex]
+                    E.\;\; f(x) = \dfrac{1}{16}(x + 2)(x - 2)^2(x - 4) \\[5ex]
+                    F.\;\; f(x) = -\dfrac{1}{16}(x + 2)(x - 2)(x - 4)^2 \\[5ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionPG23')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG23">
+                        <br>
+                        <b>Turning Points</b> <br>
+                        If: Turning points: <i>n</i> &minus; 1; <br>
+                        then Degree: at least <i>n</i> <br>
+                        Turning points = 3 <br>
+                        <i>n</i> &minus; 1 = 3 <br>
+                        <i>n</i> = 3 + 1 <br>
+                        <i>n</i> = 4 <br>
+                        Degree: &ge;4 <br>
+                        Smallest degree = 4 <br><br>
+                        <b>Zeros</b> <br>
+                        zeros = &minus;2, 2, 4 <br><br>
+                        <b>Multiplicity of Zeros</b> <br>
+                        The graph crosses &minus; 2 <br>
+                        Multiplicity of &minus;2 = 1 <br>
+                        The graph touches 2 <br>
+                        Multiplicity of 2 = 2 <br>
+                        The graph crosses 4 <br>
+                        Multiplicity of 4 = 1 <br><br>                       
+                        <b>Factors</b> <br> 
+                        factors = (<i>x</i> + 2)(<i>x</i> &minus; 2)²(<i>x</i> &minus; 4) 
+                        <br><br>
+                        Point = $\left(-1, -\dfrac{45}{16}\right)$ 
+                        <br><br>
+                        $
+                        f(x) = a(x + 2)(x - 2)^2(x - 4) \\[3ex]
+                        passes\;\;through\;\;\left(-1, -\dfrac{45}{16}\right) \\[5ex]
+                        x = -1 \\[3ex]
+                        y = f(x) = f(-1) = -\dfrac{45}{16} \\[5ex] 
+                        \implies \\[3ex]
+                        f(-1) = a(-1 + 2)(-1 - 2)^2(-1 - 4) \\[5ex]
+                        -\dfrac{45}{16} = a(1)(-3)^2(-5) \\[5ex]
+                        -\dfrac{45}{16} = a(9)(-5) \\[5ex]
+                        -45a = -\dfrac{45}{16} \\[5ex]
+                        -\dfrac{1}{45} * -45 * a = -\dfrac{1}{45} * -\dfrac{45}{16} \\[5ex]
+                        a = \dfrac{1}{16} \\[5ex]
+                        \implies \\[3ex]
+                        f(x) = \dfrac{1}{16}(x + 2)(x - 2)^2(x - 4) \\[5ex] 
+                        (x + 2)(x - 2)^2(x - 4) \\[3ex]
+                        = (x + 2)(x - 2)(x - 2)(x - 4) \\[3ex]
+                        = (x^2 - 2^2)(x^2 - 4x - 2x + 8) \\[3ex]
+                        = (x^2 - 4)(x^2 - 6x + 8) \\[3ex]
+                        = x^4 - 6x^3 + 8x^2 - 4x^2 + 24x - 32 \\[3ex]
+                        = x^4 - 6x^3 + 4x^2 + 24x - 32 \\[3ex]
+                        \implies \\[3ex]
+                        f(x) = \dfrac{1}{16}\left(x^4 - 6x^3 + 4x^2 + 24x - 32\right) \\[5ex]
+                        = \dfrac{x^4}{16} - \dfrac{6x^3}{16} + \dfrac{4x^2}{16} + \dfrac{24x}{16} - \dfrac{32}{16} \\[5ex]
+                        = \dfrac{x^4}{16} - \dfrac{3x^3}{8} + \dfrac{x^2}{4} + \dfrac{3x}{2} - 2
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (24.) 
+                    <button class="solutions" onclick="solutions('solutionPG24')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG24">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (25.) 
+                    <button class="solutions" onclick="solutions('solutionPG25')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG25">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (26.) 
+                    <button class="solutions" onclick="solutions('solutionPG26')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG26">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (27.) 
+                    <button class="solutions" onclick="solutions('solutionPG27')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG27">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (28.) 
+                    <button class="solutions" onclick="solutions('solutionPG28')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG28">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (29.) The coordinates of the indicated point in the graph is (&minus;1, &minus;16) <br> 
+                    Using the smallest possible degree, which of the polynomial functions may have the given graph? <br><br>
+                    <img src="images/PolynomialGraphs/Questions/Number29.png" alt="Number 29">
+                    <br><br>
+                    $
+                    A.\;\; f(x) = x(x - 2)^2(x - 3)^2 \\[3ex]
+                    B.\;\; f(x) = x(x + 2)^2(x + 3)^2 \\[3ex]
+                    C.\;\; f(x) = -x(x + 2)(x - 3) \\[3ex]
+                    D.\;\; f(x) = -x(x + 2)^2(x - 3)^2 \\[3ex]
+                    E.\;\; f(x) = x(x + 2)(x - 3) \\[3ex]
+                    F.\;\; f(x) = x(x + 2)^2(x - 3)^2 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionPG29')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG29">
+                        <br>
+                        <b>Turning Points</b> <br>
+                        If: Turning points: <i>n</i> &minus; 1; <br>
+                        then Degree: at least <i>n</i> <br>
+                        Turning points = 4 <br>
+                        <i>n</i> &minus; 1 = 4 <br>
+                        <i>n</i> = 4 + 1 <br>
+                        <i>n</i> = 5 <br>
+                        Degree: &ge;5 <br>
+                        Smallest degree = 5 <br><br>
+                        <b>Zeros</b> <br>
+                        zeros = &minus;2, 0, 3 <br><br>
+                        <b>Multiplicity of Zeros</b> <br>
+                        The graph touches &minus; 2 <br>
+                        Multiplicity of &minus;2 = 2 <br>
+                        The graph crosses 0 <br>
+                        Multiplicity of 0 = 1 <br>
+                        The graph touches 3 <br>
+                        Multiplicity of 3 = 2 <br><br>                       
+                        <b>Factors</b> <br> 
+                        factors = (<i>x</i> + 2)^2(<i>x</i> &minus; 0)(<i>x</i> &minus; 3)^2 <br>
+                        factors = <i>x</i>(<i>x</i> + 2)^2(<i>x</i> &minus; 3)^2 
+                        <br><br>
+                        Point = (&minus;1, &minus;16) 
+                        <br><br>
+                        $
+                        f(x) = ax(x + 2)^2(x - 3)^2\\[3ex]
+                        passes\;\;through\;\;(-1, -16) \\[5ex]
+                        x = -1 \\[3ex]
+                        y = f(x) = f(-1) = -16 \\[3ex]
+                        \implies \\[3ex]
+                        f(-1) = a(-1)(-1 + 2)^2(-1 - 3)^2 \\[3ex]
+                        -16 = a(-1)(1)^2(-4)^2 \\[3ex]
+                        -16 = -a(1)(16) \\[3ex] 
+                        -16 = -16a \\[3ex]
+                        -16a = -16 \\[3ex]
+                        a = \dfrac{-16}{-16} \\[5ex]
+                        a = 1 \\[3ex]
+                        \implies \\[3ex]
+                        f(x) = 1x(x + 2)^2(x - 3)^2 \\[3ex] 
+                        f(x) = x(x + 2)^2(x - 3)^2
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (30.) 
+                    <button class="solutions" onclick="solutions('solutionPG30')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG30">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (31.) 
+                    <button class="solutions" onclick="solutions('solutionPG31')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG31">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (32.) 
+                    <button class="solutions" onclick="solutions('solutionPG32')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG32">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (33.) 
+                    <button class="solutions" onclick="solutions('solutionPG33')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG33">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (34.) 
+                    <button class="solutions" onclick="solutions('solutionPG34')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG34">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (35.) 
+                    <button class="solutions" onclick="solutions('solutionPG35')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG35">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (36.) 
+                    <button class="solutions" onclick="solutions('solutionPG36')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG36">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (37.) 
+                    <button class="solutions" onclick="solutions('solutionPG37')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG37">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (38.) 
+                    <button class="solutions" onclick="solutions('solutionPG38')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG38">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (39.) For these polynomial functions: <br><br>
+                    $
+                    (I.)\;\; f(x) = (x - 7)^3(x + 6)^2 \\[3ex] 
+                    (II.)\;\; f(x) = \dfrac{1}{3}(3x^2 + 8)^2(x^2 + 9) \\[5ex] 
+                    (III.)\;\; f(x) = -4x^2(x^2 - 7) \\[3ex]
+                    $
+                    (a.) List each zero and the multiplicity of each zero <br>
+                    (b.) Determine whether the graph crosses or touches the <i>x</i>-axis at each <i>x</i>-intercept <br>
+                    (c.) Determine the maximum number of turning points on the graph. <br>
+                    (d.) Determine the power function that the graph of <i>f</i> resembles for large values of |<i>x</i>|. <br>
+                    (e.) State the end behavior. 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPG39')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG39">
+                        <br>
+                        $
+                        (I.) \\[3ex]
+                        f(x) = (x - 7)^3(x + 6)^2 \\[3ex] 
+                        (a.) \\[3ex]
+                        \underline{First} \\[3ex]
+                        factor:\;\; x - 7 \\[3ex]
+                        zero:\;\; x = 7 \\[3ex]
+                        multiplicity:\;\; 3 \\[3ex]
+                        \underline{Second} \\[3ex]
+                        factor:\;\; x + 6 \\[3ex]
+                        zero:\;\; x = -6 \\[3ex]
+                        multiplicity:\;\; 2 \\[3ex]
+                        (b.) \\[3ex]
+                        \underline{First} \\[3ex]
+                        x-intercept:\;\; (7, 0) \\[3ex]
+                        multiplicity:\;\;3 = odd \\[3ex]
+                        Graph\;\;crosses\;\;the\;\;x-axis\;\;at\;\;(7, 0) \\[3ex]
+                        \underline{Second} \\[3ex]
+                        x-intercept:\;\; (-6, 0) \\[3ex]
+                        multiplicity:\;\;2 = even \\[3ex]
+                        Graph\;\;touches\;\;the\;\;x-axis\;\;at\;\;(-6, 0) \\[3ex]
+                        $
+                        <img src="images/PolynomialGraphs/Answers/Number39I.png" alt="Number 39I" style="width: 150%;">
+                        <br><br>
+                        $
+                        (c.) \\[3ex]
+                        f(x) = (x - 7)^3(x + 6)^2 \\[3ex] 
+                        f(x) = (x - 7)(x - 7)(x - 7)(x + 6)(x + 6) \\[3ex]
+                        Leading\;\;term = x \cdot x \cdot x \cdot x \cdot x = x^5 \\[3ex]
+                        Degree:\;\;n = 5 \\[3ex]
+                        $
+                        The maximum number of turning points on the graph is: <br>
+                        = <i>n</i> &minus; 1 <br>
+                        = 5 &minus; 1 <br>
+                        = 4 <br><br>
+                        (d.) Leading term = <i>x</i>$^5$ <br>
+                        Leading coefficient = 1 = positive <br>
+                        Degree, <i>n</i> = 5 = odd <br><br>
+                        (e.) Therefore, the end behavior is: down/up  
+                        <br><br>
+                        $
+                        (II.) \\[3ex]
+                        f(x) = \dfrac{1}{3}(3x^2 + 8)^2(x^2 + 9) \\[5ex]
+                        (a.) \\[3ex]
+                        \underline{First} \\[3ex]
+                        3x^2 + 8 = 0 \\[3ex]
+                        3x^2 = -8 \\[3ex]
+                        x^2 = -\dfrac{8}{3} \\[5ex] 
+                        x = \sqrt{\left(-\dfrac{8}{3}\right)} ...imaginary\;\;number \\[5ex] 
+                        No\;\;real\;\;zero \\[3ex]
+                        \underline{First} \\[3ex]
+                        x^2 + 9 = 0 \\[3ex]
+                        x^2 = -9 \\[3ex]
+                        x = \sqrt{-9} = 3i ...imaginary\;\;number \\[3ex]
+                        No\;\;real\;\;zero \\[3ex]
+                        $
+                        (b.) The graph neither crosses nor touches the <i>x</i>-axis 
+                        <br><br>
+                        <img src="images/PolynomialGraphs/Answers/Number39II.png" alt="Number 39II" style="width: 150%;">
+                        <br><br>
+                        $
+                        (c.) \\[3ex]
+                        f(x) = \dfrac{1}{3}(3x^2 + 8)^2(x^2 + 9) \\[5ex]
+                        f(x) = \dfrac{1}{3}(3x^2 + 8)(3x^2 + 8)(x^2 + 9) \\[5ex]
+                        Leading\;\;term = \dfrac{1}{3} \cdot 3x^2 \cdot 3x^2 \cdot x^2 = 3x^6 \\[3ex]
+                        Degree:\;\;n = 6 \\[3ex]
+                        $
+                        The maximum number of turning points on the graph is: <br>
+                        = <i>n</i> &minus; 1 <br>
+                        = 6 &minus; 1 <br>
+                        = 5 <br><br>
+                        (d.) Leading term = 3<i>x</i>$^6$ <br>
+                        Leading coefficient = 3 = positive <br>
+                        Degree, <i>n</i> = 6 = even <br><br>
+                        (e.) Therefore, the end behavior is: up/up
+                        <br><br>
+                        $
+                        (III.) \\[3ex]
+                        f(x) = -4x^2(x^2 - 7) \\[3ex]
+                        (a.) \\[3ex]
+                        \underline{First} \\[3ex]
+                        factor:\;\; x + 0 \\[5ex]
+                        zero:\;\; x = 0 \\[5ex]
+                        multiplicity:\;\; 2 \\[3ex]
+                        \underline{Second} \\[3ex]
+                        x^2 - 7 = 0 \\[3ex] 
+                        x^2 = 7 \\[3ex] 
+                        x = \pm\sqrt{7} \\[3ex]
+                        factor:\;\; x - \sqrt{7} \\[3ex]
+                        zero:\;\; x = \sqrt{7} \\[3ex]
+                        multiplicity:\;\; 1 \\[3ex]
+                        \underline{Third} \\[3ex]
+                        factor:\;\; x + \sqrt{7} \\[3ex]
+                        zero:\;\; x = -\sqrt{7} \\[3ex]
+                        multiplicity:\;\; 1 \\[3ex]
+                        (b.) \\[3ex]
+                        \underline{First} \\[3ex]
+                        x-intercept:\;\; (0, 0) \\[3ex]
+                        multiplicity:\;\;2 = even \\[3ex]
+                        Graph\;\;touches\;\;the\;\;x-axis\;\;at\;\;(0, 0) \\[3ex]
+                        \underline{Second} \\[3ex]
+                        x-intercept:\;\; (\sqrt{7}, 0) \\[3ex]
+                        multiplicity:\;\;1 = odd \\[3ex]
+                        Graph\;\;crosses\;\;the\;\;x-axis\;\;at\;\;(\sqrt{7}, 0) \\[3ex]
+                        \underline{Third} \\[3ex]
+                        x-intercept:\;\; (-\sqrt{7}, 0) \\[3ex]
+                        multiplicity:\;\;1 = odd \\[3ex]
+                        Graph\;\;crosses\;\;the\;\;x-axis\;\;at\;\;(-\sqrt{7}, 0) \\[3ex]
+                        $
+                        <img src="images/PolynomialGraphs/Answers/Number39III.png" alt="Number 39III" style="width: 150%;">
+                        <br><br>
+                        $
+                        (c.) \\[3ex]
+                        f(x) = -4x^2(x^2 - 7) \\[3ex]
+                        f(x) = -4 \cdot x^2 \cdot (x^2 - 7) \\[3ex]
+                        Leading\;\;term = -4 \cdot x^2 \cdot x^2 = -4x^4 \\[3ex]
+                        Degree:\;\;n = 4 \\[3ex]
+                        $
+                        The maximum number of turning points on the graph is: <br>
+                        = <i>n</i> &minus; 1 <br>
+                        = 4 &minus; 1 <br>
+                        = 3 <br><br>
+                        (d.) Leading term = &minus;4<i>x</i>$^4$ <br>
+                        Leading coefficient = &minus;4 = negative <br>
+                        Degree, <i>n</i> = 4 = even <br><br>
+                        (e.) Therefore, the end behavior is: down/down
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (40.) 
+                    <button class="solutions" onclick="solutions('solutionPG40')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG40">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <!-- Top of the Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://precalculus.appspot.com/Polynomials/PolynomialGraphs.html" class="w3-button w3-xlarge w3-circle w3-khaki"
+               style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+        <br><br><br><br> 
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (41.) 
+                    <button class="solutions" onclick="solutions('solutionPG41')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG41">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (42.) 
+                    <button class="solutions" onclick="solutions('solutionPG42')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG42">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (43.) 
+                    <button class="solutions" onclick="solutions('solutionPG43')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG43">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (44.) 
+                    <button class="solutions" onclick="solutions('solutionPG44')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG44">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (45.) 
+                    <button class="solutions" onclick="solutions('solutionPG45')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG45">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (46.) 
+                    <button class="solutions" onclick="solutions('solutionPG46')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPG46">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- END PAGE CONTENT -->
+
+        <!-- Footer -->
+        <footer class="khaki w3-center w3-padding-24">
+            <div id="google_translate_element"></div>
+            <script>
+                    function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'G-EDLZMCQQ0V'}, 'google_translate_element');
+                    }
+            </script>
+            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <p>&copy; 2022&nbsp; Samdom4Peace Designs.</p>
+        </footer>
+        <!-- End Footer -->
+
+        <script src="scripts/messages1.js"></script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+        <script async
+                src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>       
+            
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDLZMCQQ0V"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-EDLZMCQQ0V');
+        </script>
+
+        <title>Operations on Functions</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Samuel Dominic Chukwuemeka (SamDom For Peace) gives all the credit to our LORD GOD JESUS CHRIST. We are experts in the arithmetic operations of functions.">
+        <meta name="keywords" content="samuel, dominic, chukwuemeka, samuel dominic chukwuemeka, math, methematics,
+              relations, functions, set, ordered pairs, order, table, equation, mapping, 
+              correspondence, rule, graph, coordinates, points, x-coordinate, y-coordinate,
+              domain, range, function, one-to-one function, onto function, set notation, inverse of functions,
+              interval notation, injective function, surjective function, bijective function,
+              order relations, reflexivity, symmetry, antisymmetry, transitivity, lexicographic order,
+              partial order, total order, pseudo order, quasi order, chains, equivalence relations,
+              maximal elements, minimal elements, hasse diagrams, lower bound, upper bound, lattice,
+              topological sorting, radical, radicand, rational functions, symmetric, antisymmetric, codomain, image, 
+              slope, intercept, slope-intercept form, point-slope form, two-points form, difference quotient,
+              derivative, function composition, function decomposition, linear functions, quadratic functions, 
+              parabolas, vertical parabola, vertex, axis, line of symmetry, function transformations, even functions,
+              odd functions"> 
+        <link href="styles/relationsFunctions.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header class="w3-padding-24 olive">
+            <h1>Solved Examples on the Arithmetic Operations on Functions</h1>
+        </header>
+        <!-- End Header -->
+
+        <br><br>
+
+        <!-- Page Content -->
+        <div class="w3-row w3-container">
+            
+            <div class="w3-container">
+                <!-- Image in top left corner -->
+                <a href="https://precalculus.appspot.com/RelationsFunctions/relations-functions.html">
+                    <img src="images/chukwuemeka.jpg" alt="Samuel Dominic Chukwuemeka (SamDom For Peace)" title="Chukwuemeka, Samuel" class="images">
+                </a>
+                
+                <mark>For ACT Students</mark> <br>
+                The ACT is a timed exam...60 questions for 60 minutes <br>
+                This implies that you have to solve each question in one minute. <br>
+                Some questions will typically take less than a minute a solve. <br>
+                Some questions will typically take more than a minute to solve. <br>
+                The goal is to maximize your time. You use the time saved on those questions you
+                solved in less than a minute, to solve the questions that will take more than a minute. <br>
+                So, you should try to solve each question <u>correctly</u> and <u>timely</u>. <br>
+                So, it is not just solving a question correctly, but solving it <u>correctly on time</u>. <br>
+                Please ensure you attempt <u>all ACT questions</u>. <br>
+                There is no <i>negative</i> penalty for a wrong answer. 
+                <br><br>
+                Solve all questions <br>
+                Show all work
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (1.) <br><br>
+                    $
+                    f(x) = x + 2 \\[3ex]
+                    g(x) = x^2 - x \\[3ex]
+                    $
+                    Calculate $(f + g)(-5)$ using <u>at least two methods.</u>
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionOF1')">Show/Hide Answer</button>
+                    <div class="result" id="solutionOF1">
+                        <br>
+                        <u>First Method (long way)</u> <br>
+                        $
+                        (f + g)(x) \\[3ex]
+                        = f(x) + g(x) \\[3ex]
+                        = (x + 2) + (x^2 - x) \\[3ex]
+                        = x + 2 + x^2 - x \\[3ex]
+                        = x^2 + 2 \\[3ex]
+                        
+                        (f + g)(x) = x^2 + 2 \\[3ex]
+                        (f + g)(-5) \\[3ex]
+                        = ({-5})^2 + 2 \\[3ex]
+                        = 25 + 2 \\[3ex]
+                        = 27 \\[3ex]
+                        $ 
+
+                        <u>Second Method (short way)</u> <br>
+                        $
+                        (f + g)(-5) \\[3ex]
+                        = f(-5) + g(-5) \\[3ex]
+                        f(x) = x + 2 \\[3ex]
+                        f(-5) = -5 + 2 \\[3ex]
+                        = -3 \\[3ex]
+                        g(x) = x^2 - x \\[3ex]
+                        g(-5) = ({-5})^2 - (-5) \\[3ex]
+                        = 25 + 5 \\[3ex]
+                        = 30 \\[3ex]
+                        f(-5) + g(-5) \\[3ex]
+                        = -3 + 30 \\[3ex]
+                        = 27
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (2.) <br><br>
+                    $
+                    f(x) = 10x^2 - 2x \\[3ex]
+                    g(x) = 2x \\[3ex]
+                    $
+                    Calculate: <br>
+                    (a.) $(f + g)(x)$ and the domain of the sum <br>
+                    (b.) $(f - g)(x)$ and the domain of the difference <br>
+                    (c.) $(fg)(x)$ and the domain of the product <br>
+                    (d.) $\left(\dfrac{f}{g}\right)(x)$ and the domain of the quotient
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionOF2')">Show/Hide Answer</button>
+                    <div class="result" id="solutionOF2">
+                        <br>
+                        $
+                        (f + g)(x) = f(x) + g(x) \\[3ex]
+                        = (10x^2 - 2x) + 2x \\[3ex]
+                        = 10x^2 - 2x + 2x \\[3ex]
+                        = 10x^2 \\[3ex]
+                        D = (-\infty, \infty) \\[7ex]
+
+                        (f - g)(x) = f(x) - g(x) \\[3ex]
+                        = (10x^2 - 2x) - 2x \\[3ex]
+                        = 10x^2 - 2x - 2x \\[3ex]
+                        = 10x^2 - 4x \\[3ex]
+                        D = (-\infty, \infty) \\[7ex]
+
+                        (f * g)(x) = f(x) * g(x) \\[3ex]
+                        = (10x^2 - 2x) * 2x \\[3ex]
+                        = 2x(10x^2 - 2x) \\[3ex]
+                        = 20x^3 - 4x^2 \\[3ex]
+                        D = (-\infty, \infty) \\[7ex]
+
+                        \left(\dfrac{f}{g}\right)(x) = \dfrac{f(x)}{g(x)} \\[5ex]
+                        = (10x^2 - 2x) \div 2x \\[3ex]
+                        = \dfrac{10x^2 - 2x}{2x} \\[5ex]
+                        Factor\:\: by\:\: GCF \\[3ex]
+                        GCF = 2x \\[2ex]
+                        = \dfrac{2x(5x - 1)}{2x} \\[5ex]
+                        = 5x - 1 \\[3ex]
+                        D = (-\infty, \infty)
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (3.) <br><br> 
+                    $
+                    f(x) = x^2 - 1 \\[3ex]
+                    g(x) = 18 - x \\[3ex]
+                    $
+                    Calculate $(f - g)(-4)$ using <u>at least two methods.</u>
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionOF3')">Show/Hide Answer</button>
+                    <div class="result" id="solutionOF3">
+                        <br>
+                        <u>First Method (long way)</u> <br>
+                        $
+                        (f - g)(x) \\[3ex]
+                        = f(x) - g(x) \\[3ex]
+                        = (x^2 - 1) - (18 - x) \\[3ex]
+                        = x^2 - 1 - 18 + x \\[3ex]
+                        = x^2 + x - 19 \\[3ex]
+                       
+                        (f - g)(x) = x^2 - x + 17 \\[3ex]
+                        (f - g)(-4) \\[3ex]
+                        = (-4)^2 + (-4) - 19 \\[3ex]
+                        = 16 - 4 - 19 \\[3ex]
+                        = -7 \\[3ex]
+                        $
+
+                        <u>Second Method (short way)</u> <br>
+                        $
+                        (f - g)(-4) \\[3ex]
+                        = f(-4) - g(-4) \\[3ex]
+                        f(x) = x^2 - 1 \\[3ex]
+                        f(-4) = {-4}^2 - 1 \\[3ex]
+                        = 16 - 1 \\[3ex]
+                        = 15 \\[3ex]
+                        g(x) = 18 - x \\[3ex]
+                        g(-4) = 18 - (-4) \\[3ex]
+                        = 18 + 4 \\[3ex]
+                        = 22 \\[3ex]
+                        f(-4) - g(-4) \\[3ex]
+                        = 15 - 22 \\[3ex]
+                        = -7
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (4.) <br><br>
+                    $
+                    f(x) = \dfrac{4}{x - 3} \\[5ex]
+                    g(x) = \sqrt{x - 2} \\[3ex]
+                    $
+                    Calculate: <br>
+                    (a.) $(f + g)(x)$ and the domain of the sum <br>
+                    (b.) $(f - g)(x)$ and the domain of the difference <br>
+                    (c.) $(fg)(x)$ and the domain of the product <br>
+                    (d.) $\left(\dfrac{f}{g}\right)(x)$ and the domain of the quotient
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionOF4')">Show/Hide Answer</button>
+                    <div class="result" id="solutionOF4">
+                        <br>
+                        $
+                        (f + g)(x) = f(x) + g(x) \\[3ex]
+                        = \dfrac{4}{x - 3} + \sqrt{x - 2} \\[5ex]
+                        For\:\: \dfrac{4}{x - 3}; D = (-\infty, 3) \cup (3, \infty) \\[5ex]
+                        For\:\: \sqrt{x - 2}; D = [2, \infty) \\[3ex]
+                        $
+                        Find the domain that is common to the sum of both functions <br>
+                        Domain of the sum, $D = [2, 3) \cup (3, \infty)$
+                        <br><br>
+                        $
+                        (f - g)(x) = f(x) - g(x) \\[3ex]
+                        = \dfrac{4}{x - 3} - \sqrt{x - 2} \\[5ex]
+                        For\:\: \dfrac{4}{x - 3}; D = (-\infty, 3) \cup (3, \infty) \\[5ex]
+                        For\:\: \sqrt{x - 2}; D = [2, \infty) \\[3ex]
+                        $
+                        Find the domain that is common to the difference of both functions <br>
+                        Domain of the difference, $D = [2, 3) \cup (3, \infty)$
+                        <br><br>
+                        $
+                        (f * g)(x) = f(x) * g(x) \\[3ex]
+                        = \dfrac{4}{x - 3} * \sqrt{x - 2} \\[3ex]
+                        = \dfrac{4\sqrt{x - 2}}{x - 3} \\[3ex]
+                        For\:\: the\:\: denominator; D = (-\infty, 3) \cup (3, \infty) \\[3ex]
+                        For\:\: the\:\: numerator; D = [2, \infty) \\[3ex]
+                        $
+                        Find the intersection of both domains <br>
+                        Domain of the product, $D = [2, 3) \cup (3, \infty)$
+                        <br><br>
+                        $
+                        \left(\dfrac{f}{g}\right)(x) = \dfrac{f(x)}{g(x)} \\[5ex]
+                        = \dfrac{4}{x - 3} \div \sqrt{x - 2} \\[5ex]
+                        = \dfrac{4}{x - 3} * \dfrac{1}{\sqrt{x - 2}} \\[5ex]
+                        = \dfrac{4}{(x - 3)\sqrt{x - 2}} \\[5ex]
+                        = \dfrac{4}{(x - 3)\sqrt{x - 2}} * \dfrac{\sqrt{x - 2}}{\sqrt{x - 2}} \\[5ex]
+                        = \dfrac{4\sqrt{x - 2}}{(x - 3)(x - 2)} \\[5ex]
+                        For\:\: the\:\: denominator; D = (-\infty, 2) \cup (2, 3) \cup (3, \infty) \\[3ex]
+                        For\:\: the\:\: numerator; D = [2, \infty) \\[3ex]
+                        $
+                        Find the intersection of both domains <br>
+                        Domain of the quotient, $D = (2, 3) \cup (3, \infty)$
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (5.) Perform the indicated operations on these functions. <br><br>
+                    $
+                    (a.)\;\; (g - f)(a) \;\;if \\[3ex]
+                    g(a) = -3a - 3 \\[3ex]
+                    f(a) = a^2 + 5 \\[5ex]
+                    (b.)\;\; (g - f)(x) \;\;if \\[3ex]
+                    g(x) = -x^2 - 1 - 2x \\[3ex]
+                    f(x) = x + 5 \\[5ex]
+                    (c.)\;\; (f \cdot g)(x) \;\;if \\[3ex]
+                    f(x) = 2x^3 - 5x^2 \\[3ex]
+                    g(x) = 2x - 1 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionOF5')">Show/Hide Answer</button>
+                    <div class="result" id="solutionOF5">
+                        <br>
+                        $
+                        (a.) \\[3ex]
+                        g(a) = -3a - 3 \\[3ex]
+                        f(a) = a^2 + 5 \\[3ex]
+                        (g - f)(a) \\[3ex]
+                        = g(a) - f(a) \\[3ex]
+                        = (-3a - 3) - (a^2 + 5) \\[3ex]
+                        = -3a - 3 - a^2 - 5 \\[3ex]
+                        = -a^2 - 3a - 8 \\[5ex]
+                        (b.) \\[3ex]
+                        g(x) = -x^2 - 1 - 2x \\[3ex]
+                        f(x) = x + 5 \\[3ex]
+                        (g - f)(x) \\[3ex]
+                        = g(x) - f(x) \\[3ex]
+                        = (-x^2 - 1 - 2x) - (x + 5) \\[3ex]
+                        = -x^2 - 2x - 1 - x - 5 \\[3ex]
+                        = -x^2 - 3x - 6 \\[5ex]
+                        (c.) \\[3ex]
+                        f(x) = 2x^3 - 5x^2 \\[3ex]
+                        g(x) = 2x - 1 \\[3ex]
+                        (f \cdot g)(x) \\[3ex]
+                        = f(x) \cdot g(x) \\[3ex]
+                        = (2x^3 - 5x^2)(2x - 1) \\[3ex]
+                        = 4x^4 - 2x^3 - 10x^3 + 5x^2 \\[3ex]
+                        = 4x^4 - 12x^3 + 5x^2 
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (6.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionOF6')">Show/Hide Answer</button>
+                    <div class="result" id="solutionOF6">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (7.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionOF7')">Show/Hide Answer</button>
+                    <div class="result" id="solutionOF7">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (8.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionOF8')">Show/Hide Answer</button>
+                    <div class="result" id="solutionOF8">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (9.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionOF9')">Show/Hide Answer</button>
+                    <div class="result" id="solutionOF9">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (10.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionOF10')">Show/Hide Answer</button>
+                    <div class="result" id="solutionOF10">
+                        <br>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- END PAGE CONTENT -->
+
+        
+        <!-- Footer -->
+        <footer class="olive w3-center w3-padding-24">
+            
+            <div id="google_translate_element"></div>
+            <script>
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-123914705-1'}, 'google_translate_element');
+                }
+            </script>
+            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            
+            <p>&copy; 2018&nbsp; SamDom4Peace Designs.</p>
+        </footer>
+        <!-- End Footer -->
+
+        <script src="scripts/messages8.js"></script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+        <script async
+                src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+    </body>
+</html>

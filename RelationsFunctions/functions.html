@@ -1,0 +1,1862 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>       
+            
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDLZMCQQ0V"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-EDLZMCQQ0V');
+        </script>
+
+        <title>Functions</title>
+        <meta charset="UTF-8">
+        
+        <meta name="description" content="Samuel Dominic Chukwuemeka (SamDom For Peace) gives all the credit to our LORD, GOD, and ANOINTED SAVIOR JESUS CHRIST. We are experts in functions.">
+        
+        <meta name="keywords" content="samuel, dominic, chukwuemeka, samuel dominic chukwuemeka, math, methematics,
+              relations, functions, set, ordered pairs, order, table, equation, mapping, 
+              correspondence, rule, graph, coordinates, points, x-coordinate, y-coordinate,
+              domain, range, function, one-to-one function, onto function, set notation, inverse of functions,
+              interval notation, injective function, surjective function, bijective function,
+              order relations, reflexivity, symmetry, antisymmetry, transitivity, lexicographic order,
+              partial order, total order, pseudo order, quasi order, chains, equivalence relations,
+              maximal elements, minimal elements, hasse diagrams, lower bound, upper bound, lattice,
+              topological sorting, radical, radicand, rational functions, symmetric, antisymmetric, codomain, image, 
+              slope, intercept, slope-intercept form, point-slope form, two-points form, difference quotient,
+              derivative, function composition, function decomposition, linear functions, quadratic functions, 
+              parabolas, vertical parabola, vertex, axis, line of symmetry, function transformations, even functions,
+              odd functions"> 
+
+        <link href="styles/relationsFunctions.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header class="w3-padding-24 olive">
+            <h1>Solved Examples on Functions (All Topics)</h1>
+        </header>
+        <!-- End Header -->
+
+        <br><br>
+
+        <!-- Page Content -->
+        <div class="w3-row w3-container">
+                        
+            <div class="w3-container">
+                <!-- Image in top left corner -->
+                <a href="https://precalculus.appspot.com/RelationsFunctions/relations-functions.html">
+                    <img src="images/chukwuemekasamuel.jpg" alt="Samuel Dominic Chukwuemeka (SamDom For Peace)" title="Samuel Dominic Chukwuemeka" class="imageHeader">
+                </a>
+                
+                <mark>For ACT Students</mark> <br>
+                The ACT is a timed exam...60 questions for 60 minutes <br>
+                This implies that you have to solve each question in one minute. <br>
+                Some questions will typically take less than a minute a solve. <br>
+                Some questions will typically take more than a minute to solve. <br>
+                The goal is to maximize your time. You use the time saved on those questions you
+                solved in less than a minute, to solve the questions that will take more than a minute. <br>
+                So, you should try to solve each question <u>correctly</u> and <u>timely</u>. <br>
+                So, it is not just solving a question correctly, but solving it <u>correctly on time</u>. <br>
+                Please ensure you attempt <u>all ACT questions</u>. <br>
+                There is no <i>negative</i> penalty for a wrong answer. <br><br>
+                <mark>For JAMB, CMAT, and NZQA Students</mark> <br>
+                Calculators are not allowed. So, the questions are solved in a way that does not require a calculator. <br><br>
+                <mark>For NSC Students</mark> <br>
+                <u>For the Questions:</u> <br>
+                Any space included in a number indicates a comma used to separate digits...separating multiples of three digits from
+                behind. <br>
+                Any comma included in a number indicates a decimal point. <br>
+                <u>For the Solutions:</u> <br>
+                Decimals are used appropriately rather than commas <br>
+                Commas are used to separate digits appropriately. 
+                
+                <br><br>
+            
+                Solve all questions. <br>
+                Show all work. <br>
+                As applicable, use <i>at least two methods</i> to solve the questions.
+                <br><br>
+                $
+                \underline{Distance\;\;Formula} \\[3ex]
+                Point\;1 = (x_1, y_1) \\[4ex]
+                Point\;2 = (x_2, y_2) \\[4ex]
+                distance = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+                $
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (1.) Suppose that the revenue​ <i>R</i>, in​ dollars, from selling x cell​ phones, in​ hundreds, is $R(x) = -1.3x^2 + 166x$ <br>
+                    The cost​ <i>C</i>, in​ dollars, from selling <i>x</i> cell​ phones, in​ hundreds, is $C(x) = 0.03x^3 - 2x^2 + 30x + 200$ <br> 
+                    ​(a.) Determine the profit​ function, $P(x) = R(x) - C(x)$ <br>
+                    ​(b.) Determine the profit if $x = 24$ hundred cell phones are sold. <br>
+                    ​(c) Interpret ​$P(​24)$.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF1')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF1">
+                        <br>
+                        $
+                        R(x) = -1.3x^2 + 166x \\[3ex] 
+                        C(x) = 0.03x^3 - 2x^2 + 30x + 200 \\[3ex] 
+                        (a.) \\[3ex]
+                        P(x) = R(x) - C(x) \\[3ex]
+                        P(x) = -1.3x^2 + 166x - (0.03x^3  - 2x^2 + 30x + 200) \\[3ex]
+                        = -1.3x^2 + 166x - 0.03x^3 + 2x^2 - 30x - 200 \\[3ex]
+                        = -0.03x^3 + 0.7x^2 + 136x - 200 \\[3ex]
+                        (b.) \\[3ex]
+                        P(24) = -0.03(24)^3 + 0.7(24)^2 + 136(24) - 200 \\[3ex]
+                        = \$3052.48 \\[3ex]
+                        $
+                        (c.) When 24 hundred cell phones are​ sold, the profit is given by ​P(24​).
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (2.) If <i>x</i> = &minus;4, determine the value of $3x^2 - 5x + \dfrac{1}{x}$ 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF2')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF2">
+                        <br>
+                        $
+                        3x^2 - 5x + \dfrac{1}{x} \\[5ex]
+                        x = -4 \\[3ex]
+                        \implies \\[3ex]
+                        3(-4)^2 - 5(-4) + \dfrac{1}{-4} \\[5ex]
+                        3(16) + 20 - \dfrac{1}{4} \\[5ex]    
+                        48 + 20 - \dfrac{1}{4} \\[5ex]
+                        68 - \dfrac{1}{4} \\[5ex]
+                        \dfrac{272}{4} - \dfrac{1}{4} \\[5ex]
+                        \dfrac{272 - 1}{4} \\[5ex] 
+                        \dfrac{271}{4} \\[5ex] 
+                        67.75
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (3.) Let <i>P</i> = (<i>x, y</i>) be a point on the graph of <i>y</i> = <i>x</i>² &minus; 4 <br>
+                    (a.) Express the distance <i>d</i> from <i>P</i> to the origin as a function of <i>x</i> 
+                    <br><br>
+                    (b.) What is <i>d</i> if <i>x</i> = 0? <br>
+                    Round to two decimal places as needed. 
+                    <br><br>
+                    (c.) What is <i>d</i> if <i>x</i> = 1? <br>
+                    Round to two decimal places as needed. 
+                    <br><br>
+                    (d.) Use a graphing utility to graph <i>d</i> = <i>d</i>(<i>x</i>). <br>
+                    For what positive value of <i>x</i> is <i>d</i> smallest? <br>
+                    Round to two decimal places as needed. 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF3')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF3">
+                        <br>
+                        $
+                        (a.) \\[3ex]
+                        From\;\;P(x, y) \;\;to\;\;Origin(0, 0) \\[3ex]
+                        x_1 = x \\[3ex]
+                        y_1 = y \\[3ex]
+                        x_2 = 0 \\[3ex]
+                        y_2 = 0 \\[3ex]
+                        d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \\[3ex]
+                        = \sqrt{(0 - x)^2 + (0 - y)^2} \\[3ex]
+                        = \sqrt{(-x)^2 + (-y)^2} \\[3ex]
+                        = \sqrt{x^2 + y^2} \\[3ex]
+                        As\;\;a\;\;function\;\;of\;\;x: \\[3ex]
+                        y = x^2 - 4 \\[3ex] 
+                        y^2 = (x^2 - 4)^2 \\[3ex] 
+                        y^2 = (x^2 - 4)(x^2 - 4) \\[3ex] 
+                        y^2 = x^4 - 4x^2 - 4x^2 + 16 \\[3ex] 
+                        y^2 = x^4 - 8x^2 + 16 \\[3ex]
+                        \implies \\[3ex]
+                        d =  \sqrt{x^2 + x^4 - 8x^2 + 16} \\[3ex]
+                        d(x) = \sqrt{x^4 - 7x^2 + 16} \\[5ex]
+                        (b.) \\[3ex]
+                        x = 0 \\[3ex]
+                        d(0) = \sqrt{0^4 - 7(0)^2 + 16} \\[3ex]
+                        = \sqrt{0 - 7(0) + 16} \\[3ex] 
+                        = \sqrt{0 - 0 + 16} \\[3ex]
+                        = \sqrt{16} \\[3ex]
+                        = 4 \\[5ex]
+                        (c.) \\[3ex]
+                        x = 1 \\[3ex]
+                        d(1) = \sqrt{1^4 - 7(1)^2 + 16} \\[3ex]
+                        = \sqrt{1 - 7(1) + 16} \\[3ex] 
+                        = \sqrt{1 - 7 + 16} \\[3ex]
+                        = \sqrt{10} \\[3ex]
+                        = 3.16227766 \\[3ex]
+                        \approx 3.16 \\[5ex]
+                        $
+                        (d.) The graph of $x^4 - 7x^2 + 16$ is: 
+                        <br><br>
+                        <img src="images/Answers/Functions/Number3.jpg" alt="Number 3">
+                        <br><br>
+                        The positive value of <i>x</i> when  <i>d</i> is smallest
+                        is 1.870828693387 &approx; 1.87
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (4.) <b>ACT</b> For functions $f(x) = 5 \cdot 2^x$ and $g(x) = 10x$, the 
+                    value of <i>f</i>(3) &minus; <i>g</i>(3) is: <br><br>
+                    $
+                    A.\;\; 0 \\[3ex]
+                    B.\;\; 10 \\[3ex]
+                    C.\;\; 70 \\[3ex]
+                    D.\;\; 970 \\[3ex] 
+                    E.\;\; 1,030 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionF4')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF4">
+                        <br>
+                        $
+                        f(x) = 5 \cdot 2^x \\[3ex]
+                        f(3) = 5 \cdot 2^3 \\[3ex]
+                        f(3) = 5 \cdot 8 \\[3ex]
+                        f(3) = 40 \\[5ex]
+                        g(x) = 10x \\[3ex]
+                        g(3) = 10(3) \\[3ex]
+                        g(3) = 30 \\[5ex]
+                        f(3) - g(3) \\[3ex]
+                        = 40 - 30 \\[3ex]
+                        = 10
+                        $
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (5.) When the driver of a vehicle observes an​ impediment, the total stopping distance involves both the reaction distance​ (the distance the vehicle travels while the driver moves his or her foot to the brake​ pedal) and the braking distance​ (the distance the vehicle travels once the brakes are​ applied). <br>
+                    For a car traveling at a speed of <i>v</i> miles per​ hour, the reaction distance​ <i>R</i>, in​ feet, can be estimated by ​$R(v) = 2.3v$. <br>
+                    Suppose that the braking distance​ <i>B</i>, in​ feet, for a car is given by $​B(v) = 0.05v^2 + 0.4v - 16$. <br>
+                    (a.) Find the stopping distance​ function, ​$D(v) = ​R(v) + ​B(v)$. <br>
+                    (b.) Find the stopping distance if the car is traveling at a speed of 50 mph. <br>
+                    (c.)  Interpret D(50)
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF5')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF5">
+                        <br>
+                        $
+                        R(v) = 2.3v \\[3ex] 
+                        ​B(v) = 0.05v^2 + 0.4v - 16 \\[3ex]
+                        (a.) \\[3ex]
+                        D(v) = ​R(v) + ​B(v) \\[3ex]
+                        D(v) = 2.3v + (0.05v^2 + 0.4v - 16) \\[3ex]
+                        D(v) = 2.3v + 0.05v^2 + 0.4v - 16 \\[3ex]
+                        D(v) = 0.05v^2 + 2.7v - 16 \\[3ex]
+                        (b.) \\[3ex]
+                        D(50) = 0.05(50)^2 + 2.7(50) - 16 \\[3ex]
+                        D(50) = 244 \\[3ex]
+                        $
+                        If the car is traveling at a speed of 50 ​mph, the stopping distance is 244 feet. 
+                        <br><br>
+                        (c.) 
+                        The car will need the value indicated by ​D(50​) to stop once the impediment is observed. <br>
+                        In other words, the car will need 244 feet to stop once the impediment is observed.
+                    </div>                 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (6.) Write functions for these relationships between/among variables.
+                    <br><br>
+                    (I.) Suppose that​ P(<i>x</i>) represents the percentage of income spent on health care in year <i>x</i> and I​(<i>x</i>) represents income in year <i>x</i>. <br>
+                    Determine a function <i>H</i> that represents total health care expenditures in year <i>x</i>.
+                    <br><br>
+                    (II.) The participation rate is the number of people in the labor force divided by the civilian population​ (excludes military). <br>
+                    Let​ L(<i>x</i>) represent the size of the labor force in year <i>x</i> and​ P(<i>x</i>) represent the civilian population in year <i>x</i>. <br>
+                    Determine a function that represents the participation rate <i>R</i> as a function of <i>x</i>.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF6')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF6">
+                        <br>
+                        (I.) $H(x) = P(x) * I(x)$
+                        <br><br>
+                        (II.) $R(x) = \dfrac{L(x)}{P(x)}$
+                    </div>      
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (7.) <b>ACT</b> Given the sets <i>A</i> = {0, 1, 2, 3} and <i>B</i> = {1, 3, 5, 7}. which of the following defines a function <i>f</i> from 
+                    <i>A</i> onto <i>B</i>? <br><br>
+                    $
+                    F.\;\; f(x) = 2x + 1 \\[3ex]
+                    G.\;\; f(x) = 2x - 1 \\[3ex]
+                    H.\;\; f(x) = 3x - 1 \\[3ex]
+                    J.\;\; f(x) = 3x - 2 \\[3ex]
+                    K.\;\; f(x) = x + 1 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionF7')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF7">
+                        <br>
+                        We can do this question in at least two ways. <br>
+                        Use any approach you prefer. 
+                        <br><br>
+                        $
+                        \underline{First\;\;Approach:\;\;Testing} \\[3ex]
+                        Recommended\;\;for\;\;ACT \\[3ex]
+                        Mapping\;\;from\;\;A\;\;onto\;\;B \\[3ex]
+                        F.\;\; f(x) = 2x + 1 \\[3ex]
+                        f(0) = 2(0) + 1 = 0 + 1 = 1 ...okay \\[3ex]
+                        f(1) = 2(1) + 1 = 2 + 1 = 3 ...okay \\[3ex]
+                        f(2) = 2(2) + 1 = 4 + 1 = 5 ...okay \\[3ex]
+                        f(3) = 2(3) + 1 = 6 + 1 = 7 ...okay \\[3ex]
+                        $
+                        Option <b>F.</b> is the answer. 
+                        <br><br>
+                        $
+                        \underline{First\;\;Approach:\;\;Calculating} \\[3ex]
+                        Mapping\;\;from\;\;A\;\;onto\;\;B \\[3ex]
+                        Use\;\;any\;\;two\;\;points\;\;and\;\;the\;\;corresponding\;\;points \\[3ex]
+                        A = \{0, 1, 2, 3\} \\[3ex]
+                        x_1 = 1 \\[3ex]
+                        x_2 = 2 \\[3ex]
+                        B = \{1, 3, 5, 7\} \\[3ex]
+                        y_1 = 3 \\[3ex] 
+                        y_2 = 5 \\[3ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        = \dfrac{5 - 3}{2 - 1} \\[5ex]
+                        = \dfrac{2}{1} \\[5ex]
+                        = 2 \\[3ex]
+                        y = mx + b \\[3ex] 
+                        For\;\; (3, 7) \\[3ex]
+                        x = 3 \\[3ex]
+                        y = 7 \\[3ex]
+                        7 = 2(3) + b \\[3ex] 
+                        7 = 6 + b \\[3ex]
+                        6 + b = 7 \\[3ex] 
+                        b = 7 - 6 \\[3ex] 
+                        b = 1 \\[3ex] 
+                        \implies \\[3ex] 
+                        y = 2x + 1 \\[3ex] 
+                        f(x) = 2x + 1
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (8.) The function $P(y) = 0.032y^2 - 3.301y + 280.760$ represents the population <i>P</i>(in millions) of people in 2005 that were <i>y</i> years of age or older. <br>
+                    (a.) Identify the dependent and independent variable. <br>
+                    (b.) Evaluate P(50) <br>
+                    (c.) Interpret P(50) <br>
+                    (d.) Evaluate P(0) <br>
+                    (e.) Interpret P(0)
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF8')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF8">
+                        <br>
+                        (a.) The dependent variable is <i>P</i> and the independent variable is <i>y</i>.
+                        <br><br>
+                        $
+                        (b.) \\[3ex]
+                        P(y) = 0.032y^2 - 3.301y + 280.760 \\[3ex]
+                        P(50) = 0.032(50)^2 - 3.301(50) + 280.760 \\[3ex]
+                        = 195.71 \\[3ex]
+                        $
+                        (c.) P(50) is the number of people (in millions) who were 50 years of age or older in 2005. 
+                        <br><br>
+                        $
+                        (d.) \\[3ex]
+                        P(y) = 0.032y^2 - 3.301y + 280.760 \\[3ex]
+                        P(0) = 0.032(0)^2 - 3.301(0) + 280.760 \\[3ex]
+                        = 280.76 \\[3ex]
+                        $
+                        (e.) P(0) is the number of people (in millions) in 2005. 
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (9.) <b>CSEC</b> The function $f$ is defined as $f : x \rightarrow 3 - 2x$ <br>
+                    (i.) The diagram below shows the mapping diagram of the function, $f$ <br>
+                    Determine the value of $a$ <br>
+                    <div class="w3-center">
+                        <img src="images/Questions/Functions/Number9.png" alt="Number 9"> 
+                    </div> <br>
+                    (ii.) Determine, in their simplest form, expressions for <br>
+                    (a.) the inverse of the function $f$, $f^{-1}(x)$ <br>
+                    (b.) the <b>composite</b> function $f^2(x)$ <br><br>
+                    (iii.) State the value of $ff^{-1}(-2)$ 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF9')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF9">
+                        <br>
+                        $
+                        (i) \\[3ex] 
+                        x = -1 \\[3ex] 
+                        f(-1) = a...Mapping\;\;Diagram \\[3ex]
+                        f : x \rightarrow 3 - 2x \\[3ex] 
+                        f(x) = 3 - 2x \\[3ex]  
+                        f(-1) = 3 - 2(-1) 
+                        \implies a = 3 - 2(-1) \\[3ex] 
+                        a = 3 + 2 \\[3ex] 
+                        a = 5 \\[3ex] 
+                        (ii) \\[3ex] 
+                        (a.) \\[3ex] 
+                        f(x) = 3 - 2x \\[3ex] 
+                        Let\;\; y = 3 - 2x \\[3ex] 
+                        Interchange\;\;x\;\;and\;\;y \\[3ex] 
+                        x = 3 - 2y \\[3ex] 
+                        Solve\;\;for\;\;y \\[3ex] 
+                        x + 2y = 3 \\[3ex] 
+                        2y = 3 - x \\[3ex] 
+                        y = \dfrac{3 - x}{2} \\[5ex] 
+                        \therefore f^{-1}(x) = \dfrac{3 - x}{2} \\[5ex] 
+                        (b.) \\[3ex] 
+                        Composite\;\;Function:\;\; f^2(x) 
+                        = (f \circ f)(x) \\[3ex] 
+                        = f(f(x)) \\[3ex] 
+                        = f(3 - 2x) \\[3ex] 
+                        = 3 - 2(3 - 2x) \\[3ex] 
+                        = 3 - 6 + 4x \\[3ex] 
+                        = 4x - 3 \\[3ex] 
+                        (iii) \\[3ex] 
+                        ff^{-1}(-2) \\[3ex] 
+                        Start\;\;from\;\;inside \\[3ex] 
+                        f^{-1}(x) = \dfrac{3 - x}{2} \\[5ex] 
+                        f^{-1}(-2) \\[3ex] 
+                        = \dfrac{3 - -2}{2} \\[5ex] 
+                        = \dfrac{3 + 2}{2} \\[5ex]
+                        = \dfrac{5}{2} \\[5ex]
+                        Then\;\;to\;\;outside \\[3ex] 
+                        ff^{-1}(-2) \\[3ex] 
+                        = f\left(\dfrac{5}{2}\right) \\[5ex] 
+                        = 3 - 2\left(\dfrac{5}{2}\right) \\[5ex] 
+                        = 3 - 5 \\[3ex] 
+                        = -2
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (10.) (I.) For the given functions <i>f</i> and <i>g</i>, complete parts (a.) through (h.) <br>
+                    (II.) For parts (a.) through (d.), find the domain.  
+                    <br><br>
+                    $
+                    f(x) = 5x + 3 \\[3ex] 
+                    g(x) = 7x - 5 \\[3ex] 
+                    (a.)\;\; (f + g)(x) \\[3ex] 
+                    (b.)\;\; (f - g)(x) \\[3ex] 
+                    (c.)\;\; (f \cdot g)(x) \\[3ex]
+                    (d.)\;\; \left(\dfrac{f}{g}\right)(x) \\[5ex] 
+                    (e.)\;\; (f + g)(2) \\[3ex] 
+                    (f.)\;\; (f - g)(3) \\[3ex] 
+                    (g.)\;\; (f \cdot g)(4) \\[3ex] 
+                    (h.)\;\; \left(\dfrac{f}{g}\right)(1) \\[5ex] 
+                    $
+                    <button class="solutions" onclick="solutions('solutionF10')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF10">
+                        <br>
+                        $
+                        f(x) = 5x + 3 \\[3ex] 
+                        g(x) = 7x - 5 \\[3ex] 
+                        (a.) \\[3ex]
+                        (f + g)(x) \\[3ex]
+                        = f(x) + g(x) \\[3ex]
+                        = (5x + 3) + (7x - 5) \\[3ex]
+                        = 5x + 3 + 7x - 5 \\[3ex]
+                        = 12x - 2 \\[2ex]
+                        $
+                        This is a linear function. <br>
+                        The domain is any real number. <br>
+                        Set Notation: Domain = {<i>x</i> | <i>x</i> is a real number} <br>
+                        Interval Notation: Domian = (&minus;&infin;, &infin;)
+                        <br><br>
+                        $
+                        (b.) \\[3ex]
+                        (f - g)(x) \\[3ex]
+                        = f(x) - g(x) \\[3ex]
+                        = (5x + 3) - (7x - 5) \\[3ex]
+                        = 5x + 3 - 7x + 5 \\[3ex]
+                        = -2x + 8 \\[3ex]
+                        $
+                        This is a linear function. <br>
+                        The domain is any real number. <br>
+                        Set Notation: Domain = {<i>x</i> | <i>x</i> is a real number} <br>
+                        Interval Notation: Domian = (&minus;&infin;, &infin;)
+                        <br><br>
+                        $                        
+                        (c.) \\[3ex]
+                        (f \cdot g)(x) \\[3ex]
+                        = f(x) \cdot g(x) \\[3ex]
+                        = (5x + 3)(7x - 5) \\[3ex]
+                        = 35x^2 - 25x + 21x - 15 \\[3ex]
+                        = 35x^2 - 4x - 15 \\[3ex]
+                        $
+                        The domain is any real number. <br>
+                        Set Notation: Domain = {<i>x</i> | <i>x</i> is a real number} <br>
+                        Interval Notation: Domian = (&minus;&infin;, &infin;)
+                        <br><br>
+                        $
+                        (d.) \\[3ex]
+                        \left(\dfrac{f}{g}\right)(x) \\[5ex] 
+                        = \dfrac{5x + 3}{7x - 5} \\[5ex]
+                        \underline{Domain} \\[3ex] 
+                        Denominator \ne 0 \\[3ex]
+                        Denominator\;\;of\;\;\left(\dfrac{f}{g}\right)(x) = 7x - 5 \\[3ex]
+                        7x - 5 = 0 \\[3ex]
+                        7x = 0 + 5 \\[3ex]
+                        7x = 5 \\[3ex]
+                        x = \dfrac{5}{7} \\[5ex] 
+                        Domain = \{x | x \ne \dfrac{5}{7}\} \\[5ex]
+                        
+                        (e.) \\[3ex]
+                        (f + g)(x) = 12x - 2 \\[3ex]
+                        (f + g)(2) = 12(2) - 2 \\[3ex]
+                        = 24 - 2 \\[3ex]
+                        = 22 \\[5ex]
+
+                        (f.) \\[3ex]
+                        (f - g)(x) = -2x + 8 \\[3ex]
+                        (f - g)(3) = -2(3) + 8 \\[3ex]
+                        = -6 + 8 \\[3ex]
+                        = 2 \\[5ex]
+
+                        (g.) \\[3ex]
+                        (f \cdot g)(x) = 35x^2 - 4x - 15 \\[3ex]
+                        (f \cdot g)(4) = 35(4)^2 - 4(4) - 15 \\[3ex]
+                        = 35(16) - 16 - 15 \\[3ex]
+                        = 560 - 16 - 15 \\[3ex]
+                        = 529 \\[5ex]
+
+                        (h.) \\[3ex]
+                        \left(\dfrac{f}{g}\right)(x) = \dfrac{5x + 3}{7x - 5} \\[5ex]
+                        \left(\dfrac{f}{g}\right)(1) = \dfrac{5(1) + 3}{7(1) - 5} \\[5ex]
+                        = \dfrac{5 + 3}{7 - 5} \\[5ex]
+                        = \dfrac{8}{2} \\[5ex] 
+                        = 4 
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (11.) <b>CSEC</b> (a) The functions <i>f</i>(<i>x</i>) and <i>g</i>(<i>x</i>) are defined as: <br><br>
+                    $
+                    f(x) = \dfrac{5x - 4}{3} \\[5ex] 
+                    g(x) = x^2 - 1 \\[3ex]
+                    $
+                    (i) Evaluate $f(7)$ <br>
+                    (ii) Write an expression, in terms of $x$, for $f^{-1}(x)$ <br>
+                    (iii) Write an expression, in terms of $x$, for $fg(x)$ <br><br>
+                    (b) (i) Express the quadratic function $f(x) = 3x^2 + 6x - 2$, in the form $a(x + h)^2 + k$, where $a, h$ and $k$ are constants. <br>
+                    (ii) Hence, or otherwise, state the minimum value of $f(x) = 3x^2 + 6x -2$ <br>
+                    (iii) State the equation of the axis of symmetry of the function $f(x) = 3x^2 + 6x -2$ <br>
+                    (iv) Sketch the graph of $y = 3x^2 + 6x - 2$, showing on your sketch <br>
+                    (a) the intercept on the $y-axis$ <br>
+                    (b) the coordinates of the minimum point. 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF11')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF11">
+                        <br>
+                        $
+                        (a) \\[3ex] 
+                        (i) \\[3ex]
+                        f(x) = \dfrac{5x - 4}{3} \\[5ex]
+                        f(7) = \dfrac{5(7) - 4}{3} \\[5ex]
+                        f(7) = \dfrac{35 - 4}{3} \\[3ex]
+                        f(7) = \dfrac{31}{3} \\[5ex]
+                        (ii) \\[3ex]
+                        Equate\:\:y = f(x) \\[3ex]
+                        But\:\:Let\:\:y = f^{-1}(x) \\[3ex]
+                        y = \dfrac{5x - 4}{3} \\[5ex]
+                        Interchange\:\:x\:\:and\:\:y \\[3ex]
+                        x = \dfrac{5y - 4}{3} \\[5ex]
+                        Solve\:\:for\:\:y \\[3ex]
+                        \dfrac{5y - 4}{3} = x \\[5ex]
+                        5y - 4 = 3x \\[3ex]
+                        5y = 3x + 4 \\[3ex]
+                        y = \dfrac{3x + 4}{5} \\[5ex]
+                        \therefore f^{-1}(x) = \dfrac{3x + 4}{5} \\[5ex]
+                        (iii) \\[3ex]
+                        fg(x) = (fg)(x) = f(x) * g(x) \\[3ex]
+                        (fg)(x) = \dfrac{5x - 4}{3} * x^2 - 1 \\[5ex]
+                        (fg)(x) = \dfrac{(5x - 4)(x^2 - 1)}{3} \\[5ex]
+                        x^2 - 1 = x^2 - 1^2 = (x + 1)(x - 1)...Difference\:\:of\:\:Two\:\:Squares \\[3ex]
+                        (fg)(x) = \dfrac{(5x - 4)(x + 1)(x - 1)}{3} \\[5ex] 
+                        (b) \\[3ex] 
+                        (i) \\[3ex] 
+                        Standard\;\;Form:\;\;f(x) = 3x^2 + 6x - 2 \\[3ex] 
+                        Compare:\;\; f(x) = ax^2 + bx + c \\[3ex] 
+                        \implies a = 3,\;\;b = 6,\;\;c = -2 \\[3ex] 
+                        \underline{1st\;\;Method:\;\;Vertex\;\;Formula} \\[3ex] 
+                        (h, k) = \left(-\dfrac{b}{2a}, f\left(-\dfrac{b}{2a}\right)\right) \\[5ex]
+                        h = -\dfrac{b}{2a} \\[5ex] 
+                        h = -\dfrac{6}{2(3)} \\[5ex]
+                        h = -1 \\[3ex] 
+                        k = f\left(-\dfrac{b}{2a}\right) \\[5ex]
+                        k = f(-1) \\[3ex] 
+                        k = 3(-1)^2 + 6(-1) - 2 \\[3ex] 
+                        k = 3(1) - 6 - 2 \\[3ex] 
+                        k = 3 - 6 - 2 \\[3ex] 
+                        k = -5 \\[3ex] 
+                        (h, k) = (-1, -5) \\[3ex] 
+                        Vertex\;\;Form:\;\; f(x) = a(x - h)^2 + k \\[3ex] 
+                        Vertex\;\;Form:\;\; f(x) = 3(x - -1)^2 + -5 \\[3ex] 
+                        Vertex\;\;Form:\;\; f(x) = 3(x + 1)^2 - 5 \\[3ex] 
+                        \underline{2nd\;\;Method:\;\;Completing\;\;the\;\;Square\;\;Method} \\[3ex] 
+                        Standard\;\;Form:\;\;f(x) = 3x^2 + 6x - 2 \\[3ex] 
+                        f(x) = 3\left(x^2 + \dfrac{6x}{3} - \dfrac{2}{3}\right) \\[5ex]
+                        f(x) = 3\left(x^2 + 2x - \dfrac{2}{3}\right) \\[5ex] 
+                        Coefficient\;\;of\;\;x = 2 \\[3ex] 
+                        Half\;\;of\;\;it = \dfrac{1}{2} * 2 = 1 \\[5ex] 
+                        Square\;\;it = (1)^2 \\[3ex]  
+                        f(x) = 3\left[x^2 + 2x + (1)^2 - \dfrac{2}{3} - (1)^2\right] \\[5ex] 
+                        f(x) = 3\left[(x + 1)^2 - \dfrac{2}{3} - 1\right] \\[5ex] 
+                        f(x) = 3\left[(x + 1)^2 - \dfrac{2}{3} - \dfrac{3}{3}\right] \\[5ex] 
+                        f(x) = 3\left[(x + 1)^2 - \dfrac{5}{3}\right] \\[5ex] 
+                        f(x) = 3(x + 1)^2 - 5 \\[5ex] 
+                        (ii) \\[3ex] 
+                        Minimum\;\;value = y-coordinate\;\;of\;\;the\;\;Vertex \\[3ex] 
+                        Vertex = (h, k) = (-1, -5) \\[3ex] 
+                        Minimum\;\;value = k = -5 \\[3ex] 
+                        (iii) \\[3ex] 
+                        Axis\;\;of\;\;symmetry = x-coordinate\;\;of\;\;the\;\;Vertex \\[3ex] 
+                        Vertex = (h, k) = (-1, -5) \\[3ex]
+                        Axis\;\;of\;\;symmetry = h = -1 \\[3ex]
+                        Equation\;\;of\;\;the\;\;axis\;\;of\;\;symmetry:\;\; x = -1 \\[3ex] 
+                        (iv) \\[3ex] 
+                        (a.) \\[3ex] 
+                        To\;\;find\;\;y-intercept \\[3ex] 
+                        Set\;\;x = 0\;\;and\;\;solve\;\;for\;\;y \\[3ex] 
+                        y = 3x^2 + 6x - 2 \\[3ex] 
+                        y = 3(0)^2 + 6(0) - 2 \\[3ex] 
+                        y = 3(0) + 0 - 2 \\[3ex] 
+                        y = 0 + 0 - 2 \\[3ex] 
+                        y = -2 \\[3ex] 
+                        y-intercept = (0, -2) \\[3ex] 
+                        (b.) \\[3ex] 
+                        Minimum\;\;point = Vertex = (h, k) = (-1, -5) \\[3ex]
+                        $
+                        <div class="w3-center">
+                            <img src="images/Answers/Functions/Number11.png" alt="Number 11">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (12.) <b>WASSCE</b> The functions <i>f</i> and <i>g</i> are defined as <br><br>
+                    $
+                    f:x \rightarrow 2 - x^2 \:\:and \\[3ex]
+                    g:x \rightarrow \dfrac{1}{x - 1} \\[5ex]
+                    $
+                    Evaluate <br><br>
+                    $
+                    (i)\:\: g\left(-\dfrac{1}{4}\right) \\[5ex]
+                    (ii)\:\: \dfrac{f(2)}{g(3)} \\[5ex]
+                    $
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF12')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF12">
+                        <br>
+                        $
+                        (i) \\[3ex]
+                        g:x \rightarrow \dfrac{1}{x - 1} \\[5ex] 
+                        g\left(-\dfrac{1}{4}\right) \implies x = \dfrac{1}{4} \\[5ex]
+                        g\left(-\dfrac{1}{4}\right) = \dfrac{1}{-\dfrac{1}{4} - 1} \\[7ex]
+                        -\dfrac{1}{4} - 1 = \dfrac{-1}{4} - \dfrac{4}{4} = \dfrac{-1 - 4}{4} = -\dfrac{5}{4} \\[5ex]
+                        \dfrac{1}{-\dfrac{1}{4} - 1} = \dfrac{1}{-\dfrac{5}{4}} = 1 \div -\dfrac{5}{4} = 1 * -\dfrac{4}{5} = -\dfrac{4}{5} \\[7ex]
+                        \therefore g\left(-\dfrac{1}{4}\right) = -\dfrac{4}{5} \\[5ex]
+                        (ii) \\[3ex]
+                        f:x \rightarrow 2 - x^2 \\[3ex]
+                        f(2) \implies x = 2 \\[3ex]
+                        f(2) = 2 - (2)^2 \\[3ex]
+                        f(2) = 2 - 4 \\[3ex]
+                        f(2) = -2 \\[3ex]
+                        g:x \rightarrow \dfrac{1}{x - 1} \\[5ex]  
+                        g(3) \implies x = 3 \\[3ex]
+                        g(3) = \dfrac{1}{3 - 1} \\[5ex]
+                        g(3) = \dfrac{1}{2} \\[5ex]
+                        \dfrac{f(2)}{g(3)} = f(2) \div g(3) \\[5ex]
+                        \dfrac{f(2)}{g(3)} = -2 \div \dfrac{1}{2} = -2 * \dfrac{2}{1} = -2 * 2 = -4 \\[5ex]
+                        \therefore \dfrac{f(2)}{g(3)} = -4
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (13.) <b>CSEC</b> <br>
+                    (a.) Given that $f(x) = 4x - 7$ and $g(x) = \dfrac{3x + 1}{2}$, determine the values of: <br><br>
+                    $
+                    (i)\;\; g(0) + g(5) \\[3ex] 
+                    (ii)\;\; fg(5) \\[3ex] 
+                    (iii)\;\; f^{-1}(1) \\[3ex] 
+                    $
+                    (b) P(6, -1) and Q(2, 7) are the end points of a line segment <i>PQ</i> <br>
+                    Determine <br>
+                    (i) the gradient of <i>PQ</i> <br>
+                    (ii) the coordinates of the midpoint of <i>PQ</i> <br>
+                    (iii) the equation of the perpendicular bisector of <i>PQ</i>
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF13')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF13">
+                        <br>
+                        $
+                        (a) \\[3ex] 
+                        (i) \\[3ex] 
+                        g(x) = \dfrac{3x + 1}{2} \\[5ex] 
+                        g(0) = \dfrac{3(0) + 1}{2} = \dfrac{0 + 1}{2} = \dfrac{1}{2} \\[5ex] 
+                        g(5) = \dfrac{3(5) + 1}{2} = \dfrac{15 + 1}{2} = \dfrac{16}{2} = 8 \\[5ex] 
+                        g(0) + g(5) \\[3ex] 
+                        = \dfrac{1}{2} + 8 \\[5ex] 
+                        = \dfrac{1}{2} + \dfrac{16}{2} \\[5ex] 
+                        = \dfrac{1 + 16}{2} \\[5ex] 
+                        = \dfrac{17}{2} \\[5ex] 
+                        (ii) \\[3ex] 
+                        Two\;\;methods\;\;to\;\;solve\;\;this\;\;question \\[3ex] 
+                        Use\;\;whichever\;\;method\;\;you\;\;prefer \\[3ex] 
+                        f(x) = 4x - 7 \\[3ex] 
+                        g(x) = \dfrac{3x + 1}{2} \\[5ex] 
+                        \underline{1st\;\;Method} \\[3ex] 
+                        fg(5) = f(5) * g(5) \\[3ex] 
+                        f(x) = 4x - 7 \\[3ex]  
+                        f(5) = 4(5) - 7 = 20 - 7 = 13 \\[3ex] 
+                        g(5) = 8...from\;\;(i) \\[3ex] 
+                        \therefore fg(5) = 13(8) = 104 \\[3ex] 
+                        \underline{2nd\;\;Method} \\[3ex] 
+                        fg(x) \\[3ex] 
+                        = f(x) * g(x) \\[3ex] 
+                        = (4x - 7) * \dfrac{3x + 1}{2} \\[5ex] 
+                        = \dfrac{(4x - 7)(3x + 1)}{2} \\[5ex] 
+                        fg(5) \\[3ex] 
+                        = \dfrac{[4(5) - 7][3(5) + 1]}{2} \\[5ex] 
+                        = \dfrac{(20 - 7)(15 + 1)}{2} \\[5ex] 
+                        = \dfrac{13(16)}{2} \\[5ex] 
+                        = 13(8) \\[3ex] 
+                        = 104 \\[3ex] 
+                        (iii) \\[3ex] 
+                        f(x) = 4x - 7 \\[3ex]  
+                        Let\;\;y = 4x - 7 \\[3ex] 
+                        Interchange\;\;x\;\;and\;\;y \\[3ex] 
+                        x = 4y - 7 \\[3ex] 
+                        Solve\;\;for\;\;y \\[3ex] 
+                        Swap \\[3ex] 
+                        4y - 7 = x \\[3ex] 
+                        4y = x + 7 \\[3ex] 
+                        y = \dfrac{x + 7}{4} \\[5ex] 
+                        \therefore f^{-1}(x) = \dfrac{x + 7}{4} \\[5ex] 
+                        f^{-1}(1) \\[3ex]
+                        = \dfrac{1 + 7}{4} \\[5ex] 
+                        = \dfrac{8}{4} \\[5ex]
+                        = 2 \\[3ex]  
+                        (b) \\[3ex] 
+                        P(6, -1) \rightarrow x_1 = 6, \;\;\; y_1 = -1 \\[3ex] 
+                        Q(2, 7) \rightarrow x_2 = 2, \;\;\; y_2 = 7 \\[3ex]
+                        (i) \\[3ex] 
+                        m = Gradient\;\;of\;\;PQ \\[3ex] 
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex] 
+                        m = \dfrac{7 - (-1)}{2 - 6} \\[5ex] 
+                        m = \dfrac{7 + 1}{-4} \\[5ex] 
+                        m = \dfrac{8}{-4} \\[5ex] 
+                        m = -2 \\[3ex] 
+                        (ii) \\[3ex] 
+                        Midpoint\;\;of\;\;PQ = \overline{PQ} \\[3ex] 
+                        \overline{PQ} = \left(\dfrac{x_1 + x_2}{2}, \dfrac{y_1 + y_2}{2}\right) \\[5ex] 
+                        = \left(\dfrac{6 + 2}{2}, \dfrac{-1 + 7}{2}\right) \\[5ex] 
+                        = \left(\dfrac{8}{2}, \dfrac{6}{2}\right) \\[5ex] 
+                        = (4, 3) \\[3ex] 
+                        (iii) \\[3ex] 
+                        Midpoint = Point = (4,3) \rightarrow x_1 = 4, \;\;\; y_1 = 3 \\[3ex] 
+                        Gradient = m = -2 \\[3ex]
+                        Gradient\;\;of\;\;Perpendicular\;\;Line = -\dfrac{1}{m} = \dfrac{-1}{-2} = \dfrac{1}{2} \\[5ex]  
+                        Point-Slope\;\;Form \\[3ex] 
+                        y - y_1 = m(x - x_1) \\[3ex] 
+                        y - 3 = \dfrac{1}{2}(x - 4) \\[5ex] 
+                        y - 3 = \dfrac{1}{2}x - 2 \\[5ex] 
+                        y = \dfrac{1}{2}x - 2 + 3 \\[5ex]   
+                        y = \dfrac{1}{2}x + 1
+                        $                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (14.) <b>ACT</b>  If $f(x) = x^2 + x + 5$ and $g(x) = \sqrt{x}$, <br><br>
+                    then what is the value of $\dfrac{g(4)}{f(1)}$
+                    <br><br>
+                    $
+                    A.\:\: \dfrac{2}{7} \\[5ex]
+                    B.\:\: \dfrac{25}{7} \\[5ex]
+                    C.\:\: \dfrac{2}{25} \\[5ex]
+                    D.\:\: 2 \\[3ex]
+                    E.\:\: 4 \\[3ex]
+                    $
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF14')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF14">
+                        <br>
+                        $
+                        f(x) = x^2 + x + 5 \\[3ex]
+                        f(1) = 1^2 + 1 + 5 \\[3ex]
+                        f(1) = 1 + 1 + 5 \\[3ex]
+                        f(1) = 7 \\[3ex]
+                        g(x) = \sqrt{x} \\[3ex]
+                        g(4) = \sqrt{4} \\[3ex]
+                        g(4) = 2 \\[3ex]
+                        \dfrac{g(4)}{f(1)} = \dfrac{2}{7}
+                        $                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (15.) <b>CSEC</b> The functions <i>f</i>(<i>x</i>) and <i>g</i>(<i>x</i>) are defined as <br><br>
+                    $
+                    f(x) = 3x + 2 \hspace{7em} g(x) = \dfrac{x^2 - 1}{3} \\[5ex]
+                    $
+                    (i) Evaluate $g(5)$ <br><br>
+                    (ii) Write an expression in terms of $x$ for $f^{-1}(x)$ <br><br>
+                    (iii) Write an expression for $g(f(x))$, in the form $(x + a)(x + b)$, where $a, b \in R$ 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF15')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF15">
+                        <br>
+                        $
+                        (i) \\[3ex]
+                        g(x) = \dfrac{x^2 - 1}{3} \\[5ex] 
+                        g(5) \implies x = 5 \\[3ex]
+                        g(5) = \dfrac{5^2 - 1}{3} \\[5ex]
+                        g(5) = \dfrac{25 - 1}{3} \\[5ex]
+                        g(5) = \dfrac{24}{3} \\[5ex]
+                        g(5) = 8 \\[3ex]
+                        (ii) \\[3ex]
+                        f(x) = 3x + 2 \\[3ex]
+                        Let\:\: y = 3x + 2 \\[3ex]
+                        Interchange\:\:x\:\:and\:\:y \\[3ex]
+                        x = 3y + 2 \\[3ex]
+                        Solve\:\:for\:\:y \\[3ex]
+                        3y + 2 = x \\[3ex]
+                        3y = x - 2 \\[3ex]
+                        y = \dfrac{x - 2}{3} \\[5ex]
+                        New\:\:y\:\:becomes\:\:f^{-1}(x) \\[3ex]
+                        \therefore f^{-1}(x) = \dfrac{x - 2}{3} \\[5ex]
+                        (iii) \\[3ex]
+                        g(f(x)) = g(3x + 2) \\[3ex]
+                        g(x) = \dfrac{x^2 - 1}{3} \\[5ex]
+                        g(3x + 2) \implies x = 3x + 2 \\[3ex]
+                        g(3x + 2) = \dfrac{(3x + 2)^2 - 1}{3} \\[5ex]
+                        (3x + 2)^2 - 1 = (3x + 2)^2 - 1^2 \\[3ex]
+                        (3x + 2)^2 - 1^2 = [(3x + 2) + 1][(3x + 2) - 1]...Difference\:\:of\:\:Two\:\:Squares \\[3ex]
+                        = (3x + 2 + 1)(3x + 2 - 1) \\[3ex]
+                        = (3x + 3)(3x + 1) \\[3ex]
+                        = 3(x + 1)(3x + 1) \\[3ex]
+                        \rightarrow \dfrac{(3x + 2)^2 - 1}{3} = \dfrac{3(x + 1)(3x + 1)}{3} \\[5ex] 
+                        = (x + 1)(3x + 1) \\[3ex]
+                        \rightarrow g(3x + 2) = (x + 1)(3x + 1) \\[3ex]
+                        \therefore g(f(x)) = (x + 1)(3x + 1)
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (16.) <b>ACT</b> For functions $f(x) = 5 * 2^x$ and $g(x) = 10x$, the value of <i>f</i>(3) &minus; <i>g</i>(3) is:
+                    <br><br>
+                    $
+                    A.\:\: 0 \\[3ex]
+                    B.\:\: 10 \\[3ex]
+                    C.\:\: 70 \\[3ex]
+                    D.\:\: 970 \\[3ex]
+                    E.\:\: 1,030 \\[3ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionF16')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF16">
+                        <br>
+                        $
+                        f(x) = 5 * 2^x \\[3ex]
+                        f(3) = 5 * 2^3 \\[3ex]
+                        f(3) = 5 * 8 \\[3ex]
+                        f(3) = 40 \\[3ex]
+                        g(x) = 10x \\[3ex]
+                        g(3) = 10(3) \\[3ex]
+                        g(3) = 30 \\[3ex]
+                        f(3) - g(3) \\[3ex]
+                        = 40 - 30 \\[3ex]
+                        = 10
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (17.) A cylinder (round can) has a circular base and a circular top with vertical sides in between. <br>
+                    Let $r$ be the radius of the top of the can and let $h$ be the height. <br>
+                    The surface area of the cylinder, $A$, is $A = 2\pi r^2 + 2\pi rh$ 
+                    (it's two circles for the top and bottom plus a rolled up rectangle for the side). <br>
+                    <div class="w3-center">
+                        <img src="images/Questions/Functions/Number17.png" alt="Number 17"> 
+                    </div> <br>
+                    Assume that the height of the cylinder is $12$ inches. <br><br>
+                    (a.) Determine the domain of $A(r)$ <br>
+                    In other words, determine the values of $r$ for which $A(r)$ is defined. <br><br>
+                    (b.) Write the radius as a function of $A$ <br>
+                    In other words, determine the inverse function of $A(r)$ <br><br>
+                    (c.) If the surface area is 300 square inches, what is the radius? <br>
+                    In other words, evaluate $r(300)$ <br>
+                    Round your answer to two decimal places. 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF17')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF17">
+                        <br>
+                        $
+                        A = 2\pi r^2 + 2\pi rh \\[3ex] 
+                        h = 12\;inches \\[3ex] 
+                        A = 2\pi r^2 + 2 * \pi * r * 12 \\[3ex] 
+                        A = 2\pi r^2 + 24\pi r \\[3ex] 
+                        $
+                        To determine the domain: <br>
+                        The area cannot be non-negative <br>
+                        It cannot be zero or negative. <br>
+                        The area must be positive (greater than zero) <br>
+                        Similarly, the radius must be positive (greater than zero) <br><br>
+                        $
+                        A = 2\pi r^2 + 24\pi r \\[3ex] 
+                        2\pi r^2 + 24\pi r = A \\[3ex] 
+                        A \gt 0 \\[3ex] 
+                        \implies 2\pi r^2 + 24\pi r \gt 0 \\[3ex] 
+                        2\pi(r^2 + 12r) \gt 0 \\[3ex] 
+                        r^2 + 12r \gt \dfrac{0}{2\pi} \\[5ex] 
+                        r^2 + 12r \gt 0 \\[3ex] 
+                        r(r + 12) \gt 0 \\[3ex] 
+                        \underline{Boundary\;\;Values} \\[3ex] 
+                        r = 0 \\[3ex] 
+                        r + 12 = 0 \\[3ex] 
+                        r = -12 \\[3ex] 
+                        \underline{Test\;\;Intervals} \\[3ex] 
+                        r \lt -12 \\[3ex] 
+                        -12 \lt r \lt 0 \\[3ex] 
+                        r \gt 0 \\[3ex]
+                        $
+                        <table class="w3-center">
+                            <tr>
+                                <td>Test Intervals:</td>
+                                <td>$r \lt -12$</td>
+                                <td>$-12 \lt r \lt 0$</td>
+                                <td>$r \gt 0$</td>
+                            </tr>
+                            <tr>
+                                <td>$r$</td>
+                                <td>$-$</td>
+                                <td>$-$</td>
+                                <td>$+$</td>
+                            </tr>
+                            <tr>
+                                <td>$r + 12$</td>
+                                <td>$-$</td>
+                                <td>$+$</td>
+                                <td>$+$</td>
+                            </tr>
+                            <tr>
+                                <td>$r(r + 12)$</td>
+                                <td><mark>$+$</mark></td>
+                                <td>$-$</td>
+                                <td><mark>$+$</mark></td>
+                            </tr>
+                        </table> 
+                        <br>
+                        $
+                        r(r + 12) \gt 0 \\[3ex] 
+                        r \lt -12 \cup r \gt 0 \\[3ex] 
+                        $
+                        Let us check the solution of the Quadratic Inequality to ensure we are correct 
+                        <br><br>
+                        <table class="w3-center">
+                            <caption>
+                                $r(r + 12) \gt 0$ <br>
+                                $(\infty, -12) \cup (0, \infty)$
+                            </caption>
+                            <tr>
+                                <td>LHS</td>
+                                <td>RHS</td>
+                            </tr>
+                            <tr>
+                                <td>$r(r + 12)$</td>
+                                <td>$0$</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    $(\infty, -12)$ <br>
+                                    Let $r = -16$ <br>
+                                    $r(r + 12)$ <br>
+                                    $-16(-16 + 12)$ <br>
+                                    $-16(-4)$ <br>
+                                    $64$
+                                </td>
+                                <td>$0$</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">$64 \gt 0$</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    $(0, \infty)$ <br>
+                                    Let $r = 1$ <br>
+                                    $1(1 + 12)$ <br>
+                                    $1(13)$ <br>
+                                    $13$ 
+                                </td>
+                                <td>$0$</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">$13 \gt 0$</td>
+                            </tr>
+                        </table> 
+                        <br><br>
+                        $
+                        (a.) \\[3ex] 
+                        Because\;\;r\;\;must\;\;be\;\;positive \\[3ex] 
+                        \underline{Solution:\;\;Interval\;\;Notation} \\[3ex] 
+                        Domain:\;\; (0, \infty) \\[3ex] 
+                        $
+
+                        <i>
+                            <b>Student:</b> Mr. C, I have two questions. <br>
+                            First one: do we need to go through all these steps? <br>
+                            We already know that the radius must be positive <br>
+                            So, after writing the test intervals; we can simply write that the domain is $r \gt 0$ <br>
+                            We do not need to actually test it and check it. <br>
+                            Is that correct? <br>
+                            <b>Teacher:</b> That is correct <br>
+                            <b>Student:</b> Okay. The next question is <br>
+                            Do we have to write it in interval notation? <br>
+                            <b>Teacher:</b> Because the domain is a set, it is important we express it in set notation and/or interval notation. <br><br>
+                            Set Notation: $\{r: r \gt 0\}$ <br><br>
+                            Interval Notation: $(0, \infty)$                        
+                        </i> <br><br>
+
+                        $
+                        (b.) \\[3ex] 
+                        A = 2\pi r^2 + 24\pi r \\[3ex] 
+                        2\pi r^2 + 24\pi r = A \\[3ex]
+                        2\pi r^2 + 24\pi r - A = 0 \\[3ex]
+                        This\;\;is\;\;quadratic\;\;in\;\; r \\[3ex] 
+                        We\;\;can\;\;solve\;\;it\;\;in\;\;at\;\;least\;\;two\;\;ways \\[3ex] 
+                        \underline{First\;\;Method:\;\;Quadratic\;\;Formula} \\[3ex] 
+                        a = 2\pi \\[3ex] 
+                        b = 24\pi \\[3ex] 
+                        c = -A \\[3ex]
+                        r = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\[5ex] 
+                        r = \dfrac{-24\pi \pm \sqrt{(24\pi)^2 - 4(2\pi)(-A)}}{2(2\pi)} \\[5ex] 
+                        r = \dfrac{-24\pi \pm \sqrt{576\pi^2 + 8\pi A}}{4\pi} \\[5ex] 
+                        r = \dfrac{-24\pi \pm \sqrt{4(144\pi^2 + 2\pi A)}}{4\pi} \\[5ex] 
+                        r = \dfrac{-24\pi \pm 2\sqrt{144\pi^2 + 2\pi A}}{4\pi} \\[5ex] 
+                        r = \dfrac{2\left(-12\pi \pm \sqrt{144\pi^2 + 2\pi A}\right)}{4\pi} \\[5ex] 
+                        r = \dfrac{-12\pi \pm \sqrt{144\pi^2 + 2\pi A}}{2\pi} \\[5ex]
+                        r = \dfrac{-12\pi \pm \sqrt{2\pi(72\pi + A)}}{2\pi} \\[7ex]  
+
+                        \underline{Second\;\;Method:\;\;Completing\;\;the\;\;Square\;\;Method} \\[3ex] 
+                        2\pi r^2 + 24\pi r = A \\[3ex]
+                        \dfrac{2\pi r^2}{2\pi} + \dfrac{24\pi r}{2\pi} = \dfrac{A}{2\pi} \\[5ex]  
+                        r^2 + 12r = \dfrac{A}{2\pi} \\[5ex] 
+                        Coefficient\;\;of\;\;r = 12 \\[3ex] 
+                        Half\;\;of\;\;it = \dfrac{12}{2} = 6 \\[5ex] 
+                        Square\;\;it = 6^2 \\[3ex]  
+                        r^2 + 12r + 6^2 = \dfrac{A}{2\pi} + 6^2 \\[5ex]
+                        (r + 6)^2 = \dfrac{A}{2\pi} + 36 \\[5ex]
+                        (r + 6)^2 = \dfrac{A + 72\pi}{2\pi} \\[5ex] 
+                        r + 6 = \pm \sqrt{\dfrac{A + 72\pi}{2\pi}} \\[5ex] 
+                        r + 6 = \pm \dfrac{\sqrt{A + 72\pi}}{\sqrt{2\pi}} \\[5ex] 
+                        r + 6 = \pm \dfrac{\sqrt{A + 72\pi}}{\sqrt{2\pi}} * \dfrac{\sqrt{2\pi}}{\sqrt{2\pi}} \\[5ex] 
+                        r + 6 = \pm \dfrac{\sqrt{2\pi(A + 72\pi)}}{2\pi} \\[5ex]
+                        r = -6 \pm \dfrac{\sqrt{2\pi(A + 72\pi)}}{2\pi} \\[5ex]
+                        r = -\dfrac{12\pi}{2\pi} \pm \dfrac{\sqrt{2\pi(A + 72\pi)}}{2\pi} \\[5ex]
+                        r = \dfrac{-12\pi \pm \sqrt{2\pi(A + 72\pi)}}{2\pi} \\[7ex]  
+
+                        (c.) \\[3ex] 
+                        A = 300\;in^2 \\[3ex] 
+                        r = \dfrac{-12\pi \pm \sqrt{144\pi^2 + 2\pi * 300}}{2\pi} \\[5ex] 
+                        r = \dfrac{-12\pi \pm \sqrt{144\pi^2 + 600\pi}}{2\pi} \\[5ex] 
+                        r = \dfrac{-37.69911184 \pm \sqrt{1421.223034 + 1884.955592}}{6.283185307} \\[5ex] 
+                        r = \dfrac{-37.69911184 \pm \sqrt{3306.178626}}{6.283185307} \\[5ex] 
+                        r = \dfrac{-37.69911184 \pm 57.49937935}{6.283185307} \\[5ex] 
+                        r = \dfrac{-37.69911184 + 57.49937935}{6.283185307} \;\;OR\;\; r = \dfrac{-37.69911184 - 57.49937935}{6.283185307} \\[5ex] 
+                        r = \dfrac{19.80026095}{6.283185307} \;\;OR\;\; r = \dfrac{-95.19849119}{6.283185307} \\[5ex] 
+                        r = 3.151309405 \;\;OR\;\; -15.15130145 \\[3ex] 
+                        r\;\;cannnot\;\;be\;\;negative \\[3ex] 
+                        \therefore r = 3.151309405 \\[3ex] 
+                        r \approx 3.15\;inches\;\;to\;\;two\;\;decimal\;\;places
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (18.) Indicate whether these set of two functions are equal. <br>
+                    If the two functions are not equal, specify the element of the domain for which the two functions have 
+                    different values. <br><br>
+                    <b>First Set:</b> <br><br>
+                    $
+                    f: \mathbb{Z} \rightarrow \mathbb{Z}, \;\;where\;\; f(x) = x^4 \\[3ex] 
+                    g: \mathbb{Z} \rightarrow \mathbb{Z}, \;\;where\;\; g(x) = |x|^4 \\[3ex] 
+                    $
+                    <b>Second Set:</b> <br><br>
+                    $
+                    f: \mathbb{Z} \times \mathbb{Z} \rightarrow \mathbb{Z}, \;\;where\;\; f(x, y) = |x + y|^3 \\[3ex] 
+                    g: \mathbb{Z} \times \mathbb{Z} \rightarrow \mathbb{Z}, \;\;where\;\; g(x, y) = |x|^3 + |y|^3 \\[3ex] 
+                    $
+                    <button class="solutions" onclick="solutions('solutionF18')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF18">
+                        <br>
+                        $
+                        \underline{1st\;\;set} \\[3ex] 
+                        f: \mathbb{Z} \rightarrow \mathbb{Z}, \;\;where\;\; f(x) = x^4 \\[3ex]
+                        g: \mathbb{Z} \rightarrow \mathbb{Z}, \;\;where\;\; g(x) = |x|^4 \\[3ex]
+                        \underline{Test\;\;numbers:\;\;negative,zero,positive} \\[3ex] 
+                        Let\;\; x = -1 \\[3ex] 
+                        f(-1) = (-1)^4 = (-1)(-1)(-1)(-1) = 1 \\[3ex] 
+                        g(-1) = |-1|^4 = 1^4 = 1 \\[3ex]
+                        f(-1) = g(-1) \\[3ex] 
+                        Let\;\; x = 0 \\[3ex] 
+                        f(0) = 0^4 = 0 \\[3ex] 
+                        g(0) = |0|^4 = 0^4 = 0 \\[3ex] 
+                        f(0) = g(0) \\[3ex] 
+                        Let\;\; x = 2 \\[3ex] 
+                        f(2) = 2^4 = 16 \\[3ex] 
+                        g(2) = |-2|^4 = 2^4 = 16 \\[3ex] 
+                        f(2) = g(2) \\[3ex] 
+                        \therefore f(x) = g(x) \\[5ex]
+                        
+                        \underline{2nd\;\;set} \\[3ex] 
+                        f: \mathbb{Z} \times \mathbb{Z} \rightarrow \mathbb{Z}, \;\;where\;\; f(x, y) = |x + y|^3 \\[3ex] 
+                        g: \mathbb{Z} \times \mathbb{Z} \rightarrow \mathbb{Z}, \;\;where\;\; g(x, y) = |x|^3 + |y|^3 \\[3ex] 
+                        \underline{Test\;\;numbers:\;\;negative,zero,positive} \\[3ex] 
+                        Let\;\; x = -1, y = -2 \\[3ex] 
+                        f(-1, -2) \\[3ex] 
+                        = |-1 + -2|^3 \\[3ex] 
+                        = |-1 - 2|^3 \\[3ex] 
+                        = |-3|^3 \\[3ex] 
+                        = 3^3 \\[3ex] 
+                        = 27 \\[3ex] 
+                        g(-1, -2) \\[3ex] 
+                        = |-1|^3 + |-2|^3 \\[3ex] 
+                        = 1^3 + 2^3 \\[3ex]
+                        = 1 + 8 \\[3ex] 
+                        = 9 \\[3ex]
+                        27 \ne 9 \\[3ex] 
+                        f(-1, -2) \ne g(-1, -2) \\[3ex] 
+                        \therefore f(x) \ne g(x) \\[3ex]
+                        $
+                        You may decide to stop here. 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (19.) The domain and target set of functions $f$ and $g$ is $\mathbb{R}$ <br>
+                    The functions are defined as: <br><br>
+                    $
+                    f(x) = 2x - 3 \\[3ex] 
+                    g(x) = 5x - 7 \\[3ex] 
+                    $
+                    Determine: <br><br>
+                    $
+                    (I.)\;\; f \circ g \\[3ex] 
+                    (II.)\;\; g \circ f \\[3ex] 
+                    (III.)\;\; (f \circ g)^{-1} \\[3ex] 
+                    (IV.)\;\; (g \circ f)^{-1} \\[3ex] 
+                    (V.)\;\; f^{-1} \circ g^{-1} \\[3ex] 
+                    (VI.)\;\; g^{-1} \circ f^{-1} \\[3ex] 
+                    $
+                    $(VII.)$ Are any of the above the same? <br><br>
+                    <button class="solutions" onclick="solutions('solutionF19')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF19">
+                        <br>
+                        $
+                        f(x) = 2x - 3 \\[3ex] 
+                        g(x) = 5x - 7 \\[3ex] 
+                        (I.) \\[3ex] 
+                        f \circ g \\[3ex] 
+                        = f(g(x)) \\[3ex] 
+                        = f(5x - 7) \\[3ex] 
+                        = 2(5x - 7) - 3 \\[3ex] 
+                        = 10x - 14 - 3 \\[3ex] 
+                        = 10x - 17 \\[3ex] 
+                        (II.) \\[3ex] 
+                        g \circ f \\[3ex] 
+                        = g(f(x)) \\[3ex] 
+                        = g(2x - 3) \\[3ex] 
+                        = 5(2x - 3) - 7 \\[3ex] 
+                        = 10x - 15 - 7 \\[3ex] 
+                        = 10x - 22 \\[3ex] 
+                        (III.) \\[3ex] 
+                        (f \circ g)^{-1} \\[3ex]  
+                        = (10x - 17)^{-1} \\[3ex] 
+                        Let\;\; y = 10x - 17 \\[3ex] 
+                        Interchange\;\;x\;\;and\;\;y \\[3ex] 
+                        x = 10y - 17 \\[3ex] 
+                        Solve\;\;for\;\;y \\[3ex] 
+                        10y - 17 = x \\[3ex] 
+                        10y = x + 17 \\[3ex] 
+                        y = \dfrac{x + 17}{10} \\[5ex]
+                        (f \circ g)^{-1} = \dfrac{x + 17}{10} \\[5ex] 
+                        (IV.) \\[3ex] 
+                        (g \circ f)^{-1} \\[3ex]  
+                        = (10x - 22)^{-1} \\[3ex] 
+                        Let\;\; y = 10x - 22 \\[3ex] 
+                        Interchange\;\;x\;\;and\;\;y \\[3ex] 
+                        x = 10y - 22 \\[3ex] 
+                        Solve\;\;for\;\;y \\[3ex] 
+                        10y - 22 = x \\[3ex] 
+                        10y = x + 22 \\[3ex] 
+                        y = \dfrac{x + 22}{10} \\[5ex]
+                        (g \circ f)^{-1} = \dfrac{x + 22}{10} \\[5ex] 
+                        
+                        f(x) = 2x - 3 \\[3ex] 
+                        f^{-1}(x) = (2x - 3)^{-1} \\[3ex]  \\[3ex] 
+                        Let\;\; y = 2x - 3 \\[3ex] 
+                        Interchange\;\;x\;\;and\;\;y \\[3ex] 
+                        x = 2y - 3 \\[3ex] 
+                        Solve\;\;for\;\;y \\[3ex] 
+                        2y - 3 = x \\[3ex] 
+                        2y = x + 3 \\[3ex] 
+                        y = \dfrac{x + 3}{2} \\[5ex] 
+                        f^{-1}(x) = \dfrac{x + 3}{2} \\[5ex] 
+                        g(x) = 5x - 7 \\[3ex] 
+                        g^{-1}(x) = (5x - 7)^{-1} \\[3ex]  \\[3ex] 
+                        Let\;\; y = 5x - 7 \\[3ex] 
+                        Interchange\;\;x\;\;and\;\;y \\[3ex] 
+                        x = 5y - 7 \\[3ex] 
+                        Solve\;\;for\;\;y \\[3ex] 
+                        5y - 7 = x \\[3ex] 
+                        5y = x + 7 \\[3ex] 
+                        y = \dfrac{x + 7}{5} \\[5ex] 
+                        g^{-1}(x) = \dfrac{x + 7}{5} \\[5ex] 
+                        (V.) \\[3ex] 
+                        f^{-1}(x) = \dfrac{x + 3}{2} \\[5ex] 
+                        g^{-1}(x) = \dfrac{x + 7}{5} \\[5ex] 
+                        f^{-1} \circ g^{-1} \\[3ex] 
+                        = f^{-1}(g^{-1}) \\[3ex] 
+                        = f^{-1}\left(\dfrac{x + 7}{5}\right) \\[5ex] 
+                        = \dfrac{\left(\dfrac{x + 7}{5}\right) + 3}{2} \\[7ex] 
+                        = \left(\dfrac{x + 7}{5}\right) + \dfrac{3}{1} \div \dfrac{2}{1} \\[5ex] 
+                        = \dfrac{x + 7 + 15}{5} * \dfrac{1}{2} \\[5ex] 
+                        f^{-1} \circ g^{-1} = \dfrac{x + 22}{10} \\[5ex] 
+                        (VI.) \\[3ex] 
+                        f^{-1}(x) = \dfrac{x + 3}{2} \\[5ex] 
+                        g^{-1}(x) = \dfrac{x + 7}{5} \\[5ex] 
+                        g^{-1} \circ f^{-1} \\[3ex] 
+                        = g^{-1}(f^{-1}) \\[3ex] 
+                        = g^{-1}\left(\dfrac{x + 3}{2}\right) \\[5ex] 
+                        = \dfrac{\left(\dfrac{x + 3}{2}\right) + 7}{5} \\[7ex] 
+                        = \left(\dfrac{x + 3}{2}\right) + \dfrac{7}{1} \div \dfrac{5}{1} \\[5ex] 
+                        = \dfrac{x + 3 + 14}{2} * \dfrac{1}{5} \\[5ex] 
+                        = \dfrac{x + 17}{10} \\[5ex]
+                        g^{-1} \circ f^{-1} = \dfrac{x + 17}{10} \\[5ex]
+                        (VII.) \\[3ex] 
+                        f^{-1} \circ g^{-1} = (g \circ f)^{-1} = \dfrac{x + 22}{10} \\[5ex] 
+                        g^{-1} \circ f^{-1} = (f \circ g)^{-1} = \dfrac{x + 17}{10}
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (20.) (a.) Given the function: <i>f(x)</i> &equals; 3<i>x</i> &plus; 2, determine the rate of change between 4 and 7 
+                    <br><br>
+                    (b.) Determine the rate of change between 2 and 5 for $f(x) = \sqrt{(2x - 3) + 5}$                     
+                    <br><br>
+                    (c.) Determine the rate of change between 2 and 5 for $f(x) = \sqrt{2x - 3} + 5$                     
+                    <br><br>
+                    (c.) Find the rate for change between 0 and 1 for the graph: <br><br>
+                    <div class="w3-center">
+                        <img src="images/Questions/Functions/Number20.png" alt="Number 20"> 
+                    </div> <br>
+                    <button class="solutions" onclick="solutions('solutionF20')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF20">
+                        <br>
+                        $
+                        rate\;\;of\;\;change = slope = m \\[3ex]
+                        (a.) \\[3ex]
+                        f(x) = 3x + 2 \\[3ex]
+                        x_1 = 4 \\[3ex]
+                        f(x_1) = 3(4) + 2 \\[3ex]
+                        f(x_1) = 12 + 2 \\[3ex]
+                        f(x_1) = 14 \\[3ex]
+                        x_2 = 7 \\[3ex]
+                        f(x_2) = 3(7) + 2 \\[3ex]
+                        f(x_2) = 21 + 2 \\[3ex]
+                        f(x_2) = 23 \\[3ex]
+                        m = \dfrac{f(x_2) - f(x_1)}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{23 - 14}{7 - 4} \\[5ex]
+                        m = \dfrac{9}{3} \\[5ex]
+                        m = 3 \\[5ex]
+                        (b.) \\[3ex] 
+                        f(x) = \sqrt{(2x - 3) + 5} \\[3ex] 
+                        f(x) = \sqrt{2x - 3 + 5} \\[3ex] 
+                        f(x) = \sqrt{2x + 2} \\[3ex]
+                        x_1 = 2 \\[3ex]
+                        f(x_1) = \sqrt{2(2) + 2} \\[3ex]
+                        f(x_1) = \sqrt{4 + 2} \\[3ex]
+                        f(x_1) = \sqrt{6} \\[3ex]
+                        x_2 = 5 \\[3ex]
+                        f(x_2) = \sqrt{2(5) + 2} \\[3ex]
+                        f(x_2) = \sqrt{10 + 2} \\[3ex]
+                        f(x_2) = \sqrt{12} \\[3ex]
+                        f(x_2) = \sqrt{4 * 3} \\[3ex]
+                        f(x_2) = \sqrt{4} * \sqrt{3} \\[3ex]
+                        f(x_2) = 2\sqrt{3} \\[3ex]
+                        m = \dfrac{f(x_2) - f(x_1)}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{2\sqrt{3} - \sqrt{6}}{5 - 2} \\[5ex]
+                        m = \dfrac{2\sqrt{3} - \sqrt{6}}{3} \\[5ex]
+                        (c.) \\[3ex]
+                        f(x) = \sqrt{2x - 3} + 5 \\[3ex] 
+                        x_1 = 2 \\[3ex]
+                        f(x_1) = \sqrt{2(2) - 3} + 5 \\[3ex]
+                        f(x_1) = \sqrt{4 - 3} + 5 \\[3ex]
+                        f(x_1) = \sqrt{1} + 5 \\[3ex]
+                        f(x_1) = 1 + 5 \\[3ex]
+                        f(x_1) = 6 \\[3ex]
+                        x_2 = 5 \\[3ex]
+                        f(x_2) = \sqrt{2(5) - 3} + 5 \\[3ex]
+                        f(x_2) = \sqrt{10 - 3} + 5 \\[3ex]
+                        f(x_2) = \sqrt{7} + 5 \\[3ex]
+                        f(x_2) = 5 + \sqrt{7} \\[3ex]
+                        m = \dfrac{f(x_2) - f(x_1)}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{(5 + \sqrt{7}) - 6}{5 - 2} \\[5ex]
+                        m = \dfrac{5 + \sqrt{7} - 6}{3} \\[5ex]
+                        m = \dfrac{-1 + \sqrt{7}}{3} \\[5ex]
+                        m = \dfrac{\sqrt{7} - 1}{3} \\[5ex]
+                        (d.) \\[3ex]
+                        x_1 = 0 \\[3ex]
+                        y_1 = 0 \\[3ex]
+                        x_2 = 1 \\[3ex]
+                        y_2 = \dfrac{4 + 8}{2} \\[5ex]
+                        y_2 = \dfrac{12}{2} \\[5ex]
+                        y_2 = 6 \\[3ex]
+                        m = \dfrac{y_2 - y_1}{x_2 - x_1} \\[5ex]
+                        m = \dfrac{6 - 0}{1 - 0} \\[5ex]
+                        m = \dfrac{6}{1} \\[5ex]
+                        m = 6
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <!-- Top of the Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://precalculus.appspot.com/RelationsFunctions/functions.html" class="w3-button w3-xlarge w3-circle w3-olive"
+               style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+        <br><br><br><br>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (21.) An airplane crosses the Atlantic Ocean​ (3000 miles) with an airspeed of 550 miles per hour. <br>
+                    The cost <i>C</i>​ (in dollars) per passenger is given by 
+                    $
+                    C(x) = 200 + \dfrac{x}{15} + \dfrac{32000}{x}
+                    $
+                    where x is the ground speed (airspeed &pm; wind) 
+                    <br><br>
+                    (a.) What is the cost per passenger for quiescent​ (no wind)​ conditions? <br>
+                    (b.) What is the cost per passenger with a head wind of 50 miles per​ hour? <br>
+                    (c.) What is the cost per passenger with a tail wind of 100 miles per​ hour?
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF21')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF21">
+                        <br>
+                        <u>Head Wind:</u> <br> 
+                        The airplane works against a head wind because they move in opposite directions (<i>compare to driving a car up a hill</i>) <br>
+                        Hence, the ground speed is: airspeed &minus; wind 
+                        <br><br>
+                        <u>Tail Wind:</u> <br>
+                        The airplane works with a tail wind because they move in the same direction (<i>compare to drivig a car down a hill</i>) <br>
+                        Hence, the ground speed is: airspeed &plus; wind
+                        <br><br>
+                        $
+                        airspeed = 550\;mph \\[3ex]
+                        C(x) = 200 + \dfrac{x}{15} + \dfrac{32000}{x} \\[5ex]
+                        x = ground\;\;speed\;(airspeed\;\pm\;wind) \\[3ex]
+                        (a.) \\[3ex]
+                        no\;\;wind \implies wind = 0 \\[3ex]
+                        x = airspeed = 550\;mph \\[3ex]
+                        \implies \\[3ex]
+                        C(550) = 200 + \dfrac{550}{15} + \dfrac{32000}{550} \\[5ex]
+                        C(550) = \dfrac{9730}{33} = 294.8484848 \\[3ex]
+                        C(550) \approx \$294.85 \\[5ex]
+                        (b.) \\[3ex]
+                        head\;\;wind = 50\;mph \\[3ex]
+                        x = 550 - 50 = 500\;mph \\[3ex]
+                        C(500) = 200 + \dfrac{500}{15} + \dfrac{32000}{500} \\[5ex]
+                        C(500) = \dfrac{892}{3} = 297.3333333 \\[3ex]
+                        C(500) \approx \$297.33 \\[5ex]
+                        (c.) \\[3ex]
+                        tail\;\;wind = 100\;mph \\[3ex]
+                        x = 550 + 100 = 650\;mph \\[3ex]
+                        C(650) = 200 + \dfrac{650}{15} + \dfrac{32000}{650} \\[5ex]
+                        C(650) = \dfrac{11410}{39} = 292.5641026 \\[3ex]
+                        C(650) \approx \$292.56
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (22.) (I.) For the given functions <i>f</i> and <i>g</i>, complete parts (a.) through (h.) <br>
+                    (II.) For parts (a.) through (d.), find the domain.  
+                    <br><br>
+                    $
+                    f(x) = \dfrac{7x + 9}{9x - 7} \\[5ex] 
+                    g(x) = \dfrac{9x}{9x - 7} \\[5ex] 
+                    (a.)\;\; (f + g)(x) \\[3ex] 
+                    (b.)\;\; (f - g)(x) \\[3ex] 
+                    (c.)\;\; (f \cdot g)(x) \\[3ex]
+                    (d.)\;\; \left(\dfrac{f}{g}\right)(x) \\[5ex] 
+                    (e.)\;\; (f + g)(5) \\[3ex] 
+                    (f.)\;\; (f - g)(3) \\[3ex] 
+                    (g.)\;\; (f \cdot g)(1) \\[3ex] 
+                    (h.)\;\; \left(\dfrac{f}{g}\right)(1) \\[5ex] 
+                    $
+                    <button class="solutions" onclick="solutions('solutionF22')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF22">
+                        <br>
+                        $
+                        f(x) = \dfrac{7x + 9}{9x - 7} \\[5ex] 
+                        g(x) = \dfrac{9x}{9x - 7} \\[7ex] 
+                        (a.) \\[3ex]
+                        (f + g)(x) \\[3ex]
+                        = f(x) + g(x) \\[3ex]
+                        = \dfrac{7x + 9}{9x - 7} + \dfrac{9x}{9x - 7} \\[5ex] 
+                        = \dfrac{7x + 9 + 9x}{9x - 7} \\[5ex]
+                        = \dfrac{16x + 9}{9x - 7} \\[5ex]
+                        \underline{Domain} \\[3ex] 
+                        Denominator \ne 0 \\[3ex]
+                        Denominator\;\;of\;\;f(x) = 9x - 7 \\[3ex] 
+                        Denominator\;\;of\;\;g(x) = 9x - 7 \\[3ex] 
+                        Denominator\;\;of\;\;(f + g)(x) = 9x - 7 \\[3ex] 
+                        9x - 7 = 0 \\[3ex]
+                        9x = 0 + 7 \\[3ex]
+                        9x = 7 \\[3ex]
+                        x = \dfrac{7}{9} \\[5ex]
+                        Domain = \{x | x \ne \dfrac{7}{9}\} \\[7ex]
+
+                        (b.) \\[3ex]
+                        (f - g)(x) \\[3ex]
+                        = f(x) - g(x) \\[3ex]
+                        = \dfrac{7x + 9}{9x - 7} - \dfrac{9x}{9x - 7} \\[5ex] 
+                        = \dfrac{7x + 9 - 9x}{9x - 7} \\[5ex]
+                        = \dfrac{-2x + 9}{9x - 7} \\[5ex]
+                        \underline{Domain} \\[3ex] 
+                        Denominator \ne 0 \\[3ex]
+                        Denominator\;\;of\;\;f(x) = 9x - 7 \\[3ex] 
+                        Denominator\;\;of\;\;g(x) = 9x - 7 \\[3ex] 
+                        Denominator\;\;of\;\;(f - g)(x) = 9x - 7 \\[3ex] 
+                        9x - 7 = 0 \\[3ex]
+                        9x = 0 + 7 \\[3ex]
+                        9x = 7 \\[3ex]
+                        x = \dfrac{7}{9} \\[5ex]
+                        Domain = \{x | x \ne \dfrac{7}{9}\} \\[7ex]
+
+                        (c.) \\[3ex]
+                        (f \cdot g)(x) \\[3ex]
+                        = f(x) \cdot g(x) \\[3ex]
+                        = \dfrac{7x + 9}{9x - 7} * \dfrac{9x}{9x - 7} \\[5ex] 
+                        = \dfrac{9x(7x + 9)}{(9x - 7)^2} \\[5ex]
+                        \underline{Domain} \\[3ex] 
+                        Denominator \ne 0 \\[3ex]
+                        Denominator\;\;of\;\;f(x) = 9x - 7 \\[3ex] 
+                        Denominator\;\;of\;\;g(x) = 9x - 7 \\[3ex]  
+                        9x - 7 = 0 \\[3ex]
+                        9x = 0 + 7 \\[3ex]
+                        9x = 7 \\[3ex]
+                        x = \dfrac{7}{9} \\[5ex] 
+                        1st\;\;Domain = \{x | x \ne \dfrac{7}{9}\} \\[5ex]
+                        Also: \\[3ex]
+                        Denominator\;\;of\;\;(f \cdot g)(x) = (9x - 7)^2 \\[3ex]
+                        (9x - 7)^2 = 0 \\[3ex] 
+                        9x - 7 = \sqrt{0} \\[3ex]
+                        9x - 7 = 0 \\[3ex]
+                        9x = 7 \\[3ex]
+                        x = \dfrac{7}{9} \\[5ex]
+                        2nd\;\;Domain = \{x | x \ne \dfrac{7}{9}\} \\[5ex]
+                        \implies \\[3ex]
+                        Domain = \{x | x \ne \dfrac{7}{9}\} \\[7ex]
+
+                        (d.) \\[3ex]
+                        \left(\dfrac{f}{g}\right)(x) \\[5ex] 
+                        = f(x) \div g(x) \\[3ex]
+                        = \dfrac{7x + 9}{9x - 7} \div \dfrac{9x}{9x - 7} \\[5ex] 
+                        = \dfrac{7x + 9}{9x - 7} * \dfrac{9x - 7}{9x} \\[5ex] 
+                        = \dfrac{7x + 9}{9x} \\[5ex]
+                        \underline{Domain} \\[3ex] 
+                        Denominator \ne 0 \\[3ex]
+                        Denominator\;\;of\;\;f(x) = 9x - 7 \\[3ex] 
+                        Denominator\;\;of\;\;g(x) = 9x - 7 \\[3ex] 
+                        9x - 7 = 0 \\[3ex]
+                        9x = 0 + 7 \\[3ex]
+                        9x = 7 \\[3ex]
+                        x = \dfrac{7}{9} \\[5ex] 
+                        1st\;\;Domain = \{x | x \ne \dfrac{7}{9}\} \\[5ex]
+                        Also: \\[3ex]
+                        Denominator\;\;of\;\;\left(\dfrac{f}{g}\right)(x) = 9x \\[3ex] 
+                        9x = 0 \\[3ex] 
+                        x = \dfrac{0}{9} \\[5ex]
+                        x = 0 \\[3ex]
+                        2nd\;\;Domain = \{x | x \ne 0\} \\[5ex]
+                        \implies \\[3ex]
+                        Domain = \{x | x \ne 0, x \ne \dfrac{7}{9}\} \\[7ex]
+
+                        (e.) \\[3ex]
+                        (f + g)(x) = \dfrac{16x + 9}{9x - 7} \\[5ex]
+                        (f + g)(5) = \dfrac{16(5) + 9}{9(5) - 7} \\[5ex]
+                        = \dfrac{80 + 9}{45 - 7} \\[5ex]
+                        = \dfrac{89}{38} \\[7ex]
+
+                        (f.) \\[3ex]
+                        (f - g)(x) = \dfrac{-2x + 9}{9x - 7} \\[5ex]
+                        (f - g)(3) = \dfrac{-2(3) + 9}{9(3) - 7} \\[5ex]
+                        = \dfrac{-6 + 9}{27 - 7} \\[5ex]
+                        = \dfrac{3}{20} \\[7ex]
+
+                        (g.) \\[3ex]
+                        (f \cdot g)(x) = \dfrac{9x(7x + 9)}{(9x - 7)^2} \\[5ex]
+                        (f \cdot g)(1) = \dfrac{9(1) * [7(1) + 9]}{[9(1) - 7]^2} \\[5ex]
+                        = \dfrac{9 * (7 + 9)}{(9 - 7)^2} \\[5ex]
+                        = \dfrac{9 * 16}{2^2} \\[5ex]
+                        = \dfrac{144}{4} \\[5ex]
+                        = 36 \\[7ex]
+
+                        (h.) \\[3ex]
+                        \left(\dfrac{f}{g}\right)(x) = \dfrac{7x + 9}{9x} \\[5ex]
+                        \left(\dfrac{f}{g}\right)(1) = \dfrac{7(1) + 9}{9(1)} \\[5ex]
+                        = \dfrac{7 + 9}{9} \\[5ex]
+                        = \dfrac{16}{9} 
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (23.) The average cost per hour in dollars of producing <i>x</i> riding lawn mowers is given by the following:
+                    <br><br>
+                    $
+                    \bar{C}(x) = 0.5x^2 + 23x - 216 + \dfrac{2600}{x} \\[5ex]
+                    $
+                    (a.) Use a graphing utility to determine the number of riding lawn mowers to produce in order to <b>minimize</b> 
+                    average cost. <br>
+                    (Round to the nearest whole number as needed). 
+                    <br><br>
+                    (b.) What is the minimum average cost? <br>
+                    (Round to the nearest cent as needed).
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF23')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF23">
+                        <br>
+                        We shall use the <a href="https://www.geogebra.org/graphing" target="_blank">GeoGebra</a> software to graph the 
+                        function. <br>
+                        Please see below:
+                        <br><br>
+                        <img src="images/Answers/Functions/Number23.png" alt="Number 23">
+                        <br><br>
+                        (a.) The average cost is minimized when approximately 9 lawn mowers are produced per hour. <br>
+                        (b.) The minimum average cost is approximately <span>$</span>320.39 per mower. 
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (24.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF24')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF24">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (25.) Determine the domain of the function
+                    <br><br>
+                    $
+                    g(t) = \sqrt[7]{\dfrac{t + 2}{t^2 - t - 30}} \\[5ex]
+                    $
+                    <button class="solutions" onclick="solutions('solutionF25')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF25">
+                        <br>
+                        The 7th root is an odd-numbered root <br>
+                        Hence the radicand can be negative, zero, or positive <br>
+                        But the radicand is a fraction (rational function) <br>
+                        So, there is a restriction on the domain: the denominator of the fraction cannot be zero <br>
+                        Let us set it to zero and solve for the values that would make it zero <br>
+                        Those values would be restricted from the domain 
+                        <br><br>
+                        $
+                        g(t) = \sqrt[7]{\dfrac{t + 2}{t^2 - t-30}} \\[5ex] 
+                        Radicand = \dfrac{t + 2}{t^2 - t-30} \\[5ex]
+                        Denominator\;\;of\;\;Radicand = t^2 - t - 30 \\[3ex]
+                        Set\;\;to\;\;zero\;\;and\;\;solve \\[3ex]
+                        t^2 - t - 30 = 0 \\[3ex]
+                        (t + 5)(t - 6) = 0 \\[3ex]
+                        t + 5 = 0 \;\;\;\;OR\;\;\;\; t - 6 = 0 \\[3ex]
+                        t = -5 \;\;\;\;OR\;\;\;\; t = 6 \\[3ex]
+                        $
+                        &minus;5 and 6 are restricted from the domain 
+                        <br><br>
+                        <img src="images/Answers/Functions/Number25.png" alt="Number 25">
+                        <br><br>
+                        Therefore the domain is: 
+                        <br><br>
+                        $
+                        \underline{Set\;\;Notation} \\[3ex]
+                        D = \{x | x \ne -5, \;\; x \ne 6\} \\[5ex]
+                        \underline{Interval\;\;Notation} \\[3ex]
+                        D = (-\infty, -5) \cup (-5, -6) \cup (6, \infty)
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (26.) Determine the intercepts of the equation: $5x^2 + 4y = 20$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF26')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF26">
+                        <br>
+                        $
+                        5x^2 + 4y = 20 \\[3ex]
+                        \underline{x-intercept} \\[3ex]
+                        Set\;\;y = 0 \\[3ex]
+                        Solve\;\;for\;\;x \\[3ex]
+                        5x^2 + 4(0) = 20 \\[3ex]
+                        5x^2 = 20 \\[3ex]
+                        x^2 = \dfrac{20}{5} \\[5ex]
+                        x^2 = 4 \\[3ex]
+                        x = \pm \sqrt{4} \\[3ex]
+                        x = \pm 2 \\[3ex]
+                        x-intercepts = (-2, 0) \;\;and\;\; (2, 0) \\[5ex]
+                        \underline{y-intercept} \\[3ex]
+                        Set\;\;x = 0 \\[3ex]
+                        Solve\;\;for\;\;y \\[3ex]
+                        5(0)^2 + 4y = 20 \\[3ex]
+                        0 + 4y = 20 \\[3ex]
+                        4y = 20 \\[3ex]
+                        y = \dfrac{20}{4} \\[5ex]
+                        y = 5 \\[3ex]
+                        y-intercept = (0, 5)
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (27.) <i>P</i> is a point with coordinates (<i>x, y</i>) on the graph of $y = x^2 - 2$ <br>
+                    (a.) Express the distance, <i>d</i> from <i>P</i> to the origin as a function of <i>x</i> <br>
+                    (b.) Use a graphing utility to graph <i>d</i> <br>
+                    (c.) For what positive value of <i>x</i> is <i>d</i> smallest?
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF27')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF27">
+                        <br> 
+                        (a.)
+                        $
+                        \underline{Distance\;\;Formula} \\[3ex]
+                        Point\;1 = Origin = (x_1, y_1) = (0, 0) \\[4ex]
+                        Point\;2 = (x_2, y_2) = (x, y) \\[4ex]
+                        distance = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \\[4ex]
+                        d = \sqrt{(x - 0)^2 + (y - 0)^2} \\[4ex]
+                        d = \sqrt{x^2 + y^2} \\[4ex]
+                        But:\;\; y = x^2 - 2 \\[3ex]
+                        \implies \\[3ex]
+                        d = \sqrt{x^2 + (x^2 - 2)^2} \\[4ex]
+                        d = \sqrt{x^2 + [(x^2 - 2)(x^2 - 2)]} \\[4ex]
+                        d = \sqrt{x^2 + [x^4 - 2x^2 - 2x^2 + 4]} \\[4ex]
+                        d = \sqrt{x^2 + x^4 - 4x^2 + 4} \\[4ex]
+                        d = \sqrt{x^4 - 3x^2 + 4} \\[3ex]
+                        $
+                        (b.) The graph of the function is: <br>
+                        <img src="images/Answers/Functions/Number27.png" alt="Number 27">
+                        <br><br>
+                        (c.) <i>d</i> is smallest when <i>x</i> is 1.2247448713916
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (28.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF28')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF28">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (29.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF29')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF29">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (30.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF30')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF30">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (31.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF31')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF31">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (32.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF32')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF32">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (33.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF33')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF33">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (34.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionF34')">Show/Hide Answer</button>
+                    <div class="result" id="solutionF34">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- END PAGE CONTENT -->
+
+        
+        <!-- Footer -->
+        <footer class="olive w3-center w3-padding-24">
+            
+            <div id="google_translate_element"></div>
+            <script>
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-123914705-1'}, 'google_translate_element');
+                }
+            </script>
+            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            
+            <p>&copy; 2018&nbsp; SamDom4Peace Designs.</p>
+        </footer>
+        <!-- End Footer -->
+
+        <script src="scripts/messages8.js"></script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+        <script async
+                src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+    </body>
+</html>

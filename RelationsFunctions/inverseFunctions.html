@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>       
+            
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDLZMCQQ0V"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-EDLZMCQQ0V');
+        </script>
+
+        <title>Inverse of a Function</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Samuel Dominic Chukwuemeka (SamDom For Peace) gives all the credit to our LORD GOD JESUS CHRIST. We are experts in determining the inverses of functions.">
+
+        <meta name="keywords" content="samuel, dominic, chukwuemeka, samuel dominic chukwuemeka, math, methematics,
+              relations, functions, set, ordered pairs, order, table, equation, mapping, 
+              correspondence, rule, graph, coordinates, points, x-coordinate, y-coordinate,
+              domain, range, function, one-to-one function, onto function, set notation, inverse of functions,
+              interval notation, injective function, surjective function, bijective function,
+              order relations, reflexivity, symmetry, antisymmetry, transitivity, lexicographic order,
+              partial order, total order, pseudo order, quasi order, chains, equivalence relations,
+              maximal elements, minimal elements, hasse diagrams, lower bound, upper bound, lattice,
+              topological sorting, radical, radicand, rational functions, symmetric, antisymmetric, codomain, image, 
+              slope, intercept, slope-intercept form, point-slope form, two-points form, difference quotient,
+              derivative, function composition, function decomposition, linear functions, quadratic functions, 
+              parabolas, vertical parabola, vertex, axis, line of symmetry, function transformations, even functions,
+              odd functions">
+
+        <link href="styles/relationsFunctions.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header class="w3-padding-24 olive">
+            <h1>Solved Examples on the Inverses of Functions</h1>
+        </header>
+        <!-- End Header -->
+
+        <br><br>
+
+        <!-- Page Content -->
+        <div class="w3-row w3-container">
+            
+            <div class="w3-container">
+                <!-- Image in top left corner -->
+                <a href="https://precalculus.appspot.com/RelationsFunctions/relations-functions.html">
+                    <img src="images/samuel.jpg" alt="Samuel Dominic Chukwuemeka (SamDom For Peace)" title="Samuel Chukwuemeka aka SamDom For Peace" class="images">
+                </a>
+                <br>
+                For each question as applicable, unless otherwise stated: <br>
+                (I.) Determine the inverse of these functions. <br>
+                (II.) Test for inverses.
+        </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (1.) $f(x) = 7x - 3$
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionIF1')">Show/Hide Answer</button>
+                    <div class="result" id="solutionIF1">
+                        <br>
+                        $
+                        f(x) = 7x - 3 \\[3ex]
+                        y = 7x - 3 \\[3ex]
+                        Interchange\:\: x\:\: and\:\: y \\[3ex]
+                        x = 7y - 3 \\[3ex]
+                        Solve\:\: for\:\: y \\[3ex]
+                        7y - 3 = x \\[3ex]
+                        7y = x + 3 \\[3ex]
+                        y = \dfrac{x + 3}{7} \\[5ex]
+                        \therefore f^{-1}(x) = \dfrac{x + 3}{7} \\[5ex] 
+                        $
+
+                        <b>Test for Inverses</b> <br><br>
+                        $
+                        (f \circ f^{-1})(x) \\[3ex]
+                        = f(f^{-1}(x)) \\[3ex]
+                        = f\left(\dfrac{x + 3}{7}\right) \\[5ex]
+                        But\:\: f(x) = 7x - 3 \\[5ex]
+                        So\:\: f\left(\dfrac{x + 3}{7}\right) = 7\left(\dfrac{x + 3}{7}\right) - 3 \\[5ex]
+                        = x + 3 - 3 \\[5ex]
+                        = x \\[7ex]
+                        (f^{-1} \circ f)(x) \\[3ex]
+                        = f^{-1}(f(x)) \\[3ex]
+                        = f^{-1}(7x - 3) \\[3ex]
+                        But\:\: f^{-1}(x) = \dfrac{x + 3}{7} \\[5ex]
+                        So\:\: f^{-1}(7x - 3) = \dfrac{(7x - 3) + 3}{7} \\[5ex]
+                        = \dfrac{7x - 3 + 3}{7} \\[5ex]
+                        = \dfrac{7x}{7} \\[5ex]
+                        = x \\[3ex]
+                        (f \circ f^{-1})(x) = (f^{-1} \circ f)(x) = x
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (2.) Use function composition to determine if $f(x)$ and $g(x)$ are inverse functions. <br><br>
+                    $
+                    f(x) = \sqrt[3]{x + 1} \\[3ex] 
+                    g(x) = x^3 + 1 \\[3ex] 
+                    $
+                    <button class="solutions" onclick="solutions('solutionIF2')">Show/Hide Answer</button>
+                    <div class="result" id="solutionIF2">
+                        <br>
+                        Using function composition to determine if two functions are inverses is to <b>Test for Inverses</b> <br>
+                        This implies that $f(x)$ and $g(x)$ are inverses if $(f \circ g)(x) = (g \circ f)(x) = x$ <br>
+                        The two conditions must be satisfied for them to be inverses of each other: <br>
+                        (1.) $(f \circ g)(x) = (g \circ f)(x)$: The composition of $f$ and $g$ with $x$ must be equal to the composition of $g$ and 
+                        $f$ with $x$ <br>
+                        (2.) $(f \circ g)(x) = (g \circ f)(x) = x$: That composition must be equal to $x$ <br>
+                        If any of these conditions are not true, then both functions are not inverses of each other. <br><br>
+                        $
+                        f(x) = \sqrt[3]{x + 1} \\[3ex] 
+                        g(x) = x^3 + 1 \\[3ex]
+                        (f \circ g)(x) \\[3ex] 
+                        = f(g(x)) \\[3ex] 
+                        = f(x^3 + 1) \\[3ex] 
+                        = \sqrt[3]{x^3 + 1 + 1} \\[3ex] 
+                        = \sqrt[3]{x^3 + 2} \\[3ex] 
+                        \ne x \\[3ex] 
+                        $
+                        This already implies that $f(x)$ and $g(x)$ are not inverse functions. <br>
+                        However, let us go ahead and find the composition of $g$ and $f$ with $x$ <br><br>
+                        $
+                        (g \circ f)(x) \\[3ex] 
+                        = g(f(x)) \\[3ex] 
+                        = g(\sqrt[3]{x + 1}) \\[3ex] 
+                        = (\sqrt[3]{x + 1})^3 + 1 \\[3ex]
+                        = x + 1 + 1 \\[3ex] 
+                        = x + 2 \\[3ex] 
+                        \ne x \\[3ex]
+                        $
+                        Neither condition is satisfied <br>
+                        Both are not inverses of each other. <br><br>
+                        Who wants to do more work? <br>
+                        May we actually find the inverse of each function? <br>
+                        Let us find the inverse of each function. <br><br>
+                        $
+                        f(x) = \sqrt[3]{x + 1} \\[3ex] 
+                        y = \sqrt[3]{x + 1} \\[3ex] 
+                        Interchange\:\: x\:\: and\:\: y \\[3ex]
+                        x = \sqrt[3]{y + 1} \\[3ex] 
+                        Solve\:\: for\:\: y \\[3ex]
+                        \sqrt[3]{y + 1} = x \\[3ex] 
+                        Cube\;\;both\;\;sides \\[3ex] 
+                        y + 1 = x^3 \\[3ex] 
+                        y = x^3 - 1\\[3ex] 
+                        \therefore f^{-1}(x) = x^3 - 1 \\[3ex] 
+                        But: \\[3ex] 
+                        g(x) = x^3 + 1 \\[3ex] 
+                        \implies g(x) \ne f^{-1}(x) \\[3ex] 
+                        $
+                        $\therefore f(x)$ and $g(x)$ are not inverse functions <br><br>
+
+                        $
+                        g(x) = x^3 + 1 \\[3ex] 
+                        y = x^3 + 1 \\[3ex] 
+                        Interchange\:\: x\:\: and\:\: y \\[3ex]
+                        x = y^3 + 1 \\[3ex] 
+                        Solve\:\: for\:\: y \\[3ex]
+                        y^3 + 1 = x \\[3ex] 
+                        y^3 = x - 1 \\[3ex] 
+                        Take\;\;the\;\;cube\;\;root\;\;of\;\;both\;\;sides \\[3ex] 
+                        y = \sqrt[3]{x - 1} \\[3ex] 
+                        \therefore g^{-1}(x) = \sqrt[3]{x - 1} \\[3ex] 
+                        But: \\[3ex] 
+                        f(x) = \sqrt[3]{x + 1} \\[3ex]
+                        \implies f(x) \ne g^{-1}(x) \\[3ex]
+                        $
+                        $\therefore g(x)$ and $f(x)$ are not inverse functions
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (3.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionIF3')">Show/Hide Answer</button>
+                    <div class="result" id="solutionIF3">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (4.) Determine $f^{-1}(x)$ for $f(x) = 7 + 12x$ <br><br>
+                    <button class="solutions" onclick="solutions('solutionIF4')">Show/Hide Answer</button>
+                    <div class="result" id="solutionIF4">
+                        <br>
+                        $
+                        f(x) = 7 + 12x \\[3ex]
+                        y = 7 + 12x \\[3ex]
+                        Interchange\:\: x\:\: and\:\: y \\[3ex]
+                        x = 7 + 12y \\[3ex]
+                        Solve\:\: for\:\: y \\[3ex]
+                        7 + 12y = x \\[3ex]
+                        12y = x - 7 \\[3ex]
+                        y = \dfrac{x - 7}{12} \\[5ex]
+                        \therefore f^{-1}(x) = \dfrac{x - 7}{12} \\[5ex] 
+                        $
+
+                        <b>Test for Inverses</b> <br><br>
+                        $
+                        (f \circ f^{-1})(x) \\[3ex]
+                        = f(f^{-1}(x)) \\[3ex]
+                        = f\left(\dfrac{x - 7}{12}\right) \\[5ex]
+                        But\:\: f(x) = 7 + 12x \\[5ex]
+                        So\:\: f\left(\dfrac{x - 7}{12}\right) = 7 + 12\left(\dfrac{x - 7}{12}\right) \\[5ex]
+                        = 7 + 1(x - 7) \\[3ex] 
+                        = 7 + x - 7 \\[5ex]
+                        = x \\[7ex]
+                        (f^{-1} \circ f)(x) \\[3ex]
+                        = f^{-1}(f(x)) \\[3ex]
+                        = f^{-1}(7 + 12x) \\[3ex]
+                        But\:\: f^{-1}(x) = \dfrac{x - 7}{12} \\[5ex]
+                        So\:\: f^{-1}(7 + 12x) = \dfrac{(7 + 12x) - 7}{12} \\[5ex]
+                        = \dfrac{7 + 12x - 7}{12} \\[5ex]
+                        = \dfrac{12x}{12} \\[5ex]
+                        = x \\[3ex]
+                        (f \circ f^{-1})(x) = (f^{-1} \circ f)(x) = x
+                        $
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (5.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionIF5')">Show/Hide Answer</button>
+                    <div class="result" id="solutionIF5">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (6.) 
+                     <br><br>
+                    <button class="solutions" onclick="solutions('solutionIF6')">Show/Hide Answer</button>
+                    <div class="result" id="solutionIF6">
+                        <br>
+                        
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (7.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionIF7')">Show/Hide Answer</button>
+                    <div class="result" id="solutionIF7">
+                        <br>
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (8.) 
+                     <br><br>
+                    <button class="solutions" onclick="solutions('solutionIF8')">Show/Hide Answer</button>
+                    <div class="result" id="solutionIF8">
+                        <br>
+                        
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+
+        <!-- END PAGE CONTENT -->
+
+        
+        <!-- Footer -->
+        <footer class="olive w3-center w3-padding-24">
+            
+            <div id="google_translate_element"></div>
+            <script>
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-123914705-1'}, 'google_translate_element');
+                }
+            </script>
+            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            
+            <p>&copy; 2018&nbsp; SamDom4Peace Designs.</p>
+        </footer>
+        <!-- End Footer -->
+
+        <script src="scripts/messages8.js"></script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+        <script async
+                src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+    </body>
+</html>
