@@ -2,8 +2,7 @@
     Copyright 2018 - Samuel Dominic Chukwuemeka (Samdom For Peace)
     www.samuelchukwuemeka.com
     www.chukwuemekasamuel.com
-    www.relations-functions.appspot.com
-    www.chukwuemeka-samuel.appspot.com
+    https://samuelchukwuemeka.github.io/relations-functions/   
 */
 
 "use strict";

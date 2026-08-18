@@ -2,10 +2,8 @@
     Copyright 2022 - Samuel Dominic Chukwuemeka (SamDom For Peace)
     www.samuelchukwuemeka.com
     www.chukwuemekasamuel.com
-    www.chukwuemeka-samuel.appspot.com
     www.samdomforpeace.com
-    www.samdomforpeace.appspot.com
-    www.expressions-equations.appspot.com/expressionsandequations.html
+    https://samuelchukwuemeka.github.io/expressions-equations/expressionsandequations.html
     message 12
 */
 

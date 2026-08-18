@@ -2,10 +2,8 @@
     Copyright 2019 - Samuel Dominic Chukwuemeka (Samdom For Peace)
     www.samuelchukwuemeka.com
     www.chukwuemekasamuel.com
-    www.chukwuemeka-samuel.appspot.com
     www.samdomforpeace.com
-    www.relations-functions.appspot.com
-    www.relations-functions.appspot.com/quadraticFunctionsApplications.html
+    https://samuelchukwuemeka.github.io/relations-functions/
     message 8
 */
 

@@ -2,10 +2,8 @@
   Copyright 2019 - Samuel Dominic Chukwuemeka (Samdom For Peace)
   www.samuelchukwuemeka.com
   www.chukwuemekasamuel.com
-  www.samdomforpeace.com
-  www.chukwuemeka-samuel.appspot.com
-  www.samdomforpeace.appspot.com
-  www.expressions-equations.appspot.com/calculators.html
+  www.samdomforpeace.com  
+  https://samuelchukwuemeka.github.io/expressions-equations/calculators.html
 */
 
 //"use strict";

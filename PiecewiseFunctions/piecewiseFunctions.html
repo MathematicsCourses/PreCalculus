@@ -4,1298 +4,1329 @@
 
 <head>
 
+
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDLZMCQQ0V"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FSJYT2TDC"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
-        gtag('config', 'G-EDLZMCQQ0V');
+        gtag('config', 'G-6FSJYT2TDC');
     </script>
 
-    <meta name="msvalidate.01" content="11DD71E2EEC15DEDE0ECE1389CFFD99F">
-    
+
+
     <title>Piecewise Defined Functions</title>
 
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-        
-        <meta name="description" content="Samuel Dominic Chukwuemeka (SamDom For Peace) gives all the credit to our LORD, JESUS CHRIST. We are experts in piecewise defined functions.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <meta name="keywords" content="samuel, dominic, chukwuemeka, samuel dominic chukwuemeka, 
+    <meta name="description"
+        content="Samuel Dominic Chukwuemeka (SamDom For Peace) gives all the credit to our LORD, JESUS CHRIST. We are experts in piecewise defined functions.">
+
+    <meta name="keywords"
+        content="samuel, dominic, chukwuemeka, samuel dominic chukwuemeka, 
               math, mathematics, functions, piecewise functions, piecewise-defined functions, step functions,
               stepwise-defined functions, domain, range, intercepts, x-intercept, y-intercept, graphs, slope,
               greatest integer function, floor function, least integer function, ceiling function, pieces, piecewise function graphs">
 
-        <link href="styles/piecewiseFunctions.css" rel="stylesheet" type="text/css" media="all">
+    <link href="styles/piecewiseFunctions.css" rel="stylesheet" type="text/css" media="all">
 
-        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">       
-    </head>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+</head>
 
-    <body>
-        <!-- Header/Home -->
-        <header class="w3-padding-32 green">
-            <h1>Solved Examples on Piecewise Functions</h1>
-        </header>       
+<body>
+    <!-- Header/Home -->
+    <header class="w3-padding-32 green">
+        <h1>Solved Examples on Piecewise Functions</h1>
+    </header>
 
-        <!-- Page Content -->
-        <div class="w3-row w3-container">
-            
-            <p class="w3-container">
-                <!-- Image in top left corner-->
-                <a href="https://mathematicscourses.github.io/PreCalculus/PiecewiseFunctions/piecewise-functions.html" title="SamDom For Peace">
-                    <img class="image" src="images/samuelchukwuemeka.jpg" alt="Samuel Dominic Chukwuemeka (SamDom For Peace)">
-                </a>
+    <!-- Page Content -->
+    <div class="w3-row w3-container">
 
-                <mark>For ACT Students</mark> <br>
-                The ACT is a timed exam...60 questions for 60 minutes <br>
-                This implies that you have to solve each question in one minute. <br>
-                Some questions will typically take less than a minute a solve. <br>
-                Some questions will typically take more than a minute to solve. <br>
-                The goal is to maximize your time. You use the time saved on the questions you
-                solve in less than a minute, to solve the questions that will take more than a minute. <br>
-                So, you should try to solve each question <u>correctly</u> and <u>timely</u>. <br>
-                So, it is not just solving a question correctly, but solving it <u>correctly on time</u>. <br>
-                Please ensure you attempt <u>all ACT questions</u> <br>
-                There is no <i>negative</i> penalty for a wrong answer. 
-            
+        <p class="w3-container">
+            <!-- Image in top left corner-->
+            <a href="https://mathematicscourses.github.io/PreCalculus/PiecewiseFunctions/piecewise-functions.html"
+                title="SamDom For Peace">
+                <img class="image" src="images/samuelchukwuemeka.jpg"
+                    alt="Samuel Dominic Chukwuemeka (SamDom For Peace)">
+            </a>
+
+            <mark>For ACT Students</mark> <br>
+            The ACT is a timed exam...60 questions for 60 minutes <br>
+            This implies that you have to solve each question in one minute. <br>
+            Some questions will typically take less than a minute a solve. <br>
+            Some questions will typically take more than a minute to solve. <br>
+            The goal is to maximize your time. You use the time saved on the questions you
+            solve in less than a minute, to solve the questions that will take more than a minute. <br>
+            So, you should try to solve each question <u>correctly</u> and <u>timely</u>. <br>
+            So, it is not just solving a question correctly, but solving it <u>correctly on time</u>. <br>
+            Please ensure you attempt <u>all ACT questions</u> <br>
+            There is no <i>negative</i> penalty for a wrong answer.
+
+            <br><br>
+
+            Solve all questions <br>
+            Show all work
+        </p>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (1.) <b>ACT</b> The function $f(x)$ is defined below. What is the value of $f(-1)$? <br><br>
+                $
+                f(x) =
+                \begin{cases}
+                |x| + 1, & \quad \text{if }\: x \: \le -1 \\[3ex]
+                |x| - 2, & \quad \text{if }\: x \gt -1
+                \end{cases} \\[10ex]
+                F.\;\; -3 \\[3ex]
+                G.\;\; -1 \\[3ex]
+                H.\;\; 0 \\[3ex]
+                J.\;\; 1 \\[3ex]
+                K.\;\; 2 \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionPF1')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF1">
+                    <br>
+                    $
+                    x = -1 \\[3ex]
+                    First\:\: piece \\[3ex]
+                    f(x) = |x| + 1 \\[3ex]
+                    f(-1) = |-1| + 1 \\[3ex]
+                    f(-1) = 1 + 1 \\[3ex]
+                    f(-1) = 2
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (2.) For the following function: <br><br>
+                $
+                f(x) =
+                \begin{cases}
+                6x - 5 \hspace{25mm} \text{if} \hspace{5mm} x \lt 3 \\[3ex]
+                x^2 + 1 \hspace{25mm} \text{if} \hspace{5mm} 3 \le x \lt 11 \\[3ex]
+                6 \hspace{40mm} \text{if} \hspace{5mm} x \ge 11
+                \end{cases}
+                $
                 <br><br>
-
-                Solve all questions <br>
-                Show all work
-            </p>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (1.) <b>ACT</b> The function $f(x)$ is defined below. What is the value of $f(-1)$? <br><br>
-                    $
-                    f(x) = 
-                    \begin{cases}
-                    |x| + 1,    &  \quad  \text{if }\: x \: \le -1  \\[3ex]
-                    |x| - 2,     & \quad \text{if }\: x \gt -1
-                    \end{cases} \\[10ex]
-                    F.\;\; -3 \\[3ex]
-                    G.\;\; -1 \\[3ex]
-                    H.\;\; 0 \\[3ex]
-                    J.\;\; 1 \\[3ex]
-                    K.\;\; 2 \\[3ex]
-                    $
-                    <button class="solutions" onclick="solutions('solutionPF1')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF1">
-                        <br>
-                        $
-                        x = -1 \\[3ex]
-                        First\:\: piece \\[3ex]
-                        f(x) = |x| + 1 \\[3ex]
-                        f(-1) = |-1| + 1 \\[3ex]
-                        f(-1) = 1 + 1 \\[3ex]
-                        f(-1) = 2
-                        $
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (2.) For the following function: <br><br>
-                    $
-                    f(x) = 
-                    \begin{cases}
-                    6x - 5    \hspace{25mm} \text{if} \hspace{5mm} x \lt 3  \\[3ex]
-                    x^2 + 1   \hspace{25mm} \text{if} \hspace{5mm} 3 \le x \lt 11 \\[3ex] 
-                    6         \hspace{40mm} \text{if} \hspace{5mm} x \ge 11   
-                    \end{cases} 
-                    $
-                    <br><br>
-                    Which "piece(s)" should be used to find the <i>y</i>-intercept? 
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionPF2')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF2">
-                        <br>
-                        To find the <i>y</i>-intercept, set <i>x</i> to zero <u>and</u> solve for <i>y</i> <br>
-                        <i>x</i> is zero in the domain of the first piece because 0 &lt; 3 <br>
-                        So, only the first piece: 6<i>x</i> &minus; 5 should be used to find the <i>y</i>-intercept.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (3.) <b>ACT</b> The DigiPhone Company advertises the following calling plans: <br><br>
-                    <table>
-                        <tr>
-                            <th class="w3-center">DigiPhone Calling Plans</th>
-                        </tr>
-                        <tr>
-                            <td class="w3-center">
-                                600 minutes* for <span>$89.99**</span> per month <br>
-                                1,000 minutes* for <span>$119.99**</span> per month <br>
-                                1,400 minutes * for <span>$149.99**</span> per month
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="w3-padding">
-                                *The charge for each additional minute is <span>$0.20**</span> <br>
-                                **Taxes are NOT included.
-                            </td>
-                        </tr>
-                    </table> <br>
-                    Luis chose the <span>$149.99</span> plan. <br>
-                    There are certain months when he uses more than 1,400 minutes of calling time. <br>
-                    For a month in which he uses <i>x</i> minutes of calling time, where <i>x</i> is an integer greater than 1,400, which of 
-                    the following expressions gives the amount, in dollars, of his bill before any taxes are added? <br><br>
-                    $
-                    F.\;\; 0.20x \\[3ex]
-                    G.\;\; 149.99 + 0.20x \\[3ex]
-                    H.\;\; 149.99 + 0.20(1,400 - x) \\[3ex]
-                    J.\;\; 149.99 + 0.20(1,400 + x) \\[3ex]
-                    K.\;\; 149.99 + 0.20(x - 1,400) \\[3ex]
-                    $
-                    <button class="solutions" onclick="solutions('solutionPF3')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF3">
-                        <br>
-                        $
-                        Total\;\;time = x\;minutes \\[3ex]
-                        \underline{3rd\;\;Basic\;\;Plan} \\[3ex]
-                        charge = \$149.99 \\[3ex]
-                        time = 1400\;minutes \\[3ex]
-                        \underline{Extra} \\[3ex]
-                        charge\;\;per\;\;minute = \$0.20 \\[3ex] 
-                        time = x - 1400\;minutes \\[3ex] 
-                        charge = 0.20(x - 1400) \\[3ex]
-                        \underline{Total\;\;charge\;\;before\;\;taxes} \\[3ex]
-                        Total\;\;charge = Basic\;\;charge + Extra\;\;charge \\[3ex]
-                        = 149.99 + 0.20(x - 1400)
-                        $
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (4.) <b>ACT</b> Given the function below, what is f(4)? <br><br>
-                    $
-                    f(x) = 
-                    \begin{cases}
-                    2x + 1;    &  \quad  \;x\: \lt 4  \\[3ex]
-                    -\dfrac{1}{2}x - 3;    & \quad \;x\: \ge 4 
-                    \end{cases} \\[10ex]
-                    F.\;\; -5 \\[3ex] 
-                    G.\;\; \dfrac{1}{2} \\[5ex] 
-                    H.\;\; 4 \\[3ex] 
-                    J.\;\; 9 \\[3ex] 
-                    K.\;\; 14 \\[3ex] 
-                    $
-                    <button class="solutions" onclick="solutions('solutionPF4')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF4">
-                        <br>
-                        $
-                        4\;\;falls\;\;in\;\;the\;\;second\;\;piece \\[3ex] 
-                        f(x) = -\dfrac{1}{2}x - 3 \\[5ex] 
-                        f(4) = -\dfrac{1}{2}(4) - 3 \\[5ex] 
-                        f(4) = -1(2) - 3 \\[3ex] 
-                        f(4) = -2 - 3 \\[3ex] 
-                        f(4) = -5 
-                        $
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (5.) <b>ACT</b> The table below shows an electric utility company's old and new rates. <br>
-                    In the table, $kWh$ stands for kilowatt-hour, a standard unit for measuring electrical energy. <br><br>
-                    <table class="w3-center">
-                        <tr>
-                            <td colspan="3">Reunion Electric Association Rates</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Old rate</td>
-                            <td>New rate</td>
-                        </tr>
-                        <tr>
-                            <td>Monthly service charge</td>
-                            <td>$\$7.00$</td>
-                            <td>$\$11.00$</td>
-                        </tr>
-                        <tr>
-                            <td>Energy-use charge</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>first $1,500$ kWh</td>
-                            <td>$6.6¢/kWh$</td>
-                            <td>$6.7¢/kWh$</td>
-                        </tr>
-                        <tr>
-                            <td>$kWh$ over $1,500$</td>
-                            <td>$6.2¢/kWh$</td>
-                            <td>$6.2¢/kWh$</td>
-                        </tr>
-                    </table>
+                Which "piece(s)" should be used to find the <i>y</i>-intercept?
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionPF2')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF2">
                     <br>
-                    LaTasha is a computer programmer for the electric company. She updated the program for calculating 
-                    customers' monthly bills. Which of the following is an expression that uses the new rates to calculate the 
-                    bill, in dollars, of a customer who uses $x\: kWh$ of electricity during the month, where $x \gt 1,500$? <br><br>
-                    $
-                    F.\:\: 7 + 0.062(1,500) + 0.067(x - 1,500) \\[3ex]
-                    G.\:\: 7 + 0.066(1,500) + 0.062(x - 1,500) \\[3ex]
-                    H.\:\: 11 + 0.062x \\[3ex]
-                    J.\:\: 11 + 0.062(1,500) + 0.067(x - 1,500) \\[3ex]
-                    K.\:\: 11 + 0.067(1,500) + 0.062(x - 1,500) \\[3ex] 
-                    $
-                    <button class="solutions" onclick="solutions('solutionPF5')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF5">
-                        <br>
-                        $
-                        x \gt 1500 \\[3ex]
-                        \underline{New\:\: rate} \\[3ex]
-                        Monthly\:\: service\:\: charge = 11.00 \\[3ex]
-                        First\:\: 1500 \\[3ex]
-                        6.7¢/kWh = \$0.067/kWh \\[3ex]
-                        Energy-use\:\: charge = 1500 @ 6.7¢/kWh = 1500(0.067) \\[3ex]
-                        Over\:\: 1,500 \\[3ex]
-                        Remaining:\:\: (x - 1500) \\[3ex]
-                        6.2¢/kWh = \$0.062/kWh \\[3ex]
-                        Energy-use\:\: charge = (x - 1500) @ 6.2¢/kWh = (x - 1500)(0.062) \\[3ex]
-                        Total\:\: charge = 11 + 1500(0.067) + (x - 1500)(0.062) \\[3ex]
-                        Total\:\: charge = 11 + 0.067(1500) + 0.062(x - 1500) \\[3ex]
-                        $
-                        Please stop here because the ACT is a timed exam. The answer is Option $K$ <br>
-                        But, I want to simplify completely. <br><br>
-                        $
-                        Total\:\: charge = 11 + 100.5 + 0.062x - 93 \\[3ex]
-                        Total\:\: charge = 0.062x + 18.5
-                        $
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (6.) <b>ACT</b> The cheerleading squad wants to purchase new uniforms to wear at the regional championship competition. <br>
-                    They decide to sell candy bars for the <span>$1.00</span> each <br>
-                    The squad will receive <span>$0.40</span> for each of the first 200 candy bars sold. <br>
-                    For each of the next 300 sold, the squad will receive <span>$0.50</span> <br>
-                    For each additional candy bar sold, the squad will receive <span>$0.60</span> <br>
-                    How many candy bars must the squad sell to reach their goal of rasing <span>$350.00</span>? <br><br>
-                    $
-                    F.\;\; 350 \\[3ex]
-                    G.\;\; 584 \\[3ex]
-                    H.\;\; 667 \\[3ex]
-                    J.\;\; 700 \\[3ex]
-                    K.\;\; 875 \\[3ex]
-                    $
-                    <button class="solutions" onclick="solutions('solutionPF6')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF6">
-                        <br>
-                        $
-                        \underline{First\;\;Piece} \\[3ex]
-                        Maximum\;\;amount = 0.4(200) = 80 \\[3ex]
-                        \underline{Second\;\;Piece} \\[3ex]
-                        Maximum\;\;amount = 0.5(300) = 150 \\[3ex]
-                        \$80 + \$150 = \$230 \\[3ex]
-                        230 \lt 350 \\[3ex] 
-                        So,;\;move\;\;to\;\;the\;\;third\;\;piece \\[3ex]
-                        \underline{Third\;\;Piece} \\[3ex]
-                        Let\;\;x = number\;\;of\;\;candy\;\;bars \\[3ex]
-                        \implies \\[3ex]
-                        230 + 0.6(x - 500) = 350 \\[3ex]
-                        230 + 0.6x - 300 = 350 \\[3ex]
-                        0.6x - 70 = 350 \\[3ex] 
-                        0.6x = 350 + 70 \\[3ex]
-                        0.6x = 420 \\[3ex]
-                        x = \dfrac{420}{0.6} \\[5ex] 
-                        x = 700 \\[3ex] 
-                        $
-                        The squad must sell 700 candy bars to reach their goal of raising <span>$350.00</span> <br><br>
-                        $
-                        \underline{Check} \\[3ex]
-                        \underline{Third\;\;Piece} \\[3ex]
-                        Maximum\;\;amount = 0.6(700 - 500) = 0.6(200) = 120 \\[3ex]
-                        \underline{All\;\;Pieces} \\[3ex] 
-                        Maximum\;\;amount = 230 + 120 = \$350
-                        $
-                    </div>
+                    To find the <i>y</i>-intercept, set <i>x</i> to zero <u>and</u> solve for <i>y</i> <br>
+                    <i>x</i> is zero in the domain of the first piece because 0 &lt; 3 <br>
+                    So, only the first piece: 6<i>x</i> &minus; 5 should be used to find the <i>y</i>-intercept.
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (7.) In March 2014, a gas company had the rate schedule shown below for natural gas usage in single-family residences. <br>
-                    <b>Monthly service charge &ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <span>$21.45</span></b> <br>
-                    Delivery charge <br>
-                    &ensp;&ensp; First 40 therms     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <span>$0.94317/therm</span> <br>   
-                    &ensp;&ensp; Over 40 therms     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <span>$0</span> <br>
-                    Natural gas cost <br>
-                    &ensp;&ensp; First 40 therms &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <span>$0.3709/therm</span> <br>
-                    &ensp;&ensp; Over 40 therms &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <span>$0.5138/therm</span> <br><br>
-                    (a.) What is the charge for using 30 therms in a month? <br>
-                    (b.) What is the charge for using 200 therms in a month? <br>
-                    (c.) Develop a function that models the monthly charge <i>C</i> for <i>x</i> therms of gas.
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionPF7')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF7">
-                        <br>
-                        (a.) <br>
-                        Delivery charge: 30 therms falls in the 1st piece <br>
-                        Natural gas cost: 30 therms falls in the 1st piece <br><br> 
-                        $
-                        Monthly\;\;service\;\;charge = \$21.45 \\[3ex]
-                        Delivery\;\;charge: = 0.94317(30) = \$28.2951 \\[3ex]
-                        Natural\;\;gas\;\;cost: = 0.3709(30) = \$11.127 \\[3ex]
-                        C(x) = 21.45 + 28.2951 + 11.127 = 60.8721 \\[3ex]
-                        C(x) \approx \$60.87 \\[3ex]
-                        $
-                        (b.) <br>
-                        Delivery charge <u>and</u> Natural gas cost: 200 therms falls in the 2nd piece <br>
-                        However: <br>
-                        But, 40 therms from it goes to the 1st piece (maximum limit for the 1st piece) <br>
-                        Remaining 160 (200 &minus; 40) therms goes to the 2nd piece <br><br>
-                        $
-                        Monthly\;\;service\;\;charge = \$21.45 \\[3ex]
-                        Delivery\;\;charge: = 0.94317(40) + 0(160) = 37.7268 + 0 = \$37.7268 \\[3ex]
-                        Natural\;\;gas\;\;cost: = 0.3709(40) + 0.5138(160) = 14.836 + 82.208 = \$97.044 \\[3ex]
-                        C(x) = 21.45 + 37.7268 + 97.044 = 156.2208 \\[3ex]
-                        C(x) \approx \$156.22 \\[3ex]
-                        $
-                        (c.) The monthly cost (monthly service charge and delivery charge and natural gas cost): <i>C</i> depends on the amount of natural gas used: <i>x</i> <br>
-                        The monthly cost is the dependent variable <br>
-                        The natural gas usage is the independent variable <br>
-                        We write that: <i>C</i> = f(<i>x</i>) or preferably as: <i>C</i>(<i>x</i>) <br><br>
-                        To write the piecewise function, begin with the domains <br>
-                        The domain for the first piece should be natural gas usage from 0 to 40 therms: 0 &le; <i>x</i> &le; 40 <br>
-                        The domain for the second piece should be any natural gas usage over 40: <i>x</i> &ge; 40 <br><br>
-                        Next: we write the function for each piece. <br>
-                        First Piece: In the first example, replace 30 with <i>x</i> <br> 
-                        Second Piece: In the second example, replace 160 (200 &minus; 40) with <i>x</i> &minus; 40 <br><br>
-                        $
-                        First\;\;Piece \\[3ex]
-                        C(x) = 21.45 + 0.94317(x) + 0.3709(x) \\[3ex]
-                        C(x) = 21.45 + 1.31407x \\[3ex]
-                        Second\;\;Piece \\[3ex]
-                        C(x) = 21.45 + 0.94317(40) + 0(x - 40) + 0.3709(40) + 0.5138(x - 40) \\[3ex]
-                        C(x) = 21.45 + 37.7268 + 0 + 14.836 + 0.5138x - 20.552 \\[3ex]
-                        C(x) = 53.4608 + 0.5138x \\[3ex]
-                        $
-                        The Piecewise Function is: <br><br>
-                        $
-                        C(x) =
-                        \begin{cases}
-                        21.45 + 1.31407x; \hspace{3em} 0 \le x \le 40 \\[3ex]
-                        53.4608 + 0.5138x; \hspace{2.5em} x \gt 40
-                        \end{cases}
-                        $
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (8.) <b>ACT</b> A function <i>P</i> is defined as follows: <br>
-                    &ensp;&ensp;&ensp;&ensp;&ensp; for $x \gt 0$, $P(x) = x^5 + x^4 - 36x - 36$ <br>
-                    &ensp;&ensp;&ensp;&ensp;&ensp; for $x \lt 0$, $P(x) = -x^5 + x^4 + 36x - 36$ <br>
-                    What is the value of $P(-1)$? <br><br>
-                    $
-                    A.\;\; -70 \\[3ex]
-                    B.\;\; -36 \\[3ex]
-                    C.\;\; 0 \\[3ex]
-                    D.\;\; 36 \\[3ex]
-                    E.\;\; 70 \\[3ex]
-                    $
-                    <button class="solutions" onclick="solutions('solutionPF8')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF8">
-                        <br>
-                        $
-                        -1 \lt 0 ...2nd\;\;Piece \\[3ex]
-                        P(x) = -x^5 + x^4 + 36x - 36 \\[3ex]
-                        P(-1) = -(-1)^5 + (-1)^4 + 36(-1) - 36 \\[3ex]
-                        P(-1) = -(-1) + 1 - 36 - 36 \\[3ex]
-                        P(-1) = 1 + 1 - 36 - 36 \\[3ex]
-                        P(-1) = -70
-                        $
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (9.) A trucking company transports goods between two cities that are 960 miles apart. <br>
-                    The company charges, for each pound, <span>$0.55</span> per mile for the first 100 miles, 
-                    <span>$0.40</span> per mile for the next 300 miles, <span>$0.30</span> per mile for the next 400 miles, and no charge for the remaining 160 miles. <br>
-                    Develop the piecewise function for the mileage costs. 
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionPF9')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF9">
-                        <br>
-                        Let: <br>
-                        <i>m</i> = the mileage (number of miles) <br>
-                        <i>C</i>(<i>m</i>) = cost per mile (mileage rate) <br><br>
-                        $
-                        \underline{1st\;\;Piece} \\[3ex]
-                        Domain:\;\; 0 \lt m \le 100 \\[3ex]
-                        Function:\;\; C(m) = 0.55m \\[5ex]
-                        \underline{2nd\;\;Piece} \\[3ex]
-                        Domain:\;\; 100 \lt m \le 400 \\[3ex]
-                        Function:\;\; C(m) = 0.55(100) + 0.4(m - 100) \\[3ex]
-                        C(m) = 55 + 0.4m - 40 \\[3ex]
-                        C(m) = 0.4m + 15 \\[5ex]
-                        \underline{3rd\;\;Piece} \\[3ex]
-                        Domain:\;\; 400 \lt m \le 800 \\[3ex]
-                        Function:\;\; C(m) = 0.55(100) + 0.4(300) + 0.3(m - 400) \\[3ex]
-                        C(m) = 55 + 120 + 0.3m - 120 \\[3ex]
-                        C(m) = 0.3m + 55 \\[5ex]
-                        \underline{4th\;\;Piece} \\[3ex]
-                        Domain:\;\; 800 \lt m \le 960 \\[3ex]
-                        Function:\;\; C(m) = 0.55(100) + 0.4(300) + 0.3(400) + 0(m - 800) \\[3ex]
-                        C(m) = 55 + 120 + 120 + 0 \\[3ex]
-                        C(m) =\$295 \\[5ex]
-                        $
-                        The Piecewise Function is: <br><br>
-                        $
-                        C(m) =
-                        \begin{cases}
-                        0.55m; \hspace{4.5em} 0 \lt m \le 100 \\[3ex]
-                        0.4m + 15; \hspace{2.5em} 100 \lt m \le 400 \\[3ex] 
-                        0.3m + 55; \hspace{2.5em} 400 \lt m \le 800 \\[3ex] 
-                        295; \hspace{5.5em} 800 \lt m \le 960 
-                        \end{cases}
-                        $
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (10.) If f(<i>x</i>) is defined as follows, find: <br>
-                    (a.) f(&minus;4) <br>
-                    (b.) f(0) <br>
-                    (c.) f(4) <br><br>
-                    $
-                    f(x) = 
-                    \begin{cases}
-                    x^2    \hspace{26mm} \text{if} \hspace{5mm} x \lt 0  \\[3ex]
-                    -2    \hspace{25mm} \text{if} \hspace{5mm} x = 0  \\[3ex]
-                    3x + 4 \hspace{15mm} \text{if} \hspace{5mm} x \gt 0  
-                    \end{cases} 
-                    $
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionPF10')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF10">
-                        <br>
-                        &minus;4 lies in the domain for the first piece <br>
-                        0 is in the domain of the second piece <br>
-                        4 is in the domain of the third piece <br><br>
-                        $
-                        (a.) \\[3ex]
-                        f(x) = x^2 \\[3ex]
-                        f(-4) = (-4)^2 \\[3ex]
-                        f(-4) = 16 \\[3ex]
-                        (b.) \\[3ex]
-                        f(x) = -2 \\[3ex]
-                        f(0) = -2 \\[3ex]
-                        (c.) \\[3ex]
-                        f(x) = 3x + 4 \\[3ex] 
-                        f(4) = 3(4) + 4 \\[3ex]
-                        f(4) = 12 + 4 \\[3ex] 
-                        f(4) = 16
-                        $
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (11.) The wind chill factor on a certain planet is given by the following​ formula, where <i>v</i> is the wind speed​ (in meters per​ second) and <i>t</i> is the air temperature (&deg;C) <br><br>
-                    $
-                    W = 
-                    \begin{cases}
-                    t;  \hspace{15.5em}  0 \le v \lt 1.78  \\[3ex]
-                    33 - \dfrac{(10.43 + 10\sqrt{v} - v)(33 - t)}{22.04};  \hspace{10mm} 1.78 \le v \le 25 \\[5ex] 
-                    33 - 1.5957(33 - t) \hspace{7.8em} v \gt 25 
-                    \end{cases} 
-                    $
-                    <br><br>
-                    (a.) Find the wind chill for an air temperature of 5&deg;C and a wind speed of 0.5 m/sec. <br>
-                    Round to the nearest degree as needed. <br><br>
-                    (b.) Find the wind chill for an air temperature of 5&deg;C and a wind speed of 19 m/sec. <br>
-                    Round to the nearest degree as needed. <br><br>
-                    (c.) Find the wind chill for an air temperature of 5&deg;C and a wind speed of 32 m/sec. <br>
-                    Round to the nearest degree as needed. 
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionPF11')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF11">
-                        <br>
-                        (a.) <i>t</i> = 5&deg;C <br>
-                        <i>v</i> = 0.5 m/sec <br>
-                        0.5 &lt; 0.78 <br>
-                        Therefore, the domain falls in the first piece <br>
-                        <i>W</i> = <i>t</i> = 5&deg;C  
-                        <br><br>
-                        (b.) <i>t</i> = 5&deg;C <br>
-                        <i>v</i> = 19 m/sec <br>
-                        1.78 &le; 19 &le; 25 <br>
-                        Therefore, the domain falls in the second piece <br><br>
-                        $
-                        W = 33 - \dfrac{(10.43 + 10\sqrt{v} - v)(33 - t)}{22.04} \\[5ex]
-                        = 33 - \dfrac{(10.43 + 10\sqrt{19} - 19)(33 - 5)}{22.04} \\[5ex]
-                        = 33 - \dfrac{(10.43 + 10(4.358898944) - 19)(33 - 5)}{22.04} \\[5ex]
-                        = 33 - \dfrac{(10.43 + 43.58898944 - 19)(28)}{22.04} \\[5ex]
-                        = 33 - \dfrac{(10.43 + 43.58898944 - 19)(28)}{22.04} \\[5ex]
-                        = 33 - \dfrac{28(35.01898944)}{22.04} \\[5ex]
-                        = 33 - \dfrac{980.5317042}{22.04} \\[5ex]
-                        = 33 - 44.48873431 \\[3ex]
-                        = -11.48873431 \\[3ex]
-                        \approx -11^\circ \\[3ex]
-                        $
-                        (c.) <i>t</i> = 5&deg;C <br>
-                        <i>v</i> = 32 m/sec <br>
-                        32 &gt; 25 <br>
-                        Therefore, the domain falls in the third piece <br><br>
-                        $
-                        W = 33 - 1.5957(33 - t) \\[3ex]
-                        W = 33 - 1.5957(33 - 5) \\[3ex]
-                        = 33 - 1.5957(28) \\[3ex]
-                        = 33 - 44.6796 \\[3ex] 
-                        = -11.6796 \\[3ex]
-                        \approx -12^\circ 
-                        $
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (12.) If f(<i>x</i>) is defined as follows, find: <br>
-                    (a.) f(0) <br>
-                    (b.) f(1) <br>
-                    (c.) f(5) <br>
-                    (d.) f(6) <br><br>
-                    $
-                    f(x) = 
-                    \begin{cases}
-                    3x - 5    \hspace{25mm} \text{if} \hspace{5mm} -3 \le x \le 5  \\[3ex]
-                    x^3 - 5   \hspace{25mm} \text{if} \hspace{5mm} 5 \lt x \le 6   
-                    \end{cases} 
-                    $
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionPF12')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF12">
-                        <br>
-                        0 lies in the domain for the first piece <br>
-                        1 lies in the domain for the first piece <br>
-                        5 lies in the domain for the first piece <br>
-                        6 lies in the domain for the second piece <br><br>
-                        $
-                        (a.) \\[3ex]
-                        f(x) = 3x - 5 \\[3ex]
-                        f(0) = 3(0) - 5 \\[3ex]
-                        f(0) = 0 - 5 \\[3ex]
-                        f(0) = -5 \\[3ex]
-                        (b.) \\[3ex]
-                        f(1) = 3(1) - 5 \\[3ex]
-                        f(1) = 3 - 5 \\[3ex]
-                        f(1) = -2 \\[3ex]
-                        (c.) \\[3ex]
-                        f(5) = 3(5) - 5 \\[3ex]
-                        f(5) = 15 - 5 \\[3ex]
-                        f(5) = 10 \\[3ex]
-                        (d.) \\[3ex]
-                        f(x) = x^3 - 5 \\[3ex]
-                        f(6) = 6^3 - 5 \\[3ex]
-                        f(6) = 216 - 5 \\[3ex]
-                        f(6) = 211
-                        $
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (13.) Find the sum function: (<i>f</i> + <i>g</i>)(<i>x</i>) if <br><br>
-                    $
-                    f(x) = 
-                    \begin{cases}
-                    3x + 7    \hspace{18mm} \text{if} \hspace{5mm} x \lt 1 \\[3ex]
-                    x^2 + 3x   \hspace{15mm} \text{if} \hspace{5mm} x \ge 1   
-                    \end{cases}  \\[5ex]
-                    $ 
-                    and <br><br>
-                    $
-                    f(x) = 
-                    \begin{cases}
-                    -5x + 1    \hspace{12mm} \text{if} \hspace{5mm} x \le 0  \\[3ex]
-                    x - 8   \hspace{20mm} \text{if} \hspace{5mm} x \gt 0   
-                    \end{cases} \\[5ex]
-                    $
-                    <button class="solutions" onclick="solutions('solutionPF13')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF13">
-                        <br>
-                        <u>1st Step</u> <br>
-                        Compare domains: domain of 1st piece of $f(x)$ and domain of 1st piece of $g(x)$ <br>
-                        <i>x</i> &lt; 1 and <i>x</i> &le; 0 <br>
-                        <i>x</i> &le; 0 also includes <i>x</i> &lt; 1 <br>
-                        &therefore; <i>x</i> &le; 0 becomes the first domain of the sum function <br><br>
-                        <u>2nd Step</u> <br>
-                        Determine the sum function for the first domain (1st piece) <br>
-                        $
-                        (f + g)(x) \\[3ex]
-                        = f(x) + g(x) \\[3ex]
-                        = (3x + 7) + (-5x + 1) \\[3ex]
-                        = 3x + 7 - 5x + 1 \\[3ex]
-                        = -2x + 8 \\[3ex]
-                        $
-                        <u>3rd Step</u> <br>
-                        Compare domains: domain of 1st piece of $f(x)$ and domain of 2nd piece of $g(x)$ <br>
-                        <i>x</i> &lt; 1 and <i>x</i> &gt; 0 <br>
-                        &Implies; <i>x</i> &lt; 1 and 0 &lt; <i>x</i> <br>
-                        &Implies; 0 &lt; <i>x</i> &lt; 1 <br>
-                        This becomes the second domain of the sum function <br><br>
-                        <u>4th Step</u> <br>
-                        Determine the sum function for the second domain (2nd piece) <br>
-                        $
-                        (f + g)(x) \\[3ex]
-                        = f(x) + g(x) \\[3ex]
-                        = (3x + 7) + (x - 8) \\[3ex]
-                        = 3x + 7 + x - 8 \\[3ex]
-                        = 4x - 1 \\[3ex]
-                        $
-                        <u>5th Step</u> <br>
-                        Compare domains: domain of 2nd piece of $f(x)$ and domain of 2nd piece of $g(x)$ <br>
-                        <i>x</i> &ge; 1 and <i>x</i> &gt; 0 <br>
-                        <i>x</i> &ge; 1 also includes <i>x</i> &gt; 0 <br>
-                        &therefore; <i>x</i> &ge; 1 becomes the third domain of the sum function <br><br>
-                        <u>6th Step</u> <br>
-                        Determine the sum function for the third domain (3rd piece) <br>
-                        $
-                        (f + g)(x) \\[3ex]
-                        = f(x) + g(x) \\[3ex]
-                        = (x^2 + 3x) + (x - 8) \\[3ex]
-                        = x^2 + 3x + x - 8 \\[3ex]
-                        = x^2 + 4x - 8 \\[3ex]
-                        $
-                        The Piecewise Function of the Sum Function is: <br><br>
-                        $
-                        (f + g)(x) =
-                        \begin{cases}
-                        -2x + 8; \hspace{3.7em} x \le 0 \\[3ex]
-                        4x - 1; \hspace{4.3em} 0 \lt x \lt 1 \\[3ex]
-                        x^2 + 4x - 8; \hspace{2em} x \ge 1 
-                        \end{cases}
-                        $
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (14.) If f(<i>x</i>) = int(2<i>x</i>), find: <br>
-                    (a.) f(3.3) <br>
-                    (b.) f(&minus;2.6) <br>
-                    (c.) f(3.9) <br>
-                    (int <i>x</i> is the <a href="https://mathematicscourses.github.io/PreCalculus/PiecewiseFunctions/piecewise-functions.html#greatestIntegerFunction" target="_blank">greatest integer function</a>)
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionPF14')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF14">
-                        <br>
-                        $
-                        f(x) = int(2x) \\[3ex]
-                        (a.) \\[3ex]
-                        f(3.3) = int[2(3.3)] \\[3ex]
-                        = int(6.6) \\[3ex]
-                        = 6 \\[3ex]
-                        (b.) \\[3ex]
-                        f(-2.6) = int[2(-2.6)] \\[3ex]
-                        = int(-5.2) \\[3ex]
-                        = -6 \\[3ex] 
-                        (c.) \\[3ex]
-                        f(3.9) = int[2(3.9)] \\[3ex]
-                        = int(7.8) \\[3ex]
-                        = 7 
-                        $
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (15.) A tax rate schedule is given in the table. <br>
-                    If <i>x</i> equals taxable income and <i>y</i> equals the tax​ due, construct a function <i>y</i> = f(<i>x</i>) for the tax schedule.
-                    <br><br>
-                    <table class="w3-center">
-                        <tr>
-                            <th style="width: 20%;">If taxable income is over</th>
-                            <th style="width: 20%;">But not over</th>
-                            <th style="width: 20%;">The tax is this amount</th>
-                            <th style="width: 10%;"></th>
-                            <th style="width: 10%;">Plus this %</th>
-                            <th style="width: 20%;">Of the excess over</th>
-                        </tr>
-                        <tr>
-                            <td>0</td>
-                            <td>7,550</td>
-                            <td>0.00</td>
-                            <td>+</td>
-                            <td>11%</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <td>7,550</td>
-                            <td>30,700</td>
-                            <td>830.50</td>
-                            <td>+</td>
-                            <td>16%</td>
-                            <td>7,550</td>
-                        </tr>
-                        <tr>
-                            <td>30,700</td>
-                            <td>74,300</td>
-                            <td>4,534.50</td>
-                            <td>+</td>
-                            <td>24%</td>
-                            <td>30,700</td>
-                        </tr>
-                        <tr>
-                            <td>74,300</td>
-                            <td></td>
-                            <td>14,998.50</td>
-                            <td>+</td>
-                            <td>33%</td>
-                            <td>74,300</td>
-                        </tr>
-                    </table>
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (3.) <b>ACT</b> The DigiPhone Company advertises the following calling plans: <br><br>
+                <table>
+                    <tr>
+                        <th class="w3-center">DigiPhone Calling Plans</th>
+                    </tr>
+                    <tr>
+                        <td class="w3-center">
+                            600 minutes* for <span>$89.99**</span> per month <br>
+                            1,000 minutes* for <span>$119.99**</span> per month <br>
+                            1,400 minutes * for <span>$149.99**</span> per month
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="w3-padding">
+                            *The charge for each additional minute is <span>$0.20**</span> <br>
+                            **Taxes are NOT included.
+                        </td>
+                    </tr>
+                </table> <br>
+                Luis chose the <span>$149.99</span> plan. <br>
+                There are certain months when he uses more than 1,400 minutes of calling time. <br>
+                For a month in which he uses <i>x</i> minutes of calling time, where <i>x</i> is an integer greater than
+                1,400, which of
+                the following expressions gives the amount, in dollars, of his bill before any taxes are added? <br><br>
+                $
+                F.\;\; 0.20x \\[3ex]
+                G.\;\; 149.99 + 0.20x \\[3ex]
+                H.\;\; 149.99 + 0.20(1,400 - x) \\[3ex]
+                J.\;\; 149.99 + 0.20(1,400 + x) \\[3ex]
+                K.\;\; 149.99 + 0.20(x - 1,400) \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionPF3')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF3">
                     <br>
-                    <button class="solutions" onclick="solutions('solutionPF15')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF15">
-                        <br>
-                        $
-                        11\% = \dfrac{11}{100} = 0.11 \\[5ex]
-                        16\% = \dfrac{16}{100} = 0.16 \\[5ex]
-                        24\% = \dfrac{24}{100} = 0.24 \\[5ex]
-                        33\% = \dfrac{33}{100} = 0.33 \\[5ex]
-
-                        f(x) = 
-                        \begin{cases}
-                        0.11x    \hspace{82mm} \text{if} \hspace{5mm} 0 \lt x \le 7,550  \\[3ex]
-                        830.5 + 0.16(x - 7550) \hspace{31mm} \text{if} \hspace{5mm} 7,500 \lt x \le 30,700 \\[3ex]   
-                        4534.5 + 0.24(x - 30700) \hspace{24mm} \text{if} \hspace{5mm} 30,700 \lt x \le 74,300 \\[3ex]
-                        14,998.5 + 0.33(x - 74300) \hspace{18mm} \text{if} \hspace{5mm} x \gt 74,300
-                        \end{cases} 
-                        $
-                    </div>
+                    $
+                    Total\;\;time = x\;minutes \\[3ex]
+                    \underline{3rd\;\;Basic\;\;Plan} \\[3ex]
+                    charge = \$149.99 \\[3ex]
+                    time = 1400\;minutes \\[3ex]
+                    \underline{Extra} \\[3ex]
+                    charge\;\;per\;\;minute = \$0.20 \\[3ex]
+                    time = x - 1400\;minutes \\[3ex]
+                    charge = 0.20(x - 1400) \\[3ex]
+                    \underline{Total\;\;charge\;\;before\;\;taxes} \\[3ex]
+                    Total\;\;charge = Basic\;\;charge + Extra\;\;charge \\[3ex]
+                    = 149.99 + 0.20(x - 1400)
+                    $
                 </div>
             </div>
+        </div>
 
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (16.) <b>ACT</b> In the standard $(x, y)$ coordinate plane, what is the <i>y-</i>intercept of the graph of the function
-                    <i>y</i> &equals; <i>f(x)</i> defined below? <br><br>
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (4.) <b>ACT</b> Given the function below, what is f(4)? <br><br>
+                $
+                f(x) =
+                \begin{cases}
+                2x + 1; & \quad \;x\: \lt 4 \\[3ex]
+                -\dfrac{1}{2}x - 3; & \quad \;x\: \ge 4
+                \end{cases} \\[10ex]
+                F.\;\; -5 \\[3ex]
+                G.\;\; \dfrac{1}{2} \\[5ex]
+                H.\;\; 4 \\[3ex]
+                J.\;\; 9 \\[3ex]
+                K.\;\; 14 \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionPF4')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF4">
+                    <br>
                     $
-                    f(x) = 
+                    4\;\;falls\;\;in\;\;the\;\;second\;\;piece \\[3ex]
+                    f(x) = -\dfrac{1}{2}x - 3 \\[5ex]
+                    f(4) = -\dfrac{1}{2}(4) - 3 \\[5ex]
+                    f(4) = -1(2) - 3 \\[3ex]
+                    f(4) = -2 - 3 \\[3ex]
+                    f(4) = -5
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (5.) <b>ACT</b> The table below shows an electric utility company's old and new rates. <br>
+                In the table, $kWh$ stands for kilowatt-hour, a standard unit for measuring electrical energy. <br><br>
+                <table class="w3-center">
+                    <tr>
+                        <td colspan="3">Reunion Electric Association Rates</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Old rate</td>
+                        <td>New rate</td>
+                    </tr>
+                    <tr>
+                        <td>Monthly service charge</td>
+                        <td>$\$7.00$</td>
+                        <td>$\$11.00$</td>
+                    </tr>
+                    <tr>
+                        <td>Energy-use charge</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>first $1,500$ kWh</td>
+                        <td>$6.6¢/kWh$</td>
+                        <td>$6.7¢/kWh$</td>
+                    </tr>
+                    <tr>
+                        <td>$kWh$ over $1,500$</td>
+                        <td>$6.2¢/kWh$</td>
+                        <td>$6.2¢/kWh$</td>
+                    </tr>
+                </table>
+                <br>
+                LaTasha is a computer programmer for the electric company. She updated the program for calculating
+                customers' monthly bills. Which of the following is an expression that uses the new rates to calculate
+                the
+                bill, in dollars, of a customer who uses $x\: kWh$ of electricity during the month, where $x \gt 1,500$?
+                <br><br>
+                $
+                F.\:\: 7 + 0.062(1,500) + 0.067(x - 1,500) \\[3ex]
+                G.\:\: 7 + 0.066(1,500) + 0.062(x - 1,500) \\[3ex]
+                H.\:\: 11 + 0.062x \\[3ex]
+                J.\:\: 11 + 0.062(1,500) + 0.067(x - 1,500) \\[3ex]
+                K.\:\: 11 + 0.067(1,500) + 0.062(x - 1,500) \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionPF5')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF5">
+                    <br>
+                    $
+                    x \gt 1500 \\[3ex]
+                    \underline{New\:\: rate} \\[3ex]
+                    Monthly\:\: service\:\: charge = 11.00 \\[3ex]
+                    First\:\: 1500 \\[3ex]
+                    6.7¢/kWh = \$0.067/kWh \\[3ex]
+                    Energy-use\:\: charge = 1500 @ 6.7¢/kWh = 1500(0.067) \\[3ex]
+                    Over\:\: 1,500 \\[3ex]
+                    Remaining:\:\: (x - 1500) \\[3ex]
+                    6.2¢/kWh = \$0.062/kWh \\[3ex]
+                    Energy-use\:\: charge = (x - 1500) @ 6.2¢/kWh = (x - 1500)(0.062) \\[3ex]
+                    Total\:\: charge = 11 + 1500(0.067) + (x - 1500)(0.062) \\[3ex]
+                    Total\:\: charge = 11 + 0.067(1500) + 0.062(x - 1500) \\[3ex]
+                    $
+                    Please stop here because the ACT is a timed exam. The answer is Option $K$ <br>
+                    But, I want to simplify completely. <br><br>
+                    $
+                    Total\:\: charge = 11 + 100.5 + 0.062x - 93 \\[3ex]
+                    Total\:\: charge = 0.062x + 18.5
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (6.) <b>ACT</b> The cheerleading squad wants to purchase new uniforms to wear at the regional
+                championship competition. <br>
+                They decide to sell candy bars for the <span>$1.00</span> each <br>
+                The squad will receive <span>$0.40</span> for each of the first 200 candy bars sold. <br>
+                For each of the next 300 sold, the squad will receive <span>$0.50</span> <br>
+                For each additional candy bar sold, the squad will receive <span>$0.60</span> <br>
+                How many candy bars must the squad sell to reach their goal of rasing <span>$350.00</span>? <br><br>
+                $
+                F.\;\; 350 \\[3ex]
+                G.\;\; 584 \\[3ex]
+                H.\;\; 667 \\[3ex]
+                J.\;\; 700 \\[3ex]
+                K.\;\; 875 \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionPF6')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF6">
+                    <br>
+                    $
+                    \underline{First\;\;Piece} \\[3ex]
+                    Maximum\;\;amount = 0.4(200) = 80 \\[3ex]
+                    \underline{Second\;\;Piece} \\[3ex]
+                    Maximum\;\;amount = 0.5(300) = 150 \\[3ex]
+                    \$80 + \$150 = \$230 \\[3ex]
+                    230 \lt 350 \\[3ex]
+                    So,;\;move\;\;to\;\;the\;\;third\;\;piece \\[3ex]
+                    \underline{Third\;\;Piece} \\[3ex]
+                    Let\;\;x = number\;\;of\;\;candy\;\;bars \\[3ex]
+                    \implies \\[3ex]
+                    230 + 0.6(x - 500) = 350 \\[3ex]
+                    230 + 0.6x - 300 = 350 \\[3ex]
+                    0.6x - 70 = 350 \\[3ex]
+                    0.6x = 350 + 70 \\[3ex]
+                    0.6x = 420 \\[3ex]
+                    x = \dfrac{420}{0.6} \\[5ex]
+                    x = 700 \\[3ex]
+                    $
+                    The squad must sell 700 candy bars to reach their goal of raising <span>$350.00</span> <br><br>
+                    $
+                    \underline{Check} \\[3ex]
+                    \underline{Third\;\;Piece} \\[3ex]
+                    Maximum\;\;amount = 0.6(700 - 500) = 0.6(200) = 120 \\[3ex]
+                    \underline{All\;\;Pieces} \\[3ex]
+                    Maximum\;\;amount = 230 + 120 = \$350
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (7.) In March 2014, a gas company had the rate schedule shown below for natural gas usage in
+                single-family residences. <br>
+                <b>Monthly service charge &ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <span>$21.45</span></b> <br>
+                Delivery charge <br>
+                &ensp;&ensp; First 40 therms &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                <span>$0.94317/therm</span> <br>
+                &ensp;&ensp; Over 40 therms &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                <span>$0</span> <br>
+                Natural gas cost <br>
+                &ensp;&ensp; First 40 therms &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                <span>$0.3709/therm</span> <br>
+                &ensp;&ensp; Over 40 therms &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                <span>$0.5138/therm</span> <br><br>
+                (a.) What is the charge for using 30 therms in a month? <br>
+                (b.) What is the charge for using 200 therms in a month? <br>
+                (c.) Develop a function that models the monthly charge <i>C</i> for <i>x</i> therms of gas.
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionPF7')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF7">
+                    <br>
+                    (a.) <br>
+                    Delivery charge: 30 therms falls in the 1st piece <br>
+                    Natural gas cost: 30 therms falls in the 1st piece <br><br>
+                    $
+                    Monthly\;\;service\;\;charge = \$21.45 \\[3ex]
+                    Delivery\;\;charge: = 0.94317(30) = \$28.2951 \\[3ex]
+                    Natural\;\;gas\;\;cost: = 0.3709(30) = \$11.127 \\[3ex]
+                    C(x) = 21.45 + 28.2951 + 11.127 = 60.8721 \\[3ex]
+                    C(x) \approx \$60.87 \\[3ex]
+                    $
+                    (b.) <br>
+                    Delivery charge <u>and</u> Natural gas cost: 200 therms falls in the 2nd piece <br>
+                    However: <br>
+                    But, 40 therms from it goes to the 1st piece (maximum limit for the 1st piece) <br>
+                    Remaining 160 (200 &minus; 40) therms goes to the 2nd piece <br><br>
+                    $
+                    Monthly\;\;service\;\;charge = \$21.45 \\[3ex]
+                    Delivery\;\;charge: = 0.94317(40) + 0(160) = 37.7268 + 0 = \$37.7268 \\[3ex]
+                    Natural\;\;gas\;\;cost: = 0.3709(40) + 0.5138(160) = 14.836 + 82.208 = \$97.044 \\[3ex]
+                    C(x) = 21.45 + 37.7268 + 97.044 = 156.2208 \\[3ex]
+                    C(x) \approx \$156.22 \\[3ex]
+                    $
+                    (c.) The monthly cost (monthly service charge and delivery charge and natural gas cost): <i>C</i>
+                    depends on the amount of natural gas used: <i>x</i> <br>
+                    The monthly cost is the dependent variable <br>
+                    The natural gas usage is the independent variable <br>
+                    We write that: <i>C</i> = f(<i>x</i>) or preferably as: <i>C</i>(<i>x</i>) <br><br>
+                    To write the piecewise function, begin with the domains <br>
+                    The domain for the first piece should be natural gas usage from 0 to 40 therms: 0 &le; <i>x</i> &le;
+                    40 <br>
+                    The domain for the second piece should be any natural gas usage over 40: <i>x</i> &ge; 40 <br><br>
+                    Next: we write the function for each piece. <br>
+                    First Piece: In the first example, replace 30 with <i>x</i> <br>
+                    Second Piece: In the second example, replace 160 (200 &minus; 40) with <i>x</i> &minus; 40 <br><br>
+                    $
+                    First\;\;Piece \\[3ex]
+                    C(x) = 21.45 + 0.94317(x) + 0.3709(x) \\[3ex]
+                    C(x) = 21.45 + 1.31407x \\[3ex]
+                    Second\;\;Piece \\[3ex]
+                    C(x) = 21.45 + 0.94317(40) + 0(x - 40) + 0.3709(40) + 0.5138(x - 40) \\[3ex]
+                    C(x) = 21.45 + 37.7268 + 0 + 14.836 + 0.5138x - 20.552 \\[3ex]
+                    C(x) = 53.4608 + 0.5138x \\[3ex]
+                    $
+                    The Piecewise Function is: <br><br>
+                    $
+                    C(x) =
                     \begin{cases}
-                    x^2 - 1    &  \quad  \text{for}\: x \: \lt -3  \\[3ex]
-                    2x - 5     & \quad \text{for}\: -3 \le x \le 2 \\[3ex] 
-                    |x - 3|    & \quad \text{for}\; x \gt 2 
+                    21.45 + 1.31407x; \hspace{3em} 0 \le x \le 40 \\[3ex]
+                    53.4608 + 0.5138x; \hspace{2.5em} x \gt 40
+                    \end{cases}
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (8.) <b>ACT</b> A function <i>P</i> is defined as follows: <br>
+                &ensp;&ensp;&ensp;&ensp;&ensp; for $x \gt 0$, $P(x) = x^5 + x^4 - 36x - 36$ <br>
+                &ensp;&ensp;&ensp;&ensp;&ensp; for $x \lt 0$, $P(x) = -x^5 + x^4 + 36x - 36$ <br>
+                What is the value of $P(-1)$? <br><br>
+                $
+                A.\;\; -70 \\[3ex]
+                B.\;\; -36 \\[3ex]
+                C.\;\; 0 \\[3ex]
+                D.\;\; 36 \\[3ex]
+                E.\;\; 70 \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionPF8')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF8">
+                    <br>
+                    $
+                    -1 \lt 0 ...2nd\;\;Piece \\[3ex]
+                    P(x) = -x^5 + x^4 + 36x - 36 \\[3ex]
+                    P(-1) = -(-1)^5 + (-1)^4 + 36(-1) - 36 \\[3ex]
+                    P(-1) = -(-1) + 1 - 36 - 36 \\[3ex]
+                    P(-1) = 1 + 1 - 36 - 36 \\[3ex]
+                    P(-1) = -70
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (9.) A trucking company transports goods between two cities that are 960 miles apart. <br>
+                The company charges, for each pound, <span>$0.55</span> per mile for the first 100 miles,
+                <span>$0.40</span> per mile for the next 300 miles, <span>$0.30</span> per mile for the next 400 miles,
+                and no charge for the remaining 160 miles. <br>
+                Develop the piecewise function for the mileage costs.
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionPF9')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF9">
+                    <br>
+                    Let: <br>
+                    <i>m</i> = the mileage (number of miles) <br>
+                    <i>C</i>(<i>m</i>) = cost per mile (mileage rate) <br><br>
+                    $
+                    \underline{1st\;\;Piece} \\[3ex]
+                    Domain:\;\; 0 \lt m \le 100 \\[3ex]
+                    Function:\;\; C(m) = 0.55m \\[5ex]
+                    \underline{2nd\;\;Piece} \\[3ex]
+                    Domain:\;\; 100 \lt m \le 400 \\[3ex]
+                    Function:\;\; C(m) = 0.55(100) + 0.4(m - 100) \\[3ex]
+                    C(m) = 55 + 0.4m - 40 \\[3ex]
+                    C(m) = 0.4m + 15 \\[5ex]
+                    \underline{3rd\;\;Piece} \\[3ex]
+                    Domain:\;\; 400 \lt m \le 800 \\[3ex]
+                    Function:\;\; C(m) = 0.55(100) + 0.4(300) + 0.3(m - 400) \\[3ex]
+                    C(m) = 55 + 120 + 0.3m - 120 \\[3ex]
+                    C(m) = 0.3m + 55 \\[5ex]
+                    \underline{4th\;\;Piece} \\[3ex]
+                    Domain:\;\; 800 \lt m \le 960 \\[3ex]
+                    Function:\;\; C(m) = 0.55(100) + 0.4(300) + 0.3(400) + 0(m - 800) \\[3ex]
+                    C(m) = 55 + 120 + 120 + 0 \\[3ex]
+                    C(m) =\$295 \\[5ex]
+                    $
+                    The Piecewise Function is: <br><br>
+                    $
+                    C(m) =
+                    \begin{cases}
+                    0.55m; \hspace{4.5em} 0 \lt m \le 100 \\[3ex]
+                    0.4m + 15; \hspace{2.5em} 100 \lt m \le 400 \\[3ex]
+                    0.3m + 55; \hspace{2.5em} 400 \lt m \le 800 \\[3ex]
+                    295; \hspace{5.5em} 800 \lt m \le 960
+                    \end{cases}
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (10.) If f(<i>x</i>) is defined as follows, find: <br>
+                (a.) f(&minus;4) <br>
+                (b.) f(0) <br>
+                (c.) f(4) <br><br>
+                $
+                f(x) =
+                \begin{cases}
+                x^2 \hspace{26mm} \text{if} \hspace{5mm} x \lt 0 \\[3ex]
+                -2 \hspace{25mm} \text{if} \hspace{5mm} x = 0 \\[3ex]
+                3x + 4 \hspace{15mm} \text{if} \hspace{5mm} x \gt 0
+                \end{cases}
+                $
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionPF10')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF10">
+                    <br>
+                    &minus;4 lies in the domain for the first piece <br>
+                    0 is in the domain of the second piece <br>
+                    4 is in the domain of the third piece <br><br>
+                    $
+                    (a.) \\[3ex]
+                    f(x) = x^2 \\[3ex]
+                    f(-4) = (-4)^2 \\[3ex]
+                    f(-4) = 16 \\[3ex]
+                    (b.) \\[3ex]
+                    f(x) = -2 \\[3ex]
+                    f(0) = -2 \\[3ex]
+                    (c.) \\[3ex]
+                    f(x) = 3x + 4 \\[3ex]
+                    f(4) = 3(4) + 4 \\[3ex]
+                    f(4) = 12 + 4 \\[3ex]
+                    f(4) = 16
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (11.) The wind chill factor on a certain planet is given by the following​ formula, where <i>v</i> is
+                the wind speed​ (in meters per​ second) and <i>t</i> is the air temperature (&deg;C) <br><br>
+                $
+                W =
+                \begin{cases}
+                t; \hspace{15.5em} 0 \le v \lt 1.78 \\[3ex]
+                33 - \dfrac{(10.43 + 10\sqrt{v} - v)(33 - t)}{22.04}; \hspace{10mm} 1.78 \le v \le 25 \\[5ex]
+                33 - 1.5957(33 - t) \hspace{7.8em} v \gt 25
+                \end{cases}
+                $
+                <br><br>
+                (a.) Find the wind chill for an air temperature of 5&deg;C and a wind speed of 0.5 m/sec. <br>
+                Round to the nearest degree as needed. <br><br>
+                (b.) Find the wind chill for an air temperature of 5&deg;C and a wind speed of 19 m/sec. <br>
+                Round to the nearest degree as needed. <br><br>
+                (c.) Find the wind chill for an air temperature of 5&deg;C and a wind speed of 32 m/sec. <br>
+                Round to the nearest degree as needed.
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionPF11')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF11">
+                    <br>
+                    (a.) <i>t</i> = 5&deg;C <br>
+                    <i>v</i> = 0.5 m/sec <br>
+                    0.5 &lt; 0.78 <br>
+                    Therefore, the domain falls in the first piece <br>
+                    <i>W</i> = <i>t</i> = 5&deg;C
+                    <br><br>
+                    (b.) <i>t</i> = 5&deg;C <br>
+                    <i>v</i> = 19 m/sec <br>
+                    1.78 &le; 19 &le; 25 <br>
+                    Therefore, the domain falls in the second piece <br><br>
+                    $
+                    W = 33 - \dfrac{(10.43 + 10\sqrt{v} - v)(33 - t)}{22.04} \\[5ex]
+                    = 33 - \dfrac{(10.43 + 10\sqrt{19} - 19)(33 - 5)}{22.04} \\[5ex]
+                    = 33 - \dfrac{(10.43 + 10(4.358898944) - 19)(33 - 5)}{22.04} \\[5ex]
+                    = 33 - \dfrac{(10.43 + 43.58898944 - 19)(28)}{22.04} \\[5ex]
+                    = 33 - \dfrac{(10.43 + 43.58898944 - 19)(28)}{22.04} \\[5ex]
+                    = 33 - \dfrac{28(35.01898944)}{22.04} \\[5ex]
+                    = 33 - \dfrac{980.5317042}{22.04} \\[5ex]
+                    = 33 - 44.48873431 \\[3ex]
+                    = -11.48873431 \\[3ex]
+                    \approx -11^\circ \\[3ex]
+                    $
+                    (c.) <i>t</i> = 5&deg;C <br>
+                    <i>v</i> = 32 m/sec <br>
+                    32 &gt; 25 <br>
+                    Therefore, the domain falls in the third piece <br><br>
+                    $
+                    W = 33 - 1.5957(33 - t) \\[3ex]
+                    W = 33 - 1.5957(33 - 5) \\[3ex]
+                    = 33 - 1.5957(28) \\[3ex]
+                    = 33 - 44.6796 \\[3ex]
+                    = -11.6796 \\[3ex]
+                    \approx -12^\circ
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (12.) If f(<i>x</i>) is defined as follows, find: <br>
+                (a.) f(0) <br>
+                (b.) f(1) <br>
+                (c.) f(5) <br>
+                (d.) f(6) <br><br>
+                $
+                f(x) =
+                \begin{cases}
+                3x - 5 \hspace{25mm} \text{if} \hspace{5mm} -3 \le x \le 5 \\[3ex]
+                x^3 - 5 \hspace{25mm} \text{if} \hspace{5mm} 5 \lt x \le 6
+                \end{cases}
+                $
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionPF12')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF12">
+                    <br>
+                    0 lies in the domain for the first piece <br>
+                    1 lies in the domain for the first piece <br>
+                    5 lies in the domain for the first piece <br>
+                    6 lies in the domain for the second piece <br><br>
+                    $
+                    (a.) \\[3ex]
+                    f(x) = 3x - 5 \\[3ex]
+                    f(0) = 3(0) - 5 \\[3ex]
+                    f(0) = 0 - 5 \\[3ex]
+                    f(0) = -5 \\[3ex]
+                    (b.) \\[3ex]
+                    f(1) = 3(1) - 5 \\[3ex]
+                    f(1) = 3 - 5 \\[3ex]
+                    f(1) = -2 \\[3ex]
+                    (c.) \\[3ex]
+                    f(5) = 3(5) - 5 \\[3ex]
+                    f(5) = 15 - 5 \\[3ex]
+                    f(5) = 10 \\[3ex]
+                    (d.) \\[3ex]
+                    f(x) = x^3 - 5 \\[3ex]
+                    f(6) = 6^3 - 5 \\[3ex]
+                    f(6) = 216 - 5 \\[3ex]
+                    f(6) = 211
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (13.) Find the sum function: (<i>f</i> + <i>g</i>)(<i>x</i>) if <br><br>
+                $
+                f(x) =
+                \begin{cases}
+                3x + 7 \hspace{18mm} \text{if} \hspace{5mm} x \lt 1 \\[3ex]
+                x^2 + 3x \hspace{15mm} \text{if} \hspace{5mm} x \ge 1
+                \end{cases} \\[5ex]
+                $
+                and <br><br>
+                $
+                f(x) =
+                \begin{cases}
+                -5x + 1 \hspace{12mm} \text{if} \hspace{5mm} x \le 0 \\[3ex]
+                x - 8 \hspace{20mm} \text{if} \hspace{5mm} x \gt 0
+                \end{cases} \\[5ex]
+                $
+                <button class="solutions" onclick="solutions('solutionPF13')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF13">
+                    <br>
+                    <u>1st Step</u> <br>
+                    Compare domains: domain of 1st piece of $f(x)$ and domain of 1st piece of $g(x)$ <br>
+                    <i>x</i> &lt; 1 and <i>x</i> &le; 0 <br>
+                    <i>x</i> &le; 0 also includes <i>x</i> &lt; 1 <br>
+                    &therefore; <i>x</i> &le; 0 becomes the first domain of the sum function <br><br>
+                    <u>2nd Step</u> <br>
+                    Determine the sum function for the first domain (1st piece) <br>
+                    $
+                    (f + g)(x) \\[3ex]
+                    = f(x) + g(x) \\[3ex]
+                    = (3x + 7) + (-5x + 1) \\[3ex]
+                    = 3x + 7 - 5x + 1 \\[3ex]
+                    = -2x + 8 \\[3ex]
+                    $
+                    <u>3rd Step</u> <br>
+                    Compare domains: domain of 1st piece of $f(x)$ and domain of 2nd piece of $g(x)$ <br>
+                    <i>x</i> &lt; 1 and <i>x</i> &gt; 0 <br>
+                    &Implies; <i>x</i> &lt; 1 and 0 &lt; <i>x</i> <br>
+                    &Implies; 0 &lt; <i>x</i> &lt; 1 <br>
+                    This becomes the second domain of the sum function <br><br>
+                    <u>4th Step</u> <br>
+                    Determine the sum function for the second domain (2nd piece) <br>
+                    $
+                    (f + g)(x) \\[3ex]
+                    = f(x) + g(x) \\[3ex]
+                    = (3x + 7) + (x - 8) \\[3ex]
+                    = 3x + 7 + x - 8 \\[3ex]
+                    = 4x - 1 \\[3ex]
+                    $
+                    <u>5th Step</u> <br>
+                    Compare domains: domain of 2nd piece of $f(x)$ and domain of 2nd piece of $g(x)$ <br>
+                    <i>x</i> &ge; 1 and <i>x</i> &gt; 0 <br>
+                    <i>x</i> &ge; 1 also includes <i>x</i> &gt; 0 <br>
+                    &therefore; <i>x</i> &ge; 1 becomes the third domain of the sum function <br><br>
+                    <u>6th Step</u> <br>
+                    Determine the sum function for the third domain (3rd piece) <br>
+                    $
+                    (f + g)(x) \\[3ex]
+                    = f(x) + g(x) \\[3ex]
+                    = (x^2 + 3x) + (x - 8) \\[3ex]
+                    = x^2 + 3x + x - 8 \\[3ex]
+                    = x^2 + 4x - 8 \\[3ex]
+                    $
+                    The Piecewise Function of the Sum Function is: <br><br>
+                    $
+                    (f + g)(x) =
+                    \begin{cases}
+                    -2x + 8; \hspace{3.7em} x \le 0 \\[3ex]
+                    4x - 1; \hspace{4.3em} 0 \lt x \lt 1 \\[3ex]
+                    x^2 + 4x - 8; \hspace{2em} x \ge 1
+                    \end{cases}
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (14.) If f(<i>x</i>) = int(2<i>x</i>), find: <br>
+                (a.) f(3.3) <br>
+                (b.) f(&minus;2.6) <br>
+                (c.) f(3.9) <br>
+                (int <i>x</i> is the <a
+                    href="https://mathematicscourses.github.io/PreCalculus/PiecewiseFunctions/piecewise-functions.html#greatestIntegerFunction"
+                    target="_blank">greatest integer function</a>)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionPF14')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF14">
+                    <br>
+                    $
+                    f(x) = int(2x) \\[3ex]
+                    (a.) \\[3ex]
+                    f(3.3) = int[2(3.3)] \\[3ex]
+                    = int(6.6) \\[3ex]
+                    = 6 \\[3ex]
+                    (b.) \\[3ex]
+                    f(-2.6) = int[2(-2.6)] \\[3ex]
+                    = int(-5.2) \\[3ex]
+                    = -6 \\[3ex]
+                    (c.) \\[3ex]
+                    f(3.9) = int[2(3.9)] \\[3ex]
+                    = int(7.8) \\[3ex]
+                    = 7
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (15.) A tax rate schedule is given in the table. <br>
+                If <i>x</i> equals taxable income and <i>y</i> equals the tax​ due, construct a function <i>y</i> =
+                f(<i>x</i>) for the tax schedule.
+                <br><br>
+                <table class="w3-center">
+                    <tr>
+                        <th style="width: 20%;">If taxable income is over</th>
+                        <th style="width: 20%;">But not over</th>
+                        <th style="width: 20%;">The tax is this amount</th>
+                        <th style="width: 10%;"></th>
+                        <th style="width: 10%;">Plus this %</th>
+                        <th style="width: 20%;">Of the excess over</th>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td>7,550</td>
+                        <td>0.00</td>
+                        <td>+</td>
+                        <td>11%</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>7,550</td>
+                        <td>30,700</td>
+                        <td>830.50</td>
+                        <td>+</td>
+                        <td>16%</td>
+                        <td>7,550</td>
+                    </tr>
+                    <tr>
+                        <td>30,700</td>
+                        <td>74,300</td>
+                        <td>4,534.50</td>
+                        <td>+</td>
+                        <td>24%</td>
+                        <td>30,700</td>
+                    </tr>
+                    <tr>
+                        <td>74,300</td>
+                        <td></td>
+                        <td>14,998.50</td>
+                        <td>+</td>
+                        <td>33%</td>
+                        <td>74,300</td>
+                    </tr>
+                </table>
+                <br>
+                <button class="solutions" onclick="solutions('solutionPF15')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF15">
+                    <br>
+                    $
+                    11\% = \dfrac{11}{100} = 0.11 \\[5ex]
+                    16\% = \dfrac{16}{100} = 0.16 \\[5ex]
+                    24\% = \dfrac{24}{100} = 0.24 \\[5ex]
+                    33\% = \dfrac{33}{100} = 0.33 \\[5ex]
+
+                    f(x) =
+                    \begin{cases}
+                    0.11x \hspace{82mm} \text{if} \hspace{5mm} 0 \lt x \le 7,550 \\[3ex]
+                    830.5 + 0.16(x - 7550) \hspace{31mm} \text{if} \hspace{5mm} 7,500 \lt x \le 30,700 \\[3ex]
+                    4534.5 + 0.24(x - 30700) \hspace{24mm} \text{if} \hspace{5mm} 30,700 \lt x \le 74,300 \\[3ex]
+                    14,998.5 + 0.33(x - 74300) \hspace{18mm} \text{if} \hspace{5mm} x \gt 74,300
+                    \end{cases}
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (16.) <b>ACT</b> In the standard $(x, y)$ coordinate plane, what is the <i>y-</i>intercept of the graph
+                of the function
+                <i>y</i> &equals; <i>f(x)</i> defined below? <br><br>
+                $
+                f(x) =
+                \begin{cases}
+                x^2 - 1 & \quad \text{for}\: x \: \lt -3 \\[3ex]
+                2x - 5 & \quad \text{for}\: -3 \le x \le 2 \\[3ex]
+                |x - 3| & \quad \text{for}\; x \gt 2
+                \end{cases} \\[10ex]
+                A.\;\; -5 \\[3ex]
+                B.\;\; -3 \\[3ex]
+                C.\;\; -1 \\[3ex]
+                D.\;\; 2.5 \\[3ex]
+                E.\;\; 3 \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionPF16')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF16">
+                    <br>
+                    $
+                    At\;\;y-intercept;\;\; x = 0 \\[3ex]
+                    This\;\;falls\;\;in\;\;the\;\;second\;\;piece \\[3ex]
+                    f(x) = 2x - 5 \\[3ex]
+                    f(0) = 2(0) - 5 \\[3ex]
+                    f(0) = 0 - 5 \\[3ex]
+                    f(0) = -5
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (17.)
+                <button class="solutions" onclick="solutions('solutionPF17')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF17">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (18.) A telephone company offers a monthly cellular phone plan for <span>$</span>34.99. <br>
+                It includes 300 anytime minutes plus <span>$</span>0.25 per minute for additional minutes. <br>
+                The following function is used to compute the monthly cost for a​ subscriber, where <i>x</i> is the
+                number of anytime minutes used. <br><br>
+                $
+                C(x) =
+                \begin{cases}
+                34.99 \hspace{48mm} \text{if} \hspace{5mm} 0 \lt x \le 300 \\[3ex]
+                0.25x - 40.01 \hspace{24mm} \text{if} \hspace{5mm} x \gt 300
+                \end{cases}
+                $
+                <br><br>
+                Compute the monthly cost of the cellular phone for use of the following anytime minutes. <br>
+                (a.) 150 <br>
+                (b.) 330 <br>
+                (c.) 301
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionPF18')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF18">
+                    <br>
+                    (a.) 150 is in the domain of the first piece. <br><br>
+                    $
+                    C(150) = \$34.99 \\[3ex]
+                    $
+                    (b.) 330 is in the domain of the second piece. <br><br>
+                    $
+                    C(330) = 0.25(330) - 40.01 \\[3ex]
+                    = 82.5 - 40.01 \\[3ex]
+                    = \$42.49 \\[3ex]
+                    $
+                    (c.) 301 is in the domain of the second piece. <br><br>
+                    $
+                    C(301) = 0.25(301) - 40.01 \\[3ex]
+                    = 72.25 - 40.01 \\[3ex]
+                    = \$35.24
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (19.) Find the sum function: (<i>f</i> + <i>g</i>)(<i>x</i>) if <br><br>
+                $
+                f(x) =
+                \begin{cases}
+                5x + 3 \hspace{18mm} \text{if} \hspace{5mm} x \lt 3 \\[3ex]
+                x^2 + 6x \hspace{15mm} \text{if} \hspace{5mm} x \ge 3
+                \end{cases} \\[5ex]
+                $
+                and <br><br>
+                $
+                f(x) =
+                \begin{cases}
+                -2x + 1 \hspace{12mm} \text{if} \hspace{5mm} x \le 0 \\[3ex]
+                x - 5 \hspace{20mm} \text{if} \hspace{5mm} x \gt 0
+                \end{cases} \\[5ex]
+                $
+                <button class="solutions" onclick="solutions('solutionPF19')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF19">
+                    <br>
+                    Let us review a visual representation of these functions.
+                    <br><br>
+                    <img src="images/PiecewiseFunctions/Answers/Number19.png" alt="Number 19">
+                    <br><br>
+                    <u>1st Step</u> <br>
+                    Compare domains: domain of 1st piece of $f(x)$ and domain of 1st piece of $g(x)$ <br>
+                    <i>x</i> &lt; 3 and <i>x</i> &le; 0 <br>
+                    <i>x</i> &le; 0 also includes <i>x</i> &lt; 3 <br>
+                    &therefore; <i>x</i> &le; 0 becomes the first domain of the sum function <br><br>
+                    <u>2nd Step</u> <br>
+                    Determine the sum function for the first domain (1st piece) <br>
+                    $
+                    (f + g)(x) \\[3ex]
+                    = f(x) + g(x) \\[3ex]
+                    = (5x + 3) + (-2x + 1) \\[3ex]
+                    = 5x + 3 - 2x + 1 \\[3ex]
+                    = 3x + 4 \\[3ex]
+                    $
+                    <u>3rd Step</u> <br>
+                    Compare domains: domain of 1st piece of $f(x)$ and domain of 2nd piece of $g(x)$ <br>
+                    <i>x</i> &lt; 3 and <i>x</i> &gt; 0 <br>
+                    &Implies; <i>x</i> &lt; 3 and 0 &lt; <i>x</i> <br>
+                    &Implies; 0 &lt; <i>x</i> &lt; 3 <br>
+                    This becomes the second domain of the sum function <br><br>
+                    <u>4th Step</u> <br>
+                    Determine the sum function for the second domain (2nd piece) <br>
+                    $
+                    (f + g)(x) \\[3ex]
+                    = f(x) + g(x) \\[3ex]
+                    = (5x + 3) + (x - 5) \\[3ex]
+                    = 5x + 3 + x - 5 \\[3ex]
+                    = 6x - 2 \\[3ex]
+                    $
+                    <u>5th Step</u> <br>
+                    Compare domains: domain of 2nd piece of $f(x)$ and domain of 2nd piece of $g(x)$ <br>
+                    <i>x</i> &ge; 3 and <i>x</i> &gt; 0 <br>
+                    <i>x</i> &ge; 3 also includes <i>x</i> &gt; 0 <br>
+                    &therefore; <i>x</i> &ge; 3 becomes the third domain of the sum function <br><br>
+                    <u>6th Step</u> <br>
+                    Determine the sum function for the third domain (3rd piece) <br>
+                    $
+                    (f + g)(x) \\[3ex]
+                    = f(x) + g(x) \\[3ex]
+                    = (x^2 + 6x) + (x - 5) \\[3ex]
+                    = x^2 + 6x + x - 5 \\[3ex]
+                    = x^2 + 7x - 5 \\[3ex]
+                    $
+                    The Piecewise Function of the Sum Function is: <br><br>
+                    $
+                    (f + g)(x) =
+                    \begin{cases}
+                    3x + 4; \hspace{3.9em} x \le 0 \\[3ex]
+                    6x - 2; \hspace{4.1em} 0 \lt x \lt 3 \\[3ex]
+                    x^2 + 7x - 5; \hspace{2em} x \ge 3
+                    \end{cases}
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (20.)
+                <button class="solutions" onclick="solutions('solutionPF20')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF20">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+    <!-- Top of the Main Page -->
+    <div class="w3-container" style="position:relative">
+        <a href="https://mathematicscourses.github.io/PreCalculus/PiecewiseFunctions/piecewiseFunctions.html"
+            class="w3-button w3-xlarge w3-circle w3-green" style="position:absolute;top:-70px;right:24px">Top</a>
+    </div>
+    <br><br><br><br>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (21.)
+                <button class="solutions" onclick="solutions('solutionPF21')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF21">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (22.) An adverse market delivery charge rate depends on the credit score of the​ borrower, the amount​
+                borrowed, and the​ loan-to-value (LTV) ratio. <br>
+                The LTV ratio is the ratio of amount borrowed to appraised value of the home. <br>
+                For​ example, a homebuyer who wishes to borrow​ <span>$</span>250,000 with a credit score of 730 and an
+                LTV ratio of​ 80% will pay 0.75​% ​(0.0075​) of​ <span>$</span>250,000 or ​<span>$</span>1875. <br>
+                The table below shows the adverse delivery charge for various credit scores and an LTV ratio of​ 80%.
+                <br><br>
+                <table class="w3-center">
+                    <tr>
+                        <th style="width: 50%;">Credit Score</th>
+                        <th style="width: 50%;">Charge Rate</th>
+                    </tr>
+                    <tr>
+                        <td>&le; 659</td>
+                        <td>3.75%</td>
+                    </tr>
+                    <tr>
+                        <td>660 &ndash; 679</td>
+                        <td>2.5%</td>
+                    </tr>
+                    <tr>
+                        <td>680 &ndash; 699</td>
+                        <td>1.5%</td>
+                    </tr>
+                    <tr>
+                        <td>700 &ndash; 719</td>
+                        <td>1%</td>
+                    </tr>
+                    <tr>
+                        <td>720 &ndash; 739</td>
+                        <td>0.75%</td>
+                    </tr>
+                    <tr>
+                        <td>&ge; 740</td>
+                        <td>0.25%</td>
+                    </tr>
+                </table>
+                <br>
+                (a.) Construct a function <i>C</i> = <i>C</i>(<i>s</i>) where <i>C</i> is the adverse market delivery
+                charge and <i>s</i> is the credit score of an individual who wishes to borrow ​<span>$</span>400,000
+                with an​ 80% LTV ratio. <br><br>
+                (b.) What is the adverse market delivery charge on a ​<span>$</span>400,000 loan with an​ 80% LTV ratio
+                for a borrower whose credit score is 712​? <br><br>
+                (c.) What is the adverse market delivery charge on a ​<span>$</span>400,000 loan with an​ 80% LTV ratio
+                for a borrower whose credit score is 684?
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionPF22')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF22">
+                    <br>
+                    $
+                    3.75\% = \dfrac{3.75}{100} = 0.0375 \\[5ex]
+                    0.0375(400000) = 15000 \\[3ex]
+                    2.5\% = \dfrac{2.5}{100} = 0.025 \\[5ex]
+                    0.025(400000) = 10000 \\[3ex]
+                    1.5\% = \dfrac{1.5}{100} = 0.015 \\[5ex]
+                    0.015(400000) = 6000 \\[3ex]
+                    1\% = \dfrac{1}{100} = 0.01 \\[5ex]
+                    0.01(400000) = 4000 \\[3ex]
+                    0.75\% = \dfrac{0.75}{100} = 0.0075 \\[5ex]
+                    0.0075(400000) = 3000 \\[3ex]
+                    0.25\% = \dfrac{0.25}{100} = 0.0025 \\[5ex]
+                    0.0025(400000) = 1000 \\[3ex]
+                    (a.) \\[3ex]
+                    C(s) =
+                    \begin{cases}
+                    \$15000 \hspace{21mm} \text{if} \hspace{5mm} s \le 659 \\[3ex]
+                    \$10000 \hspace{21mm} \text{if} \hspace{5mm} 660 \le s \le 679 \\[3ex]
+                    \$6000 \hspace{25mm} \text{if} \hspace{5mm} 680 \le s \le 699 \\[3ex]
+                    \$4000 \hspace{25mm} \text{if} \hspace{5mm} 700 \le s \le 719 \\[3ex]
+                    \$3000 \hspace{25mm} \text{if} \hspace{5mm} 720 \le s \le 739 \\[3ex]
+                    \$1000 \hspace{25mm} \text{if} \hspace{5mm} s \ge 740 \\[3ex]
                     \end{cases} \\[10ex]
-                    A.\;\; -5 \\[3ex] 
-                    B.\;\; -3 \\[3ex] 
-                    C.\;\; -1 \\[3ex] 
-                    D.\;\; 2.5 \\[3ex] 
-                    E.\;\; 3 \\[3ex] 
+                    (b.) \\[3ex]
+                    C(712) = \$4000 \\[3ex]
+                    (c.) \\[3ex]
+                    C(684) = \$6000
                     $
-                    <button class="solutions" onclick="solutions('solutionPF16')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF16">
-                        <br>
-                        $
-                        At\;\;y-intercept;\;\; x = 0 \\[3ex] 
-                        This\;\;falls\;\;in\;\;the\;\;second\;\;piece \\[3ex] 
-                        f(x) = 2x - 5 \\[3ex] 
-                        f(0) = 2(0) - 5 \\[3ex] 
-                        f(0) = 0 - 5 \\[3ex] 
-                        f(0) = -5
-                        $
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (17.) 
-                    <button class="solutions" onclick="solutions('solutionPF17')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF17">
-                        <br>
-                        
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (18.) A telephone company offers a monthly cellular phone plan for <span>$</span>34.99. <br>
-                    It includes 300 anytime minutes plus <span>$</span>0.25 per minute for additional minutes. <br>
-                    The following function is used to compute the monthly cost for a​ subscriber, where <i>x</i> is the number of anytime minutes used. <br><br>
-                    $
-                    C(x) = 
-                    \begin{cases}
-                    34.99    \hspace{48mm} \text{if} \hspace{5mm} 0 \lt x \le 300  \\[3ex]
-                    0.25x - 40.01 \hspace{24mm} \text{if} \hspace{5mm} x \gt 300   
-                    \end{cases} 
-                    $
-                    <br><br>
-                    Compute the monthly cost of the cellular phone for use of the following anytime minutes. <br>
-                    (a.) 150 <br>
-                    (b.) 330 <br>
-                    (c.) 301 
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionPF18')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF18">
-                        <br>
-                        (a.) 150 is in the domain of the first piece. <br><br>
-                        $
-                        C(150) = \$34.99 \\[3ex]
-                        $
-                        (b.) 330 is in the domain of the second piece. <br><br>
-                        $
-                        C(330) = 0.25(330) - 40.01 \\[3ex]
-                        = 82.5 - 40.01 \\[3ex]
-                        = \$42.49 \\[3ex]
-                        $
-                        (c.) 301 is in the domain of the second piece. <br><br>
-                        $
-                        C(301) = 0.25(301) - 40.01 \\[3ex]
-                        = 72.25 - 40.01 \\[3ex]
-                        = \$35.24
-                        $
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (19.) Find the sum function: (<i>f</i> + <i>g</i>)(<i>x</i>) if <br><br>
-                    $
-                    f(x) = 
-                    \begin{cases}
-                    5x + 3    \hspace{18mm} \text{if} \hspace{5mm} x \lt 3 \\[3ex]
-                    x^2 + 6x   \hspace{15mm} \text{if} \hspace{5mm} x \ge 3   
-                    \end{cases}  \\[5ex]
-                    $ 
-                    and <br><br>
-                    $
-                    f(x) = 
-                    \begin{cases}
-                    -2x + 1    \hspace{12mm} \text{if} \hspace{5mm} x \le 0  \\[3ex]
-                    x - 5   \hspace{20mm} \text{if} \hspace{5mm} x \gt 0   
-                    \end{cases} \\[5ex]
-                    $
-                    <button class="solutions" onclick="solutions('solutionPF19')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF19">
-                        <br>
-                        Let us review a visual representation of these functions. 
-                        <br><br>
-                        <img src="images/PiecewiseFunctions/Answers/Number19.png" alt="Number 19">
-                        <br><br>
-                        <u>1st Step</u> <br>
-                        Compare domains: domain of 1st piece of $f(x)$ and domain of 1st piece of $g(x)$ <br>
-                        <i>x</i> &lt; 3 and <i>x</i> &le; 0 <br>
-                        <i>x</i> &le; 0 also includes <i>x</i> &lt; 3 <br>
-                        &therefore; <i>x</i> &le; 0 becomes the first domain of the sum function <br><br>
-                        <u>2nd Step</u> <br>
-                        Determine the sum function for the first domain (1st piece) <br>
-                        $
-                        (f + g)(x) \\[3ex]
-                        = f(x) + g(x) \\[3ex]
-                        = (5x + 3) + (-2x + 1) \\[3ex]
-                        = 5x + 3 - 2x + 1 \\[3ex]
-                        = 3x + 4 \\[3ex]
-                        $
-                        <u>3rd Step</u> <br>
-                        Compare domains: domain of 1st piece of $f(x)$ and domain of 2nd piece of $g(x)$ <br>
-                        <i>x</i> &lt; 3 and <i>x</i> &gt; 0 <br>
-                        &Implies; <i>x</i> &lt; 3 and 0 &lt; <i>x</i> <br>
-                        &Implies; 0 &lt; <i>x</i> &lt; 3 <br>
-                        This becomes the second domain of the sum function <br><br>
-                        <u>4th Step</u> <br>
-                        Determine the sum function for the second domain (2nd piece) <br>
-                        $
-                        (f + g)(x) \\[3ex]
-                        = f(x) + g(x) \\[3ex]
-                        = (5x + 3) + (x - 5) \\[3ex]
-                        = 5x + 3 + x - 5 \\[3ex]
-                        = 6x - 2 \\[3ex]
-                        $
-                        <u>5th Step</u> <br>
-                        Compare domains: domain of 2nd piece of $f(x)$ and domain of 2nd piece of $g(x)$ <br>
-                        <i>x</i> &ge; 3 and <i>x</i> &gt; 0 <br>
-                        <i>x</i> &ge; 3 also includes <i>x</i> &gt; 0 <br>
-                        &therefore; <i>x</i> &ge; 3 becomes the third domain of the sum function <br><br>
-                        <u>6th Step</u> <br>
-                        Determine the sum function for the third domain (3rd piece) <br>
-                        $
-                        (f + g)(x) \\[3ex]
-                        = f(x) + g(x) \\[3ex]
-                        = (x^2 + 6x) + (x - 5) \\[3ex]
-                        = x^2 + 6x + x - 5 \\[3ex]
-                        = x^2 + 7x - 5 \\[3ex]
-                        $
-                        The Piecewise Function of the Sum Function is: <br><br>
-                        $
-                        (f + g)(x) =
-                        \begin{cases}
-                        3x + 4; \hspace{3.9em} x \le 0 \\[3ex]
-                        6x - 2; \hspace{4.1em} 0 \lt x \lt 3 \\[3ex]
-                        x^2 + 7x - 5; \hspace{2em} x \ge 3 
-                        \end{cases}
-                        $
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (20.) 
-                    <button class="solutions" onclick="solutions('solutionPF20')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF20">
-                        <br>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <br><br><br><br>
-        <!-- Top of the Main Page -->
-        <div class="w3-container" style="position:relative">
-            <a href="https://mathematicscourses.github.io/PreCalculus/PiecewiseFunctions/piecewiseFunctions.html" class="w3-button w3-xlarge w3-circle w3-green"
-                style="position:absolute;top:-70px;right:24px">Top</a>
-        </div>
-        <br><br><br><br>
-
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (21.) 
-                    <button class="solutions" onclick="solutions('solutionPF21')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF21">
-                        <br>
-                        
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (22.) An adverse market delivery charge rate depends on the credit score of the​ borrower, the amount​ borrowed, and the​ loan-to-value (LTV) ratio. <br>
-                    The LTV ratio is the ratio of amount borrowed to appraised value of the home. <br>
-                    For​ example, a homebuyer who wishes to borrow​ <span>$</span>250,000 with a credit score of 730 and an LTV ratio of​ 80% will pay 0.75​% ​(0.0075​) of​ <span>$</span>250,000 or ​<span>$</span>1875. <br>
-                    The table below shows the adverse delivery charge for various credit scores and an LTV ratio of​ 80%. 
-                    <br><br>
-                    <table class="w3-center">
-                        <tr>
-                            <th style="width: 50%;">Credit Score</th>
-                            <th style="width: 50%;">Charge Rate</th>
-                        </tr>
-                        <tr>
-                            <td>&le; 659</td>
-                            <td>3.75%</td>
-                        </tr>
-                        <tr>
-                            <td>660 &ndash; 679</td>
-                            <td>2.5%</td>
-                        </tr>
-                        <tr>
-                            <td>680 &ndash; 699</td>
-                            <td>1.5%</td>
-                        </tr>
-                        <tr>
-                            <td>700 &ndash; 719</td>
-                            <td>1%</td>
-                        </tr>
-                        <tr>
-                            <td>720 &ndash; 739</td>
-                            <td>0.75%</td>
-                        </tr>
-                        <tr>
-                            <td>&ge; 740</td>
-                            <td>0.25%</td>
-                        </tr>
-                    </table>
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (23.)
+                $
+                f(x) =
+                \begin{cases}
+                -x^2 + 4 \hspace{24mm} \text{if} \hspace{5mm} -3 \le x \lt 0 \\[3ex]
+                4 \hspace{44mm} \text{if} \hspace{5mm} 0 \le x \lt 3 \\[3ex]
+                -x + 5 \hspace{27mm} \text{if} \hspace{5mm} x \ge 3
+                \end{cases} \\[5ex]
+                $
+                Determine: <br>
+                (a.) f(&minus;4) <br>
+                (b.) f(4) <br>
+                (c.) f(3.5) <br>
+                (d.) f(1) <br>
+                (e.) the domain of f <br>
+                (f.) the range of f <br>
+                (g.) the interval for which the function is increasing <br>
+                (h.) the interval for which the function is decreasing <br>
+                (i.) the interval for which the function is constant
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionPF23')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF23">
                     <br>
-                    (a.) Construct a function <i>C</i> = <i>C</i>(<i>s</i>) where <i>C</i> is the adverse market delivery charge and <i>s</i> is the credit score of an individual who wishes to borrow ​<span>$</span>400,000 with an​ 80% LTV ratio. <br><br>
-                    (b.) What is the adverse market delivery charge on a ​<span>$</span>400,000 loan with an​ 80% LTV ratio for a borrower whose credit score is 712​? <br><br>
-                    (c.) What is the adverse market delivery charge on a ​<span>$</span>400,000 loan with an​ 80% LTV ratio for a borrower whose credit score is 684?
+                    (a.) &minus;4 is not in any domain. <br>
+                    Therefore, f(&minus;4) has no value.
                     <br><br>
-                    <button class="solutions" onclick="solutions('solutionPF22')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF22">
-                        <br>
-                        $
-                        3.75\% = \dfrac{3.75}{100} = 0.0375 \\[5ex]
-                        0.0375(400000) = 15000 \\[3ex]
-                        2.5\% = \dfrac{2.5}{100} = 0.025 \\[5ex]
-                        0.025(400000) = 10000 \\[3ex]
-                        1.5\% = \dfrac{1.5}{100} = 0.015 \\[5ex]
-                        0.015(400000) = 6000 \\[3ex]
-                        1\% = \dfrac{1}{100} = 0.01 \\[5ex]
-                        0.01(400000) = 4000 \\[3ex]
-                        0.75\% = \dfrac{0.75}{100} = 0.0075 \\[5ex]
-                        0.0075(400000) = 3000 \\[3ex]
-                        0.25\% = \dfrac{0.25}{100} = 0.0025 \\[5ex]
-                        0.0025(400000) = 1000 \\[3ex]
-                        (a.) \\[3ex]
-                        C(s) = 
-                        \begin{cases}
-                        \$15000   \hspace{21mm} \text{if} \hspace{5mm} s \le 659 \\[3ex]
-                        \$10000   \hspace{21mm} \text{if} \hspace{5mm} 660 \le s \le 679 \\[3ex]
-                        \$6000   \hspace{25mm} \text{if} \hspace{5mm} 680 \le s \le 699 \\[3ex]
-                        \$4000   \hspace{25mm} \text{if} \hspace{5mm} 700 \le s \le 719 \\[3ex]
-                        \$3000   \hspace{25mm} \text{if} \hspace{5mm} 720 \le s \le 739 \\[3ex]
-                        \$1000   \hspace{25mm} \text{if} \hspace{5mm} s \ge 740 \\[3ex]
-                        \end{cases} \\[10ex]
-                        (b.) \\[3ex]
-                        C(712) = \$4000 \\[3ex]
-                        (c.) \\[3ex]
-                        C(684) = \$6000
-                        $
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (23.) 
+                    (b.) 4 is in the domain of the third piece. <br>
+                    f(4) = &minus;4 + 5 <br>
+                    f(4) = 1
+                    <br><br>
+                    (c.) 3.5 is in the domain of the third piece. <br>
+                    f(3.5) = &minus;3.5 + 5 <br>
+                    f(3.5) = 1.5
+                    <br><br>
+                    (d.) 1 is in the domain of the second piece. <br>
+                    f(1) = 4
+                    <br><br>
+                    (e.) To find the domain, let us look at the domain of the first and third pieces. <br>
+                    The domain of the second piece has values that are already included. <br>
+                    So, we shall focus only on the domains of the first and third pieces because it will help us
+                    determine the first endpoint and the third endpoint of the domain respectively. <br>
+                    The domain of the first piece begins with &minus;3 as the first <u>included</u> endpoint. <br>
+                    The domain of the third piece ends with positive infinity. <br>
+                    D = [&minus;3, &infin;)
+                    <br><br>
+                    (f.) To find the range, let us find the beginning and end values of the function in each piece. <br>
+                    For the last piece, we shall find intermediate values because it has no end value. <br>
+                    For the last piece, we need to find several interdiate values so we can see the pattern of the
+                    values: increasing, decreasing, or constant values. <br><br>
                     $
-                    f(x) = 
-                    \begin{cases}
-                    -x^2 + 4    \hspace{24mm} \text{if} \hspace{5mm} -3 \le x \lt 0 \\[3ex]
-                    4   \hspace{44mm} \text{if} \hspace{5mm} 0 \le x \lt 3 \\[3ex]  
-                    -x + 5 \hspace{27mm} \text{if} \hspace{5mm} x \ge 3
-                    \end{cases}  \\[5ex]
-                    $ 
-                    Determine: <br>
-                    (a.) f(&minus;4) <br>
-                    (b.) f(4) <br>
-                    (c.) f(3.5) <br>
-                    (d.) f(1) <br>
-                    (e.) the domain of f <br>
-                    (f.) the range of f <br>
-                    (g.) the interval for which the function is increasing <br>
-                    (h.) the interval for which the function is decreasing <br>
-                    (i.) the interval for which the function is constant
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionPF23')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF23">
-                        <br>
-                        (a.) &minus;4 is not in any domain. <br>
-                        Therefore, f(&minus;4) has no value. 
-                        <br><br>
-                        (b.) 4 is in the domain of the third piece. <br>
-                        f(4) = &minus;4 + 5 <br>
-                        f(4) = 1 
-                        <br><br>
-                        (c.) 3.5 is in the domain of the third piece. <br>
-                        f(3.5) = &minus;3.5 + 5 <br>
-                        f(3.5) = 1.5
-                        <br><br>
-                        (d.) 1 is in the domain of the second piece. <br>
-                        f(1) = 4
-                        <br><br>
-                        (e.) To find the domain, let us look at the domain of the first and third pieces. <br>
-                        The domain of the second piece has values that are already included. <br>
-                        So, we shall focus only on the domains of the first and third pieces because it will help us determine the first endpoint and the third endpoint of the domain respectively. <br> 
-                        The domain of the first piece begins with &minus;3 as the first <u>included</u> endpoint. <br>
-                        The domain of the third piece ends with positive infinity. <br>
-                        D = [&minus;3, &infin;) 
-                        <br><br>
-                        (f.) To find the range, let us find the beginning and end values of the function in each piece. <br>
-                        For the last piece, we shall find intermediate values because it has no end value. <br>
-                        For the last piece, we need to find several interdiate values so we can see the pattern of the values: increasing, decreasing, or constant values. <br><br>
-                        $
-                        \underline{1st\;\;Piece} \\[3ex]
-                        Function:\;\; f(x) = -x^2 + 4 \\[3ex]
-                        Domain:\;\; -3 \le x \lt 0 \\[3ex]
-                        Beginning\;\;value:\;\; f(-3) = -(-3)^2 + 4 \\[3ex]
-                        = -9 + 4 \\[3ex]
-                        = -5\;(included) \\[3ex]
-                        Ending\;\;value:\;\; f(0) = -(0)^2 + 4 \\[3ex]
-                        = -0 + 4 \\[3ex]
-                        = 4\;(excluded) \\[3ex]
-                        All\;\;values\;\;from\;\;-5\;(included)\;\;to\;\;4\;(excluded)\;\;are\;\;included. \\[5ex]
-                        \underline{2nd\;\;Piece} \\[3ex]
-                        Function:\;\; f(x) = 4 \\[3ex]
-                        Domain:\;\; 0 \le x \lt 3 \\[3ex]
-                        Beginning\;\;value:\;\; f(0) = 4\;(included) \\[3ex]
-                        Ending\;\;value:\;\; f(3) = 4\;(excluded) \\[3ex]
-                        4\;\;is\;\;included. \\[5ex]
-                        \underline{3rd\;\;Piece} \\[3ex]
-                        Function:\;\; f(x) = -x + 5 \\[3ex]
-                        Domain:\;\; x \ge 3 \\[3ex]
-                        Beginning\;\;value:\;\; f(3) = -3 + 5 = 2\;(included) \\[3ex]
-                        Intermediate\;\;values\;(included): \\[3ex]
-                        f(4) = -4 + 5 = 1 \\[3ex]
-                        f(5) = -5 + 5 = 0 \\[3ex]
-                        f(6) = -6 + 5 = -1 \\[3ex]
-                        f(7) = -7 + 5 = -2 \\[3ex]
-                        f(8) = -8 + 5 = -3 \\[3ex]
-                        ...decreasing\;\;pattern\;\;up\;\;to\;\;negative\;\;infinity\;(excluded) \\[3ex] 
-                        From\;\;2\;(included)\;\;to\;\;-\infty\;(excluded)\;\;are\;\;included. \\[5ex]
-                        \underline{Entire:\;\;Piecewise\;\;Function} \\[3ex]
-                        Highest\;\;negative\;\;value = -\infty \\[3ex] 
-                        Highest\;\;positive\;\;value = 4 \\[3ex] 
-                        \therefore R = (-\infty, 4] \\[3ex]
-                        $
-                        (g.) What interval of <i>x</i> does the value of <i>y</i> increase? <br>
-                        The value of <i>y</i> increases in the first domain: from &minus;5 through 4 <br>
-                        The interval on which this occurs is from &minus;3 to 0 <br><br>
-                        $
-                        f(x) \uparrow x \in (-3, 0) \\[3ex]
-                        $
-                        (h.) What interval of <i>x</i> does the value of <i>y</i> decrease? <br>
-                        The value of <i>y</i> decreases in the third domain: from negative infinity to 4 <br> 
-                        The interval on which this occurs is from 3 to infinity <br><br>
-                        $
-                        f(x) \downarrow x \in (3, \infty) \\[3ex]
-                        $
-                        (i.) What interval of <i>x</i> is the value of <i>y</i> a constant? <br>
-                        The value of <i>y</i> is constant in the second domain: 4 <br> 
-                        The interval on which this occurs is from 0 to 3 <br><br>
-                        $
-                        f(x) \rightarrow x \in (0, 3) \\[3ex]
-                        $
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (24.) 
-                    <button class="solutions" onclick="solutions('solutionPF24')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF24">
-                        <br>
-                        
-                    </div>
+                    \underline{1st\;\;Piece} \\[3ex]
+                    Function:\;\; f(x) = -x^2 + 4 \\[3ex]
+                    Domain:\;\; -3 \le x \lt 0 \\[3ex]
+                    Beginning\;\;value:\;\; f(-3) = -(-3)^2 + 4 \\[3ex]
+                    = -9 + 4 \\[3ex]
+                    = -5\;(included) \\[3ex]
+                    Ending\;\;value:\;\; f(0) = -(0)^2 + 4 \\[3ex]
+                    = -0 + 4 \\[3ex]
+                    = 4\;(excluded) \\[3ex]
+                    All\;\;values\;\;from\;\;-5\;(included)\;\;to\;\;4\;(excluded)\;\;are\;\;included. \\[5ex]
+                    \underline{2nd\;\;Piece} \\[3ex]
+                    Function:\;\; f(x) = 4 \\[3ex]
+                    Domain:\;\; 0 \le x \lt 3 \\[3ex]
+                    Beginning\;\;value:\;\; f(0) = 4\;(included) \\[3ex]
+                    Ending\;\;value:\;\; f(3) = 4\;(excluded) \\[3ex]
+                    4\;\;is\;\;included. \\[5ex]
+                    \underline{3rd\;\;Piece} \\[3ex]
+                    Function:\;\; f(x) = -x + 5 \\[3ex]
+                    Domain:\;\; x \ge 3 \\[3ex]
+                    Beginning\;\;value:\;\; f(3) = -3 + 5 = 2\;(included) \\[3ex]
+                    Intermediate\;\;values\;(included): \\[3ex]
+                    f(4) = -4 + 5 = 1 \\[3ex]
+                    f(5) = -5 + 5 = 0 \\[3ex]
+                    f(6) = -6 + 5 = -1 \\[3ex]
+                    f(7) = -7 + 5 = -2 \\[3ex]
+                    f(8) = -8 + 5 = -3 \\[3ex]
+                    ...decreasing\;\;pattern\;\;up\;\;to\;\;negative\;\;infinity\;(excluded) \\[3ex]
+                    From\;\;2\;(included)\;\;to\;\;-\infty\;(excluded)\;\;are\;\;included. \\[5ex]
+                    \underline{Entire:\;\;Piecewise\;\;Function} \\[3ex]
+                    Highest\;\;negative\;\;value = -\infty \\[3ex]
+                    Highest\;\;positive\;\;value = 4 \\[3ex]
+                    \therefore R = (-\infty, 4] \\[3ex]
+                    $
+                    (g.) What interval of <i>x</i> does the value of <i>y</i> increase? <br>
+                    The value of <i>y</i> increases in the first domain: from &minus;5 through 4 <br>
+                    The interval on which this occurs is from &minus;3 to 0 <br><br>
+                    $
+                    f(x) \uparrow x \in (-3, 0) \\[3ex]
+                    $
+                    (h.) What interval of <i>x</i> does the value of <i>y</i> decrease? <br>
+                    The value of <i>y</i> decreases in the third domain: from negative infinity to 4 <br>
+                    The interval on which this occurs is from 3 to infinity <br><br>
+                    $
+                    f(x) \downarrow x \in (3, \infty) \\[3ex]
+                    $
+                    (i.) What interval of <i>x</i> is the value of <i>y</i> a constant? <br>
+                    The value of <i>y</i> is constant in the second domain: 4 <br>
+                    The interval on which this occurs is from 0 to 3 <br><br>
+                    $
+                    f(x) \rightarrow x \in (0, 3) \\[3ex]
+                    $
                 </div>
             </div>
         </div>
 
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (25.) 
-                    <button class="solutions" onclick="solutions('solutionPF25')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF25">
-                        <br>
-                        
-                    </div>
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (24.)
+                <button class="solutions" onclick="solutions('solutionPF24')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF24">
+                    <br>
+
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (26.) 
-                    <button class="solutions" onclick="solutions('solutionPF26')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF26">
-                        <br>
-                        
-                    </div>
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (25.)
+                <button class="solutions" onclick="solutions('solutionPF25')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF25">
+                    <br>
+
                 </div>
             </div>
         </div>
 
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (27.) 
-                    <button class="solutions" onclick="solutions('solutionPF27')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF27">
-                        <br>
-                        
-                    </div>
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (26.)
+                <button class="solutions" onclick="solutions('solutionPF26')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF26">
+                    <br>
+
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (28.) 
-                    <button class="solutions" onclick="solutions('solutionPF28')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF28">
-                        <br>
-                        
-                    </div>
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (27.)
+                <button class="solutions" onclick="solutions('solutionPF27')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF27">
+                    <br>
+
                 </div>
             </div>
         </div>
 
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (29.) 
-                    <button class="solutions" onclick="solutions('solutionPF29')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF29">
-                        <br>
-                        
-                    </div>
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (28.)
+                <button class="solutions" onclick="solutions('solutionPF28')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF28">
+                    <br>
+
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (30.) 
-                    <button class="solutions" onclick="solutions('solutionPF30')">Show/Hide Answer</button>
-                    <div class="result" id="solutionPF30">
-                        <br>
-                        
-                    </div>
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (29.)
+                <button class="solutions" onclick="solutions('solutionPF29')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF29">
+                    <br>
+
                 </div>
             </div>
         </div>
 
-        <!-- END PAGE CONTENT -->
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (30.)
+                <button class="solutions" onclick="solutions('solutionPF30')">Show/Hide Answer</button>
+                <div class="result" id="solutionPF30">
+                    <br>
 
-        
-        <!-- Footer -->
-        <footer class="w3-center green w3-padding-24">
-            <div id="google_translate_element"></div>
-            <script>
-                function googleTranslateElementInit() {
-                    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'G-EDLZMCQQ0V'}, 'google_translate_element');
-                }
-            </script>
-            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-            <p>&copy; 2018&nbsp;Samdom4Peace Designs.</p>
-        </footer>
-        <!-- End Footer -->
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <script src="scripts/messages1.js"></script>
-        <script type="text/x-mathjax-config">
+    <!-- END PAGE CONTENT -->
+
+
+    <!-- Footer -->
+    <footer class="w3-center green w3-padding-24">
+        <div id="google_translate_element"></div>
+        <script>
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'G-EDLZMCQQ0V' }, 'google_translate_element');
+            }
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <p>&copy; 2018&nbsp;Samdom4Peace Designs.</p>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="scripts/messages1.js"></script>
+    <script type="text/x-mathjax-config">
             MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
         </script>
-        <script async
-                src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
-    </body>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+</body>
+
 </html>
